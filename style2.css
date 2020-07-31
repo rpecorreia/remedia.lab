@@ -30,6 +30,7 @@
                       overflow: hidden !important;
                   }
                 
+                  
                 /* 4K*/
                 @media screen and (min-width: 2560px) {
                     body .container {
