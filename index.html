@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head> 
+    <!--
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style2.css">
@@ -32,6 +33,32 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style2.css">
+    <link rel="stylesheet" href="../bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap-grid.css">
+    <link rel="stylesheet" href="../bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../bootstrap-reboot.css">
+    <link rel="stylesheet" href="../bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="../bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <script src="../bootstrap.bundle.js"></script>
+    <script src="../bootstrap.bundle.min.js"></script>
+    <script src="../bootstrap.js"></script>
+    <script src="../bootstrap.min.js"></script>
 
 
     <title>Walter Dean</title>
@@ -59,15 +86,15 @@
                 <!--Language-->
                 <div class="dropdown show" style="z-index: 60; position: absolute; top: 0%; left:75%; ">
 
-                    <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                    <a class="abtn btn dropdown-toggle sizedrop" href="#" role="button" id="dropdownMenuLink"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                        style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                        style="color: #ffffff; padding-left: -5%; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
                         PT
                     </a>
 
-                    <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;"
+                    <div class="dropdown-menu sizedropmenu" 
                         aria-labelledby="dropdownMenuLink">
-                        <a class="abtn btn" href="#" role="button" id="dropdownMenuLink2"
+                        <a class="abtn btn sizedrop"  href="index-en.html" role="button" id="dropdownMenuLink2"
                             style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">EN</a>
                     </div>
                 </div>
@@ -83,18 +110,18 @@
                         <!--Menu modal button-->
 
                         <div class="row">
-                            <div class="col-sm-6 col-md-6">
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-6">
 
                             </div>
-                            <div class="col-sm-6 col-md-6">
-                                <div class="row reduce" id="myDIV">
-                                    <div class="col-md-8">
+                            <div class="col-sm-5 col-md-5 col-lg-5 col-5">
+                                <div class="row" id="myDIV">
+                                    <div class="col-md-8 col-sm-8 col-8">
                                         <h1 class="normalbgtext" id="maintxt">
                                             ELEMENTOS <br> DO JORNALISMO <br> NO NOVO <br> ECOSSISTEMA DIGITAL </h1>
                                         <h2 class="secondarybgtext"> com Walter Dean </h2>
 
                                     </div>
-                                    <div class="col-md-4" style="margin-left: -5%;  z-index:100;">
+                                    <div class="col-md-4 col-sm-4 col-4" style="margin-left: -5%;  z-index:100;">
                                         <div class="row">
                                             <h3 class="normalbgtext2" style="font-weight: lighter;"> 1 </h3>
                                             <h3 class="normalbgtext2" style="font-weight: normal;">/</h3>
@@ -106,8 +133,8 @@
                                                 class="btn" type="button" data-toggle="collapse"
                                                 data-target="#collapseExample" data-scroll="#ola" aria-expanded="false"
                                                 aria-controls="ola" onclick="myFunction()" href="#ola">
-                                                <img id="myIcon" class="icon" style="width: 100%; " data-scroll
-                                                    href="#ola" alt="button">
+                                                <img id="myIcon" class="icon" data-scroll
+                                                    href="#ola" alt="button" src="assets/icons/button-desktop-plus-white.png">
                                             </button>
                                         </div>
                                     </div>
@@ -121,7 +148,6 @@
                 </div>
 
             </div>
-
 
             <!-- Modal -->
             <div class="modal fade right" id="exampleModalPreview" tabindex="-1" role="dialog"
@@ -144,15 +170,15 @@
                             <!--Language-->
                             <div class="dropdown show" style="z-index: 60; position: absolute; top: 0%; left:75%; ">
 
-                                <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                <a class="abtn btn dropdown-toggle sizedrop" href="#" role="button" id="dropdownMenuLink"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                                     style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
                                     PT
                                 </a>
 
-                                <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;"
+                                <div class="dropdown-menu sizedropmenu"
                                     aria-labelledby="dropdownMenuLink">
-                                    <a class="abtn btn" href="en.html" role="button" id="dropdownMenuLink2"
+                                    <a class="abtn btn sizedrop" href="index-en.html" role="button" id="dropdownMenuLink2"
                                         style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">EN</a>
                                 </div>
                             </div>
@@ -250,8 +276,8 @@
                 </div>
             </div>
             <!--overflowAuto-->
-            <div class="collapse" id="collapseExample" data-toggle="collapse" style="width: 90.6%; ">
-                <div class="card card-body  p-0 noborder" id="ola" style="max-width: 100%; z-index: 50; width: 99.9%; ">
+            <div class="collapse" id="collapseExample" data-toggle="collapse" style="width: 91.67%; ">
+                <div class="card card-body p-0 noborder" id="ola" style="z-index: 50;">
                     <div class="row" style="margin-top: 5%;">
                         <div class="col-5" style="margin-left: 0.6%; width: 90.6%;">
                             <p style="color: #ffffff;"></p>
@@ -353,7 +379,6 @@
                                           <div style="background-image:url('assets/bg/remedia.lab-thumbnail-02.jpg');" class="col-2 col-md d-flex align-items-center justify-content-center">
                                           </div>
                                           <div style="background-image:url('assets/bg/remedia.lab-thumbnail-03.jpg');" class="col-2 col-md d-flex align-items-center justify-content-center" class="col-4 col-md d-flex align-items-center justify-content-center">
-                                             <h3>Hi.</h3>
                                           </div>
                                        </div>
                                     </div>
@@ -483,7 +508,7 @@
                         
                             <div class="col-lg-1 col-1">
                                 <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; font-size: 0.8rem; text-align: center;" > 
-                                     <span class="text-muted">&copy; Re/Media.Lab 2020</span>
+                                     <span class="text-muted">&copy; Re/media.lab 2020</span>
                                 </p> 
                             </div>
                             <br>
@@ -494,9 +519,6 @@
                 </div>
             </div>
 
-            
-
-
             <script>
 
                 function myFunction() {
@@ -506,10 +528,11 @@
                     element_icon.classList.toggle("changeIconPlus");
 
                     var x = document.getElementById("maintxt");
-                    if (x.innerHTML === "JORNALISTAS DE- <br> BATEM \"OS ELEMEN- <br> TOS <br> DO JORNALISMO\" ") {
+                    if (x.innerHTML === "JORNALISTAS DEBA- <br> TEM \"OS ELEMENTOS DO JORNALISMO\" ") {
                         x.innerHTML = "ELEMENTOS <br> DO JORNALISMO <br> NO NOVO <br> ECOSSISTEMA DIGITAL";
-                    } else {
-                        x.innerHTML = "JORNALISTAS DE- <br> BATEM \"OS ELEMEN- <br> TOS <br> DO JORNALISMO\" ";
+                    } 
+                    else {
+                        x.innerHTML = "JORNALISTAS DEBA- <br>TEM \"OS ELEMENTOS <br>DO JORNALISMO\" ";
                     }
                 }
             </script>
