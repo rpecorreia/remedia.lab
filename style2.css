@@ -32,9 +32,9 @@
                 
                   
                 /* 4K*/
-                @media screen and (min-width: 2560px) {
+                @media screen and (min-width: 2585px) {
                     body .container {
-                        max-width: 2560px;
+                        max-width: 2585px;
                     }
                     .team-text p{
                         margin-left: -5rem;
@@ -74,12 +74,24 @@
                         min-height: 51px !important; 
                         min-width: 51px !important;
                     }
+                    .resize h2{
+                        font-size: 150%;
+                    }
+
+                    .resize h1{
+                        font-size: 250%;
+                    }
+
+                    .resize iframe{
+                        width: 750;
+                        height: 375;
+                    }
                 }
 
                 /* 4K*/
-                @media screen and (max-width: 2560px) {
+                @media screen and (max-width: 2585px) {
                     body .container {
-                        max-width: 2560px;
+                        max-width: 2585px;
                     }
                     .team-text p{
                         margin-left: -5rem;
@@ -126,6 +138,18 @@
                         min-height: 51px !important; 
                         min-width: 51px !important;
                     }
+                    .resize h2{
+                        font-size: 150%;
+                    }
+
+                    .resize h1{
+                        font-size: 250%;
+                    }
+
+                    .resize iframe{
+                        width: 750px;
+                        height: 375px;
+                    }
 
                 }
 
@@ -166,6 +190,51 @@
                         min-width: 51px !important;
                     }
                     }
+
+                /* responsividade intermédia entre 4K e laptop L - news letter */
+                @media screen and (max-width: 2559px) and (min-width: 2360px) {
+                    .resize h2{
+                        font-size: 150%;
+                    }
+
+                    .resize h1{
+                        font-size: 250%;
+                    }
+
+                    .resize iframe{
+                        width: 700px;
+                        height: 350px;
+                    }
+                }
+
+                /* responsividade intermédia entre 4K e laptop L - news letter */
+                @media screen and (max-width: 2360px) and (min-width: 2179px) {
+                    .resize h2{
+                        font-size: 140%;
+                    }
+                    .resize h1{
+                        font-size: 240%;
+                    }
+                    .resize iframe{
+                        width: 650px;
+                        height: 330px;
+                    }
+                }
+
+                /* responsividade intermédia entre 4K e laptop L - news letter */
+                @media screen and (max-width: 2179px) and (min-width: 2000px) {
+                    .resize h2{
+                        font-size: 130%;
+                    }
+                    .resize h1{
+                        font-size: 230%;
+                    }
+                    .resize iframe{
+                        width: 600px;
+                        height: 300px;
+                    }
+                }
+
 
                 /* responsividade intermédia entre 4K e laptop L - main new */
                 @media screen and (max-width: 2147px) and (min-width: 1790px) {
