@@ -6,25 +6,18 @@
                 body {
                     height: max-content ;
                     overflow-x: hidden !important;
-                    
+                    font-family: 'Lato', sans-serif !important;
+                    font-size: 16px !important;
+                    font-weight: 300 !important;
+                    line-height: 1.6 !important;
+                    position: relative !important;
+                    -webkit-font-smoothing: antialiased !important;
                 }
 
-                .card{
-                    overflow: hidden !important;
-                    margin-top: -5% !important;
-
-                }
-
-                .container{
+                .main-container{
                     overflow-y: block !important;
                     padding: 35px !important;
                 }
-
-                .overflowAuto {
-                    overflow-x: hidden !important;
-                    overflow-y: auto !important;
-                  }
-
                 
                   .modal{
                       overflow: hidden !important;
@@ -36,23 +29,6 @@
                     body .container {
                         max-width: 2585px;
                     }
-                    .team-text p{
-                        margin-left: -5rem;
-                    }
-                    .normalbgtext{
-                        font-size: 3rem; 
-                        color: #f0f0f0; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-                        margin-left: 0.2rem; 
-                        margin-top: 0rem;
-                    }
-    
-                    .normalbgtext2{
-                        margin-top: -12.6%;
-                        color: #ffffff; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-                        font-size: 11.6rem;
-                    }
                     .abtn {
                         flex-direction: column !important;
                         display: flex !important;
@@ -73,18 +49,6 @@
                     .sizedropmenu{
                         min-height: 51px !important; 
                         min-width: 51px !important;
-                    }
-                    .resize h2{
-                        font-size: 150%;
-                    }
-
-                    .resize h1{
-                        font-size: 250%;
-                    }
-
-                    .resize iframe{
-                        width: 770px;;
-                        height: 375px;
                     }
                 }
 
@@ -93,30 +57,6 @@
                     body .container {
                         max-width: 2585px;
                     }
-                    .team-text p{
-                        margin-left: -5rem;
-                    }
-                    .normalbgtext{
-                        font-size: 3rem; 
-                        color: #f0f0f0; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-                        margin-left: 0.2rem; 
-                        margin-top: 0rem;
-                    }
-    
-                    .normalbgtext2{
-                        margin-top: -12.6%;
-                        color: #ffffff; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-                        font-size: 11.6rem;
-                    }
-                    .secondarybgtext{
-                        font-size: 3rem; 
-                        color: #f0f0f0; 
-                        font-family: 'Unna', serif; 
-                        font-weight: lighter;
-                        font-style: italic;
-                    }
                     .abtn {
                         flex-direction: column !important;
                         display: flex !important;
@@ -138,1318 +78,8 @@
                         min-height: 51px !important; 
                         min-width: 51px !important;
                     }
-                    .resize h2{
-                        font-size: 150%;
-                    }
-
-                    .resize h1{
-                        font-size: 250%;
-                    }
-
-                    .resize iframe{
-                        width: 770px;
-                        height: 375px;
-                    }
-
                 }
 
-                /* responsividade intermédia entre 4K e laptop L - menu */
-                @media screen and (max-width: 2559px) and (min-width: 1438px) {
-                    .menulist {
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-                        font-weight: bold !important;
-                        font-size: 100% !important;
-                        text-align: end !important;
-                        /* Texto alinhado pelo fim*/
-                        list-style-type: none!important;
-                        vertical-align: text-bottom !important;
-                        position: relative !important;
-                        left: -5% !important;
-                        bottom: 0% !important;
-                        top: 5% !important;
-                    }
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 51px !important;
-                        border-radius: 0 !important;
-                        width: 51px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 11px !important;
-                        margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 51px !important; 
-                        min-width: 51px !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 51px !important; 
-                        min-width: 51px !important;
-                    }
-                    }
-
-                /* responsividade intermédia - iframe and text */
-                @media screen and (max-width: 2560px) and (min-width: 2360px) {
-                    .resize h2{
-                        font-size: 150%;
-                    }
-
-                    .resize h1{
-                        font-size: 250%;
-                    }
-
-                    .resize iframe{
-                        width: 720px;
-                        height: 370px;
-                    }
-                }
-
-                /* responsividade intermédia - iframe and text */
-                @media screen and (max-width: 2360px) and (min-width: 2179px) {
-                    .resize h2{
-                        font-size: 140%;
-                    }
-                    .resize h1{
-                        font-size: 240%;
-                    }
-                    .resize iframe{
-                        width: 660px;
-                        height: 330px;
-                    }
-                }
-
-                /* responsividade intermédia - iframe and text */
-                @media screen and (max-width: 2179px) and (min-width: 2000px) {
-                    .resize h2{
-                        font-size: 130%;
-                    }
-                    .resize h1{
-                        font-size: 230%;
-                    }
-                    .resize iframe{
-                        width: 610px;
-                        height: 300px;
-                    }
-                }
-
-                /* responsividade intermédia - iframe and text */
-                @media screen and (max-width: 1999px) and (min-width: 1860px) {
-                    .resize h2{
-                        font-size: 120%;
-                    }
-                    .resize h1{
-                        font-size: 200%;
-                    }
-                    .resize iframe{
-                        width: 560px;
-                        height: 300px;
-                    }
-                }
-
-                /* responsividade intermédia - iframe and text */
-                @media screen and (max-width: 1859px) and (min-width: 1718px) {
-                    .resize h2{
-                        font-size: 120%;
-                    }
-                    .resize h1{
-                        font-size: 200%;
-                    }
-                    .resize iframe{
-                        width: 510px;
-                        height: 270px;
-                    }
-                }
-
-                /* responsividade intermédia - iframe and text */
-                @media screen and (max-width: 1717px) and (min-width: 1440px) {
-                    .resize h2{
-                        font-size: 110%;
-                    }
-                    .resize h1{
-                        font-size: 180%;
-                    }
-                    .resize iframe{
-                        width: 470px;
-                        height: 270px;
-                    }
-                }
-
-
-
-
-                /* responsividade intermédia - iframe and text */
-                @media screen and (max-width: 2147px) and (min-width: 1790px) {
-                    .normalbgtext{
-                        font-size: 2.5rem; 
-                        color: #f0f0f0; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-                        margin-left: 0.2rem; 
-                        margin-top: 0rem;
-                    }
-    
-                    .normalbgtext2{
-                        margin-top: -12.6%;
-                        color: #ffffff; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-                        font-size: 10rem;
-                    }
-                    .secondarybgtext{
-                        font-size: 2.5rem; 
-                        color: #f0f0f0; 
-                        font-family: 'Unna', serif; 
-                        font-weight: lighter;
-                        font-style: italic;
-                    }
-                    .icon{
-                        width: 6rem;
-                    }
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 51px !important;
-                        border-radius: 0 !important;
-                        width: 51px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 11px !important;
-                        margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 51px !important; 
-                        min-width: 51px !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 51px !important; 
-                        min-width: 51px !important;
-                    }
-                    }
-
-                /* responsividade intermédia entre 4K e laptop L - main new */
-                @media screen and (max-width: 1789px) and (min-width: 1441px) {
-                    .normalbgtext{
-                        font-size: 2rem; 
-                        color: #f0f0f0; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-                        margin-left: 0.2rem; 
-                        margin-top: 0rem;
-                    }
-    
-                    .normalbgtext2{
-                        margin-top: -12.6%;
-                        color: #ffffff; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-                        font-size: 8rem;
-                    }
-                    .secondarybgtext{
-                        font-size: 2rem; 
-                        color: #f0f0f0; 
-                        font-family: 'Unna', serif; 
-                        font-weight: lighter;
-                        font-style: italic;
-                    }
-                    .icon{
-                        width: 5.5rem;
-                    }
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 41px !important;
-                        border-radius: 0 !important;
-                        width: 41px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 7px !important;
-                        margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }               
-                    }
-
-                /* laptop L*/
-                @media screen and (min-width: 1439px) and (max-width: 1440px) {
-                    .menulist {
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-                        font-weight: bold !important;
-                        font-size: 100% !important;
-                        text-align: end !important;
-                        /* Texto alinhado pelo fim*/
-                        list-style-type: none!important;
-                        vertical-align: text-bottom !important;
-                        position: relative !important;
-                        left: -45% !important;
-                        bottom: 0% !important;
-                        top: 5% !important;
-                    }
-
-                    .normalbgtext{
-                        font-size: 1.7rem; 
-                        color: #f0f0f0; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-                        margin-left: 0.2rem; 
-                        margin-top: 0rem;
-                    }
-    
-                    .normalbgtext2{
-                        margin-top: -12.6%;
-                        color: #ffffff; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-                        font-size: 7.7rem;
-                    }
-                    .secondarybgtext{
-                        font-size: 1.7rem; 
-                        color: #f0f0f0; 
-                        font-family: 'Unna', serif; 
-                        font-weight: lighter;
-                        font-style: italic;
-                    }
-                    .icon{
-                        width: 5rem;
-                    }
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 41px !important;
-                        border-radius: 0 !important;
-                        width: 41px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 7px !important;
-                        margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                }
-
-                /* responsividade intermédia entre laptop L e laptop - main new */
-                @media screen and (max-width: 1438px) and (min-width: 1230px) {
-                    .normalbgtext{
-                        font-size: 1.7rem; 
-                        color: #f0f0f0; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-                        margin-left: 0.2rem; 
-                        margin-top: 0rem;
-                    }
-    
-                    .normalbgtext2{
-                        margin-top: -12.6%;
-                        color: #ffffff; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-                        font-size: 7.7rem;
-                    }
-                    .secondarybgtext{
-                        font-size: 1.7rem; 
-                        color: #f0f0f0; 
-                        font-family: 'Unna', serif; 
-                        font-weight: lighter;
-                        font-style: italic;
-                    }
-                    .icon{
-                        width: 5rem;
-                    }
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 41px !important;
-                        border-radius: 0 !important;
-                        width: 41px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 7px !important;
-                        margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-
-                    }
-
-                /* responsividade intermédia entre laptop L e laptop - main new */
-                @media screen and (max-width: 1230px) and (min-width: 1182px) {
-                    .normalbgtext{
-                        font-size: 1.5rem; 
-                        color: #f0f0f0; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-                        margin-left: 0.2rem; 
-                        margin-top: 2rem;
-                    }
-    
-                    .normalbgtext2{
-                        margin-top: 10%;
-                        color: #ffffff; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-                        font-size: 7rem;
-                    }
-                    .secondarybgtext{
-                        font-size: 1.5rem; 
-                        color: #f0f0f0; 
-                        font-family: 'Unna', serif; 
-                        font-weight: lighter;
-                        font-style: italic;
-                    }
-                    .icon{
-                        width: 4.5rem;
-                    }
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 41px !important;
-                        border-radius: 0 !important;
-                        width: 41px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 7px !important;
-                        margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    }
-
-                /* responsividade intermédia entre laptop L e laptop - main new */
-                @media screen and (max-width: 1181px) and (min-width: 1025px) {
-                    .normalbgtext{
-                        font-size: 1.2rem; 
-                        color: #f0f0f0; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-                        margin-left: 0.2rem; 
-                        margin-top: 2rem;
-                    }
-    
-                    .normalbgtext2{
-                        margin-top: 10%;
-                        color: #ffffff; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-                        font-size: 6.2rem;
-                    }
-                    .secondarybgtext{
-                        font-size: 1.2rem; 
-                        color: #f0f0f0; 
-                        font-family: 'Unna', serif; 
-                        font-weight: lighter;
-                        font-style: italic;
-                    }
-                    .icon{
-                        width: 4.5rem;
-                    }
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 41px !important;
-                        border-radius: 0 !important;
-                        width: 41px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 7px !important;
-                        margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    }
-
-                /* responsividade intermédia entre laptop L e laptop - menu*/
-                @media screen and (min-width: 1025px) and (max-width: 1438px) {
-                    .menulist {
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-                        font-weight: bold !important;
-                        font-size: 80% !important;
-                        text-align: end !important;
-                        /* Texto alinhado pelo fim*/
-                        list-style-type: none!important;
-                        vertical-align: text-bottom !important;
-                        position: relative !important;
-                        left: -50% !important;
-                        bottom: 0% !important;
-                        top: 5% !important;
-                    }
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 41px !important;
-                        border-radius: 0 !important;
-                        width: 41px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 7px !important;
-                        margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                }
-
-
-                /* laptop*/
-                @media screen and (min-width: 1023px) and (max-width: 1024px) {
-                    .menulist {
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-                        font-weight: bold !important;
-                        font-size: 80% !important;
-                        text-align: end !important;
-                        /* Texto alinhado pelo fim*/
-                        list-style-type: none!important;
-                        vertical-align: text-bottom !important;
-                        position: relative !important;
-                        left: -50% !important;
-                        bottom: 0% !important;
-                        top: 5% !important;
-                    }
-
-                    .normalbgtext{
-                        font-size: 1.3rem; 
-                        color: #f0f0f0; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-                        margin-left: 1rem; 
-                        margin-top: 1rem;
-
-                    }
-                    .normalbgtext2{
-                        margin-top: 10%;
-                        color: #ffffff; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-                        font-size: 4rem;                        
-                    }
-                    .secondarybgtext{
-                        font-size: 1.5rem; 
-                        color: #f0f0f0; 
-                        font-family: 'Unna', serif; 
-                        font-weight: lighter;
-                        font-style: italic;
-                        margin-left: 1rem; 
-
-                    }
-                    .icon{
-                        width: 4.2rem;
-                    }
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 41px !important;
-                        border-radius: 0 !important;
-                        width: 41px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 7px !important;
-                        margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    
-                }
-
-                /* responsividade intermédia entre laptop  e tablet - main new */
-                @media screen and (min-width: 780px) and (max-width: 1022px) {
-                    .normalbgtext{
-                        font-size: 1rem; 
-                        color: #f0f0f0; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-                        margin-left: 1rem; 
-                        margin-top: 1rem;
-
-                    }
-                    .normalbgtext2{
-                        margin-top: 10%;
-                        color: #ffffff; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-                        font-size: 3.5rem;                        
-                    }
-                    .secondarybgtext{
-                        font-size: 1rem; 
-                        color: #f0f0f0; 
-                        font-family: 'Unna', serif; 
-                        font-weight: lighter;
-                        font-style: italic;
-                        margin-left: 1rem; 
-
-                    }
-                    .icon{
-                        width: 3rem;
-                    }
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 41px !important;
-                        border-radius: 0 !important;
-                        width: 41px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 7px !important;
-                        margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                }
-
-                /* responsividade intermédia entre laptop  e tablet - main new */
-                @media screen and (min-width: 768px) and (max-width: 779px) {
-                    .normalbgtext{
-                        font-size: 0.8rem; 
-                        color: #f0f0f0; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-                        margin-left: 1rem; 
-                        margin-top: 1rem;
-
-                    }
-                    .normalbgtext2{
-                        margin-top: 10%;
-                        color: #ffffff; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-                        font-size: 3rem;                        
-                    }
-                    .secondarybgtext{
-                        font-size: 0.8rem; 
-                        color: #f0f0f0; 
-                        font-family: 'Unna', serif; 
-                        font-weight: lighter;
-                        font-style: italic;
-                        margin-left: 1rem; 
-
-                    }
-                    .icon{
-                        width: 2.5rem;
-                    }
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 41px !important;
-                        border-radius: 0 !important;
-                        width: 41px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 7px !important;
-                        margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                }
-
-                /* responsividade intermédia entre laptop  e tablet - menu*/
-                @media screen and (min-width: 768px) and (max-width: 1022px) {
-                    .menulist {
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-                        font-weight: bold !important;
-                        font-size: 65% !important;
-                        text-align: end !important;
-                        /* Texto alinhado pelo fim*/
-                        list-style-type: none!important;
-                        vertical-align: text-bottom !important;
-                        position: relative !important;
-                        left: -50% !important;
-                        bottom: 0% !important;
-                        top: 5% !important;
-                    }
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 41px !important;
-                        border-radius: 0 !important;
-                        width: 41px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 8px !important;
-                        margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 31px !important; 
-                        min-width: 31px !important;
-                        font-size: 0.8rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 31px !important; 
-                        min-width: 31px !important;
-                        font-size: 0.8rem !important;
-                    }
-                }
-
-
-                /* responsividade intermedia entre mobile L e tablet- menu*/
-                @media screen and (min-width: 425px) and (max-width: 767px) {
-                    .menulist {
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-                        font-weight: bold !important;
-                        font-size: 40% !important;
-                        text-align: end !important;
-                        /* Texto alinhado pelo fim*/
-                        list-style-type: none!important;
-                        vertical-align: text-bottom !important;
-                        position: relative !important;
-                        left: -45% !important;
-                        bottom: 0% !important;
-                        top: 5% !important;
-                    }
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 31px !important;
-                        border-radius: 0 !important;
-                        width: 31px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 7px !important;
-                        margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 31px !important; 
-                        min-width: 31px !important;
-                        font-size: 0.6rem !important;
-                        padding-left: 8px !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 31px !important; 
-                        min-width: 31px !important;
-                        font-size: 0.6rem !important;
-                    }
-                }
-
-                /* responsividade intermedia entre mobile L e tablet- main new */
-                @media screen and (min-width: 660px) and (max-width: 767px) {
-                    .normalbgtext{
-                        font-size: 0.8rem; 
-                        color: #f0f0f0; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-                        margin-left: 1rem; 
-                        margin-top: 1rem;
-
-                    }
-                    .normalbgtext2{
-                        margin-top: 10%;
-                        color: #ffffff; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-                        font-size: 3rem;                        
-                    }
-                    .secondarybgtext{
-                        font-size: 0.8rem; 
-                        color: #f0f0f0; 
-                        font-family: 'Unna', serif; 
-                        font-weight: lighter;
-                        font-style: italic;
-                        margin-left: 1rem; 
-
-                    }
-                    .icon{
-                        width: 2rem;
-                    }
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 31px !important;
-                        border-radius: 0 !important;
-                        width: 31px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 7px !important;
-                        margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 31px !important; 
-                        min-width: 31px !important;
-                        font-size: 0.6rem !important;
-                        padding-left: 8px !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 31px !important; 
-                        min-width: 31px !important;
-                        font-size: 0.6rem !important;
-                    }
-                }
-
-                /* responsividade intermedia entre mobile L e tablet- main new */
-                @media screen and (min-width: 460px) and (max-width: 660px) {
-                    .normalbgtext{
-                        font-size: 0.5rem; 
-                        color: #f0f0f0; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-                        margin-left: 1rem; 
-                        margin-top: 0rem;
-
-                    }
-                    .normalbgtext2{
-                        margin-top: 0%;
-                        color: #ffffff; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-                        font-size: 1.4rem;                        
-                    }
-                    .secondarybgtext{
-                        font-size: 0.5rem; 
-                        color: #f0f0f0; 
-                        font-family: 'Unna', serif; 
-                        font-weight: lighter;
-                        font-style: italic;
-                        margin-left: 1rem; 
-
-                    }
-                    .icon{
-                        width: 1.5rem;
-                    }
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 31px !important;
-                        border-radius: 0 !important;
-                        width: 31px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 6.5px !important;
-                        margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 21px !important; 
-                        min-width: 21px !important;
-                        font-size: 0.6rem !important;
-                        padding-left: 8px !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 21px !important; 
-                        min-width: 21px !important;
-                        font-size: 0.6rem !important;
-                    }
-                }
-
-                /* responsividade intermedia entre tablet e mobile M- main new */
-                @media screen and (min-width: 375px) and (max-width: 460px) {
-                    .normalbgtext{
-                        font-size: 0.3rem; 
-                        color: #f0f0f0; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-                        margin-left: 1rem; 
-                        margin-top: 0rem;
-
-                    }
-                    .normalbgtext2{
-                        margin-top: 0%;
-                        color: #ffffff; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-                        font-size: 1.3rem;                        
-                    }
-                    .secondarybgtext{
-                        font-size: 0.3rem; 
-                        color: #f0f0f0; 
-                        font-family: 'Unna', serif; 
-                        font-weight: lighter;
-                        font-style: italic;
-                        margin-left: 1rem; 
-
-                    }
-                    .icon{
-                        width: 1.2rem;
-                    }
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 31px !important;
-                        border-radius: 0 !important;
-                        width: 31px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 6.5px !important;
-                        margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 11px !important; 
-                        min-width: 11px !important;
-                        font-size: 0.6rem !important;
-                        padding-left: 8px !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 11px !important; 
-                        min-width: 11px !important;
-                        font-size: 0.4rem !important;
-                    }
-                }
-
-                /* responsividade intermedia entre mobile M e mobile L- menu*/
-                @media screen and (min-width: 375px) and (max-width: 424px) {
-                    .menulist {
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-                        font-weight: bold !important;
-                        font-size: 35% !important;
-                        text-align: end !important;
-                        /* Texto alinhado pelo fim*/
-                        list-style-type: none!important;
-                        vertical-align: text-bottom !important;
-                        position: relative !important;
-                        left: -45% !important;
-                        bottom: 0% !important;
-                        top: 5% !important;
-                    }
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 31px !important;
-                        border-radius: 0 !important;
-                        width: 31px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 6.5px !important;
-                        margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 11px !important; 
-                        min-width: 11px !important;
-                        font-size: 0.6rem !important;
-                        padding-left: 8px !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 11px !important; 
-                        min-width: 11px !important;
-                        font-size: 0.4rem !important;
-                    }
-                    
-                }
-
-                /* responsividade intermedia entre mobile S e mobile M - menu e main new */
-                @media screen and (min-width: 320px) and (max-width: 374px) {
-                    .menulist {
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-                        font-weight: bold !important;
-                        font-size: 35% !important;
-                        text-align: end !important;
-                        /* Texto alinhado pelo fim*/
-                        list-style-type: none!important;
-                        vertical-align: text-bottom !important;
-                        position: relative !important;
-                        left: -45% !important;
-                        bottom: 0% !important;
-                        top: 5% !important;
-                    }
-                    .normalbgtext{
-                        font-size: 0.05rem; 
-                        color: #f0f0f0; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-                        margin-left: 1rem; 
-                        margin-top: 0rem;
-                        margin-right: 10%;
-
-                    }
-                    .normalbgtext2{
-                        margin-top: 0%;
-                        color: #ffffff; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-                        font-size: 0.8rem;                        
-                    }
-                    .secondarybgtext{
-                        font-size: 0.05rem; 
-                        color: #f0f0f0; 
-                        font-family: 'Unna', serif; 
-                        font-weight: lighter;
-                        font-style: italic;
-                        margin-left: 1rem; 
-
-                    }
-                    .icon{
-                        width: 1rem;
-                    }
-                    .card{
-                        margin-top: -3% !important;
-                    }
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 31px !important;
-                        border-radius: 0 !important;
-                        width: 31px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 6.5px !important;
-                        margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 11px !important; 
-                        min-width: 11px !important;
-                        font-size: 0.6rem !important;
-                        padding-left: 8px !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 11px !important; 
-                        min-width: 11px !important;
-                        font-size: 0.4rem !important;
-                    }
-                }      
-
-                /* responsividade intermedia mobile S para baixo - menu */
-                @media screen and (max-width: 320px) {
-                    .menulist {
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-                        font-weight: bold !important;
-                        font-size: 15% !important;
-                        text-align: end !important;
-                        /* Texto alinhado pelo fim*/
-                        list-style-type: none!important;
-                        vertical-align: text-bottom !important;
-                        position: relative !important;
-                        left: -45% !important;
-                        bottom: 0% !important;
-                        top: 5% !important;
-                    }
-                    .normalbgtext{
-                        font-size: 0.01rem; 
-                        color: #f0f0f0; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-                        margin-left: 1rem; 
-                        margin-top: 0rem;
-                        margin-right: 100%;
-
-                    }
-                    .normalbgtext2{
-                        margin-top: 0%;
-                        color: #ffffff; 
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-                        font-size: 0.5rem;                        
-                    }
-                    .secondarybgtext{
-                        font-size: 0.01rem; 
-                        color: #f0f0f0; 
-                        font-family: 'Unna', serif; 
-                        font-weight: lighter;
-                        font-style: italic;
-                        margin-left: 1rem; 
-
-                    }
-                    .icon{
-                        width: 1rem;
-                    }
-                    .card{
-                        margin-top: -3% !important;
-                    }
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 31px !important;
-                        border-radius: 0 !important;
-                        width: 31px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 6.5px !important;
-                        margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 11px !important; 
-                        min-width: 11px !important;
-                        font-size: 0.6rem !important;
-                        padding-left: 8px !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 11px !important; 
-                        min-width: 11px !important;
-                        font-size: 0.4rem !important;
-                    }
-                }
-                
-
-                /*responsividade intermédia entre laptop e tablet*/
-                @media screen and (max-width: 991px) and (min-width: 768px) {
-                    .reverseIMP{
-                        display: inline !important;
-                    }
-                    .normalIMP {
-                        display: none !important;
-                    }
-     
-                    .rowIMP1{
-                        display: none !important;
-                    }
-
-                    .rowIMP2{
-                        display: inline !important;
-                    }
-
-                    .rowPAR1{
-                        display: inline !important;
-                    }
-
-                    .rowPAR2{
-                        display: none !important;
-                    }
-        
-                    body .container {
-                        max-width: 991px;
-                    }
-                    .team-text p{
-                        margin-left: -5rem;
-                    }
-                }
-
-                /*responsividade intermédia entre tablet e mobile size*/
-                @media screen and (min-width: 576px) and (max-width: 767px){
-                    .reversePAR{
-                        display: inline !important;
-                    }
-                    .normalPAR{
-                        display: none !important;
-                    }
-                    .reverseIMP{
-                        display: none !important;
-                    }
-                    .normalIMP{
-                        display: inline !important;
-                    }
-                    .rowtlmPAR1{
-                        display: inline !important;
-                    }
-
-                    .rowtlmPAR2{
-                        display: none !important;
-                    }
-                   
-                }
-
-                @media screen and (max-width: 575px){
-                    .reversePAR{
-                        display: inline !important;
-                    }
-                    .normalPAR{
-                        display: none !important;
-                    }
-                    .reverseIMP{
-                        display: none !important;
-                    }
-                    .normalIMP{
-                        display: inline !important;
-                    }
-                    .rowtlmPAR1{
-                        display: inline !important;
-                    }
-
-                    .rowtlmPAR2{
-                        display: none !important;
-                    }
-                
-                }
-
-                @media screen and (max-width: 767px){
-                    .inv{
-                        display: none;
-                    }
-                    .team-text p{
-                        margin-left: -5rem;
-                    }
-                }
-
-                @media screen and (max-width: 460px){
-                    .team-text p{
-                        margin-left: 3rem;
-                    }
-                }
-
-                @media screen and (max-width: 375px){
-                    .team-text p{
-                        margin-left: 3rem;
-                    }
-                }
-
-                @media screen and (min-width: 320px) and (max-width: 375px){
-                    .team-text p{
-                        margin-left: 5rem;
-                    }
-                }
-
-                @media screen and (min-width: 376px) and (max-width: 424px){
-                    .team-text p{
-                        margin-left: 4rem;
-                    }
-                }
-
-                @media screen and (min-width: 461px) and (max-width: 606px){
-                    .team-text p{
-                        margin-left: 1rem;
-                    }
-                }
-
-                .modal-dialog {
-                    width: 100% !important;
-                    height: 100% !important;
-                    margin: 0 !important;
-                    padding: 0 !important;
-                    max-width: none !important;
-                }
-
-                .modal-content {
-                    height: auto !important;
-                    min-height: 100% !important;
-                    border-radius: 0 !important;
-                    background-color: #ececec !important
-                }
-
-                .modal-header {
-                    border-bottom: 0px solid #9ea2a2 !important;
-                }
-
-                .modal-footer {
-                    border-top: 0px solid #9ea2a2 !important;
-                }
-
-                .closemenu {
-                    font-size: 1.3em !important;
-                    height: 100% !important;
-                    width: 100% !important;
-                    padding: 1% !important;
-                    position: absolute;
-                    right: 7%;
-                }
-
-                /* Definições básicas do menu */
-                .modal-body ul {
-                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-                    font-weight: bold !important;
-                    font-size: 700% !important;
-                    text-align: end !important;
-                    /* Texto alinhado pelo fim*/
-                    list-style-type: none!important;
-                    vertical-align: text-bottom !important;
-                    position: absolute !important;
-                    left: 21% !important;
-                    bottom: 0% !important;
-                    top: 5% !important;
-                }
-
-                /* Definições referente ao texto */
-                .modal-body li a {
-                    display: block !important;
-                    text-decoration: none !important;
-                    color: #ffffff !important;
-                }
-
-                /* Definições referentes ao hover do rato no menu */
-                .modal-body li a:hover {
-
-                }
-
-                .strikeout:hover {
-                    position: relative;              
-                }
-
-                .strikeout:hover::after {
-                    margin-top: calc(0.125rem / 2 * -1);
-                    border-bottom: 0.01rem solid whitesmoke;
-                    position: absolute;
-                    right: -20%;
-                    left: -15%;
-                    top: 50%;
-                    content: "";
-
-                }
-
-                .heightMax {
-                    max-height: vh;
-                }
-
-                .texto {
-                    position: absolute;
-                    margin-right: 0%;
-                }
-
-                .logo {
-                    position: absolute;
-                    top: 0px;
-                    right: 0px;
-                }
 
                 .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, 
                 .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, 
@@ -1465,50 +95,6 @@
                 }
 
                 .top-buffer { margin-top:20px; }
-                
-                .myDiv{
-                    padding: 1em;
-                    line-height: 1.5em;
-                    background: none;
-                  }
-                  
-                .myClass{
-                    background: white;
-                }
-
-                .myClass h2 {
-                    color: black;
-                    margin-left: 10%;
-                }
-
-                .myClass h1 {
-                    color: black;
-                    margin-left: 10%;
-                    margin-top: 5%;
-                }
-
-                .myClass h3 {
-                    color: black;
-                    margin-top: 0%;
-                }
-
-                .myClass i {
-                    color: black;
-                }
-
-                .noborder{
-                    border: 0px none !important;
-                    border-radius: 0px !important;
-                    width: 100% !important;
-                }
-
-                .changeIconPlus{
-                    content:url(assets/icons/button-desktop-close.png) !important;
-                }
-
-                .icon{
-                    content:url(assets/icons/button-desktop-plus-white.png);
-                }
 
             /*Scroll part */
 
@@ -1541,21 +127,159 @@
                 outline: none !important;
                 box-shadow: none !important;
              }
+             
+            h2,h3,h4,h5,h6 {
+                font-weight: 540 !important;
+                font-size: x-large !important;
+            }
 
-             .carousel-nav-icon {
-                height: 60px !important;
-                width: 60px !important;
-             }
-             .carousel-item .col, .col-sm, .col-md {
-                   margin: 8px !important;
-                   height: 300px !important;
-                   width: 300px !important;
-                   background-size: cover !important;
-                   background-position: center center !important;
-                
-             }
+            h4 {
+            text-transform: none !important;
+            }
+              
+            .page-title {
+                color: #262626;
+                letter-spacing: 1px;
+                margin: 0 0 20px;
+                padding-top: 20px;
+                text-transform: uppercase;
+                text-align: center;
+            }
 
-            .row {
-                margin-right: 0px !important;
-                margin-left: 0px !important;
-            }       
+            .title{
+                background-color: #9fbedf
+
+
+                ;
+            }
+
+
+            /*Menu Dropdown*/
+            .overlay {
+                height: 0%;
+                width: 100%;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                /*background-color: #a10102;*/
+                background-color: #c6d8ec;;
+                overflow-y: scroll;
+                transition: 0.5s;
+                opacity: 0.95
+
+            }
+
+            .overlay-content {
+                position: absolute;
+                top: 15%;
+                width: 100%;
+                text-align: center;
+                line-height: 1.3;
+            }
+
+            .overlay a {
+                padding: 10px;
+                text-decoration: none;
+                font-size: 30px;
+                color: black !important;
+                display: block;
+                transition: 0.3s;
+            }
+
+            .overlay a:hover, .overlay a:focus {
+                font-size: 35px;
+                color: black !important;
+                text-decoration: none !important;
+            }
+
+            .overlay .closebtn {
+                position: absolute;
+                top: 20px;
+                right: 45px;
+                font-size: 60px;
+            }
+
+
+            @media screen and (max-height: 450px) {
+            .overlay {overflow-y: auto;}
+            .overlay a {font-size: 20px}
+            .overlay .closebtn {
+                font-size: 40px;
+                top: 15px;
+                right: 35px;
+            }
+            }
+
+
+            @media (max-width: 455px) {
+            .site-header{
+                width: 120% !important; 
+                height: 105% !important;
+            }
+            .navbar-top{
+                width: 120% !important;
+            }
+            }
+
+            .section .container {
+                margin-right: 20% !important;
+            }
+
+            .about{
+                padding: 70px 0 70px 0;
+            }
+
+            .schedule{
+                padding: 70px 0 70px 0;
+            }
+
+            .schedule-box {
+                position: relative;
+                /*background-color: #fff;*/
+                color: #000;
+                text-align: left;
+                padding: 25px 0 25px 0;
+                /*margin: 25px 0 0;*/
+            }
+            .schedule-box::before {
+                content: '';
+                position: absolute;
+                top: 5px;
+                right: 5px;
+                bottom: 5px;
+                left: 5px;
+                /*border: 1px solid #fff;*/
+            }
+
+            .schedule-box {
+                position: relative;
+                /*background-color: #fff;*/
+                color: #000;
+                text-align: left;
+                padding: 25px 0 25px 0;
+                /*margin: 25px 0 0;*/
+                }
+                .schedule-box::before {
+                content: '';
+                position: absolute;
+                top: 5px;
+                right: 5px;
+                bottom: 5px;
+                left: 5px;
+                /*border: 1px solid #fff;*/
+            }
+
+            @media (min-width: 992px) {
+                .schedule-box {
+                  margin: 0;
+                }
+            }
+
+            .section-title {
+                color: #313131;
+                letter-spacing: 1px;
+                margin: 0 0 35px;
+                text-transform: uppercase;
+                text-align: center;
+              }
