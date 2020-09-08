@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style2.css">
+    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../bootstrap.css">
     <link rel="stylesheet" href="../bootstrap-grid.css">
     <link rel="stylesheet" href="../bootstrap-grid.min.css">
@@ -28,59 +28,64 @@
     <script src="../bootstrap.js"></script>
     <script src="../bootstrap.min.js"></script>
 
-    <title>Re/Media.Lab - Equipa</title>
+    <title>Re/media.lab - Equipa</title>
 </head>
 
+
 <body>
-    <!--Logo-->
-    <img style="z-index:50; position: absolute; width: 18%;top: 0%;margin:2%;"
-        src="../assets/logos/logo-desktop-remedia-ext-black.png" alt="logo">
+  <!--Logo-->
+  <img style="z-index:50; position: absolute; width: 18%;top: 0%;margin:2%;"
+  src="../assets/logos/logo-desktop-remedia-ext-black.png" alt="logo">
 
-    <!--Menu modal button-->
+<!--Menu modal button-->
 
-    <button id="modalActivate" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview"
-        style="z-index: 51; position: absolute; top: 0%; left: 46.5%;margin:0.5%">
-        <img src="../assets/icons/button-desktop-menu.png" alt="menu">
-    </button>
+<button id="modalActivate" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview"
+  style="z-index: 51; position: absolute; top: 0%; left: 46.5%;margin:0.5%">
+  <img src="../assets/icons/button-desktop-menu.png" alt="menu">
+</button>
 
-    <!-- Modal -->
-    <div class="modal fade right" id="exampleModalPreview" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
-        <div class="modal-dialog momodel modal-fluid" role="document">
-            <div class="modal-content bg-black" >
-                
-                <div class="modal-header ">
-                    <!--Logo-->
-                    <img style="z-index:52; position: absolute; width: 18%; top:0%; margin:1.5%;"
-                        src="../assets/logos/logo-desktop-remedia-ext-white.png" alt="logo">
-                    <!--Menu close-->
-                    <button id="modalDesactivate" type="button" class="btn" data-toggle="modal"
-                        data-target="#exampleModalPreview"
-                        style="z-index: 52; position: absolute; top: 0%; left: 46.5%; margin:0.5%; ">
-                        <img style="z-index:52; width: 100%;" src="../assets/icons/button-mobile-exit.png" alt="menuclose">
-                    </button>
+<!-- Modal -->
+<div class="modal fade right" id="exampleModalPreview" tabindex="-1" role="dialog"
+  aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+  <div class="modal-dialog momodel modal-fluid" role="document">
+      <div class="modal-content bg-black">
 
-                    <!--Language-->
-                    <div class="dropdown show" style="z-index: 60; position: absolute; top: 0%; left:75%; ">
+          <div class="modal-header ">
+              <!--Logo-->
+              <img style="z-index:52; position: absolute; width: 18%; top:0%; margin:1.5%;"
+                  src="../assets/logos/logo-desktop-remedia-ext-white.png" alt="logo">
+              <!--Menu close-->
+              <button id="modalDesactivate" type="button" class="btn" data-toggle="modal"
+                  data-target="#exampleModalPreview"
+                  style="z-index: 52; position: absolute; top: 0%; left: 46.5%; margin:0.5%; ">
+                  <img style="z-index:52; width: 100%;" src="../assets/icons/button-mobile-exit.png"
+                      alt="menuclose">
+              </button>
 
-                        <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                            PT
-                        </a>
-                
-                        <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
-                            <a class="abtn btn" href="en.html" role="button" id="dropdownMenuLink2"
-                              style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">EN</a>
-                        </div>
-                    </div>
-                </div>
+              <!--Language-->
+              <div class="dropdown show" style="z-index: 60; position: absolute; top: 0%; left:75%; ">
+
+                  <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                      style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                      EN
+                  </a>
+
+                  <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;"
+                      aria-labelledby="dropdownMenuLink">
+                      <a class="abtn btn" href="pt.html" role="button" id="dropdownMenuLink2"
+                          style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">PT</a>
+                  </div>
+              </div>
+          </div>
+
 
                 <div class="modal-body " style="z-index: 52; margin-top: 3%;">
-                    <ul class="categories-list ">
+                    <ul class="menu-list ">
                         <li><a href="../index.html" class =" strikeout menulist"> HOME</a></li>
                         <li><a href="../news.html" class ="strikeout menulist"> NOTÍCIAS</a></li>
                         <li><a href="../about.html" class ="strikeout menulist" >SOBRE</a></li>
-                        <li><a href="../team/pt.html" class ="strikeout menulist" >EQUIPA</a></li>
+                        <li><a href="team/pt.html" class ="strikeout menulist" >EQUIPA</a></li>
                         <li><a href="../partners.html" class ="strikeout menulist" >PARCEIROS</a></li>
                         <div style="height:4rem;font-size:1px;">&nbsp;</div>
                         <li><a href="../login.html" class ="strikeout menulist">LOGIN</a></li>
@@ -189,9 +194,6 @@
         </div>
   
     </div>
-
-
-
 
     <!--------BEGIN FIRST ROW------->
 
@@ -737,13 +739,10 @@
                 alt="img">
         </div>
 
-
-
         <!--------Rita------->
 
         <div class="col-lg-2 col-md-3 col-sm-6 col-6 inv" >
         </div>
-        
 
         <div class="col-lg-2 col-md-3 col-sm-6 col-6 normalIMP rowIMP2" style="display: none;">
             <img style="z-index: 52; width: 100%; margin-left: auto;margin-right: auto;" src="../assets/team/team-remedia-rita-2.jpg" alt="img">
