@@ -10,8 +10,9 @@
                 }
 
                 .card{
-                    overflow: hidden !important;
-                    margin-top: -5% !important;
+                    overflow: hidden !important;/*
+                    margin-top: -5% !important;*/
+                    margin-right: -2rem !important;
 
                 }
 
@@ -265,7 +266,12 @@
                     }
                 }
 
-
+                @media screen and (min-width: 2148px) {
+                    .icon{
+                        width: 8rem;
+                        margin-top: -10%;
+                    }
+                }
 
 
                 /* responsividade intermédia - iframe and text */
@@ -2706,9 +2712,10 @@
                     .icon{
                         width: 1rem;
                     }
+                    /*
                     .card{
                         margin-top: -3% !important;
-                    }
+                    }*/
                     .abtn {
                         flex-direction: column !important;
                         display: flex !important;
@@ -2765,9 +2772,10 @@
                     .icon{
                         width: 1rem;
                     }
+                    /*
                     .card{
                         margin-top: -3% !important;
-                    }
+                    }*/
                     .abtn {
                         flex-direction: column !important;
                         display: flex !important;
@@ -3026,6 +3034,7 @@
                   
                 .myClass{
                     background: white;
+                    margin-top: 13%;
                 }
 
                 .myClass h2 {
@@ -3036,12 +3045,12 @@
                 .myClass h1 {
                     color: black;
                     margin-left: 10%;
-                    margin-top: 5%;
+                    margin-top: 20%;
                 }
 
                 .myClass h3 {
                     color: black;
-                    margin-top: 0%;
+                    margin-top: 30%;
                 }
 
                 .myClass i {
@@ -3107,7 +3116,8 @@
                 
              }
 
-            .row {
+            .thisrow {
                 margin-right: 0px !important;
                 margin-left: 0px !important;
+                margin-bottom: -47%  !important;
             }       
