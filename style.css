@@ -3077,6 +3077,7 @@
                     width: 14px;
                     height: 18px;
                     background-color: transparent;
+                    z-index: 70;
                 }
                 *::-webkit-scrollbar-thumb {
                     height: 20px;
@@ -3085,15 +3086,20 @@
                     -webkit-border-radius: 0px;
                     background-color: #000000;
                     -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05), inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+                    z-index: 70;
 
                 }
                 *::-webkit-scrollbar-button {
                     width: 0;
                     height: 0;
                     display: none;
+                    z-index: 70;
+
                 }
                 *::-webkit-scrollbar-corner {
                     background-color: transparent;
+                    z-index: 70;
+
                 }
                 
             /* scroll done */
@@ -3125,3 +3131,55 @@
             #carouselButtons {
                 
             }
+
+            .owl-prev {
+                width: 15px;
+                height: 100px;
+                position: absolute;
+                top: 40%;
+                left: -10%;
+                display: block !important;
+                border: 0px none !important;
+                border-radius: 0px !important;
+                margin: 0 !important;
+                color: black !important;
+                font-size: 350% !important;
+                outline: none !important;
+                box-shadow: none !important;
+            
+            }
+            
+            .owl-prev:hover {
+            background: transparent !important;
+            color: black !important;
+            border: 0px none !important;
+            border-radius: 0px !important;
+            margin: 0 !important;
+            
+            }
+            
+            
+            .owl-next {
+                width: 15px;
+                height: 100px;
+                position: absolute;
+                top: 40%;
+                right: -10%;
+                display: block !important;
+                margin: 0 !important;
+                color: black !important;
+                font-size: 350% !important;
+                outline: none !important;
+                box-shadow: none !important;
+            }
+            
+            .owl-next:hover {
+                background: transparent !important;
+                color: black !important;
+                border: 0px none !important;
+                border-radius: 0px !important;
+                margin: 0 !important;
+            
+            
+                }
+            
