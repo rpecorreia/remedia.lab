@@ -62,7 +62,7 @@
 
                 <div class="container h-100 d-flex flex-column">
 
-                    <div class="row m-0 d-flex align-items-start flex-column">
+                    <div class="row m-0 d-flex flex-column">
                         <!--Begin menu button-->
                         <button id="modalActivate" type="button" class="btn" data-toggle="modal"
                             data-target="#exampleModalPreview" style="z-index: 51;margin:auto">
@@ -71,16 +71,17 @@
                         <!--End menu button-->
 
                         <!--Begin Language-->
-                        <div class="dropdown show" style="z-index: 60; position: absolute; top: 0%; left:75%; ">
+                        <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
 
-                            <a class="abtn btn dropdown-toggle sizedrop" href="#" role="button" id="dropdownMenuLink"
+                            <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                                style="color: #ffffff; padding-left: -5%; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
                                 PT
                             </a>
 
-                            <div class="dropdown-menu sizedropmenu" aria-labelledby="dropdownMenuLink">
-                                <a class="abtn btn sizedrop" href="index-en.html" role="button" id="dropdownMenuLink2"
+                            <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;"
+                                aria-labelledby="dropdownMenuLink">
+                                <a class="abtn btn" href="en.html" role="button" id="dropdownMenuLink2"
                                     style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">EN</a>
                             </div>
                         </div>
@@ -93,7 +94,7 @@
                             src="assets/logos/logo-desktop-remedia-ext-black.png" alt="logo">
                     </div>
                     <!--End LOGO-->
-<!--
+                    <!--
                     <div class="col-1 d-flex align-items-center justify-content-center" style="margin-top: 20%;">
                         <a href="#carouselExampleIndicators" role="button" data-slide="prev">
                             <div class="carousel-nav-icon">
@@ -120,13 +121,12 @@
 -->
                     <!--Begin main content title-->
                     <div class="row m-0 d-flex justify-content-end flex-column h-100">
-                        
+
                         <div class="row">
                             <div class="col-sm-6 col-md-6 col-lg-6 col-6">
-                                
+
                             </div>
-                            <div class="col-sm-5 col-md-5 col-lg-5 col-5 " id="myDIV"
-                                style="margin-bottom: -1%; margin-top: 8%">
+                            <div class="col-sm-5 col-md-5 col-lg-5 col-5 " id="myDIV" style="margin-bottom: -29%; ">
                                 <div class="row thisrow" style="margin-bottom: -20%; ">
                                     <div class="col-md-8 col-sm-8 col-8">
                                         <h1 class="normalbgtext" id="maintxt">
@@ -342,6 +342,7 @@
                                         style="display:block; margin: auto;"
                                         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/726171331%3Fsecret_token%3Ds-ElVXB&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
                                     </iframe>
+                                    <br><br><br>
 
                                 </div>
                                 <div class="col-2 ">
@@ -350,21 +351,11 @@
 
 
                             <div class="my-5 text-center container">
-                                <div class="row mb-2">
-                                    <div class="col text-center">
-                                    </div>
-                                </div>
-
                                 <div class="row d-flex align-items-center">
                                     <div class="col-1"><br></div>
                                     <div class="col-1"><br></div>
-                                    <div class="col-1"><br></div>
 
-
-
-
-
-                                    <div class="col-6">
+                                    <div class="col-7">
                                         <!--Start carousel-->
 
                                         <div class="owl-carousel owl-theme owl-loaded"
@@ -381,10 +372,10 @@
                                                             src="assets/bg/remedia.lab-thumbnail-04.jpg"></div>
                                                 </div>
                                             </div>
-                                            <div class="owl-controls clickable" >
-                               
+                                            <div class="owl-controls clickable">
+
                                                 <div class="owl-buttons">
-                                                    <div class="owl-prev" ></div>
+                                                    <div class="owl-prev"></div>
                                                     <div class="owl-next"></div>
                                                 </div>
                                             </div>
@@ -394,7 +385,6 @@
 
                                     </div>
 
-                                    <div class="col-1"><br></div>
 
                                 </div>
                             </div>
@@ -472,10 +462,10 @@
                     items: 1
                 },
                 600: {
-                    items: 2
+                    items: 3
                 },
                 1000: {
-                    items: 3
+                    items: 4
                 }
             }
         });

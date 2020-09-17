@@ -3045,12 +3045,12 @@
                 .myClass h1 {
                     color: black;
                     margin-left: 10%;
-                    margin-top: 20%;
+                    margin-top: 9%;
                 }
 
                 .myClass h3 {
                     color: black;
-                    margin-top: 30%;
+                    margin-top: 9%;
                 }
 
                 .myClass i {
@@ -3128,25 +3128,20 @@
                 margin-bottom: -47%  !important;
             }
             
-            #carouselButtons {
-                
-            }
-
             .owl-prev {
                 width: 15px;
                 height: 100px;
                 position: absolute;
-                top: 40%;
+                top: 20%;
                 left: -10%;
                 display: block !important;
                 border: 0px none !important;
                 border-radius: 0px !important;
                 margin: 0 !important;
                 color: black !important;
-                font-size: 350% !important;
+                font-size: 700% !important;
                 outline: none !important;
                 box-shadow: none !important;
-            
             }
             
             .owl-prev:hover {
@@ -3158,17 +3153,16 @@
             
             }
             
-            
             .owl-next {
                 width: 15px;
                 height: 100px;
                 position: absolute;
-                top: 40%;
+                top: 20%;
                 right: -10%;
                 display: block !important;
                 margin: 0 !important;
                 color: black !important;
-                font-size: 350% !important;
+                font-size: 700% !important;
                 outline: none !important;
                 box-shadow: none !important;
             }
@@ -3179,7 +3173,9 @@
                 border: 0px none !important;
                 border-radius: 0px !important;
                 margin: 0 !important;
-            
-            
-                }
+            }
+
+            .owl-carousel .owl-nav.disabled{
+                    display: inline !important;
+            }
             
