@@ -5,8 +5,8 @@
                 
                 body {
                     height: max-content ;
-                    overflow-x: auto !important;
-                    
+                    overflow-x: hidden !important;
+                    overflow-y: auto !important;
                 }
 
                 .card{
@@ -3039,18 +3039,18 @@
 
                 .myClass h2 {
                     color: black;
-                    margin-left: 10%;
+                    margin-left: 9%;
                 }
 
                 .myClass h1 {
                     color: black;
                     margin-left: 10%;
-                    margin-top: 9%;
+                    margin-top: -8%;
                 }
 
                 .myClass h3 {
                     color: black;
-                    margin-top: 9%;
+                    margin-top: -12%;
                 }
 
                 .myClass i {
@@ -3125,7 +3125,7 @@
             .thisrow {
                 margin-right: 0px !important;
                 margin-left: 0px !important;
-                margin-bottom: -47%  !important;
+                margin-bottom: -89%  !important;
             }
             
             .owl-prev {
