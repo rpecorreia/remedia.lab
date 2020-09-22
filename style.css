@@ -33,7 +33,7 @@
                 
                   
                 /* 4K*/
-                @media screen and (min-width: 2585px) {
+                @media screen and (max-width: 2565px) {
                     body .container {
                         max-width: 2585px;
                     }
@@ -60,21 +60,15 @@
                         height: 51px !important;
                         border-radius: 0 !important;
                         width: 51px !important;
+                        font-size: 1rem !important;
+                        min-width: 51px !important;
                     }
     
                     .abtn::after {
-                        width: 11px !important;
+                        width: 7px !important;
                         margin: auto !important;
                     }
 
-                    .sizedrop{
-                        min-height: 51px !important; 
-                        min-width: 51px !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 51px !important; 
-                        min-width: 51px !important;
-                    }
                     .resize h2{
                         font-size: 150%;
                     }
@@ -118,27 +112,8 @@
                         font-weight: lighter;
                         font-style: italic;
                     }
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 51px !important;
-                        border-radius: 0 !important;
-                        width: 51px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 11px !important;
-                        margin: auto !important;
-                    }
+                
 
-                    .sizedrop{
-                        min-height: 51px !important; 
-                        min-width: 51px !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 51px !important; 
-                        min-width: 51px !important;
-                    }
                     .resize h2{
                         font-size: 150%;
                     }
@@ -153,32 +128,6 @@
                     }
 
                 }
-
-                /* responsividade intermédia entre 4K e laptop L - menu */
-                @media screen and (max-width: 2559px) and (min-width: 1438px) {
-
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 51px !important;
-                        border-radius: 0 !important;
-                        width: 51px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 11px !important;
-                        margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 51px !important; 
-                        min-width: 51px !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 51px !important; 
-                        min-width: 51px !important;
-                    }
-                    }
 
                 /* responsividade intermédia - iframe and text */
                 @media screen and (max-width: 2560px) and (min-width: 2360px) {
@@ -306,21 +255,15 @@
                         height: 51px !important;
                         border-radius: 0 !important;
                         width: 51px !important;
+                        font-size: 1rem !important;
+                        min-width: 51px !important;
                     }
     
                     .abtn::after {
-                        width: 11px !important;
+                        width: 7px !important;
                         margin: auto !important;
                     }
 
-                    .sizedrop{
-                        min-height: 51px !important; 
-                        min-width: 51px !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 51px !important; 
-                        min-width: 51px !important;
-                    }
                     }
 
                 /* responsividade intermédia entre 4K e laptop L - main new */
@@ -352,26 +295,18 @@
                     .abtn {
                         flex-direction: column !important;
                         display: flex !important;
-                        height: 41px !important;
+                        height: 51px !important;
                         border-radius: 0 !important;
-                        width: 41px !important;
+                        width: 51px !important;
+                        font-size: 1rem !important;
+                        min-width: 51px !important;
                     }
     
                     .abtn::after {
                         width: 7px !important;
                         margin: auto !important;
                     }
-
-                    .sizedrop{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }               
+               
                     }
 
                 /* laptop L*/
@@ -405,9 +340,11 @@
                     .abtn {
                         flex-direction: column !important;
                         display: flex !important;
-                        height: 41px !important;
+                        height: 51px !important;
                         border-radius: 0 !important;
-                        width: 41px !important;
+                        width: 51px !important;
+                        font-size: 1rem !important;
+                        min-width: 51px !important;
                     }
     
                     .abtn::after {
@@ -415,16 +352,6 @@
                         margin: auto !important;
                     }
 
-                    .sizedrop{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
                 }
 
                 /* responsividade intermédia entre laptop L e laptop - main new */
@@ -456,27 +383,18 @@
                     .abtn {
                         flex-direction: column !important;
                         display: flex !important;
-                        height: 41px !important;
+                        height: 51px !important;
                         border-radius: 0 !important;
-                        width: 41px !important;
+                        width: 51px !important;
+                        font-size: 1rem !important;
+                        min-width: 51px !important;
                     }
     
                     .abtn::after {
                         width: 7px !important;
                         margin: auto !important;
                     }
-
-                    .sizedrop{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-
+                
                     .thisrow{
                         margin-bottom: -120% !important;
                     }
@@ -513,25 +431,16 @@
                     .abtn {
                         flex-direction: column !important;
                         display: flex !important;
-                        height: 41px !important;
+                        height: 51px !important;
                         border-radius: 0 !important;
-                        width: 41px !important;
+                        width: 51px !important;
+                        font-size: 1rem !important;
+                        min-width: 51px !important;
                     }
     
                     .abtn::after {
                         width: 7px !important;
                         margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
                     }
                     }
 
@@ -564,55 +473,20 @@
                     .abtn {
                         flex-direction: column !important;
                         display: flex !important;
-                        height: 41px !important;
+                        height: 51px !important;
                         border-radius: 0 !important;
-                        width: 41px !important;
+                        width: 51px !important;
+                        font-size: 1rem !important;
+                        min-width: 51px !important;
                     }
     
                     .abtn::after {
                         width: 7px !important;
                         margin: auto !important;
                     }
-
-                    .sizedrop{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
                     }
 
-                /* responsividade intermédia entre laptop L e laptop - menu*/
-                @media screen and (min-width: 1025px) and (max-width: 1438px) {
 
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 41px !important;
-                        border-radius: 0 !important;
-                        width: 41px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 7px !important;
-                        margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                }
 
                 /* --------- Responsividade intermédia - menu de navegação - ajustar width e height p/ todas as resoluções de desktop de PC possiveis acima de 1024 de largura ----------- */ 
                 @media screen and (min-width: 1024px) and (max-width: 2578px) and (min-height: 300px) and (max-height: 629px){
@@ -2354,16 +2228,7 @@
                         width: 7px !important;
                         margin: auto !important;
                     }
-                    .sizedrop{
-                        min-height: 51px !important; 
-                        min-width: 51px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 51px !important; 
-                        min-width: 51px !important;
-                        font-size: 0.9rem !important;
-                    }     
+                
                 }
 
                 @media screen and (min-width: 1024px) and (max-width: 1024px) and (min-height: 631px) and (max-height: 800px){
@@ -2409,16 +2274,7 @@
                         width: 7px !important;
                         margin: auto !important;
                     }
-                    .sizedrop{
-                        min-height: 51px !important; 
-                        min-width: 51px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 51px !important; 
-                        min-width: 51px !important;
-                        font-size: 0.9rem !important;
-                    }     
+            
                 }
 
 
@@ -2465,16 +2321,7 @@
                         width: 7px !important;
                         margin: auto !important;
                     }
-                    .sizedrop{
-                        min-height: 51px !important; 
-                        min-width: 51px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 51px !important; 
-                        min-width: 51px !important;
-                        font-size: 0.9rem !important;
-                    }     
+       
                 }
 
 
@@ -2520,17 +2367,7 @@
                     .abtn::after {
                         width: 7px !important;
                         margin: auto !important;
-                    }
-                    .sizedrop{
-                        min-height: 51px !important; 
-                        min-width: 51px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 51px !important; 
-                        min-width: 51px !important;
-                        font-size: 0.9rem !important;
-                    }     
+                    }  
                 }
 
                 @media screen and (min-width: 1024px) and (max-width: 1024px) and (min-height: 1025px) and (max-height: 2560px){
@@ -2575,17 +2412,7 @@
                     .abtn::after {
                         width: 7px !important;
                         margin: auto !important;
-                    }
-                    .sizedrop{
-                        min-height: 51px !important; 
-                        min-width: 51px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 51px !important; 
-                        min-width: 51px !important;
-                        font-size: 0.9rem !important;
-                    }     
+                    }    
                 }
 
 
@@ -2623,22 +2450,13 @@
                     height: 41px !important;
                     border-radius: 0 !important;
                     width: 41px !important;
+                    font-size: 0.7rem !important;
+                    min-width: 41px !important;
                 }
 
                 .abtn::after {
                     width: 7px !important;
                     margin: auto !important;
-                }
-
-                .sizedrop{
-                    min-height: 41px !important; 
-                    min-width: 41px !important;
-                    font-size: 0.9rem !important;
-                }
-                .sizedropmenu{
-                    min-height: 41px !important; 
-                    min-width: 41px !important;
-                    font-size: 0.9rem !important;
                 }
 
                 .myClass h1{
@@ -2695,25 +2513,16 @@
                     .abtn {
                         flex-direction: column !important;
                         display: flex !important;
-                        height: 41px !important;
+                        height: 51px !important;
                         border-radius: 0 !important;
-                        width: 41px !important;
+                        width: 51px !important;
+                        font-size: 0.8rem !important;
+                        min-width: 51px !important;
                     }
     
                     .abtn::after {
                         width: 7px !important;
                         margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
                     }
                 }
 
@@ -2751,52 +2560,16 @@
                         height: 41px !important;
                         border-radius: 0 !important;
                         width: 41px !important;
+                        font-size: 1rem !important;
+                        min-width: 41px !important;
                     }
     
                     .abtn::after {
                         width: 7px !important;
                         margin: auto !important;
                     }
-
-                    .sizedrop{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 41px !important; 
-                        min-width: 41px !important;
-                        font-size: 0.9rem !important;
-                    }
                 }
 
-                /* responsividade intermédia entre laptop  e tablet - menu*/
-                @media screen and (min-width: 768px) and (max-width: 1022px) {
-
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 41px !important;
-                        border-radius: 0 !important;
-                        width: 41px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 8px !important;
-                        margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 31px !important; 
-                        min-width: 31px !important;
-                        font-size: 0.8rem !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 31px !important; 
-                        min-width: 31px !important;
-                        font-size: 0.8rem !important;
-                    }
-                }
 
 
                 /* responsividade intermedia entre mobile L e tablet- menu*/
@@ -2805,26 +2578,16 @@
                     .abtn {
                         flex-direction: column !important;
                         display: flex !important;
-                        height: 31px !important;
+                        height: 51px !important;
                         border-radius: 0 !important;
-                        width: 31px !important;
+                        width: 51px !important;
+                        font-size: 1rem !important;
+                        min-width: 51px !important;
                     }
     
                     .abtn::after {
                         width: 7px !important;
                         margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 31px !important; 
-                        min-width: 31px !important;
-                        font-size: 0.6rem !important;
-                        padding-left: 8px !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 31px !important; 
-                        min-width: 31px !important;
-                        font-size: 0.6rem !important;
                     }
                 }
 
@@ -2859,26 +2622,16 @@
                     .abtn {
                         flex-direction: column !important;
                         display: flex !important;
-                        height: 31px !important;
+                        height: 51px !important;
                         border-radius: 0 !important;
-                        width: 31px !important;
+                        width: 51px !important;
+                        font-size: 1rem !important;
+                        min-width: 51px !important;
                     }
     
                     .abtn::after {
                         width: 7px !important;
                         margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 31px !important; 
-                        min-width: 31px !important;
-                        font-size: 0.6rem !important;
-                        padding-left: 8px !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 31px !important; 
-                        min-width: 31px !important;
-                        font-size: 0.6rem !important;
                     }
                 }
 
@@ -2913,27 +2666,18 @@
                     .abtn {
                         flex-direction: column !important;
                         display: flex !important;
-                        height: 31px !important;
+                        height: 51px !important;
                         border-radius: 0 !important;
-                        width: 31px !important;
+                        width: 51px !important;
+                        font-size: 1rem !important;
+                        min-width: 51px !important;
                     }
     
                     .abtn::after {
-                        width: 6.5px !important;
+                        width: 7px !important;
                         margin: auto !important;
                     }
 
-                    .sizedrop{
-                        min-height: 21px !important; 
-                        min-width: 21px !important;
-                        font-size: 0.6rem !important;
-                        padding-left: 8px !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 21px !important; 
-                        min-width: 21px !important;
-                        font-size: 0.6rem !important;
-                    }
                 }
 
                 /* responsividade intermedia entre tablet e mobile M- main new */
@@ -2967,58 +2711,21 @@
                     .abtn {
                         flex-direction: column !important;
                         display: flex !important;
-                        height: 31px !important;
+                        height: 51px !important;
                         border-radius: 0 !important;
-                        width: 31px !important;
+                        width: 51px !important;
+                        font-size: 1rem !important;
+                        min-width: 51px !important;
                     }
     
                     .abtn::after {
-                        width: 6.5px !important;
+                        width: 7px !important;
                         margin: auto !important;
                     }
 
-                    .sizedrop{
-                        min-height: 11px !important; 
-                        min-width: 11px !important;
-                        font-size: 0.6rem !important;
-                        padding-left: 8px !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 11px !important; 
-                        min-width: 11px !important;
-                        font-size: 0.4rem !important;
-                    }
                 }
 
-                /* responsividade intermedia entre mobile M e mobile L- menu*/
-                @media screen and (min-width: 375px) and (max-width: 424px) {
 
-                    .abtn {
-                        flex-direction: column !important;
-                        display: flex !important;
-                        height: 31px !important;
-                        border-radius: 0 !important;
-                        width: 31px !important;
-                    }
-    
-                    .abtn::after {
-                        width: 6.5px !important;
-                        margin: auto !important;
-                    }
-
-                    .sizedrop{
-                        min-height: 11px !important; 
-                        min-width: 11px !important;
-                        font-size: 0.6rem !important;
-                        padding-left: 8px !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 11px !important; 
-                        min-width: 11px !important;
-                        font-size: 0.4rem !important;
-                    }
-                    
-                }
 
                 /* responsividade intermedia entre mobile S e mobile M - menu e main new */
                 @media screen and (min-width: 320px) and (max-width: 374px) {
@@ -3057,27 +2764,18 @@
                     .abtn {
                         flex-direction: column !important;
                         display: flex !important;
-                        height: 31px !important;
+                        height: 51px !important;
                         border-radius: 0 !important;
-                        width: 31px !important;
+                        width: 51px !important;
+                        font-size: 1rem !important;
+                        min-width: 51px !important;
                     }
     
                     .abtn::after {
-                        width: 6.5px !important;
+                        width: 7px !important;
                         margin: auto !important;
                     }
 
-                    .sizedrop{
-                        min-height: 11px !important; 
-                        min-width: 11px !important;
-                        font-size: 0.6rem !important;
-                        padding-left: 8px !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 11px !important; 
-                        min-width: 11px !important;
-                        font-size: 0.4rem !important;
-                    }
                 }      
 
                 /* responsividade intermedia mobile S para baixo - menu */
@@ -3113,27 +2811,18 @@
                     .abtn {
                         flex-direction: column !important;
                         display: flex !important;
-                        height: 31px !important;
+                        height: 51px !important;
                         border-radius: 0 !important;
-                        width: 31px !important;
+                        width: 51px !important;
+                        font-size: 1rem !important;
+                        min-width: 51px !important;
                     }
     
                     .abtn::after {
-                        width: 6.5px !important;
+                        width: 7px !important;
                         margin: auto !important;
                     }
 
-                    .sizedrop{
-                        min-height: 11px !important; 
-                        min-width: 11px !important;
-                        font-size: 0.6rem !important;
-                        padding-left: 8px !important;
-                    }
-                    .sizedropmenu{
-                        min-height: 11px !important; 
-                        min-width: 11px !important;
-                        font-size: 0.4rem !important;
-                    }
                 }
                 
 
