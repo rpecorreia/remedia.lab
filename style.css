@@ -75,11 +75,18 @@
                         font-size: 250%;
                     }
 
-                    .resize iframe{
-                        width: 770px;;
-                        height: 375px;
+                }
+
+                @media screen and (min-width: 5120px) {
+                    .owl-next{
+                        font-size: 800% !important;
+
+                    }
+                    .owl-prev{
+                        font-size: 800% !important;
                     }
                 }
+
 
                 /* 5K*/
                 @media screen and (max-width: 5120px) {
@@ -117,15 +124,17 @@
                     .resize h1{
                         font-size: 250%;
                     }
+                    .owl-next{
+                        font-size: 700% !important;
 
-                    .resize iframe{
-                        width: 770px;
-                        height: 375px;
+                    }
+                    .owl-prev{
+                        font-size: 700% !important;
                     }
 
                 }
 
-                /* responsividade intermédia - iframe and text */
+                /* responsividade intermédia - text */
                 @media screen and (max-width: 2560px) and (min-width: 2360px) {
                     .resize h2{
                         font-size: 150%;
@@ -134,14 +143,16 @@
                     .resize h1{
                         font-size: 250%;
                     }
+                    .owl-next{
+                        font-size: 700% !important;
 
-                    .resize iframe{
-                        width: 720px;
-                        height: 370px;
+                    }
+                    .owl-prev{
+                        font-size: 700% !important;
                     }
                 }
 
-                /* responsividade intermédia - iframe and text */
+                /* responsividade intermédia -text */
                 @media screen and (max-width: 2360px) and (min-width: 2179px) {
                     .resize h2{
                         font-size: 140%;
@@ -149,13 +160,17 @@
                     .resize h1{
                         font-size: 240%;
                     }
-                    .resize iframe{
-                        width: 660px;
-                        height: 330px;
+                    .owl-next{
+                        font-size: 700% !important;
+
                     }
+                    .owl-prev{
+                        font-size: 700% !important;
+                    }
+       
                 }
 
-                /* responsividade intermédia - iframe and text */
+                /* responsividade intermédia - text */
                 @media screen and (max-width: 2179px) and (min-width: 2000px) {
                     .resize h2{
                         font-size: 130%;
@@ -163,13 +178,17 @@
                     .resize h1{
                         font-size: 230%;
                     }
-                    .resize iframe{
-                        width: 610px;
-                        height: 300px;
+                    .owl-next{
+                        font-size: 700% !important;
+
                     }
+                    .owl-prev{
+                        font-size: 700% !important;
+                    }
+    
                 }
 
-                /* responsividade intermédia - iframe and text */
+                /* responsividade intermédia - text */
                 @media screen and (max-width: 1999px) and (min-width: 1860px) {
                     .resize h2{
                         font-size: 120%;
@@ -177,13 +196,19 @@
                     .resize h1{
                         font-size: 200%;
                     }
-                    .resize iframe{
-                        width: 560px;
-                        height: 300px;
+                    .owl-next{
+                        top: 10% !important;
+                        font-size: 700% !important;
+
+                    }
+                    .owl-prev{
+                        top: 10% !important;
+                        font-size: 700% !important;
+
                     }
                 }
 
-                /* responsividade intermédia - iframe and text */
+                /* responsividade intermédia - text */
                 @media screen and (max-width: 1859px) and (min-width: 1718px) {
                     .resize h2{
                         font-size: 120%;
@@ -191,25 +216,111 @@
                     .resize h1{
                         font-size: 200%;
                     }
-                    .resize iframe{
-                        width: 510px;
-                        height: 270px;
+                    .owl-next{
+                        top: 10% !important;
+                        font-size: 700% !important;
+
+                    }
+                    .owl-prev{
+                        top: 10% !important;
+                        font-size: 700% !important;
+
                     }
                 }
 
-                /* responsividade intermédia - iframe and text */
+                /* responsividade intermédia - text */
                 @media screen and (max-width: 1717px) and (min-width: 1440px) {
                     .resize h2{
                         font-size: 110%;
                     }
                     .resize h1{
-                        font-size: 180%;
+                        font-size: 170%;
                     }
-                    .resize iframe{
-                        width: 470px;
-                        height: 270px;
+                    .owl-next{
+                        top: 10% !important;
+                        font-size: 700% !important;
+
+                    }
+                    .owl-prev{
+                        top: 10% !important;
+                        font-size: 700% !important;
+
                     }
                 }
+
+                /* responsividade intermédia - text */
+                @media screen and (max-width: 1439px) and (min-width: 1111px) {
+                    .resize h2{
+                        font-size: 100%;
+                    }
+                    .resize h1{
+                        font-size: 150%;
+                    }
+                    .owl-next{
+                        top: -15% !important;
+                        font-size: 700% !important;
+
+                    }
+                    .owl-prev{
+                        top: -15% !important;
+                        left: -15% !important;
+                        font-size: 700% !important;
+
+                    }
+                }
+
+                /* responsividade intermédia - text */
+                @media screen and (max-width: 1110px) and (min-width: 768px) {
+                    .resize h2{
+                        font-size: 90%;
+                    }
+                    .resize h1{
+                        font-size: 130%;
+                    }
+                    .owl-next{
+                        top: -23% !important;
+                        font-size: 600% !important;
+
+                    }
+                    .owl-prev{
+                        top: -23% !important;
+                        left: -16% !important;
+                        font-size: 600% !important;
+
+                    }
+                }
+
+                /* responsividade intermédia - text */
+                @media screen and (max-width: 767px) and (min-width: 375px) {
+                    .resize h2{
+                        font-size: 80%;
+                    }
+                    .resize h1{
+                        font-size: 110%;
+                    }
+                    .owl-next{
+                        top: -20% !important;
+                        font-size: 500% !important;
+
+                    }
+                    .owl-prev{
+                        top: -20% !important;
+                        left: -16% !important;
+                        font-size: 500% !important;
+                    }
+                }
+
+                /* responsividade intermédia - text */
+                @media screen and (max-width:375px){
+                    .resize h2{
+                        font-size: 70%;
+                    }
+                    .resize h1{
+                        font-size: 100%;
+                    }
+                }
+
+
 
                 @media screen and (min-width: 2148px) {
                     .icon{
@@ -218,8 +329,7 @@
                     }
                 }
 
-
-                /* responsividade intermédia - iframe and text */
+                /*responsividade intermedia - main new*/
                 @media screen and (max-width: 2147px) and (min-width: 1790px) {
                     .normalbgtext{
                         font-size: 2.5rem; 
@@ -453,7 +563,7 @@
                         margin-top: 10%;
                         color: #ffffff; 
                         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-                        font-size: 6.2rem;
+                        font-size: 6.1rem;
                     }
                     .secondarybgtext{
                         font-size: 1.2rem; 
@@ -524,7 +634,7 @@
 
                 @media screen and (max-width: 955px) and (min-width: 768px) {
                     .normalbgtext{
-                        font-size: 1.2rem; 
+                        font-size: 1rem; 
                         color: #f0f0f0; 
                         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
                         margin-left: 0.2rem; 
@@ -535,7 +645,7 @@
                         margin-top: 30%;
                         color: #ffffff; 
                         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-                        font-size: 4.5rem;
+                        font-size: 4rem;
                     }
                     .secondarybgtext{
                         font-size: 1.2rem; 
@@ -570,7 +680,7 @@
 /*change bg img here AQUI*/
                 @media screen and (max-width: 767px) and (min-width: 650px) {
                     .normalbgtext{
-                        font-size: 1rem; 
+                        font-size: 0.8rem; 
                         color: #f0f0f0; 
                         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
                         margin-left: 0.2rem; 
@@ -615,7 +725,7 @@
 
                 @media screen and (max-width: 649px) and (min-width: 320px) {
                     .normalbgtext{
-                        font-size: 0.8rem; 
+                        font-size: 0.5rem; 
                         color: #f0f0f0; 
                         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
                         margin-left: 0.2rem; 
@@ -3134,7 +3244,7 @@
                 border-radius: 0px !important;
                 margin: 0 !important;
                 color: black !important;
-                font-size: 700% !important;
+                font-size: 700% ;
                 outline: none !important;
                 box-shadow: none !important;
             }
@@ -3157,7 +3267,7 @@
                 display: block !important;
                 margin: 0 !important;
                 color: black !important;
-                font-size: 700% !important;
+                font-size: 700% ;
                 outline: none !important;
                 box-shadow: none !important;
             }
@@ -3175,14 +3285,25 @@
             }
             
             /*Optimizing team page*/
+
+            @media screen and (min-width: 2561px){
+                .team-text{
+                }
+            }
+
             /*3 person for col*/
             
-            @media screen and (max-width: 2559px) and (min-width: 2186px){
+            @media screen and (max-width: 2560px) and (min-width: 2186px){
                 .personname{
                     font-size: 2rem !important;
                 }
                 .persondescription{
                     font-size: 1.5rem !important;
+                }
+                .team-title{
+                    font-size: 6.5rem !important;
+                }
+                .team-text{
                 }
             }
 
@@ -3193,54 +3314,251 @@
                 .persondescription{
                     font-size: 1.2rem !important;
                 }
+                .team-title{
+                    font-size: 6rem !important;
+                }
+                .team-text{
+                    font-size: 1rem !important;
+                    margin-left: 28% !important;
+                }
             }
 
-            @media screen and (max-width: 1834px) and (min-width: 1407px){
+            @media screen and (max-width: 1834px) and (min-width: 1622px){
                 .personname{
                     font-size: 1.4rem !important;
                 }
                 .persondescription{
                     font-size: 0.9rem !important;
                 }
+                .team-title{
+                    font-size: 5.5rem !important;
+                }
+                .team-text{
+                    font-size: 0.95rem !important;
+                    margin-left: 29% !important;
+
+                }
             }
 
-            @media screen and (max-width: 1406px) and (min-width: 992px){
+            @media screen and (max-width: 1621px) and (min-width: 1407px){
+                .personname{
+                    font-size: 1.4rem !important;
+                }
+                .persondescription{
+                    font-size: 0.9rem !important;
+                }
+                .team-title{
+                    font-size: 5rem !important;
+                }
+                .team-text{
+                    font-size: 0.8rem !important;
+                    margin-left: 32% !important;
+
+                }
+            }
+
+            @media screen and (max-width: 1406px) and (min-width: 1214px){
                 .personname{
                     font-size: 1.1rem !important;
                 }
                 .persondescription{
                     font-size: 0.59rem !important;
                 }
+                .team-title{
+                    font-size: 4.5rem !important;
+                }
+                .team-text{
+                    font-size: 0.75rem !important;
+                    margin-left: 35% !important;
+
+                }
+            }
+
+            @media screen and (max-width: 1213px) and (min-width: 992px){
+                .personname{
+                    font-size: 1.1rem !important;
+                }
+                .persondescription{
+                    font-size: 0.59rem !important;
+                }
+                .team-title{
+                    font-size: 4rem !important;
+                }
+                .team-text{
+                    font-size: 0.65rem !important;
+                    margin-left: 40% !important;
+
+                }
             }
        
             /*2 person for col*/
 
-            @media screen and (max-width: 991px) and (min-width: 768px){
+            @media screen and (max-width: 991px) and (min-width: 815px){
                 .personname{
                     font-size: 1.2rem !important;
                 }
                 .persondescription{
                     font-size: 0.7rem !important;
                 }
+                .team-title{
+                    font-size: 3.5rem !important;
+                }
+                .team-text{
+                    font-size: 0.55rem !important;
+                    margin-left: 45% !important;
+
+                }
+                .rowteam{
+                    margin-top: 10rem !important;
+                }
             }
 
+            @media screen and (max-width: 814px) and (min-width: 768px){
+                .personname{
+                    font-size: 1.2rem !important;
+                }
+                .persondescription{
+                    font-size: 0.7rem !important;
+                }
+                .team-title{
+                    font-size: 3.2rem !important;
+                }
+                .team-text{
+                    font-size: 0.48rem !important;
+                    margin-left: 45% !important;
+
+                }
+                .rowteam{
+                    margin-top: 10rem !important;
+                }
+            }
+            
             /*1 person for col*/
 
-            @media screen and (max-width: 767px) and (min-width: 425px){
+            @media screen and (max-width: 767px) and (min-width: 563px){
                 .personname{
                     font-size: 1rem !important;
                 }
                 .persondescription{
                     font-size: 0.8rem !important;
                 }
+                .team-title{
+                    font-size: 2.8rem !important;
+                    margin-left: 65% !important;
+
+                }
+                .team-text{
+                    font-size: 0.4rem !important;
+                    margin-left: 30% !important;
+
+                }
+                .rowteam{
+                    margin-top: 10rem !important;
+                }
             }
 
-            @media screen and (max-width: 424px) and (min-width: 320px){
+            @media screen and (max-width: 562px) and (min-width: 493px){
+                .personname{
+                    font-size: 1rem !important;
+                }
+                .persondescription{
+                    font-size: 0.8rem !important;
+                }
+                .team-title{
+                    font-size: 2.7rem !important;
+                    margin-left: 65% !important;
+                }
+                .team-text{
+                    font-size: 0.3rem !important;
+                    margin-left: 35% !important;
+
+                }
+                .rowteam{
+                    margin-top: 10rem !important;
+                }
+            }
+
+            @media screen and (max-width: 492px) and (min-width: 479px){
+                .personname{
+                    font-size: 1rem !important;
+                }
+                .persondescription{
+                    font-size: 0.8rem !important;
+                }
+                .team-title{
+                    font-size: 2.7rem !important;
+                    margin-left: 55% !important;
+                }
+                .team-text{
+                    font-size: 0.1rem !important;
+                    margin-left: 37% !important;
+
+                }
+                .rowteam{
+                    margin-top: 10rem !important;
+                }
+            }
+
+            @media screen and (max-width: 478px) and (min-width: 425px){
+                .personname{
+                    font-size: 1rem !important;
+                }
+                .persondescription{
+                    font-size: 0.8rem !important;
+                }
+                .team-title{
+                    font-size: 2.6rem !important;
+                    margin-left: 55% !important;
+                }
+                .team-text{
+                    font-size: 0.1rem !important;
+                    margin-left: 29% !important;
+
+                }
+                .rowteam{
+                    margin-top: 10rem !important;
+                }
+            }
+
+            @media screen and (max-width: 424px) and (min-width: 378px){
                 .personname{
                     font-size: 0.7rem !important;
                 }
                 .persondescription{
                     font-size: 0.6rem !important;
+                }
+                .team-title{
+                    font-size: 2.6rem !important;
+                    margin-left: 45% !important;
+                }
+                .team-text{
+                    font-size: 0.1rem !important;
+                    margin-left: 21% !important;
+
+                }
+                .rowteam{
+                    margin-top: 10rem !important;
+                }
+            }
+
+            @media screen and (max-width: 377px) and (min-width: 320px){
+                .personname{
+                    font-size: 0.7rem !important;
+                }
+                .persondescription{
+                    font-size: 0.6rem !important;
+                }
+                .team-title{
+                    font-size: 2.6rem !important;
+                    margin-left: 20% !important;
+                    
+                }
+                .team-text{
+                    font-size: 0.05rem !important;
+                    margin-left: 8% !important;
+                }
+                .rowteam{
+                    margin-top: 10rem !important;
                 }
             }
 
@@ -3250,6 +3568,18 @@
                 }
                 .persondescription{
                     font-size: 0.2rem !important;
+                }
+                .team-title{
+                    font-size: 2.6rem !important;
+                    margin-left: 0% !important;
+                    
+                }
+                .team-text{
+                    font-size: 0.05rem !important;
+                    margin-left: 2% !important;
+                }
+                .rowteam{
+                    margin-top: 10rem !important;
                 }
             }
 
