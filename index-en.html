@@ -32,9 +32,8 @@
 
 <body>
 
-
     <!--- SlideShow -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
 
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -77,32 +76,7 @@
                         <img style="z-index:50; width: 18%; margin-top: -1.5%;" src="assets/logos/logo-desktop-remedia-ext-black.png" alt="logo">
                     </div>
                     <!--End LOGO-->
-                    <!--
-                    <div class="col-1 d-flex align-items-center justify-content-center" style="margin-top: 20%;">
-                        <a href="#carouselExampleIndicators" role="button" data-slide="prev">
-                            <div class="carousel-nav-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129"
-                                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <path
-                                        d="m88.6,121.3c0.8,0.8 1.8,1.2 2.9,1.2s2.1-0.4 2.9-1.2c1.6-1.6 1.6-4.2 0-5.8l-51-51 51-51c1.6-1.6 1.6-4.2 0-5.8s-4.2-1.6-5.8,0l-54,53.9c-1.6,1.6-1.6,4.2 0,5.8l54,53.9z" />
-                                </svg>
-                            </div>
-                        </a>
-                    </div>
 
-                    <div class="col-1 d-flex align-items-center justify-content-center" ><a
-                            href="#carouselExampleIndicators" data-slide="next">
-                            <div class="carousel-nav-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129"
-                                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <path
-                                        d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z" />
-                                </svg>
-                            </div>
-                        </a>
-                    </div>
--->
-                    <!--Begin main content title-->
                     <div class="row m-0 d-flex justify-content-end flex-column h-100">
 
                         <div class="row">
@@ -157,11 +131,11 @@
                                     <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
 
                                         <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                            PT
+                                            EN
                                         </a>
 
                                         <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
-                                            <a class="abtn btn" href="index-en.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">EN</a>
+                                            <a class="abtn btn" href="index.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">PT</a>
                                         </div>
                                     </div>
                                 </div>
@@ -424,6 +398,7 @@
             }
         }
 
+
         $('.modal').on('shown.bs.modal', function(e) {
             $('.carousel').carousel('pause');
         })
@@ -444,6 +419,9 @@
             $('#carouselExampleIndicators').carousel({
                 pause: "false"
             });
+            $('.carousel').carousel({
+            interval: 200000
+            })
         });
 
         $('.owl-carousel').owlCarousel({

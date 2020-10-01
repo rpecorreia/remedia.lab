@@ -29,6 +29,17 @@ body {
     overflow: hidden !important;
 }
 
+@media screen and (max-width: 5120px) and (min-height:1500px) {
+    .normalbgtext2-3 {
+        margin-top: -12.6%;
+        color: #ffffff !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 11.6rem;
+    }
+    .icon2 {
+        content: url(assets/icons/button-desktop-plus-white.png) !important;
+    }
+}
 
 /* 4K*/
 
@@ -43,9 +54,22 @@ body {
         margin-left: 0.2rem;
         margin-top: 0rem;
     }
+    .normalbgtext3 {
+        font-size: 3rem;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 0.2rem;
+        margin-top: 0rem;
+    }
     .normalbgtext2 {
         margin-top: -12.6%;
         color: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 11.6rem;
+    }
+    .normalbgtext2-3 {
+        margin-top: -12.6%;
+        color: black;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 11.6rem;
     }
@@ -95,9 +119,22 @@ body {
         margin-left: 0.2rem;
         margin-top: 0rem;
     }
+    .normalbgtext3 {
+        font-size: 3rem;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 0.2rem;
+        margin-top: 0rem;
+    }
     .normalbgtext2 {
         margin-top: -12.6%;
         color: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 11.6rem;
+    }
+    .normalbgtext2-3 {
+        margin-top: -12.6%;
+        color: black;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 11.6rem;
     }
@@ -496,15 +533,39 @@ body {
         width: 8rem;
         margin-top: -10%;
     }
+    .icon2 {
+        width: 8rem;
+        margin-top: -10%;
+    }
 }
 
+@media screen and (max-width: 2147px) and (min-width: 1790px) and (max-height: 1193px){
+    .normalbgtext2-3 {
+        margin-top: -12.6%;
+        color: black !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 9.5rem;
+    }
+    .icon2 {
+        width: 6rem;
+        content: url(assets/icons/button-desktop-plus.png) !important;
+    }
+
+}
 
 /*responsividade intermedia - main new*/
 
-@media screen and (max-width: 2147px) and (min-width: 1790px) {
+@media screen and (max-width: 2147px) and (min-width: 1790px) and (min-height: 1193px) {
     .normalbgtext {
         font-size: 2.5rem;
         color: #f0f0f0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 0.2rem;
+        margin-top: 0rem;
+    }
+    .normalbgtext3 {
+        font-size: 2.5rem;
+        color: black;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         margin-left: 0.2rem;
         margin-top: 0rem;
@@ -513,7 +574,13 @@ body {
         margin-top: -12.6%;
         color: #ffffff;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 10rem;
+        font-size: 9.5rem;
+    }
+    .normalbgtext2-3 {
+        margin-top: -12.6%;
+        color: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 9.5rem;
     }
     .secondarybgtext {
         font-size: 2.5rem;
@@ -524,6 +591,10 @@ body {
     }
     .icon {
         width: 6rem;
+    }
+    .icon2 {
+        width: 6rem;
+        content: url(assets/icons/button-desktop-plus-white.png) !important;
     }
     .abtn {
         flex-direction: column !important;
@@ -551,11 +622,24 @@ body {
         margin-left: 0.2rem;
         margin-top: 0rem;
     }
+    .normalbgtext3 {
+        font-size: 2rem;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 0.2rem;
+        margin-top: 0rem;
+    }
     .normalbgtext2 {
         margin-top: -12.6%;
         color: #ffffff;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 8rem;
+        font-size: 7.6rem;
+    }
+    .normalbgtext2-3{
+        margin-top: -12.6%;
+        color: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 7.6rem;
     }
     .secondarybgtext {
         font-size: 2rem;
@@ -566,6 +650,10 @@ body {
     }
     .icon {
         width: 5.5rem;
+    }
+    .icon2 {
+        width: 5.5rem;
+        content: url(assets/icons/button-desktop-plus-white.png) !important;
     }
     .abtn {
         flex-direction: column !important;
@@ -593,7 +681,20 @@ body {
         margin-left: 0.2rem;
         margin-top: 0rem;
     }
+    .normalbgtext3 {
+        font-size: 1.7rem;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 0.2rem;
+        margin-top: 0rem;
+    }
     .normalbgtext2 {
+        margin-top: -12.6%;
+        color: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 7.7rem;
+    }
+    .normalbgtext2-3 {
         margin-top: -12.6%;
         color: #ffffff;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -608,6 +709,11 @@ body {
     }
     .icon {
         width: 5rem;
+    }
+    .icon2 {
+        width: 5rem;
+        content: url(assets/icons/button-desktop-plus-white.png) !important;
+
     }
     .abtn {
         flex-direction: column !important;
@@ -627,6 +733,32 @@ body {
 
 /* responsividade intermédia entre laptop L e laptop - main new */
 
+@media screen and (max-width: 1438px) and (min-width: 1230px) and (min-height:773px) and (max-height:900px){
+    .normalbgtext2-3 {
+        margin-top: -12.6%;
+        color: #ffffff !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 6.5rem;
+    }
+    .icon2 {
+        width: 5rem;
+        content: url(assets/icons/button-desktop-plus-white.png) !important;
+    }
+}
+
+@media screen and (max-width: 1438px) and (min-width: 1230px) and (min-height:994px) {
+    .normalbgtext2-3 {
+        margin-top: -12.6%;
+        color: #ffffff !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 6.5rem;
+    }
+    .icon2 {
+        width: 5rem;
+        content: url(assets/icons/button-desktop-plus-white.png) !important;
+    }
+}
+
 @media screen and (max-width: 1438px) and (min-width: 1230px) {
     .normalbgtext {
         font-size: 1.6rem;
@@ -635,11 +767,24 @@ body {
         margin-left: 0.2rem;
         margin-top: 0rem;
     }
+    .normalbgtext3 {
+        font-size: 1.6rem;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 0.2rem;
+        margin-top: 0rem;
+    }
     .normalbgtext2 {
         margin-top: -12.6%;
         color: #ffffff;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 7.4rem;
+        font-size: 6.5rem;
+    }
+    .normalbgtext2-3 {
+        margin-top: -12.6%;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 6.5rem;
     }
     .secondarybgtext {
         font-size: 1.7rem;
@@ -650,6 +795,10 @@ body {
     }
     .icon {
         width: 5rem;
+    }
+    .icon2 {
+        width: 5rem;
+
     }
     .abtn {
         flex-direction: column !important;
@@ -680,11 +829,24 @@ body {
         margin-left: 0.2rem;
         margin-top: 2rem;
     }
+    .normalbgtext3 {
+        font-size: 1.5rem;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 0.2rem;
+        margin-top: 2rem;
+    }
     .normalbgtext2 {
         margin-top: 10%;
         color: #ffffff;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 7rem;
+        font-size: 6.2rem;
+    }
+    .normalbgtext2-3 {
+        margin-top: 10%;
+        color: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 6.2rem;
     }
     .secondarybgtext {
         font-size: 1.5rem;
@@ -695,6 +857,11 @@ body {
     }
     .icon {
         width: 4.5rem;
+    }
+    .icon2 {
+        width: 4.5rem;
+        content: url(assets/icons/button-desktop-plus-white.png) !important;
+
     }
     .abtn {
         flex-direction: column !important;
@@ -722,11 +889,24 @@ body {
         margin-left: 0.2rem;
         margin-top: 2rem;
     }
+    .normalbgtext3 {
+        font-size: 1.2rem;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 0.2rem;
+        margin-top: 2rem;
+    }
     .normalbgtext2 {
         margin-top: 10%;
         color: #ffffff;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 6.1rem;
+        font-size: 5.4rem;
+    }
+    .normalbgtext2-3 {
+        margin-top: 10%;
+        color: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 5.4rem;
     }
     .secondarybgtext {
         font-size: 1.2rem;
@@ -737,6 +917,11 @@ body {
     }
     .icon {
         width: 4.5rem;
+    }
+    .icon2 {
+        width: 4.5rem;
+        content: url(assets/icons/button-desktop-plus-white.png) !important;
+
     }
     .abtn {
         flex-direction: column !important;
@@ -761,11 +946,24 @@ body {
         margin-left: 0.2rem;
         margin-top: 2rem;
     }
+    .normalbgtext3 {
+        font-size: 1.2rem;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 0.2rem;
+        margin-top: 2rem;
+    }
     .normalbgtext2 {
         margin-top: 10%;
         color: #ffffff;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 5.5rem;
+        font-size: 5rem;
+    }
+    .normalbgtext2-3 {
+        margin-top: 10%;
+        color: #ffffff ;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 5rem;
     }
     .secondarybgtext {
         font-size: 1.2rem;
@@ -776,6 +974,11 @@ body {
     }
     .icon {
         width: 4.5rem;
+    }
+    .icon2 {
+        width: 4.5rem;
+        content: url(assets/icons/button-desktop-plus-white.png) !important;
+
     }
     .abtn {
         flex-direction: column !important;
@@ -800,11 +1003,24 @@ body {
         margin-left: 0.2rem;
         margin-top: 3rem;
     }
+    .normalbgtext3 {
+        font-size: 1rem;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 0.2rem;
+        margin-top: 3rem;
+    }
     .normalbgtext2 {
         margin-top: 30%;
         color: #ffffff;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 4rem;
+        font-size: 3.5rem;
+    }
+    .normalbgtext2-3 {
+        margin-top: 30%;
+        color: #ffffff !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 3.5rem;
     }
     .secondarybgtext {
         font-size: 1.2rem;
@@ -815,6 +1031,11 @@ body {
     }
     .icon {
         width: 4.5rem;
+    }
+    .icon2 {
+        width: 4.5rem;
+        content: url(assets/icons/button-desktop-plus-white.png) !important;
+
     }
     .abtn {
         flex-direction: column !important;
@@ -845,9 +1066,22 @@ body {
         margin-left: 0.2rem;
         margin-top: 3rem;
     }
+    .normalbgtext3 {
+        font-size: 0.8rem;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 0.2rem;
+        margin-top: 3rem;
+    }
     .normalbgtext2 {
         margin-top: 45%;
         color: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 3.2rem;
+    }
+    .normalbgtext2-3 {
+        margin-top: 45%;
+        color: black;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 3.2rem;
     }
@@ -859,6 +1093,9 @@ body {
         font-style: italic;
     }
     .icon {
+        width: 3rem;
+    }
+    .icon2 {
         width: 3rem;
     }
     .abtn {
@@ -887,9 +1124,22 @@ body {
         margin-left: 0.2rem;
         margin-top: 3rem;
     }
+    .normalbgtext3 {
+        font-size: 0.5rem;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 0.2rem;
+        margin-top: 3rem;
+    }
     .normalbgtext2 {
         margin-top: 45%;
         color: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 2.5rem;
+    }
+    .normalbgtext2-3 {
+        margin-top: 45%;
+        color: black;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 2.5rem;
     }
@@ -901,6 +1151,9 @@ body {
         font-style: italic;
     }
     .icon {
+        width: 2.5rem;
+    }
+    .icon2 {
         width: 2.5rem;
     }
     .abtn {
@@ -929,9 +1182,22 @@ body {
         margin-left: -3rem;
         margin-top: 1rem;
     }
+    .normalbgtext3 {
+        font-size: 0.2rem;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: -3rem;
+        margin-top: 1rem;
+    }
     .normalbgtext2 {
         margin-top: 45%;
         color: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1rem;
+    }
+    .normalbgtext2-3 {
+        margin-top: 45%;
+        color: black;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 1rem;
     }
@@ -944,6 +1210,9 @@ body {
         margin-left: -3rem;
     }
     .icon {
+        width: 2rem;
+    }
+    .icon2 {
         width: 2rem;
     }
     .abtn {
@@ -2588,7 +2857,20 @@ body {
         margin-left: 1rem;
         margin-top: 5rem;
     }
+    .normalbgtext3 {
+        font-size: 1.3rem;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 1rem;
+        margin-top: 5rem;
+    }
     .normalbgtext2 {
+        margin-top: 5rem;
+        color: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 4rem;
+    }
+    .normalbgtext2-3 {
         margin-top: 5rem;
         color: #ffffff;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -2604,6 +2886,11 @@ body {
     }
     .icon {
         width: 4.2rem;
+    }
+    .icon2 {
+        width: 4.2rem;
+        content: url(assets/icons/button-desktop-plus-white.png) !important;
+
     }
     .abtn {
         flex-direction: column !important;
@@ -2628,7 +2915,20 @@ body {
         margin-left: 3rem;
         margin-top: 11.5rem;
     }
+    .normalbgtext3 {
+        font-size: 1.3rem;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 3rem;
+        margin-top: 11.5rem;
+    }
     .normalbgtext2 {
+        margin-top: 11rem;
+        color: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 4rem;
+    }
+    .normalbgtext2-3 {
         margin-top: 11rem;
         color: #ffffff;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -2644,6 +2944,11 @@ body {
     }
     .icon {
         width: 4.2rem;
+    }
+    .icon2 {
+        width: 4.2rem;
+        content: url(assets/icons/button-desktop-plus-white.png) !important;
+
     }
     .abtn {
         flex-direction: column !important;
@@ -2668,7 +2973,20 @@ body {
         margin-left: 3rem;
         margin-top: 11.5rem;
     }
+    .normalbgtext3 {
+        font-size: 1.3rem;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 3rem;
+        margin-top: 11.5rem;
+    }
     .normalbgtext2 {
+        margin-top: 11rem;
+        color: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 4rem;
+    }
+    .normalbgtext2-3 {
         margin-top: 11rem;
         color: #ffffff;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -2684,6 +3002,11 @@ body {
     }
     .icon {
         width: 4.2rem;
+    }
+    .icon2 {
+        width: 4.2rem;
+        content: url(assets/icons/button-desktop-plus-white.png) !important;
+
     }
     .abtn {
         flex-direction: column !important;
@@ -2708,7 +3031,20 @@ body {
         margin-left: 3rem;
         margin-top: 11.5rem;
     }
+    .normalbgtext3 {
+        font-size: 1.3rem;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 3rem;
+        margin-top: 11.5rem;
+    }
     .normalbgtext2 {
+        margin-top: 11rem;
+        color: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 4rem;
+    }
+    .normalbgtext2-3 {
         margin-top: 11rem;
         color: #ffffff;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -2724,6 +3060,11 @@ body {
     }
     .icon {
         width: 4.2rem;
+    }
+    .icon2 {
+        width: 4.2rem;
+        content: url(assets/icons/button-desktop-plus-white.png) !important;
+
     }
     .abtn {
         flex-direction: column !important;
@@ -2748,7 +3089,20 @@ body {
         margin-left: 3rem;
         margin-top: 11.5rem;
     }
+    .normalbgtext3 {
+        font-size: 1.3rem;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 3rem;
+        margin-top: 11.5rem;
+    }
     .normalbgtext2 {
+        margin-top: 11rem;
+        color: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 4rem;
+    }
+    .normalbgtext2-3 {
         margin-top: 11rem;
         color: #ffffff;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -2764,6 +3118,11 @@ body {
     }
     .icon {
         width: 4.2rem;
+    }
+    .icon2 {
+        width: 4.2rem;
+        content: url(assets/icons/button-desktop-plus-white.png) !important;
+
     }
     .abtn {
         flex-direction: column !important;
@@ -2788,11 +3147,24 @@ body {
         margin-left: 0.2rem;
         margin-top: 1rem;
     }
+    .normalbgtext3 {
+        font-size: 1.4rem;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 0.2rem;
+        margin-top: 1rem;
+    }
     .normalbgtext2 {
         margin-top: -12% !important;
         color: #ffffff;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 5rem !important;
+    }
+    .normalbgtext2-3 {
+        margin-top: 0rem;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 4rem;
     }
     .secondarybgtext {
         font-size: 1.4rem !important;
@@ -2805,6 +3177,12 @@ body {
         width: 4rem;
         margin-top: 4% !important;
         margin-bottom: 17% !important;
+    }
+    .icon2 {
+        width: 4rem;
+        margin-top: 4% !important;
+        margin-bottom: 17% !important;
+
     }
     .abtn {
         flex-direction: column !important;
@@ -2820,6 +3198,12 @@ body {
         margin: auto !important;
     }
     .myClass h1 {
+        margin-top: -18% !important;
+    }
+    .myClass2 h1 {
+        margin-top: -18% !important;
+    }
+    .myClass3 h1 {
         margin-top: -18% !important;
     }
     .rownumb {
@@ -2841,9 +3225,16 @@ body {
         margin-left: 1rem;
         margin-top: 1rem;
     }
-    .normalbgtext2 {
+    .normalbgtext3 {
+        font-size: 0.4rem;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    .normalbgtext2-3 {
         margin-top: 10%;
-        color: #ffffff;
+        color: black;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 1.8rem;
     }
@@ -2856,6 +3247,9 @@ body {
         margin-left: 1rem;
     }
     .icon {
+        width: 1.5rem;
+    }
+    .icon2 {
         width: 1.5rem;
     }
     .abtn {
@@ -2884,9 +3278,22 @@ body {
         margin-left: 1rem;
         margin-top: 0rem;
     }
+    .normalbgtext3 {
+        font-size: 0.35rem;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 1rem;
+        margin-top: 0rem;
+    }
     .normalbgtext2 {
         margin-top: 0%;
         color: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1.4rem;
+    }
+    .normalbgtext2-3 {
+        margin-top: 0%;
+        color: black;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 1.4rem;
     }
@@ -2899,6 +3306,9 @@ body {
         margin-left: 1rem;
     }
     .icon {
+        width: 1.4rem;
+    }
+    .icon2 {
         width: 1.4rem;
     }
     .abtn {
@@ -2928,9 +3338,23 @@ body {
         margin-top: 0rem;
         margin-right: 10%;
     }
+    .normalbgtext3 {
+        font-size: 0.2rem;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 1rem;
+        margin-top: 0rem;
+        margin-right: 10%;
+    }
     .normalbgtext2 {
         margin-top: 0%;
         color: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1.3rem;
+    }
+    .normalbgtext2-3 {
+        margin-top: 0%;
+        color: black;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 1.3rem;
     }
@@ -2943,6 +3367,9 @@ body {
         margin-left: 1rem;
     }
     .icon {
+        width: 1rem;
+    }
+    .icon2 {
         width: 1rem;
     }
     /*
@@ -3243,6 +3670,77 @@ body {
     color: black;
 }
 
+.myDiv2 {
+    padding: 1em;
+    line-height: 1.5em;
+    background: none;
+}
+
+.myClass2 {
+    background: white;
+    margin-top: 13%;
+}
+
+.myClass2 h2 {
+    color: black;
+    margin-left: 9%;
+}
+
+.myClass2 h1 {
+    color: black;
+    margin-left: 10%;
+    margin-top: -8%;
+}
+
+.myClass2 h3 {
+    color: black;
+    margin-top: -12%;
+}
+
+.myClass2 i {
+    color: black;
+}
+
+.myDiv3 {
+    padding: 1em;
+    line-height: 1.5em;
+    background: none;
+}
+
+.myClass3 {
+    background: white;
+    margin-top: 13%;
+}
+
+.myClass3 h2 {
+    color: black;
+    margin-left: 9%;
+}
+
+.myClass3 h1 {
+    color: black;
+    margin-left: 10%;
+    margin-top: -8%;
+}
+
+.myClass3 h3 {
+    color: black;
+    margin-top: -12%;
+}
+
+.myClass3 i {
+    color: black;
+}
+
+.myMargin1{
+    margin-left: 0% !important;
+}
+
+.myMargin2{
+    margin-left: -5% !important;
+}
+
+
 .noborder {
     border: 0px none !important;
     border-radius: 0px !important;
@@ -3255,6 +3753,10 @@ body {
 
 .icon {
     content: url(assets/icons/button-desktop-plus-white.png);
+}
+
+.icon2 {
+    content: url(assets/icons/button-desktop-plus.png);
 }
 
 
