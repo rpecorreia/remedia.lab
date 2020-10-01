@@ -37,7 +37,7 @@ body {
         font-size: 11.6rem;
     }
     .icon2 {
-        content: url(assets/icons/button-desktop-plus-white.png) !important;
+        content: url(assets/button-desktop-plus-white.png) !important;
     }
 }
 
@@ -548,7 +548,7 @@ body {
     }
     .icon2 {
         width: 6rem;
-        content: url(assets/icons/button-desktop-plus.png) !important;
+        content: url(assets/button-desktop-plus.png) !important;
     }
 
 }
@@ -594,7 +594,7 @@ body {
     }
     .icon2 {
         width: 6rem;
-        content: url(assets/icons/button-desktop-plus-white.png) !important;
+        content: url(assets/button-desktop-plus-white.png) !important;
     }
     .abtn {
         flex-direction: column !important;
@@ -653,7 +653,7 @@ body {
     }
     .icon2 {
         width: 5.5rem;
-        content: url(assets/icons/button-desktop-plus-white.png) !important;
+        content: url(assets/button-desktop-plus-white.png) !important;
     }
     .abtn {
         flex-direction: column !important;
@@ -712,7 +712,7 @@ body {
     }
     .icon2 {
         width: 5rem;
-        content: url(assets/icons/button-desktop-plus-white.png) !important;
+        content: url(assets/button-desktop-plus-white.png) !important;
 
     }
     .abtn {
@@ -742,7 +742,7 @@ body {
     }
     .icon2 {
         width: 5rem;
-        content: url(assets/icons/button-desktop-plus-white.png) !important;
+        content: url(assets/button-desktop-plus-white.png) !important;
     }
 }
 
@@ -755,7 +755,7 @@ body {
     }
     .icon2 {
         width: 5rem;
-        content: url(assets/icons/button-desktop-plus-white.png) !important;
+        content: url(assets/button-desktop-plus-white.png) !important;
     }
 }
 
@@ -860,7 +860,7 @@ body {
     }
     .icon2 {
         width: 4.5rem;
-        content: url(assets/icons/button-desktop-plus-white.png) !important;
+        content: url(assets/button-desktop-plus-white.png) !important;
 
     }
     .abtn {
@@ -920,7 +920,7 @@ body {
     }
     .icon2 {
         width: 4.5rem;
-        content: url(assets/icons/button-desktop-plus-white.png) !important;
+        content: url(assets/button-desktop-plus-white.png) !important;
 
     }
     .abtn {
@@ -977,7 +977,7 @@ body {
     }
     .icon2 {
         width: 4.5rem;
-        content: url(assets/icons/button-desktop-plus-white.png) !important;
+        content: url(assets/button-desktop-plus-white.png) !important;
 
     }
     .abtn {
@@ -1034,7 +1034,7 @@ body {
     }
     .icon2 {
         width: 4.5rem;
-        content: url(assets/icons/button-desktop-plus-white.png) !important;
+        content: url(assets/button-desktop-plus-white.png) !important;
 
     }
     .abtn {
@@ -2889,7 +2889,7 @@ body {
     }
     .icon2 {
         width: 4.2rem;
-        content: url(assets/icons/button-desktop-plus-white.png) !important;
+        content: url(assets/button-desktop-plus-white.png) !important;
 
     }
     .abtn {
@@ -2947,7 +2947,7 @@ body {
     }
     .icon2 {
         width: 4.2rem;
-        content: url(assets/icons/button-desktop-plus-white.png) !important;
+        content: url(assets/button-desktop-plus-white.png) !important;
 
     }
     .abtn {
@@ -3005,7 +3005,7 @@ body {
     }
     .icon2 {
         width: 4.2rem;
-        content: url(assets/icons/button-desktop-plus-white.png) !important;
+        content: url(assets/button-desktop-plus-white.png) !important;
 
     }
     .abtn {
@@ -3063,7 +3063,7 @@ body {
     }
     .icon2 {
         width: 4.2rem;
-        content: url(assets/icons/button-desktop-plus-white.png) !important;
+        content: url(assets/button-desktop-plus-white.png) !important;
 
     }
     .abtn {
@@ -3121,7 +3121,7 @@ body {
     }
     .icon2 {
         width: 4.2rem;
-        content: url(assets/icons/button-desktop-plus-white.png) !important;
+        content: url(assets/button-desktop-plus-white.png) !important;
 
     }
     .abtn {
@@ -3748,15 +3748,15 @@ body {
 }
 
 .changeIconPlus {
-    content: url(assets/icons/button-desktop-close.png) !important;
+    content: url(assets/button-desktop-close.png) !important;
 }
 
 .icon {
-    content: url(assets/icons/button-desktop-plus-white.png);
+    content: url(assets/button-desktop-plus-white.png);
 }
 
 .icon2 {
-    content: url(assets/icons/button-desktop-plus.png);
+    content: url(assets/button-desktop-plus.png);
 }
 
 
