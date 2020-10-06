@@ -53,7 +53,7 @@
                     <div class="row m-0 d-flex flex-column">
                         <!--Begin menu button-->
                         <button id="modalActivate" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview" style="z-index: 51;margin:auto">
-                            <img src="assets/button-desktop-menu.png" alt="menu">
+                            <img src="assets/button-desktop-menu.png" style="width: 80%;" alt="menu">
                         </button>
                         <!--End menu button-->
 
@@ -73,34 +73,13 @@
                     </div>
                     <!--Begin LOGO-->
                     <div class="row m-0">
-                        <img style="z-index:50; width: 18%; margin-top: -1.5%;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
-                    </div>
-                    <!--End LOGO-->
-                    <!--
-                    <div class="col-1 d-flex align-items-center justify-content-center" style="margin-top: 20%;">
-                        <a href="#carouselExampleIndicators" role="button" data-slide="prev">
-                            <div class="carousel-nav-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129"
-                                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <path
-                                        d="m88.6,121.3c0.8,0.8 1.8,1.2 2.9,1.2s2.1-0.4 2.9-1.2c1.6-1.6 1.6-4.2 0-5.8l-51-51 51-51c1.6-1.6 1.6-4.2 0-5.8s-4.2-1.6-5.8,0l-54,53.9c-1.6,1.6-1.6,4.2 0,5.8l54,53.9z" />
-                                </svg>
-                            </div>
-                        </a>
+                        <div class="col-4 col-sm-3">
+                            <img id="myLogo" style="z-index:50; width:100%; margin-top: -20%;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
+                        </div>
                     </div>
 
-                    <div class="col-1 d-flex align-items-center justify-content-center" ><a
-                            href="#carouselExampleIndicators" data-slide="next">
-                            <div class="carousel-nav-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129"
-                                    xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <path
-                                        d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z" />
-                                </svg>
-                            </div>
-                        </a>
-                    </div>
--->
+                    <!--End LOGO-->
+
                     <!--Begin main content title-->
                     <div class="row m-0 d-flex justify-content-end flex-column h-100">
 
@@ -236,7 +215,7 @@
                     <div class="collapse" id="collapseExample" data-toggle="collapse" style="width: 91.67%; ">
                         <div class="card card-body p-0 noborder" id="ola" style="z-index: 50;">
 
-                            <div class="row" style="margin-top: 5%;">
+                            <div class="row" style="margin-top: 5%; ">
                                 <div class="col-5" style="margin-left: 0.6%; width: 90.6%;">
                                     <p style="color: #ffffff;"></p>
                                     <br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -1016,6 +995,8 @@
             element.classList.toggle("myClass");
             var element_icon = document.getElementById("myIcon");
             element_icon.classList.toggle("changeIconPlus");
+            var element_icon = document.getElementById("myLogo");
+            element_icon.classList.toggle("zoomLogo");
 
             var x = document.getElementById("maintxt");
             if (x.innerHTML === "JORNALISTAS DEBA- <br> TEM \"OS ELEMENTOS <br> DO JORNALISMO\" ") {

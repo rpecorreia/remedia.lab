@@ -2,10 +2,107 @@ html {
     scroll-behavior: smooth !important;
 }
 
+.row:before,
+.row:after {
+    display: flex !important;
+}
+
 body {
     height: max-content;
     overflow-x: hidden !important;
     overflow-y: auto !important;
+}
+
+
+/* Safari 11+ */
+
+@media not all and (min-resolution:.001dpcm) {
+    @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+        .card {
+            margin-top: 40% !important;
+        }
+        .zoomLogo {
+            width: 120% !important;
+        }
+        .myDiv {
+            padding: 1em;
+            line-height: 1.5em;
+            background: none;
+        }
+        .myClass {
+            background: white !important;
+            margin-top: 20% !important;
+            margin-bottom: -40% !important;
+        }
+        .myClass h2 {
+            color: black;
+            margin-left: 9%;
+        }
+        .myClass h1 {
+            color: black;
+            margin-left: 10%;
+            margin-top: -8%;
+        }
+        .myClass h3 {
+            color: black;
+            margin-top: -12%;
+        }
+        .myClass i {
+            color: black;
+        }
+        .myDiv2 {
+            padding: 1em;
+            line-height: 1.5em;
+            background: none;
+        }
+        .myClass2 {
+            background: white !important;
+            margin-top: 23% !important;
+            margin-bottom: -40% !important;
+        }
+        .myClass2 h2 {
+            color: black;
+            margin-left: 9%;
+        }
+        .myClass2 h1 {
+            color: black;
+            margin-left: 10%;
+            margin-top: -8%;
+        }
+        .myClass2 h3 {
+            color: black;
+            margin-top: -12%;
+        }
+        .myClass2 i {
+            color: black;
+        }
+        .myDiv3 {
+            padding: 1em;
+            line-height: 1.5em;
+            background: none;
+        }
+        .myClass3 {
+            background: white !important;
+            margin-top: 23% !important;
+            margin-bottom: -40% !important;
+        }
+        .myClass3 h2 {
+            color: black;
+            margin-left: 9%;
+        }
+        .myClass3 h1 {
+            color: black;
+            margin-left: 10%;
+            margin-top: -8%;
+        }
+        .myClass3 h3 {
+            color: black;
+            margin-top: -12%;
+        }
+        .myClass3 i {
+            color: black;
+        }
+    }
 }
 
 .card {
@@ -40,6 +137,7 @@ body {
         content: url(assets/button-desktop-plus-white.png) !important;
     }
 }
+
 
 /* 4K*/
 
@@ -539,7 +637,7 @@ body {
     }
 }
 
-@media screen and (max-width: 2147px) and (min-width: 1790px) and (max-height: 1193px){
+@media screen and (max-width: 2147px) and (min-width: 1790px) and (max-height: 1193px) {
     .normalbgtext2-3 {
         margin-top: -12.6%;
         color: black !important;
@@ -550,8 +648,8 @@ body {
         width: 6rem;
         content: url(assets/button-desktop-plus.png) !important;
     }
-
 }
+
 
 /*responsividade intermedia - main new*/
 
@@ -635,7 +733,7 @@ body {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 7.6rem;
     }
-    .normalbgtext2-3{
+    .normalbgtext2-3 {
         margin-top: -12.6%;
         color: #ffffff;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -713,7 +811,6 @@ body {
     .icon2 {
         width: 5rem;
         content: url(assets/button-desktop-plus-white.png) !important;
-
     }
     .abtn {
         flex-direction: column !important;
@@ -733,7 +830,7 @@ body {
 
 /* responsividade intermédia entre laptop L e laptop - main new */
 
-@media screen and (max-width: 1438px) and (min-width: 1230px) and (min-height:773px) and (max-height:900px){
+@media screen and (max-width: 1438px) and (min-width: 1230px) and (min-height:773px) and (max-height:900px) {
     .normalbgtext2-3 {
         margin-top: -12.6%;
         color: #ffffff !important;
@@ -798,7 +895,6 @@ body {
     }
     .icon2 {
         width: 5rem;
-
     }
     .abtn {
         flex-direction: column !important;
@@ -861,7 +957,6 @@ body {
     .icon2 {
         width: 4.5rem;
         content: url(assets/button-desktop-plus-white.png) !important;
-
     }
     .abtn {
         flex-direction: column !important;
@@ -921,7 +1016,6 @@ body {
     .icon2 {
         width: 4.5rem;
         content: url(assets/button-desktop-plus-white.png) !important;
-
     }
     .abtn {
         flex-direction: column !important;
@@ -961,7 +1055,7 @@ body {
     }
     .normalbgtext2-3 {
         margin-top: 10%;
-        color: #ffffff ;
+        color: #ffffff;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 5rem;
     }
@@ -978,7 +1072,6 @@ body {
     .icon2 {
         width: 4.5rem;
         content: url(assets/button-desktop-plus-white.png) !important;
-
     }
     .abtn {
         flex-direction: column !important;
@@ -1035,7 +1128,6 @@ body {
     .icon2 {
         width: 4.5rem;
         content: url(assets/button-desktop-plus-white.png) !important;
-
     }
     .abtn {
         flex-direction: column !important;
@@ -2890,7 +2982,6 @@ body {
     .icon2 {
         width: 4.2rem;
         content: url(assets/button-desktop-plus-white.png) !important;
-
     }
     .abtn {
         flex-direction: column !important;
@@ -2948,7 +3039,6 @@ body {
     .icon2 {
         width: 4.2rem;
         content: url(assets/button-desktop-plus-white.png) !important;
-
     }
     .abtn {
         flex-direction: column !important;
@@ -3006,7 +3096,6 @@ body {
     .icon2 {
         width: 4.2rem;
         content: url(assets/button-desktop-plus-white.png) !important;
-
     }
     .abtn {
         flex-direction: column !important;
@@ -3064,7 +3153,6 @@ body {
     .icon2 {
         width: 4.2rem;
         content: url(assets/button-desktop-plus-white.png) !important;
-
     }
     .abtn {
         flex-direction: column !important;
@@ -3122,7 +3210,6 @@ body {
     .icon2 {
         width: 4.2rem;
         content: url(assets/button-desktop-plus-white.png) !important;
-
     }
     .abtn {
         flex-direction: column !important;
@@ -3182,7 +3269,6 @@ body {
         width: 4rem;
         margin-top: 4% !important;
         margin-bottom: 17% !important;
-
     }
     .abtn {
         flex-direction: column !important;
@@ -3732,14 +3818,13 @@ body {
     color: black;
 }
 
-.myMargin1{
+.myMargin1 {
     margin-left: 0% !important;
 }
 
-.myMargin2{
+.myMargin2 {
     margin-left: -5% !important;
 }
-
 
 .noborder {
     border: 0px none !important;
