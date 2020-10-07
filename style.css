@@ -22,7 +22,16 @@ body {
             margin-top: 40% !important;
         }
         .zoomLogo {
-            width: 120% !important;
+            width: 110% !important;
+            margin-top: 5% !important;
+        }
+        .zoomLogo2 {
+            width: 110% !important;
+            margin-top: 5% !important;
+        }
+        .zoomLogo3 {
+            width: 110% !important;
+            margin-top: 5% !important;
         }
         .myDiv {
             padding: 1em;
@@ -67,7 +76,7 @@ body {
         .myClass2 h1 {
             color: black;
             margin-left: 10%;
-            margin-top: -8%;
+            margin-top: -5% !important;
         }
         .myClass2 h3 {
             color: black;
@@ -101,6 +110,17 @@ body {
         }
         .myClass3 i {
             color: black;
+        }
+        .sl2 {
+            margin-top: 10% !important;
+        }
+        @media screen and (min-width: 1440px) {
+            .normalbgtext2-3 {
+                color: #000000 !important;
+            }
+            .modal-body li a {
+                left: 0% !important;
+            }
         }
     }
 }
@@ -293,9 +313,11 @@ body {
     }
     .owl-next {
         font-size: 700% !important;
+        left: 105% !important;
     }
     .owl-prev {
         font-size: 700% !important;
+        left: -10% !important;
     }
 }
 
@@ -794,7 +816,7 @@ body {
     }
     .normalbgtext2-3 {
         margin-top: -12.6%;
-        color: #ffffff;
+        color: black;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 7.7rem;
     }
@@ -810,7 +832,7 @@ body {
     }
     .icon2 {
         width: 5rem;
-        content: url(assets/button-desktop-plus-white.png) !important;
+        content: url(assets/button-desktop-plus.png) !important;
     }
     .abtn {
         flex-direction: column !important;
@@ -3907,11 +3929,10 @@ body {
 }
 
 .owl-prev {
-    width: 15px;
-    height: 100px;
+    width: 40px;
     position: absolute;
     top: 20%;
-    left: -10%;
+    left: -15%;
     display: block !important;
     border: 0px none !important;
     border-radius: 0px !important;
@@ -3931,11 +3952,10 @@ body {
 }
 
 .owl-next {
-    width: 15px;
-    height: 100px;
+    width: 40px;
     position: absolute;
     top: 20%;
-    right: -10%;
+    right: -15%;
     display: block !important;
     margin: 0 !important;
     color: black !important;

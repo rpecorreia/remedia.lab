@@ -396,8 +396,11 @@
                     </div>
                     <!--Begin LOGO-->
                     <div class="row m-0">
-                        <img style="z-index:50; width: 18%; margin-top: -1.5%;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
+                        <div class="col-4 col-sm-3">
+                            <img id="myLogo2" style="z-index:50; width:100%; margin-top: -20%;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
+                        </div>
                     </div>
+
                     <!--End LOGO-->
 
                     <!--Begin main content title-->
@@ -409,8 +412,8 @@
                             </div>
                             <div class="col-sm-5 col-md-5 col-lg-5 col-5 " id="myDIV2" style="margin-bottom: -2%; ">
                                 <div class="row thisrow" style=" margin-top: 43%; ">
-                                    <div class="col-md-8 col-sm-8 col-8" style="margin-top: -29%;">
-                                        <h1 class="normalbgtext" id="maintxt2">LOCAL MEDIA <br> FAL{L} SCHOOL <br> ABRE ANO LETIVO</h1>
+                                    <div class="col-md-8 col-sm-8 col-8 sl3" style="margin-top: -29%;">
+                                        <h1 class="normalbgtext sl2" id="maintxt2">LOCAL MEDIA <br> FAL{L} SCHOOL <br> ABRE ANO LETIVO</h1>
                                     </div>
                                     <div class="col-md-4 col-sm-4 col-4" style="margin-left: -5%; margin-top: -8%;  z-index:100;">
                                         <div class="row rownumb" style="margin-top: -63%;">
@@ -700,8 +703,11 @@
                     </div>
                     <!--Begin LOGO-->
                     <div class="row m-0">
-                        <img style="z-index:50; width: 18%; margin-top: -1.5%;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
+                        <div class="col-4 col-sm-3">
+                            <img id="myLogo3" style="z-index:50; width:100%; margin-top: -20%;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
+                        </div>
                     </div>
+
                     <!--End LOGO-->
 
                     <!--Begin main content title-->
@@ -1012,6 +1018,8 @@
             element.classList.toggle("myClass2");
             var element_icon = document.getElementById("myIcon2");
             element_icon.classList.toggle("changeIconPlus");
+            var element_icon = document.getElementById("myLogo2");
+            element_icon.classList.toggle("zoomLogo2");
 
             var x = document.getElementById("maintxt2");
             if (x.innerHTML === "LOCAL MEDIA <br> FAL{L} SCHOOL <br> ABRE ANO <br> LETIVO") {
@@ -1031,6 +1039,8 @@
             element.classList.toggle("myMargin1");
             var element = document.getElementById("margem2");
             element.classList.toggle("myMargin2");
+            var element_icon = document.getElementById("myLogo3");
+            element_icon.classList.toggle("zoomLogo3");
         }
 
         $('.modal').on('shown.bs.modal', function(e) {
