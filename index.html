@@ -89,13 +89,13 @@
                             </div>
                             <div class="col-sm-5 col-md-5 col-lg-5 col-5 " id="myDIV" style="margin-bottom: -2%; ">
                                 <div class="row thisrow" style=" margin-top: 43%; ">
-                                    <div class="col-md-8 col-sm-8 col-8" style="margin-top: -29%;">
+                                    <div id="myTitleDiv" class="col-md-8 col-sm-8 col-8 titlediv" style="margin-top: -29%;">
                                         <h1 class="normalbgtext" id="maintxt">
                                             ELEMENTOS <br> DO JORNALISMO <br> NO NOVO <br> ECOSSISTEMA DIGITAL </h1>
                                         <h2 class="secondarybgtext"> com Walter Dean </h2>
 
                                     </div>
-                                    <div class="col-md-4 col-sm-4 col-4" style="margin-left: -5%; margin-top: -8%;  z-index:100;">
+                                    <div id="myNrDiv" class="col-md-4 col-sm-4 col-4 nrdiv" style="margin-left: -5%; margin-top: -8%;  z-index:100;">
                                         <div class="row rownumb" style="margin-top: -63%;">
                                             <h3 class="normalbgtext2" style="font-weight: lighter;"> 1 </h3>
                                             <h3 class="normalbgtext2" style="font-weight: normal;">/</h3>
@@ -424,10 +424,10 @@
                             </div>
                             <div class="col-sm-5 col-md-5 col-lg-5 col-5 " id="myDIV2" style="margin-bottom: -2%; ">
                                 <div class="row thisrow" style=" margin-top: 43%; ">
-                                    <div class="col-md-8 col-sm-8 col-8 sl3" style="margin-top: -29%;">
+                                    <div id="myTitleDiv2" class="col-md-8 col-sm-8 col-8 sl3 titlediv" style="margin-top: -29%;">
                                         <h1 class="normalbgtext sl2" id="maintxt2">LOCAL MEDIA <br> FAL{L} SCHOOL <br> ABRE ANO LETIVO</h1>
                                     </div>
-                                    <div class="col-md-4 col-sm-4 col-4" style="margin-left: -5%; margin-top: -8%;  z-index:100;">
+                                    <div id="myNrDiv2" class="col-md-4 col-sm-4 col-4 nrdiv" style="margin-left: -5%; margin-top: -8%;  z-index:100;">
                                         <div class="row rownumb" style="margin-top: -63%;">
                                             <h3 class="normalbgtext2" style="font-weight: lighter;"> 2 </h3>
                                             <h3 class="normalbgtext2" style="font-weight: normal;">/</h3>
@@ -696,7 +696,7 @@
                     <br>
                 </div>
             </div>
-        </div>
+            </div>
 
             <!----------------------------------------TERCEIRO SLIDE------------------------------------------------------>
 
@@ -1037,6 +1037,10 @@
             element_icon.classList.toggle("changeIconPlus");
             var element_icon = document.getElementById("myLogo");
             element_icon.classList.toggle("zoomLogo");
+            var element_icon = document.getElementById("myTitleDiv");
+            element_icon.classList.toggle("myTitleDivCSS");
+            var element_icon = document.getElementById("myNrDiv");
+            element_icon.classList.toggle("myNrDivCSS");
 
             var x = document.getElementById("maintxt");
             if (x.innerHTML === "JORNALISTAS DEBA- <br> TEM \"OS ELEMENTOS <br> DO JORNALISMO\" ") {
@@ -1054,6 +1058,10 @@
             element_icon.classList.toggle("changeIconPlus");
             var element_icon = document.getElementById("myLogo2");
             element_icon.classList.toggle("zoomLogo2");
+            var element_icon = document.getElementById("myTitleDiv2");
+            element_icon.classList.toggle("myTitleDivCSS2");
+            var element_icon = document.getElementById("myNrDiv2");
+            element_icon.classList.toggle("myNrDivCSS2");
 
             var x = document.getElementById("maintxt2");
             if (x.innerHTML === "LOCAL MEDIA <br> FAL{L} SCHOOL <br> ABRE ANO <br> LETIVO") {
