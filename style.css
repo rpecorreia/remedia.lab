@@ -13,6 +13,30 @@ body {
     overflow-y: auto !important;
 }
 
+.owl-item:hover {
+    opacity: 0.8 !important;
+}
+
+.owl-item:hover .edit_hover_class a{
+    visibility:visible;
+    opacity:1 !important;
+}
+
+.edit_hover_class a{
+    visibility:hidden;
+}
+.edit_hover_class:hover a{
+   visibility:visible;
+}
+
+.edit_hover_class{
+    width: 30%;
+    margin-left: 35% !important;
+    margin-top: -60%;
+    z-index: 1000;
+}
+
+
 
 /* Safari 11+ */
 
@@ -22,16 +46,16 @@ body {
             margin-top: 40% !important;
         }
         .zoomLogo {
-            width: 110% !important;
-            margin-top: 5% !important;
+            width: 75% !important;
+            margin-top: 0% !important;
         }
         .zoomLogo2 {
-            width: 110% !important;
-            margin-top: 5% !important;
+            width: 75% !important;
+            margin-top: 0% !important;
         }
         .zoomLogo3 {
-            width: 110% !important;
-            margin-top: 5% !important;
+            width: 75% !important;
+            margin-top: 0% !important;
         }
         .myDiv {
             padding: 1em;
@@ -121,6 +145,12 @@ body {
             .modal-body li a {
                 left: 0% !important;
             }
+        }
+        .icon{
+            margin-top: 5% !important;
+        }
+        .icon2{
+            margin-top: 5% !important;
         }
     }
 }
