@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
+
+
     <title>Re/media.lab</title>
 </head>
 
@@ -34,7 +36,7 @@
 
 
     <!--- SlideShow -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-interval="5000" data-ride="carousel">
 
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -43,7 +45,7 @@
         </ol>
 
         <div class="carousel-inner">
-            <div class="carousel-item active" style="background-image: url(assets/home-desktop-01.jpg); background-repeat: no-repeat; background-size: cover; height: 100vh; " alt="First slide">
+            <div class="carousel-item active bg1" style=" background-repeat: no-repeat; background-size: cover; height: 100vh; " alt="First slide">
 
                 <div class="carousel-caption ">
                 </div>
@@ -382,7 +384,7 @@
 
             <!------------------------------------------SECOND SLIDE-------------------------------------------->
 
-            <div id="secondslide" class="carousel-item" style="background-image: url(assets/desktop-bg-02.jpg); background-repeat: no-repeat; background-size: cover; height: 100vh; " alt="Second slide">
+            <div id="secondslide" class="carousel-item bg2" style="background-repeat: no-repeat; background-size: cover; height: 100vh; " alt="Second slide">
                 <div class="container h-100 d-flex flex-column">
 
                     <div class="row m-0 d-flex flex-column">
@@ -700,7 +702,7 @@
 
             <!----------------------------------------TERCEIRO SLIDE------------------------------------------------------>
 
-            <div class="carousel-item" style="background-image: url(assets/desktop-bg-03.jpg); background-repeat: no-repeat; background-size: cover; height: 100vh; " alt="Third slide">
+            <div class="carousel-item bg3" style="background-repeat: no-repeat; background-size: cover; height: 100vh; " alt="Third slide">
 
                 <div class="container h-100 d-flex flex-column">
 
@@ -1105,7 +1107,6 @@
         $(function() {
             $('#carouselExampleIndicators').carousel({
                 pause: "false",
-                interval: 7000
             });
 
         });
@@ -1139,6 +1140,7 @@
                 return 0;//if 'slide' parameter is not present or doesn't have correct values load 0th slide
         }
         $('#carouselExampleIndicators').carousel(getSlideParameter('slide'));
+
     })();
     </script>
 

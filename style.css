@@ -2,6 +2,18 @@ html {
     scroll-behavior: smooth !important;
 }
 
+.bg1{
+    background-image: url(assets/home-desktop-01.jpg);
+}
+
+.bg2{
+    background-image: url(assets/desktop-bg-02.jpg); 
+}
+
+.bg3{
+    background-image: url(assets/desktop-bg-03.jpg); 
+}
+
 .row:before,
 .row:after {
     display: flex !important;
@@ -34,6 +46,20 @@ body {
     margin-left: 35% !important;
     margin-top: -60%;
     z-index: 1000;
+}
+
+@media screen and (max-width: 700px)  {
+    .bg1{
+        background-image: url(assets/mobile-bg-01.jpg); 
+    }
+    .bg2{
+        background-image: url(assets/mobile-bg-02.jpg); 
+    }
+    .bg3{
+        background-image: url(assets/mobile-bg-03.jpg); 
+    }
+
+
 }
 
 
@@ -704,7 +730,7 @@ body {
 
 /*responsividade intermedia - main new*/
 
-@media screen and (max-width: 2147px) and (min-width: 1790px) and (min-height: 1193px) {
+@media screen and (max-width: 2147px) and (min-width: 1790px) and (min-height: 700px) {
     .normalbgtext {
         font-size: 2.5rem;
         color: #f0f0f0;
@@ -1316,7 +1342,7 @@ body {
         margin-top: 30%;
         color: #ffffff !important;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 3.5rem;
+        font-size: 3.2rem;
     }
     .secondarybgtext {
         font-size: 1.5rem;
@@ -1331,7 +1357,7 @@ body {
         width: 3.5rem;
     }
     .icon2 {
-        width: 4.5rem;
+        width: 4rem;
         content: url(assets/button-desktop-plus-white.png) !important;
     }
     .abtn {
@@ -1364,7 +1390,7 @@ body {
     .myClass h2 {
         color: black;
         margin-left: 9%;
-        font-size: 1rem !important;
+        font-size: 0.7rem !important;
 
     }
     
@@ -1430,7 +1456,7 @@ body {
         margin-top: 30%;
         color: black !important;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 3.5rem;
+        font-size: 3.2rem;
     }
     .secondarybgtext {
         font-size: 1.5rem;
@@ -1447,7 +1473,8 @@ body {
     }
     .icon2 {
         width: 4rem;
-        content: url(assets/button-desktop-plus-white.png) !important;
+        content: url(assets/button-desktop-plus.png) !important;
+        margin-left: -90% !important;
     }
     .abtn {
         flex-direction: column !important;
@@ -1476,45 +1503,108 @@ body {
 }
 
 @media screen and (max-width: 319px) {
+    .myClass h1 {
+        color: black;
+        margin-left: 10%;
+        margin-top: -8%;
+        font-size: 0.2rem !important;
+    }
+    
+    .myClass h3 {
+        color: black;
+        margin-top: -12%;
+        font-size: 0.8rem !important;
+
+    }
+    
+    .myClass h2 {
+        color: black;
+        font-size: 0.2rem !important;
+
+    }
+
+    .myClass2 h2 {
+        color: black;
+        margin-left: 9%;
+        font-size: 0.5rem !important;
+
+    }
+    
+    .myClass2 h1 {
+        color: black;
+        margin-left: 10%;
+        margin-top: -8%;
+        font-size: 0.8rem !important;
+    }
+    
+    .myClass2 h3 {
+        color: black;
+        margin-top: -12%;
+        font-size: 2rem !important;
+
+    }
+
+    .myClass3 h3 {
+        color: black;
+        margin-top: -12%;
+        font-size: 2rem !important;
+
+    }
+
+    .myClass3 h1 {
+        color: black;
+        margin-top: -12%;
+        font-size: 0.8rem !important;
+
+    }
+
+    .rownumb{
+        margin-left: -15% !important;
+    }
+
     .normalbgtext {
-        font-size: 0.2rem;
+        font-size: 0.5rem;
         color: #f0f0f0;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: -3rem;
-        margin-top: 1rem;
+        margin-left: 2rem;
     }
     .normalbgtext3 {
-        font-size: 0.2rem;
+        font-size: 0.5rem;
         color: black;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: -3rem;
-        margin-top: 1rem;
+        margin-left: 0.2rem;
+        margin-top: 3rem;
     }
     .normalbgtext2 {
-        margin-top: 45%;
+        margin-top: 30%;
         color: #ffffff;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1rem;
+        font-size: 2rem;
     }
     .normalbgtext2-3 {
-        margin-top: 45%;
-        color: black;
+        margin-top: 30%;
+        color: black !important;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1rem;
+        font-size: 2rem !important;
     }
     .secondarybgtext {
-        font-size: 0.2rem;
+        font-size: 0.5rem;
         color: #f0f0f0;
         font-family: 'Unna', serif;
         font-weight: lighter;
         font-style: italic;
-        margin-left: -3rem;
+        margin-left: 2rem;
+
     }
     .icon {
-        width: 2rem;
+        width: 1rem;
+        margin-left: -150% !important;
     }
     .icon2 {
-        width: 2rem;
+        width: 1rem;
+        content: url(assets/button-desktop-plus.png) !important;
+        margin-left: -90% !important;
+
     }
     .abtn {
         flex-direction: column !important;
@@ -1530,7 +1620,15 @@ body {
         margin: auto !important;
     }
     .thisrow {
-        margin-bottom: 0% !important;
+        margin-bottom: 50% !important;
+    }
+
+    .titlediv{
+        margin-left: -140% !important;
+    }
+
+    .nrdiv{
+        margin-left: 135% !important;
     }
 }
 
@@ -3514,31 +3612,25 @@ body {
 /*AQUI AQUIIIIIIIII*/
 
 @media screen and (min-width: 425px) and (max-width: 549px) {
-    .myClass h2 {
-        color: black;
-        margin-left: 9%;
-        font-size: 1rem !important;
 
-    }
-    
     .myClass h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
-        font-size: 1rem !important;
+        font-size: 0.6rem !important;
     }
     
     .myClass h3 {
         color: black;
         margin-top: -12%;
-        font-size: 3.4rem !important;
+        font-size: 2rem !important;
 
     }
 
     .myClass2 h2 {
         color: black;
         margin-left: 9%;
-        font-size: 1rem !important;
+        font-size: 0.5rem !important;
 
     }
     
@@ -3556,6 +3648,20 @@ body {
 
     }
 
+    .myClass3 h3 {
+        color: black;
+        margin-top: -12%;
+        font-size: 2rem !important;
+
+    }
+
+    .myClass3 h1 {
+        color: black;
+        margin-top: -12%;
+        font-size: 0.8rem !important;
+
+    }
+
     .rownumb{
         margin-left: -15% !important;
     }
@@ -3564,7 +3670,7 @@ body {
         font-size: 1.8rem;
         color: #f0f0f0;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 1rem;
+        margin-left: 2rem;
     }
     .normalbgtext3 {
         font-size: 1rem;
@@ -3577,13 +3683,14 @@ body {
         margin-top: 30%;
         color: #ffffff;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 3rem;
+        font-size: 2.5rem;
+        margin-bottom: 5rem;
     }
     .normalbgtext2-3 {
         margin-top: 30%;
         color: black !important;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 3.5rem;
+        font-size: 2.3rem !important;
     }
     .secondarybgtext {
         font-size: 1.5rem;
@@ -3591,16 +3698,18 @@ body {
         font-family: 'Unna', serif;
         font-weight: lighter;
         font-style: italic;
-        margin-left: 1rem;
+        margin-left: 2rem;
 
     }
     .icon {
-        width: 3.5rem;
+        width: 3rem;
         margin-left: -80% !important;
     }
     .icon2 {
-        width: 4rem;
-        content: url(assets/button-desktop-plus-white.png) !important;
+        width: 3rem;
+        content: url(assets/button-desktop-plus.png) !important;
+        margin-left: -90% !important;
+
     }
     .abtn {
         flex-direction: column !important;
@@ -3616,7 +3725,7 @@ body {
         margin: auto !important;
     }
     .thisrow {
-        margin-bottom: 30% !important;
+        margin-bottom: 50% !important;
     }
 
     .titlediv{
@@ -3632,45 +3741,102 @@ body {
 /* responsividade intermedia entre tablet e mobile M- main new */
 
 @media screen and (min-width: 375px) and (max-width: 424px) {
+    .myClass h1 {
+        color: black;
+        margin-left: 10%;
+        margin-top: -8%;
+        font-size: 0.5rem !important;
+    }
+    
+    .myClass h3 {
+        color: black;
+        margin-top: -12%;
+        font-size: 1.5rem !important;
+
+    }
+
+    .myClass2 h2 {
+        color: black;
+        margin-left: 9%;
+        font-size: 0.5rem !important;
+
+    }
+    
+    .myClass2 h1 {
+        color: black;
+        margin-left: 10%;
+        margin-top: -8%;
+        font-size: 0.5rem !important;
+    }
+    
+    .myClass2 h3 {
+        color: black;
+        margin-top: -12%;
+        font-size: 1.5rem !important;
+
+    }
+
+    .myClass3 h3 {
+        color: black;
+        margin-top: -5 !important;
+        font-size: 1.5rem !important;
+
+    }
+
+    .myClass3 h1 {
+        color: black;
+        margin-top: -12%;
+        font-size: 0.5rem !important;
+
+    }
+
+    .rownumb{
+        margin-left: 0% !important;
+    }
+
     .normalbgtext {
-        font-size: 0.35rem;
+        font-size: 1.2rem;
         color: #f0f0f0;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 1rem;
-        margin-top: 0rem;
+        margin-left: 2rem;
     }
     .normalbgtext3 {
-        font-size: 0.35rem;
+        font-size: 1rem;
         color: black;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 1rem;
-        margin-top: 0rem;
+        margin-left: 0.2rem;
+        margin-top: 1rem;
     }
     .normalbgtext2 {
-        margin-top: 0%;
+        margin-top: 30%;
         color: #ffffff;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1.4rem;
+        font-size: 2rem;
     }
     .normalbgtext2-3 {
-        margin-top: 0%;
-        color: black;
+        margin-top: 30%;
+        color: black !important;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1.4rem;
+        font-size: 1.5rem !important;
     }
     .secondarybgtext {
-        font-size: 0.35rem;
+        font-size: 1rem;
         color: #f0f0f0;
         font-family: 'Unna', serif;
         font-weight: lighter;
         font-style: italic;
-        margin-left: 1rem;
+        margin-left: 2rem;
+
     }
     .icon {
-        width: 1.4rem;
+        width: 2.5rem;
+        margin-left: -100% !important;
     }
     .icon2 {
-        width: 1.4rem;
+        width: 2rem;
+        content: url(assets/button-desktop-plus.png) !important;
+        margin-left: -90% !important;
+
     }
     .abtn {
         flex-direction: column !important;
@@ -3685,58 +3851,127 @@ body {
         width: 7px !important;
         margin: auto !important;
     }
+    .thisrow {
+        margin-bottom: 80% !important;
+    }
+
+    .titlediv{
+        margin-left: -140% !important;
+    }
+
+    .nrdiv{
+        margin-left: 125% !important;
+    }
+
 }
 
 
 /* responsividade intermedia entre mobile S e mobile M - menu e main new */
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
+    .myClass h1 {
+        color: black;
+        margin-left: 10%;
+        margin-top: -8%;
+        font-size: 0.4rem !important;
+    }
+    
+    .myClass h3 {
+        color: black;
+        margin-top: -12%;
+        font-size: 1rem !important;
+
+    }
+    
+    .myClass h2 {
+        color: black;
+        font-size: 0.2rem !important;
+
+    }
+
+    .myClass2 h2 {
+        color: black;
+        margin-left: 9%;
+        font-size: 0.5rem !important;
+
+    }
+    
+    .myClass2 h1 {
+        color: black;
+        margin-left: 10%;
+        margin-top: -8%;
+        font-size: 0.8rem !important;
+    }
+    
+    .myClass2 h3 {
+        color: black;
+        margin-top: -12%;
+        font-size: 2rem !important;
+
+    }
+
+    .myClass3 h3 {
+        color: black;
+        margin-top: -12%;
+        font-size: 2rem !important;
+
+    }
+
+    .myClass3 h1 {
+        color: black;
+        margin-top: -12%;
+        font-size: 0.8rem !important;
+
+    }
+
+    .rownumb{
+        margin-left: -15% !important;
+    }
+
     .normalbgtext {
-        font-size: 0.2rem;
+        font-size: 1rem;
         color: #f0f0f0;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 1rem;
-        margin-top: 0rem;
-        margin-right: 10%;
+        margin-left: 2rem;
     }
     .normalbgtext3 {
-        font-size: 0.2rem;
+        font-size: 1rem;
         color: black;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 1rem;
-        margin-top: 0rem;
-        margin-right: 10%;
+        margin-left: 0.2rem;
+        margin-top: 3rem;
     }
     .normalbgtext2 {
-        margin-top: 0%;
+        margin-top: 30%;
         color: #ffffff;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1.3rem;
+        font-size: 2.5rem;
     }
     .normalbgtext2-3 {
-        margin-top: 0%;
-        color: black;
+        margin-top: 30%;
+        color: black !important;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1.3rem;
+        font-size: 2.3rem !important;
     }
     .secondarybgtext {
-        font-size: 0.2rem;
+        font-size: 1rem;
         color: #f0f0f0;
         font-family: 'Unna', serif;
         font-weight: lighter;
         font-style: italic;
-        margin-left: 1rem;
+        margin-left: 2rem;
+
     }
     .icon {
-        width: 1rem;
+        width: 2rem;
+        margin-left: -150% !important;
     }
     .icon2 {
         width: 1rem;
+        content: url(assets/button-desktop-plus.png) !important;
+        margin-left: -90% !important;
+
     }
-    /*
-                    .card{
-                        margin-top: -3% !important;
-                    }*/
     .abtn {
         flex-direction: column !important;
         display: flex !important;
@@ -3750,8 +3985,18 @@ body {
         width: 7px !important;
         margin: auto !important;
     }
-}
+    .thisrow {
+        margin-bottom: 50% !important;
+    }
 
+    .titlediv{
+        margin-left: -140% !important;
+    }
+
+    .nrdiv{
+        margin-left: 135% !important;
+    }
+}
 
 /*responsividade intermédia entre laptop e tablet*/
 
