@@ -30,6 +30,10 @@ html {
     display: flex !important;
 }
 
+.leiriaDiv{
+    display: flex !important;
+}
+
 
 .row:before,
 .row:after {
@@ -4985,4 +4989,107 @@ body {
         font-size: 0.2rem !important;
     }
 }
+
+/*MAPA - PAGINA PARTNERS*/
+ @media screen and (min-width: 2560px){
+     .mapa{
+         margin-left: 20% !important;
+     }
+ }
+
+
+ @media screen and (min-width:1750px) and (max-width: 2559px){
+    .mapa{
+        margin-left: 10% !important;
+    }
+}
+
+@media screen and (min-width:1600px) and (max-width: 1749px){
+    .mapa{
+        margin-left: 0% !important;
+    }
+}
+
+@media screen and (min-width:1600px) {
+.mapagrande img{
+    content: url(assets/mapa.png);
+}
+.mapagrande{
+    display: flex !important;
+}
+}
+
+@media screen and (max-width:1599px) {
+    .mapamedio img{
+        content: url(assets/mapa-resized.png);
+    }
+    .mapagrande{
+        display: none !important;
+    }
+    .mapamedio{
+        display: flex !important;
+        margin-left: 17%;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .mapapequeno img{
+        content: url(assets/mapa-pequeno.png);
+    }
+    .mapagrande{
+        display: none !important;
+    }
+    .mapamedio{
+        display: none !important;
+    }
+
+    .mapapequeno{
+        display: flex !important;
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .mapapequeno{
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .mapapequeno{
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .mapaxs img{
+        content: url(assets/mapa-xs.png);
+    }
+    .mapagrande{
+        display: none !important;
+    }
+    .mapamedio{
+        display: none !important;
+    }
+    .mapapequeno{
+        display: none !important;
+    }
+    .mapaxs{
+        display: flex !important;
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .mapaxs{
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .mapaxs{
+        margin-left: 4%;
+    }
+}
+
 
