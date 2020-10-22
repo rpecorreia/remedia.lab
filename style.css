@@ -11,7 +11,11 @@ html {
 }
 
 .bg3{
-    background-image: url(assets/desktop-bg-03.jpg); 
+    background-image: url(assets/bg3.jpg); 
+}
+
+.bg4{
+    background-image: url(assets/desktop-bg-04.jpg); 
 }
  /*PARTNERS PAGE*/
 .beirasDiv{
@@ -34,6 +38,18 @@ html {
     display: flex !important;
 }
 
+.coimbraDiv{
+    display: flex !important;
+}
+
+.aveiroDiv{
+    display: flex !important;
+}
+
+.viseuDiv{
+    display: flex !important;
+}
+
 
 .row:before,
 .row:after {
@@ -47,27 +63,15 @@ body {
 }
 
 .owl-item:hover {
-    opacity: 0.8 !important;
+    opacity: 0.5 !important;
 }
 
-.owl-item:hover .edit_hover_class a{
+.owl-item:hover a{
     visibility:visible;
     opacity:1 !important;
 }
 
-.edit_hover_class a{
-    visibility:hidden;
-}
-.edit_hover_class:hover a{
-   visibility:visible;
-}
 
-.edit_hover_class{
-    width: 30%;
-    margin-left: 35% !important;
-    margin-top: -60%;
-    z-index: 1000;
-}
 
 @media screen and (max-width: 700px)  {
     .bg1{
@@ -76,11 +80,9 @@ body {
     .bg2{
         background-image: url(assets/mobile-bg-02.jpg); 
     }
-    .bg3{
-        background-image: url(assets/mobile-bg-03.jpg); 
+    .bg4{
+        background-image: url(assets/mobile-bg-04.jpg); 
     }
-
-
 }
 
 
@@ -5090,6 +5092,11 @@ body {
     .mapaxs{
         margin-left: 4%;
     }
+}
+
+.owl-carousel .owl-item img{
+    display: block;
+    width: 100% !important;
 }
 
 
