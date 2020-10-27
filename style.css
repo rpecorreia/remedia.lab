@@ -55,6 +55,104 @@ html {
     display: flex !important;
 }
 
+.beirasDiv2{
+    display: flex !important;
+}
+
+.beirabaixaDiv2{
+    display: flex !important;
+}
+
+.tejoDiv2{
+    display: flex !important;
+}
+
+.oesteDiv2{
+    display: flex !important;
+}
+
+.leiriaDiv2{
+    display: flex !important;
+}
+
+.coimbraDiv2{
+    display: flex !important;
+}
+
+.aveiroDiv2{
+    display: flex !important;
+}
+
+.viseuDiv2{
+    display: flex !important;
+}
+
+.beirasDiv3{
+    display: flex !important;
+}
+
+.beirabaixaDiv3{
+    display: flex !important;
+}
+
+.tejoDiv3{
+    display: flex !important;
+}
+
+.oesteDiv3{
+    display: flex !important;
+}
+
+.leiriaDiv3{
+    display: flex !important;
+}
+
+.coimbraDiv3{
+    display: flex !important;
+}
+
+.aveiroDiv3{
+    display: flex !important;
+}
+
+.viseuDiv3{
+    display: flex !important;
+}
+
+.beirasDiv4{
+    display: flex !important;
+}
+
+.beirabaixaDiv4{
+    display: flex !important;
+}
+
+.tejoDiv4{
+    display: flex !important;
+}
+
+.oesteDiv4{
+    display: flex !important;
+}
+
+.leiriaDiv4{
+    display: flex !important;
+}
+
+.coimbraDiv4{
+    display: flex !important;
+}
+
+.aveiroDiv4{
+    display: flex !important;
+}
+
+.viseuDiv4{
+    display: flex !important;
+}
+
+/*End partners page*/
+
 
 .row:before,
 .row:after {
@@ -5496,6 +5594,37 @@ body {
     }
 }
 
+
+@media screen and (min-width:1251px) and (max-width:1362px) {
+    .mapamedio{
+        margin-left: 8%;
+    }
+    .beiras2div{
+        margin-left: -12% !important; 
+    }
+    .beirabaixa2div{
+        margin-left: -12% !important; 
+    }
+    .tejo2div{
+        margin-left: -12% !important; 
+    }
+    .oeste2div{
+        margin-left: -12% !important; 
+    }
+    .leiria2div{
+        margin-left: -12% !important; 
+    }
+    .coimbra2div{
+        margin-left: -12% !important; 
+    }
+    .aveiro2div{
+        margin-left: -12% !important; 
+    }
+    .viseu2div{
+        margin-left: -12% !important; 
+    }
+}
+
 @media screen and (max-width:1250px) {
     .mapapequeno img{
         content: url(assets/mapa-pequeno.png);
@@ -5555,6 +5684,8 @@ body {
         margin-left: 4%;
     }
 }
+
+
 
 .owl-carousel .owl-item img{
     display: block;
