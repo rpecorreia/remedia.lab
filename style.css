@@ -5751,15 +5751,151 @@ body {
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (min-width:530px) and (max-width:630px) {
+
+    .beiras4div{
+        margin-left: -3% !important; 
+    }
+    .beirabaixa4div{
+        margin-left: -3% !important; 
+    }
+    .tejo4div{
+        margin-left: -3% !important; 
+    }
+    .oeste4div{
+        margin-left: -3% !important; 
+    }
+    .leiria4div{
+        margin-left: -3% !important; 
+    }
+    .coimbra4div{
+        margin-left: -3% !important; 
+    }
+    .aveiro4div{
+        margin-left: -3% !important; 
+    }
+    .viseu4div{
+        margin-left: -3% !important; 
+    }
+}
+
+@media screen and (max-width:529px) {
     .mapaxs{
         margin-left: 10%;
+    }
+    .beiras4div{
+        margin-left: -16.5% !important; 
+    }
+    .beirabaixa4div{
+        margin-left: -16.5% !important; 
+    }
+    .tejo4div{
+        margin-left: -16.5% !important; 
+    }
+    .oeste4div{
+        margin-left: -16.5% !important; 
+    }
+    .leiria4div{
+        margin-left: -16.5% !important; 
+    }
+    .coimbra4div{
+        margin-left: -16.5% !important; 
+    }
+    .aveiro4div{
+        margin-left: -16.5% !important; 
+    }
+    .viseu4div{
+        margin-left: -16.5% !important; 
     }
 }
 
 @media screen and (max-width:425px) {
     .mapaxs{
         margin-left: 4%;
+    }
+    .beiras4div{
+        margin-left: -29% !important; 
+    }
+    .beirabaixa4div{
+        margin-left: -29% !important; 
+    }
+    .tejo4div{
+        margin-left: -29% !important; 
+    }
+    .oeste4div{
+        margin-left: -29% !important; 
+    }
+    .leiria4div{
+        margin-left: -29% !important; 
+    }
+    .coimbra4div{
+        margin-left: -29% !important; 
+    }
+    .aveiro4div{
+        margin-left: -29% !important; 
+    }
+    .viseu4div{
+        margin-left: -29% !important; 
+    }
+}
+
+@media screen and (max-width:375px) {
+    .mapaxs{
+        margin-left: 4%;
+    }
+    .beiras4div{
+        margin-left: -33% !important; 
+    }
+    .beirabaixa4div{
+        margin-left: -33% !important; 
+    }
+    .tejo4div{
+        margin-left: -4% !important; 
+    }
+    .oeste4div{
+        margin-left: -4% !important; 
+    }
+    .leiria4div{
+        margin-left: -4% !important; 
+    }
+    .coimbra4div{
+        margin-left: -4% !important; 
+    }
+    .aveiro4div{
+        margin-left: -4% !important; 
+    }
+    .viseu4div{
+        margin-left: -4% !important; 
+    }
+}
+
+@media screen and (max-width:340px) {
+    .mapaxs{
+        margin-left: 4%;
+    }
+    .beiras4div{
+        margin-left: -39% !important; 
+    }
+    .beirabaixa4div{
+        margin-left: -35% !important; 
+    }
+    .tejo4div{
+        margin-left: -35% !important; 
+    }
+    .oeste4div{
+        margin-left: -35% !important; 
+    }
+    .leiria4div{
+        margin-left: -35% !important; 
+    }
+    .coimbra4div{
+        margin-left: -35% !important; 
+    }
+    .aveiro4div{
+        margin-left: -35% !important; 
+    }
+    .viseu4div{
+        margin-left: -35% !important; 
     }
 }
 
