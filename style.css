@@ -2,157 +2,159 @@ html {
     scroll-behavior: smooth !important;
 }
 
-.bg1{
+.bg1 {
     background-image: url(assets/home-desktop-01.jpg);
 }
 
-.bg2{
-    background-image: url(assets/desktop-bg-02.jpg); 
+.bg2 {
+    background-image: url(assets/desktop-bg-02.jpg);
 }
 
-.bg3{
-    background-image: url(assets/bg3.jpg); 
+.bg3 {
+    background-image: url(assets/bg3.jpg);
 }
 
-.bg4{
-    background-image: url(assets/desktop-bg-04.jpg); 
+.bg4 {
+    background-image: url(assets/desktop-bg-04.jpg);
 }
 
-.bg5{
-    background-image: url(assets/bg5.jpg); 
+.bg5 {
+    background-image: url(assets/bg5.jpg);
 }
 
- /*PARTNERS PAGE*/
-.beirasDiv{
+
+/*PARTNERS PAGE*/
+
+.beirasDiv {
     display: flex !important;
 }
 
-.beirabaixaDiv{
+.beirabaixaDiv {
     display: flex !important;
 }
 
-.tejoDiv{
+.tejoDiv {
     display: flex !important;
 }
 
-.oesteDiv{
+.oesteDiv {
     display: flex !important;
 }
 
-.leiriaDiv{
+.leiriaDiv {
     display: flex !important;
 }
 
-.coimbraDiv{
+.coimbraDiv {
     display: flex !important;
 }
 
-.aveiroDiv{
+.aveiroDiv {
     display: flex !important;
 }
 
-.viseuDiv{
+.viseuDiv {
     display: flex !important;
 }
 
-.beirasDiv2{
+.beirasDiv2 {
     display: flex !important;
 }
 
-.beirabaixaDiv2{
+.beirabaixaDiv2 {
     display: flex !important;
 }
 
-.tejoDiv2{
+.tejoDiv2 {
     display: flex !important;
 }
 
-.oesteDiv2{
+.oesteDiv2 {
     display: flex !important;
 }
 
-.leiriaDiv2{
+.leiriaDiv2 {
     display: flex !important;
 }
 
-.coimbraDiv2{
+.coimbraDiv2 {
     display: flex !important;
 }
 
-.aveiroDiv2{
+.aveiroDiv2 {
     display: flex !important;
 }
 
-.viseuDiv2{
+.viseuDiv2 {
     display: flex !important;
 }
 
-.beirasDiv3{
+.beirasDiv3 {
     display: flex !important;
 }
 
-.beirabaixaDiv3{
+.beirabaixaDiv3 {
     display: flex !important;
 }
 
-.tejoDiv3{
+.tejoDiv3 {
     display: flex !important;
 }
 
-.oesteDiv3{
+.oesteDiv3 {
     display: flex !important;
 }
 
-.leiriaDiv3{
+.leiriaDiv3 {
     display: flex !important;
 }
 
-.coimbraDiv3{
+.coimbraDiv3 {
     display: flex !important;
 }
 
-.aveiroDiv3{
+.aveiroDiv3 {
     display: flex !important;
 }
 
-.viseuDiv3{
+.viseuDiv3 {
     display: flex !important;
 }
 
-.beirasDiv4{
+.beirasDiv4 {
     display: flex !important;
 }
 
-.beirabaixaDiv4{
+.beirabaixaDiv4 {
     display: flex !important;
 }
 
-.tejoDiv4{
+.tejoDiv4 {
     display: flex !important;
 }
 
-.oesteDiv4{
+.oesteDiv4 {
     display: flex !important;
 }
 
-.leiriaDiv4{
+.leiriaDiv4 {
     display: flex !important;
 }
 
-.coimbraDiv4{
+.coimbraDiv4 {
     display: flex !important;
 }
 
-.aveiroDiv4{
+.aveiroDiv4 {
     display: flex !important;
 }
 
-.viseuDiv4{
+.viseuDiv4 {
     display: flex !important;
 }
+
 
 /*End partners page*/
-
 
 .row:before,
 .row:after {
@@ -169,22 +171,20 @@ body {
     opacity: 0.5 !important;
 }
 
-.owl-item:hover a{
-    visibility:visible;
-    opacity:1 !important;
+.owl-item:hover a {
+    visibility: visible;
+    opacity: 1 !important;
 }
 
-
-
-@media screen and (max-width: 700px)  {
-    .bg1{
-        background-image: url(assets/mobile-bg-01.jpg); 
+@media screen and (max-width: 700px) {
+    .bg1 {
+        background-image: url(assets/mobile-bg-01.jpg);
     }
-    .bg2{
-        background-image: url(assets/mobile-bg-02.jpg); 
+    .bg2 {
+        background-image: url(assets/mobile-bg-02.jpg);
     }
-    .bg4{
-        background-image: url(assets/mobile-bg-04.jpg); 
+    .bg4 {
+        background-image: url(assets/mobile-bg-04.jpg);
     }
 }
 
@@ -297,7 +297,6 @@ body {
         .sl2 {
             margin-top: 10% !important;
         }
-
         .myDiv4 {
             padding: 1em;
             line-height: 1.5em;
@@ -324,7 +323,6 @@ body {
         .myClass4 i {
             color: black;
         }
-
         .myDiv5 {
             padding: 1em;
             line-height: 1.5em;
@@ -351,7 +349,6 @@ body {
         .myClass5 i {
             color: black;
         }
-
         @media screen and (min-width: 1440px) {
             .normalbgtext2-3 {
                 color: #000000 !important;
@@ -360,10 +357,10 @@ body {
                 left: 0% !important;
             }
         }
-        .icon{
+        .icon {
             margin-top: 5% !important;
         }
-        .icon2{
+        .icon2 {
             margin-top: 5% !important;
         }
     }
@@ -1359,87 +1356,65 @@ body {
         color: black;
         margin-left: 9%;
         font-size: 1rem !important;
-
     }
-    
     .myClass h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 1rem !important;
     }
-    
     .myClass h3 {
         color: black;
         margin-top: -12%;
     }
-
     .myClass2 h2 {
         color: black;
         margin-left: 9%;
         font-size: 1rem !important;
-
     }
-    
     .myClass2 h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 1.3rem !important;
     }
-    
     .myClass2 h3 {
         color: black;
         margin-top: -12%;
         font-size: 3.5rem !important;
-
     }
-    
-
     .myClass4 h2 {
         color: black;
         margin-left: 9%;
         font-size: 1rem !important;
-
     }
-    
     .myClass4 h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 1.3rem !important;
     }
-    
     .myClass4 h3 {
         color: black;
         margin-top: -12%;
         font-size: 3.5rem !important;
-
     }
-
     .myClass5 h2 {
         color: black;
         margin-left: 9%;
         font-size: 1rem !important;
-
     }
-    
     .myClass5 h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 1.3rem !important;
     }
-    
     .myClass5 h3 {
         color: black;
         margin-top: -12%;
         font-size: 3.5rem !important;
-
     }
-
-    
-
     .normalbgtext {
         font-size: 2rem;
         color: #f0f0f0;
@@ -1496,12 +1471,10 @@ body {
     .thisrow {
         margin-bottom: -20% !important;
     }
-
-    .titlediv{
+    .titlediv {
         margin-left: -100% !important;
     }
-
-    .nrdiv{
+    .nrdiv {
         margin-left: 95% !important;
     }
 }
@@ -1514,88 +1487,66 @@ body {
         color: black;
         margin-left: 9%;
         font-size: 1rem !important;
-
     }
-    
     .myClass h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 1rem !important;
     }
-    
     .myClass h3 {
         color: black;
         margin-top: -12%;
         font-size: 3.4rem !important;
-
     }
-
     .myClass2 h2 {
         color: black;
         margin-left: 9%;
         font-size: 1rem !important;
-
     }
-    
     .myClass2 h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 1.1rem !important;
     }
-    
     .myClass2 h3 {
         color: black;
         margin-top: -12%;
         font-size: 3rem !important;
-
     }
-
-   
     .myClass4 h2 {
         color: black;
         margin-left: 9%;
         font-size: 1rem !important;
-
     }
-    
     .myClass4 h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 1.1rem !important;
     }
-    
     .myClass4 h3 {
         color: black;
         margin-top: -12%;
         font-size: 3rem !important;
-
     }
-
-       
     .myClass5 h2 {
         color: black;
         margin-left: 9%;
         font-size: 1rem !important;
-
     }
-    
     .myClass5 h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 1.1rem !important;
     }
-    
     .myClass5 h3 {
         color: black;
         margin-top: -12%;
         font-size: 3rem !important;
-
     }
-
     .normalbgtext {
         font-size: 2rem;
         color: #f0f0f0;
@@ -1629,7 +1580,6 @@ body {
         font-weight: lighter;
         font-style: italic;
         margin-left: 3rem;
-
     }
     .icon {
         width: 3.5rem;
@@ -1654,12 +1604,10 @@ body {
     .thisrow {
         margin-bottom: -5% !important;
     }
-
-    .titlediv{
+    .titlediv {
         margin-left: -100% !important;
     }
-
-    .nrdiv{
+    .nrdiv {
         margin-left: 90% !important;
     }
 }
@@ -1669,92 +1617,69 @@ body {
         color: black;
         margin-left: 9%;
         font-size: 0.7rem !important;
-
     }
-    
     .myClass h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 1rem !important;
     }
-    
     .myClass h3 {
         color: black;
         margin-top: -12%;
         font-size: 3.4rem !important;
-
     }
-
     .myClass2 h2 {
         color: black;
         margin-left: 9%;
         font-size: 1rem !important;
-
     }
-    
     .myClass2 h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 0.8rem !important;
     }
-    
     .myClass2 h3 {
         color: black;
         margin-top: -12%;
         font-size: 2rem !important;
-
     }
-    
-
     .myClass4 h2 {
         color: black;
         margin-left: 9%;
         font-size: 1rem !important;
-
     }
-    
     .myClass4 h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 0.8rem !important;
     }
-    
     .myClass4 h3 {
         color: black;
         margin-top: -12%;
         font-size: 2rem !important;
-
     }
-
     .myClass5 h2 {
         color: black;
         margin-left: 9%;
         font-size: 1rem !important;
-
     }
-    
     .myClass5 h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 0.8rem !important;
     }
-    
     .myClass5 h3 {
         color: black;
         margin-top: -12%;
         font-size: 2rem !important;
-
     }
-    
-
-    .rownumb{
+    .rownumb {
         margin-left: -15% !important;
     }
-
     .normalbgtext {
         font-size: 1.8rem;
         color: #f0f0f0;
@@ -1787,7 +1712,6 @@ body {
         font-weight: lighter;
         font-style: italic;
         margin-left: 1rem;
-
     }
     .icon {
         width: 3.5rem;
@@ -1814,12 +1738,10 @@ body {
     .thisrow {
         margin-bottom: 30% !important;
     }
-
-    .titlediv{
+    .titlediv {
         margin-left: -110% !important;
     }
-
-    .nrdiv{
+    .nrdiv {
         margin-left: 85% !important;
     }
 }
@@ -1831,102 +1753,76 @@ body {
         margin-top: -8%;
         font-size: 0.2rem !important;
     }
-    
     .myClass h3 {
         color: black;
         margin-top: -12%;
         font-size: 0.8rem !important;
-
     }
-    
     .myClass h2 {
         color: black;
         font-size: 0.2rem !important;
-
     }
-
     .myClass2 h2 {
         color: black;
         margin-left: 9%;
         font-size: 0.5rem !important;
-
     }
-    
     .myClass2 h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 0.8rem !important;
     }
-    
     .myClass2 h3 {
         color: black;
         margin-top: -12%;
         font-size: 2rem !important;
-
     }
-
     .myClass3 h3 {
         color: black;
         margin-top: -12%;
         font-size: 2rem !important;
-
     }
-
     .myClass3 h1 {
         color: black;
         margin-top: -12%;
         font-size: 0.8rem !important;
-
     }
-
     .myClass4 h2 {
         color: black;
         margin-left: 9%;
         font-size: 0.5rem !important;
-
     }
-    
     .myClass4 h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 0.8rem !important;
     }
-    
     .myClass4 h3 {
         color: black;
         margin-top: -12%;
         font-size: 2rem !important;
-
     }
-
-
     .myClass5 h2 {
         color: black;
         margin-left: 9%;
         font-size: 0.5rem !important;
-
     }
-    
     .myClass5 h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 0.8rem !important;
     }
-    
     .myClass5 h3 {
         color: black;
         margin-top: -12%;
         font-size: 2rem !important;
-
     }
-
-    .rownumb{
+    .rownumb {
         margin-left: -15% !important;
     }
-
     .normalbgtext {
         font-size: 0.5rem;
         color: #f0f0f0;
@@ -1959,7 +1855,6 @@ body {
         font-weight: lighter;
         font-style: italic;
         margin-left: 2rem;
-
     }
     .icon {
         width: 1rem;
@@ -1969,7 +1864,6 @@ body {
         width: 1rem;
         content: url(assets/button-desktop-plus.png) !important;
         margin-left: -90% !important;
-
     }
     .abtn {
         flex-direction: column !important;
@@ -1987,12 +1881,10 @@ body {
     .thisrow {
         margin-bottom: 50% !important;
     }
-
-    .titlediv{
+    .titlediv {
         margin-left: -140% !important;
     }
-
-    .nrdiv{
+    .nrdiv {
         margin-left: 135% !important;
     }
 }
@@ -3705,7 +3597,6 @@ body {
         font-style: italic;
         margin-left: 3rem;
     }
-
     .icon {
         width: 4.2rem;
     }
@@ -3962,15 +3853,12 @@ body {
     .myClass2 h1 {
         margin-top: -18% !important;
     }
-
     .myClass4 h1 {
         margin-top: -18% !important;
     }
-
     .myClass5 h1 {
         margin-top: -18% !important;
     }
-
     .myClass3 h1 {
         margin-top: -18% !important;
     }
@@ -3986,103 +3874,78 @@ body {
 /*AQUI AQUIIIIIIIII*/
 
 @media screen and (min-width: 425px) and (max-width: 549px) {
-
     .myClass h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 0.6rem !important;
     }
-    
     .myClass h3 {
         color: black;
         margin-top: -12%;
         font-size: 2rem !important;
-
     }
-
     .myClass2 h2 {
         color: black;
         margin-left: 9%;
         font-size: 0.5rem !important;
-
     }
-    
     .myClass2 h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 0.8rem !important;
     }
-    
     .myClass2 h3 {
         color: black;
         margin-top: -12%;
         font-size: 2rem !important;
-
     }
-
     .myClass3 h3 {
         color: black;
         margin-top: -12%;
         font-size: 2rem !important;
-
     }
-
     .myClass3 h1 {
         color: black;
         margin-top: -12%;
         font-size: 0.8rem !important;
-
     }
-
     .myClass4 h2 {
         color: black;
         margin-left: 9%;
         font-size: 0.5rem !important;
-
     }
-    
     .myClass4 h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 0.8rem !important;
     }
-    
     .myClass4 h3 {
         color: black;
         margin-top: -12%;
         font-size: 2rem !important;
-
     }
-
     .myClass5 h2 {
         color: black;
         margin-left: 9%;
         font-size: 0.5rem !important;
-
     }
-    
     .myClass5 h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 0.8rem !important;
     }
-    
     .myClass5 h3 {
         color: black;
         margin-top: -12%;
         font-size: 2rem !important;
-
     }
-
-
-    .rownumb{
+    .rownumb {
         margin-left: -15% !important;
     }
-
     .normalbgtext {
         font-size: 1.8rem;
         color: #f0f0f0;
@@ -4116,7 +3979,6 @@ body {
         font-weight: lighter;
         font-style: italic;
         margin-left: 2rem;
-
     }
     .icon {
         width: 3rem;
@@ -4126,7 +3988,6 @@ body {
         width: 3rem;
         content: url(assets/button-desktop-plus.png) !important;
         margin-left: -90% !important;
-
     }
     .abtn {
         flex-direction: column !important;
@@ -4144,12 +4005,10 @@ body {
     .thisrow {
         margin-bottom: 50% !important;
     }
-
-    .titlediv{
+    .titlediv {
         margin-left: -140% !important;
     }
-
-    .nrdiv{
+    .nrdiv {
         margin-left: 135% !important;
     }
 }
@@ -4164,95 +4023,72 @@ body {
         margin-top: -8%;
         font-size: 0.5rem !important;
     }
-    
     .myClass h3 {
         color: black;
         margin-top: -12%;
         font-size: 1.5rem !important;
-
     }
-
     .myClass2 h2 {
         color: black;
         margin-left: 9%;
         font-size: 0.5rem !important;
-
     }
-    
     .myClass2 h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 0.5rem !important;
     }
-    
     .myClass2 h3 {
         color: black;
         margin-top: -12%;
         font-size: 1.5rem !important;
-
     }
-
     .myClass3 h3 {
         color: black;
         margin-top: -5 !important;
         font-size: 1.5rem !important;
-
     }
-
     .myClass3 h1 {
         color: black;
         margin-top: -12%;
         font-size: 0.5rem !important;
-
     }
-
     .myClass4 h2 {
         color: black;
         margin-left: 9%;
         font-size: 0.5rem !important;
-
     }
-    
     .myClass4 h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 0.5rem !important;
     }
-    
     .myClass4 h3 {
         color: black;
         margin-top: -12%;
         font-size: 1.5rem !important;
-
     }
-
     .myClass5 h2 {
         color: black;
         margin-left: 9%;
         font-size: 0.5rem !important;
-
     }
-    
     .myClass5 h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 0.5rem !important;
     }
-    
     .myClass5 h3 {
         color: black;
         margin-top: -12%;
         font-size: 1.5rem !important;
-
     }
-
-    .rownumb{
+    .rownumb {
         margin-left: 0% !important;
     }
-
     .normalbgtext {
         font-size: 1.2rem;
         color: #f0f0f0;
@@ -4285,7 +4121,6 @@ body {
         font-weight: lighter;
         font-style: italic;
         margin-left: 2rem;
-
     }
     .icon {
         width: 2.5rem;
@@ -4295,7 +4130,6 @@ body {
         width: 2rem;
         content: url(assets/button-desktop-plus.png) !important;
         margin-left: -90% !important;
-
     }
     .abtn {
         flex-direction: column !important;
@@ -4313,15 +4147,12 @@ body {
     .thisrow {
         margin-bottom: 80% !important;
     }
-
-    .titlediv{
+    .titlediv {
         margin-left: -140% !important;
     }
-
-    .nrdiv{
+    .nrdiv {
         margin-left: 125% !important;
     }
-
 }
 
 
@@ -4334,103 +4165,76 @@ body {
         margin-top: -8%;
         font-size: 0.4rem !important;
     }
-    
     .myClass h3 {
         color: black;
         margin-top: -12%;
         font-size: 1rem !important;
-
     }
-    
     .myClass h2 {
         color: black;
         font-size: 0.2rem !important;
-
     }
-
     .myClass2 h2 {
         color: black;
         margin-left: 9%;
         font-size: 0.5rem !important;
-
     }
-    
     .myClass2 h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 0.8rem !important;
     }
-    
     .myClass2 h3 {
         color: black;
         margin-top: -12%;
         font-size: 2rem !important;
-
     }
-
     .myClass3 h3 {
         color: black;
         margin-top: -12%;
         font-size: 2rem !important;
-
     }
-
     .myClass3 h1 {
         color: black;
         margin-top: -12%;
         font-size: 0.8rem !important;
-
     }
-
-
     .myClass4 h2 {
         color: black;
         margin-left: 9%;
         font-size: 0.5rem !important;
-
     }
-    
     .myClass4 h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 0.8rem !important;
     }
-    
     .myClass4 h3 {
         color: black;
         margin-top: -12%;
         font-size: 2rem !important;
-
     }
-
-
     .myClass5 h2 {
         color: black;
         margin-left: 9%;
         font-size: 0.5rem !important;
-
     }
-    
     .myClass5 h1 {
         color: black;
         margin-left: 10%;
         margin-top: -8%;
         font-size: 0.8rem !important;
     }
-    
     .myClass5 h3 {
         color: black;
         margin-top: -12%;
         font-size: 2rem !important;
-
     }
-
-    .rownumb{
+    .rownumb {
         margin-left: -15% !important;
     }
-
     .normalbgtext {
         font-size: 1rem;
         color: #f0f0f0;
@@ -4463,7 +4267,6 @@ body {
         font-weight: lighter;
         font-style: italic;
         margin-left: 2rem;
-
     }
     .icon {
         width: 2rem;
@@ -4473,7 +4276,6 @@ body {
         width: 1rem;
         content: url(assets/button-desktop-plus.png) !important;
         margin-left: -90% !important;
-
     }
     .abtn {
         flex-direction: column !important;
@@ -4491,15 +4293,14 @@ body {
     .thisrow {
         margin-bottom: 50% !important;
     }
-
-    .titlediv{
+    .titlediv {
         margin-left: -140% !important;
     }
-
-    .nrdiv{
+    .nrdiv {
         margin-left: 135% !important;
     }
 }
+
 
 /*responsividade intermédia entre laptop e tablet*/
 
@@ -4779,43 +4580,37 @@ body {
     color: black;
 }
 
-
-.myTitleDivCSS{
+.myTitleDivCSS {
     margin-left: 0% !important;
 }
 
-
-.myNrDivCSS{
+.myNrDivCSS {
     margin-left: 0% !important;
 }
 
-.myTitleDivCSS2{
+.myTitleDivCSS2 {
     margin-left: 0% !important;
 }
 
-
-.myNrDivCSS2{
+.myNrDivCSS2 {
     margin-left: 0% !important;
 }
 
-.myTitleDivCSS4{
+.myTitleDivCSS4 {
     margin-left: 0% !important;
 }
 
-
-.myNrDivCSS4{
+.myNrDivCSS4 {
     margin-left: 0% !important;
 }
 
-.myTitleDivCSS5{
+.myTitleDivCSS5 {
     margin-left: 0% !important;
 }
 
-
-.myNrDivCSS5{
+.myNrDivCSS5 {
     margin-left: 0% !important;
 }
-
 
 .myDiv2 {
     padding: 1em;
@@ -4909,7 +4704,6 @@ body {
 .myClass5 i {
     color: black;
 }
-
 
 .myDiv3 {
     padding: 1em;
@@ -5552,358 +5346,945 @@ body {
     }
 }
 
+
 /*MAPA - PAGINA PARTNERS*/
- @media screen and (min-width: 2560px){
-     .mapa{
-         margin-left: 20% !important;
-     }
- }
 
+@media screen and (min-width: 2560px) {
+    .mapa {
+        margin-left: 20% !important;
+    }
+}
 
- @media screen and (min-width:1750px) and (max-width: 2559px){
-    .mapa{
+@media screen and (min-width:1750px) and (max-width: 2559px) {
+    .mapa {
         margin-left: 10% !important;
     }
 }
 
-@media screen and (min-width:1600px) and (max-width: 1749px){
-    .mapa{
+@media screen and (min-width:1600px) and (max-width: 1749px) {
+    .mapa {
         margin-left: 0% !important;
     }
 }
 
 @media screen and (min-width:1600px) {
-.mapagrande img{
-    content: url(assets/mapa.png);
-}
-.mapagrande{
-    display: flex !important;
-}
+    .mapagrande img {
+        content: url(assets/mapa.png);
+    }
+    .mapagrande {
+        display: flex !important;
+    }
 }
 
 @media screen and (max-width:1599px) {
-    .mapamedio img{
+    .mapamedio img {
         content: url(assets/mapa-resized.png);
     }
-    .mapagrande{
+    .mapagrande {
         display: none !important;
     }
-    .mapamedio{
+    .mapamedio {
         display: flex !important;
         margin-left: 17%;
     }
 }
 
 @media screen and (min-width:1251px) and (max-width:1362px) {
-    .mapamedio{
+    .mapamedio {
         margin-left: 8%;
     }
-    .beiras2div{
-        margin-left: -12% !important; 
+    .beiras2div {
+        margin-left: -12% !important;
     }
-    .beirabaixa2div{
-        margin-left: -12% !important; 
+    .beirabaixa2div {
+        margin-left: -12% !important;
     }
-    .tejo2div{
-        margin-left: -12% !important; 
+    .tejo2div {
+        margin-left: -12% !important;
     }
-    .oeste2div{
-        margin-left: -12% !important; 
+    .oeste2div {
+        margin-left: -12% !important;
     }
-    .leiria2div{
-        margin-left: -12% !important; 
+    .leiria2div {
+        margin-left: -12% !important;
     }
-    .coimbra2div{
-        margin-left: -12% !important; 
+    .coimbra2div {
+        margin-left: -12% !important;
     }
-    .aveiro2div{
-        margin-left: -12% !important; 
+    .aveiro2div {
+        margin-left: -12% !important;
     }
-    .viseu2div{
-        margin-left: -12% !important; 
+    .viseu2div {
+        margin-left: -12% !important;
     }
 }
 
 @media screen and (max-width:1250px) {
-    .mapapequeno img{
+    .mapapequeno img {
         content: url(assets/mapa-pequeno.png);
     }
-    .mapagrande{
+    .mapagrande {
         display: none !important;
     }
-    .mapamedio{
+    .mapamedio {
         display: none !important;
     }
-
-    .mapapequeno{
+    .mapapequeno {
         display: flex !important;
         margin-left: 20%;
     }
 }
 
 @media screen and (max-width:991px) {
-    .mapapequeno{
+    .mapapequeno {
         margin-left: 10%;
     }
 }
 
 @media screen and (min-width:840px) and (max-width:991px) {
-    .beiras3div{
-        margin-left: -7% !important; 
+    .beiras3div {
+        margin-left: -7% !important;
     }
-    .beirabaixa3div{
-        margin-left: -7% !important; 
+    .beirabaixa3div {
+        margin-left: -7% !important;
     }
-    .tejo3div{
-        margin-left: -7% !important; 
+    .tejo3div {
+        margin-left: -7% !important;
     }
-    .oeste3div{
-        margin-left: -6% !important; 
+    .oeste3div {
+        margin-left: -6% !important;
     }
-    .leiria3div{
-        margin-left: -6% !important; 
+    .leiria3div {
+        margin-left: -6% !important;
     }
-    .coimbra3div{
-        margin-left: -6% !important; 
+    .coimbra3div {
+        margin-left: -6% !important;
     }
-    .aveiro3div{
-        margin-left: -6% !important; 
+    .aveiro3div {
+        margin-left: -6% !important;
     }
-    .viseu3div{
-        margin-left: -7% !important; 
+    .viseu3div {
+        margin-left: -7% !important;
     }
 }
 
 @media screen and (min-width:801px) and (max-width:839px) {
-    .beiras3div{
-        margin-left: -10% !important; 
+    .beiras3div {
+        margin-left: -10% !important;
     }
-    .beirabaixa3div{
-        margin-left: -10% !important; 
+    .beirabaixa3div {
+        margin-left: -10% !important;
     }
-    .tejo3div{
-        margin-left: -10% !important; 
+    .tejo3div {
+        margin-left: -10% !important;
     }
-    .oeste3div{
-        margin-left: -7% !important; 
+    .oeste3div {
+        margin-left: -7% !important;
     }
-    .leiria3div{
-        margin-left: -7% !important; 
+    .leiria3div {
+        margin-left: -7% !important;
     }
-    .coimbra3div{
-        margin-left: -7% !important; 
+    .coimbra3div {
+        margin-left: -7% !important;
     }
-    .aveiro3div{
-        margin-left: -7% !important; 
+    .aveiro3div {
+        margin-left: -7% !important;
     }
-    .viseu3div{
-        margin-left: -10% !important; 
+    .viseu3div {
+        margin-left: -10% !important;
     }
 }
 
 @media screen and (max-width:800px) {
-    .mapapequeno{
+    .mapapequeno {
         margin-left: 0%;
     }
-
-    .beiras3div{
-        margin-left: -21% !important; 
+    .beiras3div {
+        margin-left: -21% !important;
     }
-    .beirabaixa3div{
-        margin-left: -21% !important; 
+    .beirabaixa3div {
+        margin-left: -21% !important;
     }
-    .tejo3div{
-        margin-left: -21% !important; 
+    .tejo3div {
+        margin-left: -21% !important;
     }
-    .oeste3div{
-        margin-left: -18.5% !important; 
+    .oeste3div {
+        margin-left: -18.5% !important;
     }
-    .leiria3div{
-        margin-left: -18.5% !important; 
+    .leiria3div {
+        margin-left: -18.5% !important;
     }
-    .coimbra3div{
-        margin-left: -18.5% !important; 
+    .coimbra3div {
+        margin-left: -18.5% !important;
     }
-    .aveiro3div{
-        margin-left: -18.5% !important; 
+    .aveiro3div {
+        margin-left: -18.5% !important;
     }
-    .viseu3div{
-        margin-left: -21% !important; 
+    .viseu3div {
+        margin-left: -21% !important;
     }
 }
 
 @media screen and (max-width:720px) {
-    .mapaxs img{
+    .mapaxs img {
         content: url(assets/mapa-xs.png);
     }
-    .mapagrande{
+    .mapagrande {
         display: none !important;
     }
-    .mapamedio{
+    .mapamedio {
         display: none !important;
     }
-    .mapapequeno{
+    .mapapequeno {
         display: none !important;
     }
-    .mapaxs{
+    .mapaxs {
         display: flex !important;
         margin-left: 20%;
     }
 }
 
 @media screen and (min-width:530px) and (max-width:630px) {
-
-    .beiras4div{
-        margin-left: -3% !important; 
+    .beiras4div {
+        margin-left: -3% !important;
     }
-    .beirabaixa4div{
-        margin-left: -3% !important; 
+    .beirabaixa4div {
+        margin-left: -3% !important;
     }
-    .tejo4div{
-        margin-left: -3% !important; 
+    .tejo4div {
+        margin-left: -3% !important;
     }
-    .oeste4div{
-        margin-left: -3% !important; 
+    .oeste4div {
+        margin-left: -3% !important;
     }
-    .leiria4div{
-        margin-left: -3% !important; 
+    .leiria4div {
+        margin-left: -3% !important;
     }
-    .coimbra4div{
-        margin-left: -3% !important; 
+    .coimbra4div {
+        margin-left: -3% !important;
     }
-    .aveiro4div{
-        margin-left: -3% !important; 
+    .aveiro4div {
+        margin-left: -3% !important;
     }
-    .viseu4div{
-        margin-left: -3% !important; 
+    .viseu4div {
+        margin-left: -3% !important;
     }
 }
 
 @media screen and (max-width:529px) {
-    .mapaxs{
+    .mapaxs {
         margin-left: 10%;
     }
-    .beiras4div{
-        margin-left: -16.5% !important; 
+    .beiras4div {
+        margin-left: -16.5% !important;
     }
-    .beirabaixa4div{
-        margin-left: -16.5% !important; 
+    .beirabaixa4div {
+        margin-left: -16.5% !important;
     }
-    .tejo4div{
-        margin-left: -16.5% !important; 
+    .tejo4div {
+        margin-left: -16.5% !important;
     }
-    .oeste4div{
-        margin-left: -16.5% !important; 
+    .oeste4div {
+        margin-left: -16.5% !important;
     }
-    .leiria4div{
-        margin-left: -16.5% !important; 
+    .leiria4div {
+        margin-left: -16.5% !important;
     }
-    .coimbra4div{
-        margin-left: -16.5% !important; 
+    .coimbra4div {
+        margin-left: -16.5% !important;
     }
-    .aveiro4div{
-        margin-left: -16.5% !important; 
+    .aveiro4div {
+        margin-left: -16.5% !important;
     }
-    .viseu4div{
-        margin-left: -16.5% !important; 
+    .viseu4div {
+        margin-left: -16.5% !important;
     }
 }
 
 @media screen and (max-width:425px) {
-    .mapaxs{
+    .mapaxs {
         margin-left: 4%;
     }
-    .beiras4div{
-        margin-left: -29% !important; 
+    .beiras4div {
+        margin-left: -29% !important;
     }
-    .beirabaixa4div{
-        margin-left: -29% !important; 
+    .beirabaixa4div {
+        margin-left: -29% !important;
     }
-    .tejo4div{
-        margin-left: -29% !important; 
+    .tejo4div {
+        margin-left: -29% !important;
     }
-    .oeste4div{
-        margin-left: -29% !important; 
+    .oeste4div {
+        margin-left: -29% !important;
     }
-    .leiria4div{
-        margin-left: -29% !important; 
+    .leiria4div {
+        margin-left: -29% !important;
     }
-    .coimbra4div{
-        margin-left: -29% !important; 
+    .coimbra4div {
+        margin-left: -29% !important;
     }
-    .aveiro4div{
-        margin-left: -29% !important; 
+    .aveiro4div {
+        margin-left: -29% !important;
     }
-    .viseu4div{
-        margin-left: -29% !important; 
+    .viseu4div {
+        margin-left: -29% !important;
     }
 }
 
 @media screen and (max-width:375px) {
-    .mapaxs{
+    .mapaxs {
         margin-left: 4%;
     }
-    .beiras4div{
-        margin-left: -33% !important; 
+    .beiras4div {
+        margin-left: -33% !important;
     }
-    .beirabaixa4div{
-        margin-left: -33% !important; 
+    .beirabaixa4div {
+        margin-left: -33% !important;
     }
-    .tejo4div{
-        margin-left: -4% !important; 
+    .tejo4div {
+        margin-left: -4% !important;
     }
-    .oeste4div{
-        margin-left: -4% !important; 
+    .oeste4div {
+        margin-left: -4% !important;
     }
-    .leiria4div{
-        margin-left: -4% !important; 
+    .leiria4div {
+        margin-left: -4% !important;
     }
-    .coimbra4div{
-        margin-left: -4% !important; 
+    .coimbra4div {
+        margin-left: -4% !important;
     }
-    .aveiro4div{
-        margin-left: -4% !important; 
+    .aveiro4div {
+        margin-left: -4% !important;
     }
-    .viseu4div{
-        margin-left: -4% !important; 
+    .viseu4div {
+        margin-left: -4% !important;
     }
 }
 
 @media screen and (max-width:340px) {
-    .mapaxs{
+    .mapaxs {
         margin-left: 4%;
     }
-    .beiras4div{
-        margin-left: -39% !important; 
+    .beiras4div {
+        margin-left: -39% !important;
     }
-    .beirabaixa4div{
-        margin-left: -35% !important; 
+    .beirabaixa4div {
+        margin-left: -35% !important;
     }
-    .tejo4div{
-        margin-left: -35% !important; 
+    .tejo4div {
+        margin-left: -35% !important;
     }
-    .oeste4div{
-        margin-left: -35% !important; 
+    .oeste4div {
+        margin-left: -35% !important;
     }
-    .leiria4div{
-        margin-left: -35% !important; 
+    .leiria4div {
+        margin-left: -35% !important;
     }
-    .coimbra4div{
-        margin-left: -35% !important; 
+    .coimbra4div {
+        margin-left: -35% !important;
     }
-    .aveiro4div{
-        margin-left: -35% !important; 
+    .aveiro4div {
+        margin-left: -35% !important;
     }
-    .viseu4div{
-        margin-left: -35% !important; 
+    .viseu4div {
+        margin-left: -35% !important;
     }
 }
 
-
-
-.owl-carousel .owl-item img{
+.owl-carousel .owl-item img {
     display: block;
     width: 100% !important;
 }
 
 
+/*ABOUT SECTION*/
+
+@media screen and (min-width:2560px) {
+    .about-title {
+        font-size: 5rem;
+    }
+    .about-text {
+        font-size: 1rem;
+        margin-top: 2.5rem;
+        margin-left: -30%;
+    }
+    .about-item-title {
+        font-size: 2rem;
+    }
+    .about-item {
+        font-size: 1.75rem;
+    }
+    .objetivos-title::before {
+        display: inline-block;
+        content: "";
+        border-top: .1rem solid black;
+        width: 50rem;
+        margin: 0 1rem;
+        transform: translateY(-1rem);
+    }
+    .objetivos-title {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:2560px) {
+    .about-title {
+        font-size: 5rem;
+    }
+    .about-text {
+        font-size: 1rem;
+        margin-top: 2.5rem;
+        margin-left: -30%;
+    }
+    .about-item-title {
+        font-size: 2rem;
+    }
+    .about-item {
+        font-size: 1.75rem;
+    }
+    .objetivos-title::before {
+        display: inline-block;
+        content: "";
+        border-top: .1rem solid black;
+        width: 50rem;
+        margin: 0 1rem;
+        transform: translateY(-1rem);
+    }
+    .objetivos-title {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:1900px) {
+    .about-title {
+        font-size: 4.5rem;
+    }
+    .about-text {
+        font-size: 1rem;
+        margin-top: 2.2rem;
+        margin-left: -20%;
+    }
+    .about-item-title {
+        font-size: 2rem;
+    }
+    .about-item {
+        font-size: 1.75rem;
+    }
+    .objetivos-title::before {
+        display: inline-block;
+        content: "";
+        border-top: .1rem solid black;
+        width: 40rem;
+        margin: 0 1rem;
+        transform: translateY(-1rem);
+    }
+    .objetivos-title {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:1500px) {
+    .about-item-title {
+        font-size: 1.5rem;
+    }
+    .about-item {
+        font-size: 1.25rem;
+    }
+    .objetivos-title::before {
+        display: inline-block;
+        content: "";
+        border-top: .1rem solid black;
+        width: 30rem;
+        margin: 0 1rem;
+        transform: translateY(-1rem);
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .about-title {
+        font-size: 4rem;
+    }
+    .about-text {
+        font-size: 0.8rem;
+        margin-top: 2rem;
+        margin-left: -10%;
+    }
+    .objetivos-title::before {
+        display: inline-block;
+        content: "";
+        border-top: .1rem solid black;
+        width: 20rem;
+        margin: 0 1rem;
+        transform: translateY(-0.7rem);
+    }
+    .objetivos-title {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .about-title {
+        font-size: 3.5rem;
+    }
+    .about-text {
+        font-size: 0.8rem;
+        margin-top: 1.7rem;
+        margin-left: -9%;
+    }
+    .about-item-title {
+        font-size: 1.2rem;
+    }
+    .about-item {
+        font-size: 0.95rem;
+    }
+    .objetivos-title::before {
+        display: inline-block;
+        content: "";
+        border-top: .1rem solid black;
+        width: 15rem;
+        margin: 0 1rem;
+        transform: translateY(-0.6rem);
+    }
+    .objetivos-title {
+        font-size: 1.5rem;
+    }
+    .objetivos-item {
+        font-size: 0.7rem !important;
+    }
+    .objetivos-logos {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .about-title {
+        font-size: 2.7rem;
+    }
+    .about-text {
+        font-size: 0.6rem;
+        margin-top: 1.35rem;
+        margin-left: -9%;
+    }
+    .about-item-title {
+        font-size: 1rem;
+    }
+    .about-item {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .about-title {
+        font-size: 2.4rem;
+    }
+    .about-text {
+        font-size: 0.5rem;
+        margin-top: 1.35rem;
+        margin-left: -9%;
+    }
+    .objetivos-title::before {
+        display: inline-block;
+        content: "";
+        border-top: .1rem solid black;
+        width: 8rem;
+        margin: 0 1rem;
+        transform: translateY(-0.3rem);
+    }
+    .objetivos-title {
+        font-size: 1.2rem;
+    }
+    .objetivos-item {
+        font-size: 0.5rem !important;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .about-title {
+        font-size: 2rem;
+    }
+    .about-text {
+        font-size: 0.3rem;
+        margin-top: 1.2rem;
+        margin-left: -9%;
+    }
+    .about-item-title {
+        font-size: 0.8rem;
+    }
+    .about-item {
+        font-size: 0.55rem;
+    }
+    .objetivos-title::before {
+        display: inline-block;
+        content: "";
+        border-top: .1rem solid black;
+        width: 5rem;
+        margin: 0 1rem;
+        transform: translateY(-0.3rem);
+    }
+    .objetivos-title {
+        font-size: 1rem;
+    }
+    .objetivos-logos {
+        width: 25px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .about-title {
+        font-size: 1.5rem;
+    }
+    .about-text {
+        font-size: 0.1rem;
+        margin-top: 0.8rem;
+        margin-left: 0%;
+    }
+}
+
+
+/* TIMELINE */
+
+a {
+    text-decoration: none
+}
+
+h4 {
+    text-align: center;
+    margin: 30px 0;
+    color: #444
+}
+
+.main-timeline {
+    position: relative
+}
+
+.main-timeline:before {
+    content: "";
+    width: 5px;
+    height: 100%;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: #242922;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+.main-timeline .timeline {
+    display: inline-block;
+    margin-bottom: 50px;
+    position: relative
+}
+
+.main-timeline .timeline:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    background: #ec496e;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%)
+}
+
+.main-timeline .timeline-icon {
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid #ec496e;
+    padding: 13px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translateY(-50%)
+}
+
+.main-timeline .timeline-icon i {
+    display: block;
+    border-radius: 50%;
+    background: #ec496e;
+    font-size: 64px;
+    color: #fff;
+    line-height: 100px;
+    z-index: 1;
+    position: relative
+}
+
+.main-timeline .timeline-icon:after,
+.main-timeline .timeline-icon:before {
+    content: "";
+    width: 100px;
+    height: 4px;
+    background: #ec496e;
+    position: absolute;
+    top: 50%;
+    right: -100px;
+    transform: translateY(-50%)
+}
+
+.main-timeline .timeline-icon:after {
+    width: 70px;
+    height: 50px;
+    background: #fff;
+    top: 89px;
+    right: -30px
+}
+
+.main-timeline .timeline-content {
+    width: 50%;
+    padding: 0 50px;
+    margin: 52px 0 0;
+    float: right;
+    position: relative
+}
+
+.main-timeline .timeline-content:before {
+    content: "";
+    width: 70%;
+    height: 100%;
+    border: 3px solid #ec496e;
+    border-top: none;
+    border-right: none;
+    position: absolute;
+    bottom: -13px;
+    left: 35px
+}
+
+.main-timeline .timeline-content:after {
+    content: "";
+    width: 37px;
+    height: 3px;
+    background: #ec496e;
+    position: absolute;
+    top: 13px;
+    left: 0
+}
+
+.main-timeline .title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ec496e;
+    text-transform: uppercase;
+    margin: 0 0 5px
+}
+
+.main-timeline .description {
+    display: inline-block;
+    font-size: 16px;
+    color: #404040;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin: 0
+}
+
+.main-timeline .timeline:nth-child(even) .timeline-icon {
+    left: auto;
+    right: 30%
+}
+
+.main-timeline .timeline:nth-child(even) .timeline-icon:before {
+    right: auto;
+    left: -100px
+}
+
+.main-timeline .timeline:nth-child(even) .timeline-icon:after {
+    right: auto;
+    left: -30px
+}
+
+.main-timeline .timeline:nth-child(even) .timeline-content {
+    float: left
+}
+
+.main-timeline .timeline:nth-child(even) .timeline-content:before {
+    left: auto;
+    right: 35px;
+    transform: rotateY(180deg)
+}
+
+.main-timeline .timeline:nth-child(even) .timeline-content:after {
+    left: auto;
+    right: 0
+}
+
+.main-timeline .timeline:nth-child(2n) .timeline-content:after,
+.main-timeline .timeline:nth-child(2n) .timeline-icon i,
+.main-timeline .timeline:nth-child(2n) .timeline-icon:before,
+.main-timeline .timeline:nth-child(2n):before {
+    background: #f9850f
+}
+
+.main-timeline .timeline:nth-child(2n) .timeline-icon {
+    border-color: #f9850f
+}
+
+.main-timeline .timeline:nth-child(2n) .title {
+    color: #f9850f
+}
+
+.main-timeline .timeline:nth-child(2n) .timeline-content:before {
+    border-left-color: #f9850f;
+    border-bottom-color: #f9850f
+}
+
+.main-timeline .timeline:nth-child(3n) .timeline-content:after,
+.main-timeline .timeline:nth-child(3n) .timeline-icon i,
+.main-timeline .timeline:nth-child(3n) .timeline-icon:before,
+.main-timeline .timeline:nth-child(3n):before {
+    background: #8fb800
+}
+
+.main-timeline .timeline:nth-child(3n) .timeline-icon {
+    border-color: #8fb800
+}
+
+.main-timeline .timeline:nth-child(3n) .title {
+    color: #8fb800
+}
+
+.main-timeline .timeline:nth-child(3n) .timeline-content:before {
+    border-left-color: #8fb800;
+    border-bottom-color: #8fb800
+}
+
+.main-timeline .timeline:nth-child(4n) .timeline-content:after,
+.main-timeline .timeline:nth-child(4n) .timeline-icon i,
+.main-timeline .timeline:nth-child(4n) .timeline-icon:before,
+.main-timeline .timeline:nth-child(4n):before {
+    background: #2fcea5
+}
+
+.main-timeline .timeline:nth-child(4n) .timeline-icon {
+    border-color: #2fcea5
+}
+
+.main-timeline .timeline:nth-child(4n) .title {
+    color: #2fcea5
+}
+
+.main-timeline .timeline:nth-child(4n) .timeline-content:before {
+    border-left-color: #2fcea5;
+    border-bottom-color: #2fcea5
+}
+
+@media only screen and (max-width:1200px) {
+    .main-timeline .timeline-icon:before {
+        width: 50px;
+        right: -50px
+    }
+    .main-timeline .timeline:nth-child(even) .timeline-icon:before {
+        right: auto;
+        left: -50px
+    }
+    .main-timeline .timeline-content {
+        margin-top: 75px
+    }
+}
+
+@media only screen and (max-width:990px) {
+    .main-timeline .timeline {
+        margin: 0 0 10px
+    }
+    .main-timeline .timeline-icon {
+        left: 25%
+    }
+    .main-timeline .timeline:nth-child(even) .timeline-icon {
+        right: 25%
+    }
+    .main-timeline .timeline-content {
+        margin-top: 115px
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .main-timeline {
+        padding-top: 50px
+    }
+    .main-timeline:before {
+        left: 80px;
+        right: 0;
+        margin: 0
+    }
+    .main-timeline .timeline {
+        margin-bottom: 70px
+    }
+    .main-timeline .timeline:before {
+        top: 0;
+        left: 83px;
+        right: 0;
+        margin: 0
+    }
+    .main-timeline .timeline-icon {
+        width: 60px;
+        height: 60px;
+        line-height: 40px;
+        padding: 5px;
+        top: 0;
+        left: 0
+    }
+    .main-timeline .timeline:nth-child(even) .timeline-icon {
+        left: 0;
+        right: auto
+    }
+    .main-timeline .timeline-icon:before,
+    .main-timeline .timeline:nth-child(even) .timeline-icon:before {
+        width: 25px;
+        left: auto;
+        right: -25px
+    }
+    .main-timeline .timeline-icon:after,
+    .main-timeline .timeline:nth-child(even) .timeline-icon:after {
+        width: 25px;
+        height: 30px;
+        top: 44px;
+        left: auto;
+        right: -5px
+    }
+    .main-timeline .timeline-icon i {
+        font-size: 30px;
+        line-height: 45px
+    }
+    .main-timeline .timeline-content,
+    .main-timeline .timeline:nth-child(even) .timeline-content {
+        width: 100%;
+        margin-top: -15px;
+        padding-left: 130px;
+        padding-right: 5px
+    }
+    .main-timeline .timeline:nth-child(even) .timeline-content {
+        float: right
+    }
+    .main-timeline .timeline-content:before,
+    .main-timeline .timeline:nth-child(even) .timeline-content:before {
+        width: 50%;
+        left: 120px
+    }
+    .main-timeline .timeline:nth-child(even) .timeline-content:before {
+        right: auto;
+        transform: rotateY(0)
+    }
+    .main-timeline .timeline-content:after,
+    .main-timeline .timeline:nth-child(even) .timeline-content:after {
+        left: 85px
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .main-timeline .timeline-content,
+    .main-timeline .timeline:nth-child(2n) .timeline-content {
+        padding-left: 110px
+    }
+    .main-timeline .timeline-content:before,
+    .main-timeline .timeline:nth-child(2n) .timeline-content:before {
+        left: 99px
+    }
+    .main-timeline .timeline-content:after,
+    .main-timeline .timeline:nth-child(2n) .timeline-content:after {
+        left: 65px
+    }
+}
