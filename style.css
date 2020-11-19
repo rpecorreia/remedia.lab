@@ -465,6 +465,9 @@ body {
 /* 5K*/
 
 @media screen and (max-width: 5120px) {
+    body .container {
+        max-width: 5120px;
+    }
     .normalbgtext {
         font-size: 3rem;
         color: #f0f0f0;
@@ -6319,6 +6322,9 @@ body {
     }
 }
 */
+
+
+/**/
 
 
 /* timeline2 */
