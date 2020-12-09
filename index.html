@@ -30,7 +30,8 @@
 <script src="bootstrap.min.js"></script>
 <!--owl carousel JS-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<script type="text/javascript" src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+<script type="text/javascript" src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js">
+</script>
 
 <body>
 
@@ -53,44 +54,53 @@
 
                 <div class="container h-100 d-flex flex-column">
 
-                    <div class="row m-0 d-flex flex-column">
-                        <!--Begin menu button-->
-                        <button id="modalActivate" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview" style="z-index: 51;margin:auto">
-                            <img src="assets/button-desktop-menu.png" style="width: 80%;" alt="menu">
-                        </button>
+                    <!--Begin Language-->
+
+                    <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
+
+                        <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                            PT
+                        </a>
+
+                        <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
+                            <a class="abtn btn" href="index-en.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">EN</a>
+                        </div>
+                    </div>
+
+                    <!--End Language-->
+
+                    <div class="row d-flex">
+                        <!--Begin logo-->
+                        <div class="col-4 " style="text-align: center;">
+                            <img id="myLogo" style="z-index:50; width:75%; margin: auto;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
+                        </div>
+                        <!--End logo-->
+
+                        <div class="col-4 " style="text-align: center;">
+
+                            <!--Begin menu button-->
+
+                            <button id="modalActivate" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview" style="z-index: 51;margin:auto; ">
+                                <img src="assets/button-desktop-menu.png" style="width: 70%;" alt="menu">
+                            </button>
+                        </div>
+
                         <!--End menu button-->
 
-                        <!--Begin Language-->
-                        <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
-
-                            <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                PT
-                            </a>
-
-                            <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
-                                <a class="abtn btn" href="index-en.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">EN</a>
-                            </div>
-                        </div>
-                        <!--End Language-->
 
                     </div>
-                    <!--Begin LOGO-->
-                    <div class="row m-0">
-                        <div class="col-4 col-sm-3">
-                            <img id="myLogo" style="z-index:50; width:75%; margin-top: -5%;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
-                        </div>
-                    </div>
 
-                    <!--End LOGO-->
 
                     <!--Begin main content title-->
+
+
                     <div class="row m-0 d-flex justify-content-end flex-column h-100">
 
                         <div class="row">
                             <div class="col-sm-6 col-md-6 col-lg-6 col-6">
 
                             </div>
-                            <div class="col-sm-5 col-md-5 col-lg-5 col-5 " id="myDIV" style="margin-bottom: -2%; ">
+                            <div class="col-sm-6 col-md-5 col-lg-5 col-5 " id="myDIV" style="margin-bottom: -2%; ">
                                 <div class="row thisrow" style=" margin-top: 43%; ">
                                     <div id="myTitleDiv" class="col-md-8 col-sm-8 col-8 titlediv" style="margin-top: -29%;">
                                         <h1 class="normalbgtext" id="maintxt">
@@ -118,6 +128,7 @@
 
                         </div>
                     </div>
+
                     <!--End main content title-->
 
                     <!-- Begin Modal menu content -->
@@ -380,35 +391,41 @@
             <div id="secondslide" class="carousel-item bg2" style="background-repeat: no-repeat; background-size: cover; height: 100vh; " alt="Second slide">
                 <div class="container h-100 d-flex flex-column">
 
-                    <div class="row m-0 d-flex flex-column">
-                        <!--Begin menu button-->
-                        <button id="modalActivate" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview2" style="z-index: 51;margin:auto">
-                            <img src="assets/button-desktop-menu.png" alt="menu">
-                        </button>
+                    <!--Begin Language-->
+
+                    <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
+
+                        <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                                PT
+                                            </a>
+
+                        <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
+                            <a class="abtn btn" href="index-en.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">EN</a>
+                        </div>
+                    </div>
+
+                    <!--End Language-->
+
+                    <div class="row d-flex">
+                        <!--Begin logo-->
+                        <div class="col-4 " style="text-align: center;">
+                            <img id="myLogo" style="z-index:50; width:75%; margin: auto;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
+                        </div>
+                        <!--End logo-->
+
+                        <div class="col-4 " style="text-align: center;">
+
+                            <!--Begin menu button-->
+
+                            <button id="modalActivate" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview" style="z-index: 51;margin:auto; ">
+                                                    <img src="assets/button-desktop-menu.png" style="width: 70%;" alt="menu">
+                                                </button>
+                        </div>
+
                         <!--End menu button-->
 
-                        <!--Begin Language-->
-                        <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
-
-                            <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                PT
-                            </a>
-
-                            <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
-                                <a class="abtn btn" href="index-en.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">EN</a>
-                            </div>
-                        </div>
-                        <!--End Language-->
 
                     </div>
-                    <!--Begin LOGO-->
-                    <div class="row m-0">
-                        <div class="col-4 col-sm-3">
-                            <img id="myLogo2" style="z-index:50; width:75%; margin-top: -5%;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
-                        </div>
-                    </div>
-
-                    <!--End LOGO-->
 
                     <!--Begin main content title-->
                     <div class="row m-0 d-flex justify-content-end flex-column h-100">
@@ -692,35 +709,41 @@
             <div class="carousel-item bg3" style="background-repeat: no-repeat; background-size: cover; height: 100vh; " alt="Third slide">
                 <div class="container h-100 d-flex flex-column">
 
-                    <div class="row m-0 d-flex flex-column">
-                        <!--Begin menu button-->
-                        <button id="modalActivate" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview3" style="z-index: 51;margin:auto">
-                            <img src="assets/button-desktop-menu.png" alt="menu">
-                        </button>
+                    <!--Begin Language-->
+
+                    <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
+
+                        <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                                PT
+                                            </a>
+
+                        <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
+                            <a class="abtn btn" href="index-en.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">EN</a>
+                        </div>
+                    </div>
+
+                    <!--End Language-->
+
+                    <div class="row d-flex">
+                        <!--Begin logo-->
+                        <div class="col-4 " style="text-align: center;">
+                            <img id="myLogo" style="z-index:50; width:75%; margin: auto;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
+                        </div>
+                        <!--End logo-->
+
+                        <div class="col-4 " style="text-align: center;">
+
+                            <!--Begin menu button-->
+
+                            <button id="modalActivate" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview" style="z-index: 51;margin:auto; ">
+                                                    <img src="assets/button-desktop-menu.png" style="width: 70%;" alt="menu">
+                                                </button>
+                        </div>
+
                         <!--End menu button-->
 
-                        <!--Begin Language-->
-                        <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
-
-                            <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                PT
-                            </a>
-
-                            <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
-                                <a class="abtn btn" href="index-en.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">EN</a>
-                            </div>
-                        </div>
-                        <!--End Language-->
 
                     </div>
-                    <!--Begin LOGO-->
-                    <div class="row m-0">
-                        <div class="col-4 col-sm-3">
-                            <img id="myLogo4" style="z-index:50; width:75%; margin-top: -5%;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
-                        </div>
-                    </div>
-
-                    <!--End LOGO-->
 
                     <!--Begin main content title-->
                     <div class="row m-0 d-flex justify-content-end flex-column h-100">
@@ -1071,35 +1094,41 @@
 
                 <div class="container h-100 d-flex flex-column">
 
-                    <div class="row m-0 d-flex flex-column">
-                        <!--Begin menu button-->
-                        <button id="modalActivate" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview4" style="z-index: 51;margin:auto">
-                            <img src="assets/button-desktop-menu.png" alt="menu">
-                        </button>
+                    <!--Begin Language-->
+
+                    <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
+
+                        <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                                PT
+                                            </a>
+
+                        <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
+                            <a class="abtn btn" href="index-en.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">EN</a>
+                        </div>
+                    </div>
+
+                    <!--End Language-->
+
+                    <div class="row d-flex">
+                        <!--Begin logo-->
+                        <div class="col-4 " style="text-align: center;">
+                            <img id="myLogo" style="z-index:50; width:75%; margin: auto;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
+                        </div>
+                        <!--End logo-->
+
+                        <div class="col-4 " style="text-align: center;">
+
+                            <!--Begin menu button-->
+
+                            <button id="modalActivate" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview" style="z-index: 51;margin:auto; ">
+                                                    <img src="assets/button-desktop-menu.png" style="width: 70%;" alt="menu">
+                                                </button>
+                        </div>
+
                         <!--End menu button-->
 
-                        <!--Begin Language-->
-                        <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
-
-                            <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                PT
-                            </a>
-
-                            <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
-                                <a class="abtn btn" href="index-en.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">EN</a>
-                            </div>
-                        </div>
-                        <!--End Language-->
 
                     </div>
-                    <!--Begin LOGO-->
-                    <div class="row m-0">
-                        <div class="col-4 col-sm-3">
-                            <img id="myLogo3" style="z-index:50; width:75%; margin-top: -5%;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
-                        </div>
-                    </div>
-
-                    <!--End LOGO-->
 
                     <!--Begin main content title-->
                     <div class="row m-0 d-flex justify-content-end flex-column h-100">
@@ -1245,11 +1274,12 @@
                                 <div class="col-4 resize" style="margin-left: -6%;">
                                     <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; line-height: 0.9cm; text-align: justify;">
                                         “O pulsar da proximidade nos media e no jornalismo” é o título do livro que resulta de uma selecção de estudos apresentados durante a <a href="https://labcom-ifp.ubi.pt/localmedia/" target="__blank">Local Media
-                                            Fal{l} School</a> (19-21 de Setembro de 2019) e lançado recentemente. <br><br> “A pesquisa em torno dos media de proximidade, sejam eles de âmbito regional, local, hiperlocal ou até comunitário, tem suscitado
-                                        um interesse crescente nos anos mais recentes, por parte da comunidade académica. Após um período de discursos em torno da globalização, potenciados pelo desenvolvimento tecnológico, mas sobretudo pelo aparecimento
-                                        da Internet, a tendência agora parecer ser a de apelar a um retorno ao local. Na essência deste retorno está o reconhecimento da importância de (re)visitar territórios e comunidades e (re)descobrir identidades.
-                                        Para tal é preciso parar, olhar e voltar a olhar, dialogar, conhecer. E ler”, escrevem os editores Pedro Jerónimo e João Carlos Correia na introdução do livro. <br><br> O livro está <a href="http://www.labcom.ubi.pt/book/352"
-                                            target="__blank">acessível gratuitamente</a> através do site do LabCom, unidade de investigação onde está integrado o Re/media.Lab.
+                                            Fal{l} School</a> (19-21 de Setembro de 2019) e lançado recentemente.
+                                        <br><br> “A pesquisa em torno dos media de proximidade, sejam eles de âmbito regional, local, hiperlocal ou até comunitário, tem suscitado um interesse crescente nos anos mais recentes, por parte da comunidade académica.
+                                        Após um período de discursos em torno da globalização, potenciados pelo desenvolvimento tecnológico, mas sobretudo pelo aparecimento da Internet, a tendência agora parecer ser a de apelar a um retorno ao local.
+                                        Na essência deste retorno está o reconhecimento da importância de (re)visitar territórios e comunidades e (re)descobrir identidades. Para tal é preciso parar, olhar e voltar a olhar, dialogar, conhecer. E ler”,
+                                        escrevem os editores Pedro Jerónimo e João Carlos Correia na introdução do livro. <br><br> O livro está <a href="http://www.labcom.ubi.pt/book/352" target="__blank">acessível gratuitamente</a> através do site do
+                                        LabCom, unidade de investigação onde está integrado o Re/media.Lab.
                                     </h2>
                                     <br><br>
 
@@ -1377,35 +1407,41 @@
             <div class="carousel-item bg5" style="background-repeat: no-repeat; background-size: cover; height: 100vh; " alt="Fifth slide">
                 <div class="container h-100 d-flex flex-column">
 
-                    <div class="row m-0 d-flex flex-column">
-                        <!--Begin menu button-->
-                        <button id="modalActivate" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview5" style="z-index: 51;margin:auto">
-                            <img src="assets/button-desktop-menu.png" alt="menu">
-                        </button>
+                    <!--Begin Language-->
+
+                    <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
+
+                        <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                                PT
+                                            </a>
+
+                        <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
+                            <a class="abtn btn" href="index-en.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">EN</a>
+                        </div>
+                    </div>
+
+                    <!--End Language-->
+
+                    <div class="row d-flex">
+                        <!--Begin logo-->
+                        <div class="col-4 " style="text-align: center;">
+                            <img id="myLogo" style="z-index:50; width:75%; margin: auto;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
+                        </div>
+                        <!--End logo-->
+
+                        <div class="col-4 " style="text-align: center;">
+
+                            <!--Begin menu button-->
+
+                            <button id="modalActivate" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview" style="z-index: 51;margin:auto; ">
+                                                    <img src="assets/button-desktop-menu.png" style="width: 70%;" alt="menu">
+                                                </button>
+                        </div>
+
                         <!--End menu button-->
 
-                        <!--Begin Language-->
-                        <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
-
-                            <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                PT
-                            </a>
-
-                            <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
-                                <a class="abtn btn" href="index-en.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">EN</a>
-                            </div>
-                        </div>
-                        <!--End Language-->
 
                     </div>
-                    <!--Begin LOGO-->
-                    <div class="row m-0">
-                        <div class="col-4 col-sm-3">
-                            <img id="myLogo5" style="z-index:50; width:75%; margin-top: -5%;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
-                        </div>
-                    </div>
-
-                    <!--End LOGO-->
 
                     <!--Begin main content title-->
                     <div class="row m-0 d-flex justify-content-end flex-column h-100">
