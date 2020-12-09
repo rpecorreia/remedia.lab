@@ -1812,30 +1812,46 @@
 
             }
 
+            var x = 0; //modal | 0-> modal fechado | 1 -> modal aberto
+            var y = 0; //collapse | 0-> collapse fechado | 1 -> collapse aberto
 
-            $('.modal').on('shown.bs.modal', function(e) {
-                $('.carousel').carousel('pause');
-            })
+            if (x == 0) {
+                $('.modal').on('shown.bs.modal', function(e) {
+                    $('.carousel').carousel('pause');
+                })
+                x = 1;
+            }
 
-            $('.modal').on('hide.bs.modal', function(e) {
-                $('.carousel').carousel('cycle');
-            })
+            if (x == 1) {
+                $('.modal').on('hide.bs.modal', function(e) {
+                    $('.carousel').carousel('cycle');
+                })
+                x = 0;
+            }
 
-            $('.collapse').on('show.bs.collapse', function(e) {
-                $('.carousel').carousel('pause');
-            })
+            if (y == 0) {
+                $('.collapse').on('show.bs.collapse', function(e) {
+                    $('.carousel').carousel('pause');
+                })
+                y=1;
+            }
 
-            $('.collapse').on('hide.bs.collapse', function(e) {
-                $('.carousel').carousel('cycle');
-            })
+            if (y == 1) {
+                $('.collapse').on('hide.bs.collapse', function(e) {
+                    $('.carousel').carousel('cycle');
+                })
+                y=0;
+            }
 
 
+            if(x == 0 && y == 0){
             $(function() {
                 $('#carouselExampleIndicators').carousel({
                     pause: "false",
                 });
 
             });
+        }
 
             $('.owl-carousel').owlCarousel({
                 autoplay: true,
