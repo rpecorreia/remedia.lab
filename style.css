@@ -3943,14 +3943,12 @@ body {
     .rownumb {
         margin-left: -15% !important;
     }
-
     .normalbgtext {
         font-size: 1.5rem;
         color: #f0f0f0;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         margin-left: 2rem;
     }
-
     .normalbgtext h1 {
         background-color: chocolate;
     }
@@ -3974,7 +3972,6 @@ body {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 2.3rem !important;
     }
-
     .secondarybgtext {
         font-size: 1.3rem;
         color: #f0f0f0;
@@ -6632,7 +6629,7 @@ body {
 
 @media screen and (min-width:2560px) {
     .news {
-        font-size: 1.8rem !important;
+        font-size: 2rem !important;
     }
 }
 
@@ -6759,26 +6756,27 @@ body {
     }
 }
 
-
-  .navbar {
-    background-color:transparent;
-  }
-  nav {
-    height:130px;
-  }
-  .navbar-nav {
-    margin:auto;
-    border-top: 2px solid  rgb(75, 75, 75);
-    border-bottom: 2px solid  rgb(75, 75, 75);  
+.navbar {
+    background-color: transparent;
 }
-  .nav-link {
-    margin:10px 25px;
-    color:black;
+
+nav {
+    height: 130px;
+}
+
+.navbar-nav {
+    margin: auto;
+    border-top: 2px solid rgb(75, 75, 75);
+    border-bottom: 2px solid rgb(75, 75, 75);
+}
+
+.nav-link {
+    margin: 10px 25px;
+    color: black;
     font-size: 1.2rem;
-  }
+}
 
-
-  @media screen and (max-width:1440px) {
+@media screen and (max-width:1440px) {
     .nav-link {
         font-size: 1rem;
     }
@@ -6807,4 +6805,3 @@ body {
         font-size: 0.1rem;
     }
 }
-

@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
+
+
     <title>Re/media.lab</title>
 </head>
 
@@ -28,57 +30,64 @@
 <script src="bootstrap.min.js"></script>
 <!--owl carousel JS-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<script type="text/javascript" src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+<script type="text/javascript" src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js">
+</script>
 
 <body>
 
-
     <!--- SlideShow -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-interval="5000" data-ride="carousel">
 
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
         </ol>
 
         <div class="carousel-inner">
-            <div class="carousel-item active bg1" style="background-repeat: no-repeat; background-size: cover; height: 100vh; " alt="First slide">
+            <div class="carousel-item active bg1" style=" background-repeat: no-repeat; background-size: cover; height: 100vh; " alt="First slide">
 
                 <div class="carousel-caption ">
                 </div>
 
                 <div class="container h-100 d-flex flex-column">
 
-                    <div class="row m-0 d-flex flex-column">
-                        <!--Begin menu button-->
-                        <button id="modalActivate" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview" style="z-index: 51;margin:auto">
-                            <img src="assets/button-desktop-menu.png" style="width: 80%;" alt="menu">
-                        </button>
+                    <!--Begin Language-->
+
+                    <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
+
+                        <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                            EN
+                        </a>
+
+                        <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
+                            <a class="abtn btn" href="index.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">PT</a>
+                        </div>
+                    </div>
+
+                    <!--End Language-->
+
+                    <div class="row d-flex">
+                        <!--Begin logo-->
+                        <div class="col-4 " style="text-align: left;">
+                            <img id="myLogo" style="z-index:50; width:60%; margin: auto;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
+                        </div>
+                        <!--End logo-->
+
+                        <div class="col-4 " style="text-align: center;">
+
+                            <!--Begin menu button-->
+
+                            <button id="modalActivate1" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview" style="z-index: 51;margin:auto; ">
+                                <img src="assets/button-desktop-menu.png" style="width: 90%;" alt="menu">
+                            </button>
+                        </div>
+
                         <!--End menu button-->
 
-                        <!--Begin Language-->
-                        <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
-
-                            <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                EN
-                            </a>
-
-                            <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
-                                <a class="abtn btn" href="index.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">PT</a>
-                            </div>
-                        </div>
-                        <!--End Language-->
-
                     </div>
-                    <!--Begin LOGO-->
-                    <div class="row m-0">
-                        <div class="col-4 col-sm-3">
-                            <img id="myLogo" style="z-index:50; width:75%; margin-top: -5%;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
-                        </div>
-                    </div>
-
-                    <!--End LOGO-->
 
                     <!--Begin main content title-->
 
@@ -88,19 +97,19 @@
                             <div class="col-sm-6 col-md-6 col-lg-6 col-6">
 
                             </div>
-                            <div class="col-sm-5 col-md-5 col-lg-5 col-5 " id="myDIV" style="margin-bottom: -2%; ">
+                            <div class="col-sm-6 col-md-5 col-lg-5 col-5 " id="myDIV" style="margin-bottom: -2%; ">
                                 <div class="row thisrow" style=" margin-top: 43%; ">
-                                    <div id="myTitleDiv" class="col-md-8 col-sm-8 col-8 titlediv" style="margin-top: -29%;">
+                                    <div id="myTitleDiv" class="col-md-8 col-sm-8 col-8 titlediv no" style="margin-top: -29%;">
                                         <h1 class="normalbgtext" id="maintxt">
                                             ELEMENTS <br> OF JOURNALISM <br> IN THE NEW <br> DIGITAL ECOSYSTEM</h1>
                                         <h2 class="secondarybgtext"> with Walter Dean </h2>
-
                                     </div>
+
                                     <div id="myNrDiv" class="col-md-4 col-sm-4 col-4 nrdiv" style="margin-left: -5%; margin-top: -8%;  z-index:100;">
                                         <div class="row rownumb" style="margin-top: -63%;">
                                             <h3 class="normalbgtext2" style="font-weight: lighter;"> 1 </h3>
                                             <h3 class="normalbgtext2" style="font-weight: normal;">/</h3>
-                                            <h3 class="normalbgtext2" style="font-weight: bold;">3</h3>
+                                            <h3 class="normalbgtext2" style="font-weight: bold;">5</h3>
                                         </div>
                                         <div class="row" data-scroll href="#ola">
                                             <button style=" position: relative; margin-top: 25%; margin-left: 15%; border-width: 0px !important; outline: none !important; " class="btn" type="button" data-toggle="collapse" data-target="#collapseExample" data-scroll="#ola" aria-expanded="false" aria-controls="ola"
@@ -116,6 +125,7 @@
 
                         </div>
                     </div>
+
                     <!--End main content title-->
 
                     <!-- Begin Modal menu content -->
@@ -147,7 +157,7 @@
 
                                 <div class="modal-body" style="z-index: 52; margin-top: 5%; margin-bottom: 20%;">
                                     <ul class="categories-list">
-                                        <li><a href="index.html" class=" strikeout menulist"> HOME</a></li>
+                                        <li><a href="index-en.html" class=" strikeout menulist"> HOME</a></li>
                                         <li><a href="news/en.html" class="strikeout menulist"> NEWS</a></li>
                                         <li><a href="about/en.html" class="strikeout menulist">ABOUT</a></li>
                                         <li><a href="team/en.html" class="strikeout menulist">TEAM</a></li>
@@ -261,8 +271,6 @@
                             </div>
 
 
-
-
                             <div class="my-5 text-center">
                                 <div class="row d-flex align-items-center">
                                     <div class="col-1"><br></div>
@@ -271,24 +279,28 @@
                                     <div class="col-7">
                                         <!--Start carousel-->
 
-                                        <div class="owl-carousel owl-theme owl-loaded" style="margin-left:10%; width: 100%;">
+                                        <div class="owl-carousel owl-theme owl-loaded" style="margin-left:10%; width: 100%; margin-top: 5%;">
                                             <div class="owl-stage-outer">
 
                                                 <div class="owl-stage">
 
                                                     <div class="owl-item">
-                                                        <a href='index.html?slide=0'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-01.jpg"> </a>
+                                                        <a href='index-en.html?slide=0'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-01.jpg"> </a>
                                                     </div>
 
                                                     <div class="owl-item">
-                                                        <a href='index.html?slide=1'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-02.jpg"> </a>
+                                                        <a href='index-en.html?slide=1'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-02.jpg"> </a>
                                                     </div>
                                                     <div class="owl-item">
-                                                        <a href='index.html?slide=2'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-03.jpg"> </a>
+                                                        <a href='index-en.html?slide=2'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-03.jpg"> </a>
                                                     </div>
 
                                                     <div class="owl-item">
-                                                        <a href='index.html?slide=3'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-04.jpg"> </a>
+                                                        <a href='index-en.html?slide=3'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-04.jpg"> </a>
+                                                    </div>
+
+                                                    <div class="owl-item">
+                                                        <a href='index-en.html?slide=4'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-05.jpg"> </a>
                                                     </div>
 
                                                 </div>
@@ -310,71 +322,58 @@
                                 </div>
 
 
-                                <div class="container-fluid" style="margin-top: 7rem;">
-                                    <div class="row top-buffer" style="position: relative; margin-top: 11%; ">
+                                <div class="container-fluid" style="margin-top: 10rem;">
+                                    <div class="row top-buffer" style="position: relative; ">
 
-                                        <div class="col-lg-1 col-1">
+                                        <div class="col-2" style="margin-left: 3%;">
                                         </div>
 
-                                        <div class="col-lg-1 col-1">
+                                        <div class="col-1">
+                                            <img style="z-index: 52; width: 100%;  margin-top: 0.5%;  " src="../assets/logo-desktop-fct.png" alt="img">
                                         </div>
 
-                                        <div class="col-lg-1 col-1">
-                                            <img style="z-index: 52; width: 100%; margin-top: -1%; " src="assets/logo-desktop-labcom.png" alt="img">
+                                        <div class="col-1">
+                                            <img class="logo-ue" style="z-index: 52; width: 100%; margin: auto; margin-bottom: -42%;" src="../assets/logo-desktop-ue.png" alt="img">
                                         </div>
 
-                                        <div class="col-lg-1 col-1">
-                                            <img style="z-index: 52; width: 100%; margin-top: -24.4%; " src="assets/logo-desktop-ubi.png" alt="img">
+                                        <div class="col-1">
+                                            <img style="z-index: 52; width: 100%; margin: auto; margin-top: 3%; " src="../assets/logo-desktop-2020.png" alt="img">
                                         </div>
 
-                                        <div class="col-lg-1 col-1">
-                                            <img class="img-responsive" style="z-index: 52; width: 100%; margin-top: -24%; " src="assets/logo-desktop-fal2020.png" alt="img">
+                                        <div class="col-1">
+                                            <img style="z-index: 52; width: 100%; margin-top: 1%; " src="../assets/logo-desktop-portugal2020.png" alt="img">
                                         </div>
 
-                                        <div class="col-lg-1 col-1">
-                                            <img style="z-index: 52; width: 100%; margin-top: 4%; " src="assets/logo-desktop-remedia.png" alt="img">
+                                        <div class="col-1">
+                                            <img style="z-index: 52; width: 100%; margin-top: -25%; " src="../assets/logo-desktop-ubi.png" alt="img">
                                         </div>
 
-                                        <div class="col-lg-1 col-1">
-                                            <img style="z-index: 52; width: 100%;  margin-top: 0.5%;  " src="assets/logo-desktop-fct.png" alt="img">
+                                        <div class="col-1 ">
+                                            <img class="img-responsive" style="z-index: 52; width: 100%; margin-top: -24%; " src="../assets/logo-desktop-fal2020.png" alt="img">
                                         </div>
 
-                                        <div class="col-lg-1 col-1">
-                                            <img style="z-index: 52; width: 100%; margin: auto; margin-top: 3%; " src="assets/logo-desktop-2020.png" alt="img">
+                                        <div class="col-1">
+                                            <img style="z-index: 52; width: 100%; margin-top: -1%; " src="../assets/logo-desktop-labcom.png" alt="img">
                                         </div>
 
-                                        <div class="col-lg-1 col-1">
-                                            <img style="z-index: 52; width: 100%; margin-top: 1%; " src="assets/logo-desktop-portugal2020.png" alt="img">
+                                        <div class="col-2" style="margin-left: 3%;">
                                         </div>
 
-                                        <div class="col-lg-1 col-1 ">
-                                            <img class="logo-ue" style="z-index: 52; width: 100%; margin: auto; margin-bottom: -33%;" src="assets/logo-desktop-ue.png" alt="img">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-lg-1 col-1">
                                     </div>
 
-                                    <div class="col-lg-1 col-1">
+                                    <div class="row">
+                                        <div class="col-4">
+                                        </div>
+
+                                        <div class="col-4">
+                                            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; font-size: 0.8rem; text-align: center;">
+                                                <span class="text-muted">&copy; Re/media.lab 2020</span>
+                                            </p>
+                                        </div>
+
+                                        <br>
                                     </div>
 
-                                    <div class="col-lg-1 col-1">
-                                    </div>
-
-                                    <div class="col-lg-1 col-1">
-                                    </div>
-
-                                    <div class="col-lg-1 col-1">
-                                    </div>
-
-                                    <div class="col-lg-2 col-2">
-                                        <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; font-size: 0.8rem; text-align: center;">
-                                            <span class="text-muted">&copy; Re/media.lab 2020</span>
-                                        </p>
-                                    </div>
-                                    <br>
                                 </div>
 
                             </div>
@@ -386,41 +385,48 @@
 
             <!------------------------------------------SECOND SLIDE-------------------------------------------->
 
-            <div class="carousel-item bg2" style="background-repeat: no-repeat; background-size: cover; height: 100vh; " alt="Second slide">
+            <div id="secondslide" class="carousel-item bg2" style="background-repeat: no-repeat; background-size: cover; height: 100vh; " alt="Second slide">
                 <div class="container h-100 d-flex flex-column">
 
-                    <div class="row m-0 d-flex flex-column">
-                        <!--Begin menu button-->
-                        <button id="modalActivate" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview2" style="z-index: 51;margin:auto">
-                            <img src="assets/button-desktop-menu.png" alt="menu">
-                        </button>
+                    <!--Begin Language-->
+
+                    <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
+
+                        <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                                EN
+                                            </a>
+
+                        <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
+                            <a class="abtn btn" href="index.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">PT</a>
+                        </div>
+                    </div>
+
+                    <!--End Language-->
+
+                    <div class="row d-flex">
+                        <!--Begin logo-->
+                        <div class="col-4 " style="text-align: left;">
+                            <img id="myLogo" style="z-index:50; width:60%; margin: auto;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
+                        </div>
+                        <!--End logo-->
+
+                        <div class="col-4 " style="text-align: center;">
+
+                            <!--Begin menu button-->
+
+                            <button id="modalActivate2" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview2" style="z-index: 51;margin:auto; ">
+                                                    <img src="assets/button-desktop-menu.png" style="width: 90%;" alt="menu">
+                                                </button>
+                        </div>
+
                         <!--End menu button-->
 
-                        <!--Begin Language-->
-                        <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
-
-                            <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                EN
-                            </a>
-
-                            <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
-                                <a class="abtn btn" href="index.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">PT</a>
-                            </div>
-                        </div>
-                        <!--End Language-->
 
                     </div>
-                    <!--Begin LOGO-->
-                    <div class="row m-0">
-                        <div class="col-4 col-sm-3">
-                            <img id="myLogo2" style="z-index:50; width:75%; margin-top: -5%;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
-                        </div>
-                    </div>
-
-                    <!--End LOGO-->
 
                     <!--Begin main content title-->
                     <div class="row m-0 d-flex justify-content-end flex-column h-100">
+
                         <div class="row">
                             <div class="col-sm-6 col-md-6 col-lg-6 col-6">
 
@@ -434,7 +440,7 @@
                                         <div class="row rownumb" style="margin-top: -63%;">
                                             <h3 class="normalbgtext2" style="font-weight: lighter;"> 2 </h3>
                                             <h3 class="normalbgtext2" style="font-weight: normal;">/</h3>
-                                            <h3 class="normalbgtext2" style="font-weight: bold;">3</h3>
+                                            <h3 class="normalbgtext2" style="font-weight: bold;">5</h3>
                                         </div>
                                         <div class="row" data-scroll href="#ola">
                                             <button style=" position: relative; margin-top: 25%; margin-left: 15%; border-width: 0px !important; outline: none !important; " class="btn" type="button" data-toggle="collapse" data-target="#collapseExample" data-scroll="#ola" aria-expanded="false" aria-controls="ola"
@@ -481,7 +487,7 @@
 
                                 <div class="modal-body" style="z-index: 52; margin-top: 5%; margin-bottom: 20%;">
                                     <ul class="categories-list">
-                                        <li><a href="index.html" class=" strikeout menulist"> HOME</a></li>
+                                        <li><a href="index-en.html" class=" strikeout menulist"> HOME</a></li>
                                         <li><a href="news/en.html" class="strikeout menulist"> NEWS</a></li>
                                         <li><a href="about/en.html" class="strikeout menulist">ABOUT</a></li>
                                         <li><a href="team/en.html" class="strikeout menulist">TEAM</a></li>
@@ -546,14 +552,14 @@
                     <!-- End Modal menu content -->
                     <!--Begin Collapse new content-->
                     <div class="collapse" id="collapseExample" data-toggle="collapse" style="width: 91.67%; ">
-                        <div class="card card-body p-0 noborder" id="ola" style="z-index: 50;">
+                        <div class="card card-body p-0 noborder" id="ola2" style="z-index: 50;">
 
                             <div class="row" style="margin-top: 5%;">
                                 <div class="col-5" style="margin-left: 0.6%; width: 90.6%;">
                                     <p style="color: #ffffff;"></p>
                                     <br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-                                    <img src="assets/IMG_5558.jpg" alt="photo" style="width: 60%; margin-left: 20%;" ;>
+                                    <img src="assets/fall_side.jpg" alt="photo" style="width: 60%; margin-left: 20%;" ;>
                                 </div>
                                 <div class="col-1 ">
                                     <br><br><br><br><br><br><br><br>
@@ -569,7 +575,7 @@
                                     </div>
                                     <br><br>
                                     <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; line-height: 0.9cm; text-align: justify;">
-                                        This was an especially practical initiative, which revolved around wokshops on journalism on mobile devices and which had at the Cherovia Festival - which was taking place simultaneously in Covilhã - a privileged event for experimentation.
+                                        This was an especially practical initiative, which revolved around wokshops on journalism on mobile devices and which had place at the Cherovia Festival - which was taking place simultaneously in Covilhã - a privileged event for experimentation.
                                     </h2>
                                     <br><br>
 
@@ -588,26 +594,32 @@
                                     <div class="col-7">
                                         <!--Start carousel-->
 
-                                        <div class="owl-carousel owl-theme owl-loaded" style="margin-left:10%; width: 100%;">
+                                        <div class="owl-carousel owl-theme owl-loaded" style="margin-left:10%; width: 100%; margin-top: 5%;">
                                             <div class="owl-stage-outer">
+
                                                 <div class="owl-stage">
-                                                    <div class="owl-item"> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-01.jpg">
-                                                        <div class='edit_hover_class'>
-                                                            <a href='index.html?slide=0'><img src='assets/see-more.png' /></a>
-                                                        </div>
+
+                                                    <div class="owl-item">
+                                                        <a href='index-en.html?slide=0'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-01.jpg"> </a>
                                                     </div>
-                                                    <div class="owl-item"> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-02.jpg">
-                                                        <div class='edit_hover_class'>
-                                                            <a href='index.html?slide=1'><img src='assets/see-more.png' /></a>
-                                                        </div>
+
+                                                    <div class="owl-item">
+                                                        <a href='index-en.html?slide=1'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-02.jpg"> </a>
                                                     </div>
-                                                    <div class="owl-item"> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-03.jpg">
-                                                        <div class='edit_hover_class'>
-                                                            <a href='index.html?slide=2'><img src='assets/see-more.png' /></a>
-                                                        </div>
+                                                    <div class="owl-item">
+                                                        <a href='index-en.html?slide=2'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-03.jpg"> </a>
                                                     </div>
-                                                    <div class="owl-item"><img style="width: 100%;" src="assets/remedia.lab-thumbnail-04.jpg"></div>
+
+                                                    <div class="owl-item">
+                                                        <a href='index-en.html?slide=3'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-04.jpg"> </a>
+                                                    </div>
+
+                                                    <div class="owl-item">
+                                                        <a href='index-en.html?slide=4'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-05.jpg"> </a>
+                                                    </div>
+
                                                 </div>
+
                                                 <div class="owl-controls clickable">
 
                                                     <div class="owl-buttons">
@@ -615,78 +627,70 @@
                                                         <div class="owl-next"></div>
                                                     </div>
                                                 </div>
+
                                             </div>
 
                                             <!--End carousel-->
+
+
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="container-fluid" style="margin-top: 7rem;">
-                                    <div class="row top-buffer" style="position: relative; margin-top: 11%; ">
 
-                                        <div class="col-lg-1 col-1">
+
+                                <div class="container-fluid" style="margin-top: 10rem;">
+                                    <div class="row top-buffer" style="position: relative; ">
+
+                                        <div class="col-2" style="margin-left: 3%;">
                                         </div>
 
-                                        <div class="col-lg-1 col-1">
+                                        <div class="col-1">
+                                            <img style="z-index: 52; width: 100%;  margin-top: 0.5%;  " src="../assets/logo-desktop-fct.png" alt="img">
                                         </div>
 
-                                        <div class="col-lg-1 col-1">
-                                            <img style="z-index: 52; width: 100%; margin-top: -1%; " src="assets/logo-desktop-labcom.png" alt="img">
+                                        <div class="col-1">
+                                            <img class="logo-ue" style="z-index: 52; width: 100%; margin: auto; margin-bottom: -42%;" src="../assets/logo-desktop-ue.png" alt="img">
                                         </div>
 
-                                        <div class="col-lg-1 col-1">
-                                            <img style="z-index: 52; width: 100%; margin-top: -24.4%; " src="assets/logo-desktop-ubi.png" alt="img">
+                                        <div class="col-1">
+                                            <img style="z-index: 52; width: 100%; margin: auto; margin-top: 3%; " src="../assets/logo-desktop-2020.png" alt="img">
                                         </div>
 
-                                        <div class="col-lg-1 col-1">
-                                            <img class="img-responsive" style="z-index: 52; width: 100%; margin-top: -24%; " src="assets/logo-desktop-fal2020.png" alt="img">
+                                        <div class="col-1">
+                                            <img style="z-index: 52; width: 100%; margin-top: 1%; " src="../assets/logo-desktop-portugal2020.png" alt="img">
                                         </div>
 
-                                        <div class="col-lg-1 col-1">
-                                            <img style="z-index: 52; width: 100%; margin-top: 4%; " src="assets/logo-desktop-remedia.png" alt="img">
+                                        <div class="col-1">
+                                            <img style="z-index: 52; width: 100%; margin-top: -25%; " src="../assets/logo-desktop-ubi.png" alt="img">
                                         </div>
 
-                                        <div class="col-lg-1 col-1">
-                                            <img style="z-index: 52; width: 100%;  margin-top: 0.5%;  " src="assets/logo-desktop-fct.png" alt="img">
+                                        <div class="col-1 ">
+                                            <img class="img-responsive" style="z-index: 52; width: 100%; margin-top: -24%; " src="../assets/logo-desktop-fal2020.png" alt="img">
                                         </div>
 
-                                        <div class="col-lg-1 col-1">
-                                            <img style="z-index: 52; width: 100%; margin: auto; margin-top: 3%; " src="assets/logo-desktop-2020.png" alt="img">
+                                        <div class="col-1">
+                                            <img style="z-index: 52; width: 100%; margin-top: -1%; " src="../assets/logo-desktop-labcom.png" alt="img">
                                         </div>
 
-                                        <div class="col-lg-1 col-1">
-                                            <img style="z-index: 52; width: 100%; margin-top: 1%; " src="assets/logo-desktop-portugal2020.png" alt="img">
+                                        <div class="col-2" style="margin-left: 3%;">
                                         </div>
 
-                                        <div class="col-lg-1 col-1 ">
-                                            <img class="logo-ue" style="z-index: 52; width: 100%; margin: auto; margin-bottom: -33%;" src="assets/logo-desktop-ue.png" alt="img">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-lg-1 col-1">
                                     </div>
 
-                                    <div class="col-lg-1 col-1">
+                                    <div class="row">
+                                        <div class="col-4">
+                                        </div>
+
+                                        <div class="col-4">
+                                            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; font-size: 0.8rem; text-align: center;">
+                                                <span class="text-muted">&copy; Re/media.lab 2020</span>
+                                            </p>
+                                        </div>
+
+                                        <br>
                                     </div>
 
-                                    <div class="col-lg-1 col-1">
-                                    </div>
-
-                                    <div class="col-lg-1 col-1">
-                                    </div>
-
-                                    <div class="col-lg-1 col-1">
-                                    </div>
-
-                                    <div class="col-lg-2 col-2">
-                                        <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; font-size: 0.8rem; text-align: center;">
-                                            <span class="text-muted">&copy; Re/media.lab 2020</span>
-                                        </p>
-                                    </div>
-                                    <br>
                                 </div>
 
                             </div>
@@ -696,65 +700,70 @@
                 </div>
             </div>
 
-            <!----------------------------------------TERCEIRO SLIDE------------------------------------------------------>
+            <!------------------------------------------THIRD SLIDE-------------------------------------------->
 
             <div class="carousel-item bg3" style="background-repeat: no-repeat; background-size: cover; height: 100vh; " alt="Third slide">
-
                 <div class="container h-100 d-flex flex-column">
 
-                    <div class="row m-0 d-flex flex-column">
-                        <!--Begin menu button-->
-                        <button id="modalActivate" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview3" style="z-index: 51;margin:auto">
-                            <img src="assets/button-desktop-menu.png" alt="menu">
-                        </button>
+                    <!--Begin Language-->
+
+                    <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
+
+                        <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                                EN
+                                            </a>
+
+                        <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
+                            <a class="abtn btn" href="index.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">PT</a>
+                        </div>
+                    </div>
+
+                    <!--End Language-->
+
+                    <div class="row d-flex">
+                        <!--Begin logo-->
+                        <div class="col-4 " style="text-align: left;">
+                            <img id="myLogo" style="z-index:50; width:60%; margin: auto;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
+                        </div>
+                        <!--End logo-->
+
+                        <div class="col-4 " style="text-align: center;">
+
+                            <!--Begin menu button-->
+
+                            <button id="modalActivate3" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview3" style="z-index: 51;margin:auto; ">
+                                                    <img src="assets/button-desktop-menu.png" style="width: 90%;" alt="menu">
+                                                </button>
+                        </div>
+
                         <!--End menu button-->
 
-                        <!--Begin Language-->
-                        <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
-
-                            <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                EN
-                            </a>
-
-                            <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
-                                <a class="abtn btn" href="index.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">PT</a>
-                            </div>
-                        </div>
-                        <!--End Language-->
 
                     </div>
-                    <!--Begin LOGO-->
-                    <div class="row m-0">
-                        <div class="col-4 col-sm-3">
-                            <img id="myLogo3" style="z-index:50; width:75%; margin-top: -5%;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
-                        </div>
-                    </div>
-
-                    <!--End LOGO-->
 
                     <!--Begin main content title-->
                     <div class="row m-0 d-flex justify-content-end flex-column h-100">
+
                         <div class="row">
                             <div class="col-sm-6 col-md-6 col-lg-6 col-6">
 
                             </div>
-                            <div class="col-sm-5 col-md-5 col-lg-5 col-5 " id="myDIV3" style="margin-bottom: -2%; ">
-                                <div class="row thisrow" style=" margin-top: 43%;">
-                                    <div class="col-md-8 col-sm-8 col-8 marginslide3" id="margem1" style="margin-top: -29%;margin-left: -100%;">
-                                        <h1 class="normalbgtext3" id="maintxt3">AUTUMN<br>SCHOOL<br>GIVES RISE <br>TO A BOOK
-                                        </h1>
+                            <div class="col-sm-5 col-md-5 col-lg-5 col-5 " id="myDIV4" style="margin-bottom: -2%; ">
+                                <div class="row thisrow" style=" margin-top: 43%; ">
+                                    <div id="myTitleDiv4" class="col-md-8 col-sm-8 col-8 sl3 titlediv" style="margin-top: -29%;">
+                                        <h1 class="normalbgtext" id="maintxt4">RE/MEDIA.LAB <br> PRESENTS ME- <br> ASURES FOR THE <br> MEDIA SECTOR</h1>
                                     </div>
-                                    <div class="col-md-4 col-sm-4 col-4" id="margem2" style="margin-left: 100%; margin-top: -8%;  z-index:100;">
-                                        <div class="row rownumb" style="margin-top: -63%; ">
-                                            <h3 class="normalbgtext2-3" style="font-weight: lighter;"> 3 </h3>
-                                            <h3 class="normalbgtext2-3" style="font-weight: normal;  ">/</h3>
-                                            <h3 class="normalbgtext2-3" style="font-weight: bold;">3</h3>
+                                    <div id="myNrDiv4" class="col-md-4 col-sm-4 col-4 nrdiv" style="margin-left: -5%; margin-top: -8%;  z-index:100;">
+                                        <div class="row rownumb" style="margin-top: -63%;">
+                                            <h3 class="normalbgtext2" style="font-weight: lighter;"> 3 </h3>
+                                            <h3 class="normalbgtext2" style="font-weight: normal;">/</h3>
+                                            <h3 class="normalbgtext2" style="font-weight: bold;">5</h3>
                                         </div>
                                         <div class="row" data-scroll href="#ola">
                                             <button style=" position: relative; margin-top: 25%; margin-left: 15%; border-width: 0px !important; outline: none !important; " class="btn" type="button" data-toggle="collapse" data-target="#collapseExample" data-scroll="#ola" aria-expanded="false" aria-controls="ola"
-                                                onclick="myFunction3()" href="#ola">
-                                                <img id="myIcon3" class="icon2" data-scroll href="#ola" alt="button"
-                                                    src="assets/button-desktop-plus.png">
+                                                onclick="myFunction4()" href="#ola">
+                                                <img id="myIcon4" class="icon" data-scroll href="#ola" alt="button"
+                                                    src="assets/button-desktop-plus-white.png">
                                             </button>
                                         </div>
                                     </div>
@@ -784,6 +793,391 @@
                                     <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
 
                                         <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                            EN
+                                        </a>
+
+                                        <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
+                                            <a class="abtn btn" href="index.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">PT</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="modal-body" style="z-index: 52; margin-top: 5%; margin-bottom: 20%;">
+                                    <ul class="categories-list">
+                                        <li><a href="index-en.html" class=" strikeout menulist"> HOME</a></li>
+                                        <li><a href="news/en.html" class="strikeout menulist">  NEWS</a></li>
+                                        <li><a href="about/en.html" class="strikeout menulist">ABOUT</a></li>
+                                        <li><a href="team/en.html" class="strikeout menulist">TEAM</a></li>
+                                        <li><a href="partners/en.html" class="strikeout menulist">PARTNERS</a></li>
+                                    </ul>
+                                </div>
+
+                                <!--Logos-->
+                                <div class="modal-footer">
+                                    <div class="container-fluid">
+                                        <div class="row top-buffer" style="position: relative; margin-top: 11%;">
+
+                                            <div class="col-lg-1 col-1">
+                                            </div>
+
+                                            <div class="col-lg-1 col-1">
+                                            </div>
+
+                                            <div class="col-lg-1 col-1">
+                                            </div>
+
+                                            <div class="col-lg-1 col-1">
+                                            </div>
+
+                                            <div class="col-lg-1 col-1">
+                                            </div>
+
+                                            <div class="col-lg-1 col-1">
+                                                <img style="z-index: 52; width: 100%;  margin-top: 0.5%;  " src="assets/logo-desktop-fct-white.png" alt="img">
+                                            </div>
+
+                                            <div class="col-lg-1 col-1">
+                                                <img style="z-index: 52; width: 100%; margin: auto; margin-top: 8%;" src="assets/logo-desktop-ue-white.png" alt="img">
+                                            </div>
+
+                                            <div class="col-lg-1 col-1">
+                                                <img style="z-index: 52; width: 100%; margin: auto; margin-top: 3%; " src="assets/logo-desktop-2020-white.png" alt="img">
+                                            </div>
+
+                                            <div class="col-lg-1 col-1">
+                                                <img style="z-index: 52; width: 100%; margin-top: 1%; " src="assets/logo-desktop-portugal2020-white.png" alt="img">
+                                            </div>
+
+                                            <div class="col-lg-1 col-1">
+                                                <img style="z-index: 52; width: 100%; margin-top: -24.5%; " src="assets/logo-desktop-ubi-white.png" alt="img">
+                                            </div>
+
+                                            <div class="col-lg-1 col-1 ">
+                                                <img class="img-responsive" style="z-index: 52; width: 100%; margin-top: -34.7%; " src="assets/logo-desktop-fal2020-white.png" alt="img">
+                                            </div>
+
+                                            <div class="col-lg-1 col-1">
+                                                <img style="z-index: 52; width: 100%; margin-top: 5.2%; " src="assets/logo-desktop-labcom-white.png" alt="img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Modal menu content -->
+
+                    <!--Begin Collapse new content-->
+                    <div class="collapse" id="collapseExample" data-toggle="collapse" style="width: 91.67%; ">
+                        <div class="card card-body p-0 noborder" id="ola2" style="z-index: 50;">
+
+                            <div class="row" style="margin-top: 5%;">
+                                <div class="col-5" style="margin-left: 0.6%; width: 90.6%;">
+                                    <p style="color: #ffffff;"></p>
+                                    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+                                    <img src="assets/medidas_side.jpg" alt="photo" style="width: 60%; margin-left: 20%;" ;>
+                                </div>
+                                <div class="col-1 ">
+                                    <br><br><br><br><br><br><br><br>
+                                </div>
+                                <div class="col-4 resize" style="margin-left: -6%;">
+                                    <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; line-height: 0.9cm; text-align: justify;">
+                                        A set of 15 measures for the media sector in Portugal was presented at the Faculty of Arts and Letters of the University of Beira Interior (UBI), on November 25, 2019. An initiative of Re/media.Lab, which for this purpose convened a press conference,
+                                        attended by journalists and students.
+                                    </h2>
+                                    <br><br>
+                                    <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; line-height: 0.9cm; text-align: justify;">
+                                        "How am I going to think about my future, if I don't know what's going on in my country, in the community where I live?" The question was raised by João Carlos Correia, researcher in charge of Re/media.Lab and professor at UBI, during the press conference.
+                                    </h2>
+                                    <br><br>
+                                    <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; line-height: 0.9cm; text-align: justify;">
+                                        "They [regional media] are important. They are what give visibility to the party, to the club, to our problems", he reinforced, to justify that the moment is opportune for the initiative. It is a response by a group of professors and researchers at UBI
+                                        - the overwhelming majority of Re/media.Lab - to the growing apprehension around the crisis situation of national and regional journalism, which culminated in a new and recent statement by the President of the Republic,
+                                        on the need to include support measures for social communication in the State Budget for 2020. This concern should be extended to regional media, whose contribution is fundamental to the increase of media literacy
+                                        and to the fight against disinformation in regions of low density, interior and peripheral or close to less favored extracts.
+                                    </h2>
+                                    <br><br>
+                                    <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; line-height: 0.9cm; text-align: justify;">
+                                        Business models and media financing, as well as the role of the Regional Development and Coordination Commissions (CCDR’s), were topics covered. “At a recent meeting requested by the Portuguese Press Association, which wanted to hear from us about regional
+                                        newspapers, we learned that the role of CCDR’s is extremely relevant. The more active they are in informing and supporting the regional media in formalizing applications, perhaps more means and more support may
+                                        be considered, ”he stressed.
+                                    </h2>
+                                    <br><br>
+
+                                    <h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bold ; text-align: justify;">
+                                        <br> Medidas propostas pelo Re/media.Lab
+                                        <br><br>
+                                    </h1>
+
+                                    <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; line-height: 0.9cm; text-align: justify;">
+                                        <ol>
+                                            <li> Oferecer a todos os jovens que atingem os 18 anos ou estudantes, bem como à população sénior, uma assinatura anual de um jornal generalista (nacional ou local) à sua escolha (papel ou online). Pode estar associado
+                                                aos cartões de estudante e sénior;
+                                            </li>
+                                            <li>Obrigar todos os organismos públicos (dos nacionais aos locais) com atendimento ao cidadão a disponibilizar dois jornais generalistas (nacional e local) nos espaços de espera (papel e online);
+
+                                            </li>
+                                            <li>Incluir nos contratos de concessão de transportes públicos a obrigatoriedade do concessionário disponibilizar jornais generalistas em papel nos autocarros/carruagens e/ou rede wi-fi com acesso livre a sites
+                                                de jornais;
+                                            </li>
+                                            <li>Distribuir 10% do valor da taxa turística de cada cidade aos jornais locais;
+                                            </li>
+                                            <li>Criar uma taxa anual “Contribuição Jornalismo” (idêntica à Contribuição Audiovisual na fatura EDP), a ser paga por todos os assinantes de Pacotes de Internet. Também se pode pensar na sua canalização para distribuição
+                                                postal;
+                                            </li>
+                                            <li>Alterar a Lei da Cópia Privada, aumentando e repartindo a taxa aplicada a smartphones e tablets com as empresas de comunicação;
+                                            </li>
+                                            <li>Aumentar o Porte Pago, com majoração para o Interior e regiões periféricas, de acordo com critérios objetivos a estabelecer (capitação, capitação da leitura, etc);
+                                            </li>
+                                            <li>Deduzir, ao nível fiscal, quem compre / subscreva assinaturas;
+                                            </li>
+                                            <li>Incentivar a qualidade com diversas sub-medidas;
+                                            </li>
+                                            <li>Incluir módulos de literacia mediática e educação para os media no sistema de ensino, em contexto informal e de sala de aula, nos quais surjam jornais (nacionais e locais). Associado a esta questão, promover
+                                                a criação de jornais escolares;
+                                            </li>
+                                            <li>Criar coletivos que exerçam uma função de provedoria e de observatório, juntando jornalistas e cidadãos;
+                                            </li>
+                                            <li>Criar medidas de proteção de direitos, no que respeita à propriedade e partilha pelas redes sociais de conteúdos jornalísticos;
+                                            </li>
+                                            <li> Colocar a informação na moda (campanhas bem-feitas, atraentes, com conteúdos e em plataformas adequadas ao público-alvo);
+                                            </li>
+                                            <li>Introduzir medidas de apoio à partilha de recursos pelos media regionais, através de mecanismos colaborativos e cooperativos;
+                                            </li>
+                                            <li>Repensar e relançar o Portal da Imprensa Regional, com o objetivo de ter estes meios online e acessíveis através de dispositivos móveis. Esta é uma medida que visa permitir a todos os media regionais e locais
+                                                que o pretendam, a possibilidade de estarem acessíveis no contexto digital.
+                                            </li>
+                                        </ol>
+                                        <br><br> Para além das medidas apresentadas, João Carlos Correia avançou ainda que a atenção ao setor e a resposta do projeto que lidera prosseguirão, tendo anunciado a realização de dois eventos para o primeiro
+                                        semestre de 2020: uma conferência sobre financiamento dos media regionais, com responsáveis pela gestão de fundos europeus e nacionais, bem com uma escola de primavera (Local Media Spring School), eminentemente
+                                        prática e dedicada ao design editorial.
+                                        <br><br> Conferência de imprensa integral:<br><br>
+                                    </h2>
+
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/718697005%3Fsecret_token%3Ds-hiAMe&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+
+                                    <br><br>
+
+                                </div>
+                                <div class="col-2 ">
+                                </div>
+                            </div>
+
+                            <div class="my-5 text-center">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-1"><br></div>
+                                    <div class="col-1"><br></div>
+
+                                    <div class="col-7">
+                                        <!--Start carousel-->
+
+                                        <div class="owl-carousel owl-theme owl-loaded" style="margin-left:10%; width: 100%; margin-top: 5%;">
+                                            <div class="owl-stage-outer">
+
+                                                <div class="owl-stage">
+
+                                                    <div class="owl-item">
+                                                        <a href='index.html?slide=0'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-01.jpg"> </a>
+                                                    </div>
+
+                                                    <div class="owl-item">
+                                                        <a href='index.html?slide=1'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-02.jpg"> </a>
+                                                    </div>
+                                                    <div class="owl-item">
+                                                        <a href='index.html?slide=2'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-03.jpg"> </a>
+                                                    </div>
+
+                                                    <div class="owl-item">
+                                                        <a href='index.html?slide=3'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-04.jpg"> </a>
+                                                    </div>
+
+                                                    <div class="owl-item">
+                                                        <a href='index.html?slide=4'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-05.jpg"> </a>
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="owl-controls clickable">
+
+                                                    <div class="owl-buttons">
+                                                        <div class="owl-prev"></div>
+                                                        <div class="owl-next"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <!--End carousel-->
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="container-fluid" style="margin-top: 10rem;">
+                                    <div class="row top-buffer" style="position: relative; ">
+
+                                        <div class="col-2" style="margin-left: 3%;">
+                                        </div>
+
+                                        <div class="col-1">
+                                            <img style="z-index: 52; width: 100%;  margin-top: 0.5%;  " src="../assets/logo-desktop-fct.png" alt="img">
+                                        </div>
+
+                                        <div class="col-1">
+                                            <img class="logo-ue" style="z-index: 52; width: 100%; margin: auto; margin-bottom: -42%;" src="../assets/logo-desktop-ue.png" alt="img">
+                                        </div>
+
+                                        <div class="col-1">
+                                            <img style="z-index: 52; width: 100%; margin: auto; margin-top: 3%; " src="../assets/logo-desktop-2020.png" alt="img">
+                                        </div>
+
+                                        <div class="col-1">
+                                            <img style="z-index: 52; width: 100%; margin-top: 1%; " src="../assets/logo-desktop-portugal2020.png" alt="img">
+                                        </div>
+
+                                        <div class="col-1">
+                                            <img style="z-index: 52; width: 100%; margin-top: -25%; " src="../assets/logo-desktop-ubi.png" alt="img">
+                                        </div>
+
+                                        <div class="col-1 ">
+                                            <img class="img-responsive" style="z-index: 52; width: 100%; margin-top: -24%; " src="../assets/logo-desktop-fal2020.png" alt="img">
+                                        </div>
+
+                                        <div class="col-1">
+                                            <img style="z-index: 52; width: 100%; margin-top: -1%; " src="../assets/logo-desktop-labcom.png" alt="img">
+                                        </div>
+
+                                        <div class="col-2" style="margin-left: 3%;">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-4">
+                                        </div>
+
+                                        <div class="col-4">
+                                            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; font-size: 0.8rem; text-align: center;">
+                                                <span class="text-muted">&copy; Re/media.lab 2020</span>
+                                            </p>
+                                        </div>
+
+                                        <br>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!----------------------------------------QUARTO SLIDE------------------------------------------------------>
+
+            <div class="carousel-item bg4 " style="background-repeat: no-repeat; background-size: cover; height: 100vh; " alt="Fourth slide">
+
+                <div class="container h-100 d-flex flex-column">
+
+                    <!--Begin Language-->
+
+                    <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
+
+                        <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                                PT
+                                            </a>
+
+                        <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
+                            <a class="abtn btn" href="index-en.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">EN</a>
+                        </div>
+                    </div>
+
+                    <!--End Language-->
+
+                    <div class="row d-flex">
+                        <!--Begin logo-->
+                        <div class="col-4 " style="text-align: left;">
+                            <img id="myLogo" style="z-index:50; width:60%; margin: auto;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
+                        </div>
+                        <!--End logo-->
+
+                        <div class="col-4 " style="text-align: center;">
+
+                            <!--Begin menu button-->
+
+                            <button id="modalActivate4" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview4" style="z-index: 51;margin:auto; ">
+                                                    <img src="assets/button-desktop-menu.png" style="width: 90%;" alt="menu">
+                                                </button>
+                        </div>
+
+                        <!--End menu button-->
+
+
+                    </div>
+
+                    <!--Begin main content title-->
+                    <div class="row m-0 d-flex justify-content-end flex-column h-100">
+
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-6">
+
+                            </div>
+                            <div class="col-sm-5 col-md-5 col-lg-5 col-5 " id="myDIV3" style="margin-bottom: -2%; ">
+                                <div class="row thisrow" style=" margin-top: 43%;">
+                                    <div class="col-md-8 col-sm-8 col-8 marginslide3" id="margem1" style="margin-top: -29%;margin-left: -100%;">
+                                        <h1 class="normalbgtext3" id="maintxt3">ESCOLA<br>DE OUTONO<br>DÁ ORIGEM <br>A LIVRO
+                                        </h1>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-4" id="margem2" style="margin-left: 100%; margin-top: -8%;  z-index:100;">
+                                        <div class="row rownumb" style="margin-top: -63%; ">
+                                            <h3 class="normalbgtext2-3" style="font-weight: lighter;"> 4 </h3>
+                                            <h3 class="normalbgtext2-3" style="font-weight: normal;  ">/</h3>
+                                            <h3 class="normalbgtext2-3" style="font-weight: bold;">5</h3>
+                                        </div>
+                                        <div class="row" data-scroll href="#ola">
+                                            <button style=" position: relative; margin-top: 25%; margin-left: 15%; border-width: 0px !important; outline: none !important; " class="btn" type="button" data-toggle="collapse" data-target="#collapseExample" data-scroll="#ola" aria-expanded="false" aria-controls="ola"
+                                                onclick="myFunction3()" href="#ola">
+                                                <img id="myIcon3" class="icon2" data-scroll href="#ola" alt="button"
+                                                    src="assets/button-desktop-plus.png">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--End main content title-->
+
+                    <!-- Begin Modal menu content -->
+                    <div class="modal fade right" id="exampleModalPreview4" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+                        <div class="modal-dialog momodel modal-fluid" role="document">
+                            <div class="modal-content bg-black">
+
+                                <div class="modal-header ">
+                                    <!--Logo-->
+                                    <img style="z-index:52; position: absolute; width: 18%; top:0%; margin:1.5%;" src="assets/logo-desktop-remedia-ext-white.png" alt="logo">
+                                    <!--Menu close-->
+                                    <button id="modalDesactivate" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview4" style="z-index: 52; position: absolute; top: 0%; left: 46.5%; margin:0.5%; ">
+                                        <img style="z-index:52; width: 100%;" src="assets/button-mobile-exit.png"
+                                            alt="menuclose">
+                                    </button>
+
+                                    <!--Language-->
+                                    <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
+
+                                        <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
                                             PT
                                         </a>
 
@@ -796,10 +1190,10 @@
                                 <div class="modal-body" style="z-index: 52; margin-top: 5%; margin-bottom: 20%;">
                                     <ul class="categories-list">
                                         <li><a href="index.html" class=" strikeout menulist"> HOME</a></li>
-                                        <li><a href="news/en.html" class="strikeout menulist"> NEWS</a></li>
-                                        <li><a href="about/en.html" class="strikeout menulist">ABOUT</a></li>
-                                        <li><a href="team/en.html" class="strikeout menulist">TEAM</a></li>
-                                        <li><a href="partners/en.html" class="strikeout menulist">PARTNERS</a></li>
+                                        <li><a href="news/pt.html" class="strikeout menulist"> NOTÍCIAS</a></li>
+                                        <li><a href="about/pt.html" class="strikeout menulist">SOBRE</a></li>
+                                        <li><a href="team/pt.html" class="strikeout menulist">EQUIPA</a></li>
+                                        <li><a href="partners/pt.html" class="strikeout menulist">PARCEIROS</a></li>
                                     </ul>
                                 </div>
 
@@ -867,24 +1261,20 @@
                                     <p style="color: #ffffff;"></p>
                                     <br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-                                    <img src="assets/IMG_5558.jpg" alt="photo" style="width: 60%; margin-left: 20%;" ;>
+                                    <img src="assets/livro_side.jpg " alt="photo" style="width: 60%; margin-left: 20%;" ;>
                                 </div>
                                 <div class="col-1 ">
                                     <br><br><br><br><br><br><br><br>
                                 </div>
                                 <div class="col-4 resize" style="margin-left: -6%;">
                                     <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; line-height: 0.9cm; text-align: justify;">
-                                        The first week of classes of 2019/20 was marked by the realization of the first school of Re/media.Lab, which at the same time opened the celebrations of the 20th anniversary of the Faculty of Arts and Letters of the University of Beira Interior. Local,
-                                        regional, community and proximity media were the motto for the Local Media Fal{l} School, which ran from September 19 to 21, 2019.
-                                    </h2>
-                                    <br><br>
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2s72KeU3BoU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    </div>
-                                    <br><br>
-                                    <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; line-height: 0.9cm; text-align: justify;">
-                                        This was an especially practical initiative, which revolved around wokshops on journalism on mobile devices and which had at the Cherovia Festival - which was taking place simultaneously in Covilhã - a privileged event for experimentation.
-
+                                        “O pulsar da proximidade nos media e no jornalismo” é o título do livro que resulta de uma selecção de estudos apresentados durante a <a href="https://labcom-ifp.ubi.pt/localmedia/" target="__blank">Local Media
+                                            Fal{l} School</a> (19-21 de Setembro de 2019) e lançado recentemente.
+                                        <br><br> “A pesquisa em torno dos media de proximidade, sejam eles de âmbito regional, local, hiperlocal ou até comunitário, tem suscitado um interesse crescente nos anos mais recentes, por parte da comunidade académica.
+                                        Após um período de discursos em torno da globalização, potenciados pelo desenvolvimento tecnológico, mas sobretudo pelo aparecimento da Internet, a tendência agora parecer ser a de apelar a um retorno ao local.
+                                        Na essência deste retorno está o reconhecimento da importância de (re)visitar territórios e comunidades e (re)descobrir identidades. Para tal é preciso parar, olhar e voltar a olhar, dialogar, conhecer. E ler”,
+                                        escrevem os editores Pedro Jerónimo e João Carlos Correia na introdução do livro. <br><br> O livro está <a href="http://www.labcom.ubi.pt/book/352" target="__blank">acessível gratuitamente</a> através do site do
+                                        LabCom, unidade de investigação onde está integrado o Re/media.Lab.
                                     </h2>
                                     <br><br>
 
@@ -894,7 +1284,6 @@
                                 </div>
                             </div>
 
-
                             <div class="my-5 text-center">
                                 <div class="row d-flex align-items-center">
                                     <div class="col-1"><br></div>
@@ -902,26 +1291,33 @@
 
                                     <div class="col-7">
                                         <!--Start carousel-->
-                                        <div class="owl-carousel owl-theme owl-loaded" style="margin-left:10%; width: 100%;">
+
+                                        <div class="owl-carousel owl-theme owl-loaded" style="margin-left:10%; width: 100%; margin-top: 5%;">
                                             <div class="owl-stage-outer">
+
                                                 <div class="owl-stage">
-                                                    <div class="owl-item"> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-01.jpg">
-                                                        <div class='edit_hover_class'>
-                                                            <a href='index.html?slide=0'><img src='assets/see-more.png' /></a>
-                                                        </div>
+
+                                                    <div class="owl-item">
+                                                        <a href='index.html?slide=0'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-01.jpg"> </a>
                                                     </div>
-                                                    <div class="owl-item"> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-02.jpg">
-                                                        <div class='edit_hover_class'>
-                                                            <a href='index.html?slide=1'><img src='assets/see-more.png' /></a>
-                                                        </div>
+
+                                                    <div class="owl-item">
+                                                        <a href='index.html?slide=1'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-02.jpg"> </a>
                                                     </div>
-                                                    <div class="owl-item"> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-03.jpg">
-                                                        <div class='edit_hover_class'>
-                                                            <a href='index.html?slide=2'><img src='assets/see-more.png' /></a>
-                                                        </div>
+                                                    <div class="owl-item">
+                                                        <a href='index.html?slide=2'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-03.jpg"> </a>
                                                     </div>
-                                                    <div class="owl-item"><img style="width: 100%;" src="assets/remedia.lab-thumbnail-04.jpg"></div>
+
+                                                    <div class="owl-item">
+                                                        <a href='index.html?slide=3'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-04.jpg"> </a>
+                                                    </div>
+
+                                                    <div class="owl-item">
+                                                        <a href='index.html?slide=4'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-05.jpg"> </a>
+                                                    </div>
+
                                                 </div>
+
                                                 <div class="owl-controls clickable">
 
                                                     <div class="owl-buttons">
@@ -929,6 +1325,7 @@
                                                         <div class="owl-next"></div>
                                                     </div>
                                                 </div>
+
                                             </div>
 
                                             <!--End carousel-->
@@ -999,6 +1396,320 @@
 
                 </div>
             </div>
+
+            <!------------------------------------------FIFTH SLIDE-------------------------------------------->
+
+            <div class="carousel-item bg5" style="background-repeat: no-repeat; background-size: cover; height: 100vh; " alt="Fifth slide">
+                <div class="container h-100 d-flex flex-column">
+
+                    <!--Begin Language-->
+
+                    <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
+
+                        <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                                PT
+                                            </a>
+
+                        <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
+                            <a class="abtn btn" href="index-en.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">EN</a>
+                        </div>
+                    </div>
+
+                    <!--End Language-->
+
+                    <div class="row d-flex">
+                        <!--Begin logo-->
+                        <div class="col-4 " style="text-align: left;">
+                            <img id="myLogo" style="z-index:50; width:60%; margin: auto;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
+                        </div>
+                        <!--End logo-->
+
+                        <div class="col-4 " style="text-align: center;">
+
+                            <!--Begin menu button-->
+
+                            <button id="modalActivate5" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview5" style="z-index: 51;margin:auto; ">
+                                                    <img src="assets/button-desktop-menu.png" style="width: 90%;" alt="menu">
+                                                </button>
+                        </div>
+
+                        <!--End menu button-->
+
+
+                    </div>
+
+                    <!--Begin main content title-->
+                    <div class="row m-0 d-flex justify-content-end flex-column h-100">
+
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-6">
+
+                            </div>
+                            <div class="col-sm-5 col-md-5 col-lg-5 col-5 " id="myDIV5" style="margin-bottom: -2%; ">
+                                <div class="row thisrow" style=" margin-top: 43%; ">
+                                    <div id="myTitleDiv5" class="col-md-8 col-sm-8 col-8 sl3 titlediv" style="margin-top: -29%;">
+                                        <h1 class="normalbgtext" id="maintxt5">FINANCIAMENTO <br> DOS MEDIA EM <br> DEBATE NA UBI</h1>
+                                    </div>
+                                    <div id="myNrDiv5" class="col-md-4 col-sm-4 col-4 nrdiv" style="margin-left: -5%; margin-top: -8%;  z-index:100;">
+                                        <div class="row rownumb" style="margin-top: -63%;">
+                                            <h3 class="normalbgtext2" style="font-weight: lighter;"> 5 </h3>
+                                            <h3 class="normalbgtext2" style="font-weight: normal;">/</h3>
+                                            <h3 class="normalbgtext2" style="font-weight: bold;">5</h3>
+                                        </div>
+                                        <div class="row" data-scroll href="#ola">
+                                            <button style=" position: relative; margin-top: 25%; margin-left: 15%; border-width: 0px !important; outline: none !important; " class="btn" type="button" data-toggle="collapse" data-target="#collapseExample" data-scroll="#ola" aria-expanded="false" aria-controls="ola"
+                                                onclick="myFunction5()" href="#ola">
+                                                <img id="myIcon5" class="icon" data-scroll href="#ola" alt="button"
+                                                    src="assets/button-desktop-plus-white.png">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--End main content title-->
+
+                    <!-- Begin Modal menu content -->
+                    <div class="modal fade right" id="exampleModalPreview5" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+                        <div class="modal-dialog momodel modal-fluid" role="document">
+                            <div class="modal-content bg-black">
+
+                                <div class="modal-header ">
+                                    <!--Logo-->
+                                    <img style="z-index:52; position: absolute; width: 18%; top:0%; margin:1.5%;" src="assets/logo-desktop-remedia-ext-white.png" alt="logo">
+                                    <!--Menu close-->
+                                    <button id="modalDesactivate" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview5" style="z-index: 52; position: absolute; top: 0%; left: 46.5%; margin:0.5%; ">
+                                        <img style="z-index:52; width: 100%;" src="assets/button-mobile-exit.png"
+                                            alt="menuclose">
+                                    </button>
+
+                                    <!--Language-->
+                                    <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
+
+                                        <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                            PT
+                                        </a>
+
+                                        <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
+                                            <a class="abtn btn" href="index-en.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">EN</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="modal-body" style="z-index: 52; margin-top: 5%; margin-bottom: 20%;">
+                                    <ul class="categories-list">
+                                        <li><a href="index.html" class=" strikeout menulist"> HOME</a></li>
+                                        <li><a href="news/pt.html" class="strikeout menulist"> NOTÍCIAS</a></li>
+                                        <li><a href="about/pt.html" class="strikeout menulist">SOBRE</a></li>
+                                        <li><a href="team/pt.html" class="strikeout menulist">EQUIPA</a></li>
+                                        <li><a href="partners/pt.html" class="strikeout menulist">PARCEIROS</a></li>
+                                    </ul>
+                                </div>
+
+                                <!--Logos-->
+                                <div class="modal-footer">
+                                    <div class="container-fluid">
+                                        <div class="row top-buffer" style="position: relative; margin-top: 11%;">
+
+                                            <div class="col-lg-1 col-1">
+                                            </div>
+
+                                            <div class="col-lg-1 col-1">
+                                            </div>
+
+                                            <div class="col-lg-1 col-1">
+                                            </div>
+
+                                            <div class="col-lg-1 col-1">
+                                            </div>
+
+                                            <div class="col-lg-1 col-1">
+                                            </div>
+
+                                            <div class="col-lg-1 col-1">
+                                                <img style="z-index: 52; width: 100%;  margin-top: 0.5%;  " src="assets/logo-desktop-fct-white.png" alt="img">
+                                            </div>
+
+                                            <div class="col-lg-1 col-1">
+                                                <img style="z-index: 52; width: 100%; margin: auto; margin-top: 8%;" src="assets/logo-desktop-ue-white.png" alt="img">
+                                            </div>
+
+                                            <div class="col-lg-1 col-1">
+                                                <img style="z-index: 52; width: 100%; margin: auto; margin-top: 3%; " src="assets/logo-desktop-2020-white.png" alt="img">
+                                            </div>
+
+                                            <div class="col-lg-1 col-1">
+                                                <img style="z-index: 52; width: 100%; margin-top: 1%; " src="assets/logo-desktop-portugal2020-white.png" alt="img">
+                                            </div>
+
+                                            <div class="col-lg-1 col-1">
+                                                <img style="z-index: 52; width: 100%; margin-top: -24.5%; " src="assets/logo-desktop-ubi-white.png" alt="img">
+                                            </div>
+
+                                            <div class="col-lg-1 col-1 ">
+                                                <img class="img-responsive" style="z-index: 52; width: 100%; margin-top: -34.7%; " src="assets/logo-desktop-fal2020-white.png" alt="img">
+                                            </div>
+
+                                            <div class="col-lg-1 col-1">
+                                                <img style="z-index: 52; width: 100%; margin-top: 5.2%; " src="assets/logo-desktop-labcom-white.png" alt="img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Modal menu content -->
+
+                    <!--Begin Collapse new content-->
+                    <div class="collapse" id="collapseExample" data-toggle="collapse" style="width: 91.67%; ">
+                        <div class="card card-body p-0 noborder" id="ola2" style="z-index: 50;">
+
+                            <div class="row" style="margin-top: 5%;">
+                                <div class="col-5" style="margin-left: 0.6%; width: 90.6%;">
+                                    <p style="color: #ffffff;"></p>
+                                    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+                                    <img src="assets/medidas_side.jpg" alt="photo" style="width: 60%; margin-left: 20%;" ;>
+                                </div>
+                                <div class="col-1 ">
+                                    <br><br><br><br><br><br><br><br>
+                                </div>
+                                <div class="col-4 resize" style="margin-left: -6%;">
+                                    <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; line-height: 0.9cm; text-align: justify;">
+                                        Atento à crise vivida no sector, o Re/media.Lab promoveu o Fórum “Financiamento do jornalismo e dos media regionais, comunitários e de proximidade”, dia 20 de Fevereiro de 2020, na Universidade da Beira Interior (UBI). Um momento de diálogo que envolveu
+                                        organismos públicos e privados, do governo às empresas jornalísticas de âmbito regional, bem como outros participantes que se queiram associar.<br><br> Uma iniciativa que
+                                        pode ser integralmente recuperada, a partir do vídeo que se segue.
+                                    </h2>
+                                    <br><br>
+
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLbFfG8hPfV_JmP9ZBUf2qW-_czFGcAqlW" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <br><br>
+
+                                </div>
+                                <div class="col-2 ">
+                                </div>
+                            </div>
+
+                            <div class="my-5 text-center">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-1"><br></div>
+                                    <div class="col-1"><br></div>
+
+                                    <div class="col-7">
+                                        <!--Start carousel-->
+
+                                        <div class="owl-carousel owl-theme owl-loaded" style="margin-left:10%; width: 100%; margin-top: 5%;">
+                                            <div class="owl-stage-outer">
+
+                                                <div class="owl-stage">
+
+                                                    <div class="owl-item">
+                                                        <a href='index.html?slide=0'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-01.jpg"> </a>
+                                                    </div>
+
+                                                    <div class="owl-item">
+                                                        <a href='index.html?slide=1'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-02.jpg"> </a>
+                                                    </div>
+                                                    <div class="owl-item">
+                                                        <a href='index.html?slide=2'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-03.jpg"> </a>
+                                                    </div>
+
+                                                    <div class="owl-item">
+                                                        <a href='index.html?slide=3'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-04.jpg"> </a>
+                                                    </div>
+
+                                                    <div class="owl-item">
+                                                        <a href='index.html?slide=4'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-05.jpg"> </a>
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="owl-controls clickable">
+
+                                                    <div class="owl-buttons">
+                                                        <div class="owl-prev"></div>
+                                                        <div class="owl-next"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <!--End carousel-->
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="container-fluid" style="margin-top: 10rem;">
+                                    <div class="row top-buffer" style="position: relative; ">
+
+                                        <div class="col-2" style="margin-left: 3%;">
+                                        </div>
+
+                                        <div class="col-1">
+                                            <img style="z-index: 52; width: 100%;  margin-top: 0.5%;  " src="../assets/logo-desktop-fct.png" alt="img">
+                                        </div>
+
+                                        <div class="col-1">
+                                            <img class="logo-ue" style="z-index: 52; width: 100%; margin: auto; margin-bottom: -42%;" src="../assets/logo-desktop-ue.png" alt="img">
+                                        </div>
+
+                                        <div class="col-1">
+                                            <img style="z-index: 52; width: 100%; margin: auto; margin-top: 3%; " src="../assets/logo-desktop-2020.png" alt="img">
+                                        </div>
+
+                                        <div class="col-1">
+                                            <img style="z-index: 52; width: 100%; margin-top: 1%; " src="../assets/logo-desktop-portugal2020.png" alt="img">
+                                        </div>
+
+                                        <div class="col-1">
+                                            <img style="z-index: 52; width: 100%; margin-top: -25%; " src="../assets/logo-desktop-ubi.png" alt="img">
+                                        </div>
+
+                                        <div class="col-1 ">
+                                            <img class="img-responsive" style="z-index: 52; width: 100%; margin-top: -24%; " src="../assets/logo-desktop-fal2020.png" alt="img">
+                                        </div>
+
+                                        <div class="col-1">
+                                            <img style="z-index: 52; width: 100%; margin-top: -1%; " src="../assets/logo-desktop-labcom.png" alt="img">
+                                        </div>
+
+                                        <div class="col-2" style="margin-left: 3%;">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-4">
+                                        </div>
+
+                                        <div class="col-4">
+                                            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; font-size: 0.8rem; text-align: center;">
+                                                <span class="text-muted">&copy; Re/media.lab 2020</span>
+                                            </p>
+                                        </div>
+
+                                        <br>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
             <!--
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -1020,12 +1731,16 @@
                 element_icon.classList.toggle("changeIconPlus");
                 var element_icon = document.getElementById("myLogo");
                 element_icon.classList.toggle("zoomLogo");
+                var element_icon = document.getElementById("myTitleDiv");
+                element_icon.classList.toggle("myTitleDivCSS");
+                var element_icon = document.getElementById("myNrDiv");
+                element_icon.classList.toggle("myNrDivCSS");
 
                 var x = document.getElementById("maintxt");
-                if (x.innerHTML === "JORNALISTS DEBATE <br> \"THE ELEMENTS <br> OF JOURNALISM\"") {
-                    x.innerHTML = "ELEMENTS <br> OF JOURNALISM <br> IN THE NEW <br> DIGITAL ECOSYSTEM";
+                if (x.innerHTML === "JORNALISTAS DEBA- <br> TEM \"OS ELEMENTOS <br> DO JORNALISMO\" ") {
+                    x.innerHTML = "ELEMENTOS <br> DO JORNALISMO <br> NO NOVO <br> ECOSSISTEMA DIGITAL ";
                 } else {
-                    x.innerHTML = "JORNALISTS DEBATE <br> \"THE ELEMENTS <br> OF JOURNALISM\"";
+                    x.innerHTML = "JORNALISTAS DEBA- <br> TEM \"OS ELEMENTOS <br> DO JORNALISMO\" ";
 
                 }
             }
@@ -1037,12 +1752,16 @@
                 element_icon.classList.toggle("changeIconPlus");
                 var element_icon = document.getElementById("myLogo2");
                 element_icon.classList.toggle("zoomLogo2");
+                var element_icon = document.getElementById("myTitleDiv2");
+                element_icon.classList.toggle("myTitleDivCSS2");
+                var element_icon = document.getElementById("myNrDiv2");
+                element_icon.classList.toggle("myNrDivCSS2");
 
                 var x = document.getElementById("maintxt2");
-                if (x.innerHTML === "LOCAL MEDIA <br> FAL{L} SCHOOL <br> OPENS SCHOOL <br> YEAR") {
-                    x.innerHTML = "LOCAL MEDIA <br> FAL{L} SCHOOL <br> OPENS SCHOOL YEAR";
+                if (x.innerHTML === "LOCAL MEDIA <br> FAL{L} SCHOOL <br> ABRE ANO <br> LETIVO") {
+                    x.innerHTML = "LOCAL MEDIA <br> FAL{L} SCHOOL <br> ABRE ANO LETIVO";
                 } else {
-                    x.innerHTML = "LOCAL MEDIA <br> FAL{L} SCHOOL <br> OPENS SCHOOL <br> YEAR";
+                    x.innerHTML = "LOCAL MEDIA <br> FAL{L} SCHOOL <br> ABRE ANO <br> LETIVO";
 
                 }
             }
@@ -1060,30 +1779,74 @@
                 element_icon.classList.toggle("zoomLogo3");
             }
 
-            $('.modal').on('shown.bs.modal', function(e) {
-                $('.carousel').carousel('pause');
-            })
+            function myFunction4() {
+                var element = document.getElementById("myDIV4");
+                element.classList.toggle("myClass4");
+                var element_icon = document.getElementById("myIcon4");
+                element_icon.classList.toggle("changeIconPlus");
+                var element_icon = document.getElementById("myLogo4");
+                element_icon.classList.toggle("zoomLogo4");
+                var element_icon = document.getElementById("myTitleDiv4");
+                element_icon.classList.toggle("myTitleDivCSS4");
+                var element_icon = document.getElementById("myNrDiv4");
+                element_icon.classList.toggle("myNrDivCSS4");
 
-            $('.modal').on('hide.bs.modal', function(e) {
-                $('.carousel').carousel('cycle');
-            })
+            }
 
-            $('.collapse').on('show.bs.collapse', function(e) {
-                $('.carousel').carousel('pause');
-            })
+            function myFunction5() {
+                var element = document.getElementById("myDIV5");
+                element.classList.toggle("myClass5");
+                var element_icon = document.getElementById("myIcon5");
+                element_icon.classList.toggle("changeIconPlus");
+                var element_icon = document.getElementById("myLogo5");
+                element_icon.classList.toggle("zoomLogo5");
+                var element_icon = document.getElementById("myTitleDiv5");
+                element_icon.classList.toggle("myTitleDivCSS5");
+                var element_icon = document.getElementById("myNrDiv5");
+                element_icon.classList.toggle("myNrDivCSS5");
 
-            $('.collapse').on('hide.bs.collapse', function(e) {
-                $('.carousel').carousel('cycle');
-            })
+            }
+
+            var x = 0; //modal | 0-> modal fechado | 1 -> modal aberto
+            var y = 0; //collapse | 0-> collapse fechado | 1 -> collapse aberto
+
+            if (x == 0) {
+                $('.modal').on('shown.bs.modal', function(e) {
+                    $('.carousel').carousel('pause');
+                })
+                x = 1;
+            }
+
+            if (x == 1) {
+                $('.modal').on('hide.bs.modal', function(e) {
+                    $('.carousel').carousel('cycle');
+                })
+                x = 0;
+            }
+
+            if (y == 0) {
+                $('.collapse').on('show.bs.collapse', function(e) {
+                    $('.carousel').carousel('pause');
+                })
+                y = 1;
+            }
+
+            if (y == 1) {
+                $('.collapse').on('hide.bs.collapse', function(e) {
+                    $('.carousel').carousel('cycle');
+                })
+                y = 0;
+            }
 
 
-            $(function() {
-                $('#carouselExampleIndicators').carousel({
-                    pause: "false",
-                    interval: 8000
+            if (x == 0 && y == 0) {
+                $(function() {
+                    $('#carouselExampleIndicators').carousel({
+                        pause: "false",
+                    });
+
                 });
-
-            });
+            }
 
             $('.owl-carousel').owlCarousel({
                 autoplay: true,
@@ -1103,7 +1866,6 @@
                 }
             });
 
-
             (function() {
                 function getSlideParameter(key) {
                     key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, "\\$&"); // escape RegEx meta chars
@@ -1115,6 +1877,7 @@
                         return 0; //if 'slide' parameter is not present or doesn't have correct values load 0th slide
                 }
                 $('#carouselExampleIndicators').carousel(getSlideParameter('slide'));
+
             })();
         </script>
 
