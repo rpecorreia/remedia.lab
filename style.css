@@ -6764,6 +6764,12 @@
             color: black !important;
         }
         
+        @media screen and (min-width:2560px) {
+            .policy_black a {
+                color: white !important;
+            }
+        }
+        
         @media screen and (max-width:1055px) {
             .policy {
                 font-size: x-small !important;
@@ -6792,4 +6798,11 @@
             .p1 {
                 margin-left: -30% !important;
             }
+        }
+        
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
         }
