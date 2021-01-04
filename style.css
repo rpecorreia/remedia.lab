@@ -1298,7 +1298,7 @@
             .myClass2 h1 {
                 color: black;
                 margin-left: 170% !important;
-                margin-top: -23% !important;
+                margin-top: -10% !important;
                 font-size: 1.3rem !important;
             }
             .myClass2 h3 {
@@ -1428,7 +1428,7 @@
             .myClass2 h1 {
                 color: black;
                 margin-left: 170% !important;
-                margin-top: -23% !important;
+                margin-top: -10% !important;
                 font-size: 1.3rem !important;
             }
             .myClass2 h3 {
@@ -1558,8 +1558,8 @@
             .myClass2 h1 {
                 color: black;
                 margin-left: 180% !important;
-                margin-top: -23% !important;
-                font-size: 1.3rem !important;
+                margin-top: -10% !important;
+                font-size: 1.1rem !important;
             }
             .myClass2 h3 {
                 color: black;
@@ -6769,7 +6769,6 @@
                 margin-left: -30% !important;
             }
         }
-<<<<<<< HEAD
         /* CARD RESIZE */
         
         @media screen and (max-width:767px) and (min-width:650px) {
@@ -6795,12 +6794,4 @@
             .myClass2 {
                 margin-bottom: 20% !important;
             }
-=======
-        
-        .close:hover,
-        .close:focus {
-            color: #000;
-            text-decoration: none;
-            cursor: pointer;
->>>>>>> 85e7e14aff52519a8b20c1c779222728f20d8264
         }
