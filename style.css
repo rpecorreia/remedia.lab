@@ -348,7 +348,7 @@
         }
         
         .modal {
-            overflow: hidden !important;
+            overflow: hidden;
         }
         
         @media screen and (max-width: 5120px) and (min-height:1500px) {
@@ -6734,6 +6734,12 @@
             color: black !important;
         }
         
+        @media screen and (min-width:2560px) {
+            .policy_black a {
+                color: white !important;
+            }
+        }
+        
         @media screen and (max-width:1055px) {
             .policy {
                 font-size: x-small !important;
@@ -6763,6 +6769,7 @@
                 margin-left: -30% !important;
             }
         }
+<<<<<<< HEAD
         /* CARD RESIZE */
         
         @media screen and (max-width:767px) and (min-width:650px) {
@@ -6788,4 +6795,12 @@
             .myClass2 {
                 margin-bottom: 20% !important;
             }
+=======
+        
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+>>>>>>> 85e7e14aff52519a8b20c1c779222728f20d8264
         }

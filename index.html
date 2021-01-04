@@ -36,7 +36,7 @@
 <body>
 
     <!--- SlideShow -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-interval="5000" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-interval="4000" data-ride="carousel">
 
         <ol class="carousel-indicators" style="z-index: 103;">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -112,13 +112,13 @@
                             </div>
                             <div class="col-sm-6 col-md-5 col-lg-5 col-5 " id="myDIV" style="margin-bottom: -7%; z-index: 101;">
                                 <div class="row thisrow" style=" margin-top: 43%; ">
-                                    <div id="myTitleDiv" class="col-md-8 col-sm-8 col-8 titlediv no" style="margin-top: -20%;">
+                                    <div id="myTitleDiv" class="col-md-8 col-sm-8 col-8 titlediv no" style="margin-top: -30%;">
                                         <h1 class="normalbgtext" id="maintxt">
                                             ELEMENTOS <br> DO JORNALISMO <br> NO NOVO <br> ECOSSISTEMA DIGITAL </h1>
                                         <h2 class="secondarybgtext"> com Walter Dean </h2>
                                     </div>
 
-                                    <div id="myNrDiv" class="col-md-4 col-sm-4 col-4 nrdiv" style="margin-left: -5%; margin-top: -1%;  z-index:100;">
+                                    <div id="myNrDiv" class="col-md-4 col-sm-4 col-4 nrdiv" style="margin-left: -5%; margin-top: -10%;  z-index:100;">
                                         <div class="row rownumb" style="margin-top: -63%;">
                                             <h3 class="normalbgtext2" style="font-weight: lighter;"> 1 </h3>
                                             <h3 class="normalbgtext2" style="font-weight: normal;">/</h3>
@@ -140,9 +140,97 @@
 
                         <div class="row" style="margin-bottom: 2%;">
                             <div class="col-8 policy" style=" z-index: 102; position: fixed; text-align: end; margin-left: 4%; "><a href="mailto:remedialab@labcom.ubi.pt">remedialab@labcom.ubi.pt</a></div>
-                            <div class="col-6 policy p1" style="z-index: 102; position: fixed; text-align: end; margin-left: 3%;"><a href="#">Privacy Policy</a>
+                            <div class="col-6 policy p1" style="z-index: 102; position: fixed; text-align: end; margin-left: 4%;"><a href="#" onclick="modalPrivacy()" id="myBtn">Política de Privacidade</a>
+
                             </div>
                         </div>
+                    </div>
+
+
+                    <!-- The Modal -->
+
+                    <div id="myModal" class="modal m1" style="display: none; position: fixed; z-index: 150; padding-top: 100px;left: 0; top: 0; width: 100%; height: 90vh; overflow: auto; background-color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0.4);">
+
+                        <!-- Modal content -->
+                        <div class="modal-header" style="background-color: #fefefe; margin: auto; padding: 20px; border: 1px solid #888; width: 80%;">
+                            <h5 class="modal-title" id="">Política de Privacidade </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true"
+                                    style="color: #aaaaaa; float: right; font-size: 28px; font-weight: bold;">&times;</span>
+                            </button>
+
+                        </div>
+
+                        <div class="modal-content m1content" style="background-color: #fefefe; margin: auto; padding: 20px; border: 1px solid #888; width: 80%; overflow: auto;">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie libero ac venenatis posuere. Maecenas in ipsum ullamcorper magna dapibus eleifend pulvinar vestibulum nibh. Sed eu libero molestie, vulputate elit
+                                a, ultrices felis. Aenean nisl mi, porttitor in hendrerit in, porttitor et enim. Integer nisi est, semper eget bibendum eget, vehicula sit amet leo. Vivamus sed mattis leo, in euismod dolor. Nam id nunc arcu. Curabitur
+                                vitae semper lorem, id pretium risus. Nam cursus sed odio congue volutpat. Donec pulvinar consequat lorem, et aliquam dolor ultrices et. Integer eget aliquam quam. Morbi rutrum, erat in ornare commodo, turpis dui tincidunt
+                                sapien, at varius turpis risus a mi. Pellentesque nec porttitor turpis. Vivamus quis dapibus erat, nec porta justo. <br> Nam interdum urna arcu, sed efficitur augue dapibus eget. Sed purus neque, venenatis eu placerat quis,
+                                sollicitudin a felis. Ut vitae lobortis libero. Donec in fermentum dui. Maecenas non rutrum leo, ut dapibus enim. Quisque condimentum ante mi, at accumsan nisl commodo eget. Sed viverra malesuada nulla ut vehicula. Integer
+                                in quam sollicitudin urna malesuada aliquet. Curabitur molestie vel enim vel viverra. Sed sed pharetra lorem. Nulla sollicitudin bibendum nunc in condimentum. Praesent placerat finibus risus, ut tempor diam bibendum in.
+                                Suspendisse potenti. Curabitur ipsum felis, rutrum id erat ut, consequat volutpat arcu.
+                                <br> Ut eleifend efficitur ligula in bibendum. Pellentesque molestie nulla at eleifend euismod. Aliquam ullamcorper molestie fermentum. Quisque malesuada, justo vitae eleifend blandit, augue elit pretium dolor, eu lobortis
+                                nunc augue sed erat. Vestibulum sagittis diam sed odio scelerisque, vitae iaculis nibh suscipit. Maecenas ac placerat erat. Pellentesque nec leo eu enim lacinia dapibus. <br> In hac habitasse platea dictumst. Pellentesque
+                                elementum lorem dui, a lacinia dolor convallis in. Aenean suscipit non dui sit amet accumsan. Sed lorem mauris, eleifend ac ex sit amet, tincidunt lobortis lorem. Ut vulputate lobortis ipsum vel feugiat. Sed ut tempor odio.
+                                Morbi ornare gravida odio vel congue. Sed in vestibulum sapien, tempus imperdiet mi. Suspendisse sit amet iaculis libero. Nullam consectetur, arcu quis faucibus luctus, nibh nisl vestibulum sem, sodales suscipit justo sem
+                                ut mauris.
+                                <br> Nam viverra enim lorem, non dapibus enim dictum eget. Cras dignissim id purus at rutrum. Donec molestie tincidunt lorem venenatis iaculis. In convallis pharetra enim, non malesuada ante volutpat vitae. Nam suscipit
+                                at turpis eu tincidunt. Sed ornare nunc nunc, in ornare ligula dignissim ut. Sed feugiat maximus ante ut fermentum. Nunc varius porttitor ante, nec vulputate urna. Vestibulum vulputate ipsum vel erat hendrerit fermentum.
+                                Donec sodales commodo dolor, vel tristique metus pharetra ut.
+                            </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie libero ac venenatis posuere. Maecenas in ipsum ullamcorper magna dapibus eleifend pulvinar vestibulum nibh. Sed eu libero molestie, vulputate elit
+                                a, ultrices felis. Aenean nisl mi, porttitor in hendrerit in, porttitor et enim. Integer nisi est, semper eget bibendum eget, vehicula sit amet leo. Vivamus sed mattis leo, in euismod dolor. Nam id nunc arcu. Curabitur
+                                vitae semper lorem, id pretium risus. Nam cursus sed odio congue volutpat. Donec pulvinar consequat lorem, et aliquam dolor ultrices et. Integer eget aliquam quam. Morbi rutrum, erat in ornare commodo, turpis dui tincidunt
+                                sapien, at varius turpis risus a mi. Pellentesque nec porttitor turpis. Vivamus quis dapibus erat, nec porta justo. <br> Nam interdum urna arcu, sed efficitur augue dapibus eget. Sed purus neque, venenatis eu placerat quis,
+                                sollicitudin a felis. Ut vitae lobortis libero. Donec in fermentum dui. Maecenas non rutrum leo, ut dapibus enim. Quisque condimentum ante mi, at accumsan nisl commodo eget. Sed viverra malesuada nulla ut vehicula. Integer
+                                in quam sollicitudin urna malesuada aliquet. Curabitur molestie vel enim vel viverra. Sed sed pharetra lorem. Nulla sollicitudin bibendum nunc in condimentum. Praesent placerat finibus risus, ut tempor diam bibendum in.
+                                Suspendisse potenti. Curabitur ipsum felis, rutrum id erat ut, consequat volutpat arcu.
+                                <br> Ut eleifend efficitur ligula in bibendum. Pellentesque molestie nulla at eleifend euismod. Aliquam ullamcorper molestie fermentum. Quisque malesuada, justo vitae eleifend blandit, augue elit pretium dolor, eu lobortis
+                                nunc augue sed erat. Vestibulum sagittis diam sed odio scelerisque, vitae iaculis nibh suscipit. Maecenas ac placerat erat. Pellentesque nec leo eu enim lacinia dapibus. <br> In hac habitasse platea dictumst. Pellentesque
+                                elementum lorem dui, a lacinia dolor convallis in. Aenean suscipit non dui sit amet accumsan. Sed lorem mauris, eleifend ac ex sit amet, tincidunt lobortis lorem. Ut vulputate lobortis ipsum vel feugiat. Sed ut tempor odio.
+                                Morbi ornare gravida odio vel congue. Sed in vestibulum sapien, tempus imperdiet mi. Suspendisse sit amet iaculis libero. Nullam consectetur, arcu quis faucibus luctus, nibh nisl vestibulum sem, sodales suscipit justo sem
+                                ut mauris.
+                                <br> Nam viverra enim lorem, non dapibus enim dictum eget. Cras dignissim id purus at rutrum. Donec molestie tincidunt lorem venenatis iaculis. In convallis pharetra enim, non malesuada ante volutpat vitae. Nam suscipit
+                                at turpis eu tincidunt. Sed ornare nunc nunc, in ornare ligula dignissim ut. Sed feugiat maximus ante ut fermentum. Nunc varius porttitor ante, nec vulputate urna. Vestibulum vulputate ipsum vel erat hendrerit fermentum.
+                                Donec sodales commodo dolor, vel tristique metus pharetra ut.
+                            </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie libero ac venenatis posuere. Maecenas in ipsum ullamcorper magna dapibus eleifend pulvinar vestibulum nibh. Sed eu libero molestie, vulputate elit
+                                a, ultrices felis. Aenean nisl mi, porttitor in hendrerit in, porttitor et enim. Integer nisi est, semper eget bibendum eget, vehicula sit amet leo. Vivamus sed mattis leo, in euismod dolor. Nam id nunc arcu. Curabitur
+                                vitae semper lorem, id pretium risus. Nam cursus sed odio congue volutpat. Donec pulvinar consequat lorem, et aliquam dolor ultrices et. Integer eget aliquam quam. Morbi rutrum, erat in ornare commodo, turpis dui tincidunt
+                                sapien, at varius turpis risus a mi. Pellentesque nec porttitor turpis. Vivamus quis dapibus erat, nec porta justo. <br> Nam interdum urna arcu, sed efficitur augue dapibus eget. Sed purus neque, venenatis eu placerat quis,
+                                sollicitudin a felis. Ut vitae lobortis libero. Donec in fermentum dui. Maecenas non rutrum leo, ut dapibus enim. Quisque condimentum ante mi, at accumsan nisl commodo eget. Sed viverra malesuada nulla ut vehicula. Integer
+                                in quam sollicitudin urna malesuada aliquet. Curabitur molestie vel enim vel viverra. Sed sed pharetra lorem. Nulla sollicitudin bibendum nunc in condimentum. Praesent placerat finibus risus, ut tempor diam bibendum in.
+                                Suspendisse potenti. Curabitur ipsum felis, rutrum id erat ut, consequat volutpat arcu.
+                                <br> Ut eleifend efficitur ligula in bibendum. Pellentesque molestie nulla at eleifend euismod. Aliquam ullamcorper molestie fermentum. Quisque malesuada, justo vitae eleifend blandit, augue elit pretium dolor, eu lobortis
+                                nunc augue sed erat. Vestibulum sagittis diam sed odio scelerisque, vitae iaculis nibh suscipit. Maecenas ac placerat erat. Pellentesque nec leo eu enim lacinia dapibus. <br> In hac habitasse platea dictumst. Pellentesque
+                                elementum lorem dui, a lacinia dolor convallis in. Aenean suscipit non dui sit amet accumsan. Sed lorem mauris, eleifend ac ex sit amet, tincidunt lobortis lorem. Ut vulputate lobortis ipsum vel feugiat. Sed ut tempor odio.
+                                Morbi ornare gravida odio vel congue. Sed in vestibulum sapien, tempus imperdiet mi. Suspendisse sit amet iaculis libero. Nullam consectetur, arcu quis faucibus luctus, nibh nisl vestibulum sem, sodales suscipit justo sem
+                                ut mauris.
+                                <br> Nam viverra enim lorem, non dapibus enim dictum eget. Cras dignissim id purus at rutrum. Donec molestie tincidunt lorem venenatis iaculis. In convallis pharetra enim, non malesuada ante volutpat vitae. Nam suscipit
+                                at turpis eu tincidunt. Sed ornare nunc nunc, in ornare ligula dignissim ut. Sed feugiat maximus ante ut fermentum. Nunc varius porttitor ante, nec vulputate urna. Vestibulum vulputate ipsum vel erat hendrerit fermentum.
+                                Donec sodales commodo dolor, vel tristique metus pharetra ut.
+                            </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie libero ac venenatis posuere. Maecenas in ipsum ullamcorper magna dapibus eleifend pulvinar vestibulum nibh. Sed eu libero molestie, vulputate elit
+                                a, ultrices felis. Aenean nisl mi, porttitor in hendrerit in, porttitor et enim. Integer nisi est, semper eget bibendum eget, vehicula sit amet leo. Vivamus sed mattis leo, in euismod dolor. Nam id nunc arcu. Curabitur
+                                vitae semper lorem, id pretium risus. Nam cursus sed odio congue volutpat. Donec pulvinar consequat lorem, et aliquam dolor ultrices et. Integer eget aliquam quam. Morbi rutrum, erat in ornare commodo, turpis dui tincidunt
+                                sapien, at varius turpis risus a mi. Pellentesque nec porttitor turpis. Vivamus quis dapibus erat, nec porta justo. <br> Nam interdum urna arcu, sed efficitur augue dapibus eget. Sed purus neque, venenatis eu placerat quis,
+                                sollicitudin a felis. Ut vitae lobortis libero. Donec in fermentum dui. Maecenas non rutrum leo, ut dapibus enim. Quisque condimentum ante mi, at accumsan nisl commodo eget. Sed viverra malesuada nulla ut vehicula. Integer
+                                in quam sollicitudin urna malesuada aliquet. Curabitur molestie vel enim vel viverra. Sed sed pharetra lorem. Nulla sollicitudin bibendum nunc in condimentum. Praesent placerat finibus risus, ut tempor diam bibendum in.
+                                Suspendisse potenti. Curabitur ipsum felis, rutrum id erat ut, consequat volutpat arcu.
+                                <br> Ut eleifend efficitur ligula in bibendum. Pellentesque molestie nulla at eleifend euismod. Aliquam ullamcorper molestie fermentum. Quisque malesuada, justo vitae eleifend blandit, augue elit pretium dolor, eu lobortis
+                                nunc augue sed erat. Vestibulum sagittis diam sed odio scelerisque, vitae iaculis nibh suscipit. Maecenas ac placerat erat. Pellentesque nec leo eu enim lacinia dapibus. <br> In hac habitasse platea dictumst. Pellentesque
+                                elementum lorem dui, a lacinia dolor convallis in. Aenean suscipit non dui sit amet accumsan. Sed lorem mauris, eleifend ac ex sit amet, tincidunt lobortis lorem. Ut vulputate lobortis ipsum vel feugiat. Sed ut tempor odio.
+                                Morbi ornare gravida odio vel congue. Sed in vestibulum sapien, tempus imperdiet mi. Suspendisse sit amet iaculis libero. Nullam consectetur, arcu quis faucibus luctus, nibh nisl vestibulum sem, sodales suscipit justo sem
+                                ut mauris.
+                                <br> Nam viverra enim lorem, non dapibus enim dictum eget. Cras dignissim id purus at rutrum. Donec molestie tincidunt lorem venenatis iaculis. In convallis pharetra enim, non malesuada ante volutpat vitae. Nam suscipit
+                                at turpis eu tincidunt. Sed ornare nunc nunc, in ornare ligula dignissim ut. Sed feugiat maximus ante ut fermentum. Nunc varius porttitor ante, nec vulputate urna. Vestibulum vulputate ipsum vel erat hendrerit fermentum.
+                                Donec sodales commodo dolor, vel tristique metus pharetra ut.
+                            </p>
+
+
+                        </div>
+
                     </div>
 
                     <!--End main content title-->
@@ -156,7 +244,7 @@
                                     <!--Logo-->
                                     <img style="z-index:52; position: absolute; width: 18%; top:0%; margin:1.5%;" src="assets/logo-desktop-remedia-ext-white.png" alt="logo">
                                     <!--Menu close-->
-                                    <button id="modalDesactivate" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview" style="z-index: 52; position: absolute; top: 0%; left: 46.5%; margin:0.5%; ">
+                                    <button onclick="startCarousel()" id="modalDesactivate" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview" style="z-index: 52; position: absolute; top: 0%; left: 46.5%; margin:0.5%; ">
                                         <img style="z-index:52; width: 100%;" src="assets/button-mobile-exit.png"
                                             alt="menuclose">
                                     </button>
@@ -246,7 +334,11 @@
                     <div class="collapse" id="collapseExample" data-toggle="collapse" style="width: 91.67%; ">
                         <div class="card card-body p-0 noborder" id="ola" style="z-index: 104;">
 
+<<<<<<< HEAD
                             <div class="row rowcoll" style="margin-top: 5%; ">
+=======
+                            <div class="row" style="margin-top: 6%; ">
+>>>>>>> 85e7e14aff52519a8b20c1c779222728f20d8264
                                 <div class="col-5" style="margin-left: 0.6%; width: 90.6%;">
                                     <p style="color: #ffffff;"></p>
                                     <br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -427,8 +519,8 @@
                     <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
 
                         <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                                PT
-                                            </a>
+                            PT
+                        </a>
 
                         <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
                             <a class="abtn btn" href="index-en.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">EN</a>
@@ -449,8 +541,8 @@
                             <!--Begin menu button-->
 
                             <button id="modalActivate2" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview2" style="z-index: 51;margin:auto; ">
-                                                    <img src="assets/button-desktop-menu.png" style="width: 90%;" alt="menu">
-                                                </button>
+                                <img src="assets/button-desktop-menu.png" style="width: 90%;" alt="menu">
+                            </button>
                         </div>
 
                         <!--End menu button-->
@@ -466,11 +558,11 @@
 
                             </div>
                             <div class="col-sm-5 col-md-5 col-lg-5 col-5 " id="myDIV2" style="margin-bottom: -7%; z-index: 101; ">
-                                <div class="row thisrow" style=" margin-top: 43%; ">
-                                    <div id="myTitleDiv2" class="col-md-8 col-sm-8 col-8 sl3 titlediv" style="margin-top: -20%;">
+                                <div class="row thisrow" style=" margin-top: 41%; ">
+                                    <div id="myTitleDiv2" class="col-md-8 col-sm-8 col-8 sl3 titlediv" style="margin-top: -27%;">
                                         <h1 class="normalbgtext sl2" id="maintxt2">LOCAL MEDIA <br> FAL{L} SCHOOL <br> ABRE ANO LETIVO</h1>
                                     </div>
-                                    <div id="myNrDiv2" class="col-md-4 col-sm-4 col-4 nrdiv" style="margin-left: -5%; margin-top: -1%;  z-index:100; ">
+                                    <div id="myNrDiv2" class="col-md-4 col-sm-4 col-4 nrdiv" style="margin-left: -5%; margin-top: -7%;  z-index:100; ">
                                         <div class="row rownumb" style="margin-top: -63%;">
                                             <h3 class="normalbgtext2" style="font-weight: lighter;"> 2 </h3>
                                             <h3 class="normalbgtext2" style="font-weight: normal;">/</h3>
@@ -595,7 +687,11 @@
                     <div class="collapse" id="collapseExample" data-toggle="collapse" style="width: 91.67%; ">
                         <div class="card card-body p-0 noborder" id="ola2" style="z-index: 104;">
 
+<<<<<<< HEAD
                             <div class="row rowcoll" style="margin-top: 5%;">
+=======
+                            <div class="row" style="margin-top: 6%;">
+>>>>>>> 85e7e14aff52519a8b20c1c779222728f20d8264
                                 <div class="col-5" style="margin-left: 0.6%; width: 90.6%;">
                                     <p style="color: #ffffff;"></p>
                                     <br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -762,8 +858,8 @@
                     <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
 
                         <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                                PT
-                                            </a>
+                            PT
+                        </a>
 
                         <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
                             <a class="abtn btn" href="index-en.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">EN</a>
@@ -784,8 +880,8 @@
                             <!--Begin menu button-->
 
                             <button id="modalActivate3" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview3" style="z-index: 51;margin:auto; ">
-                                                    <img src="assets/button-desktop-menu.png" style="width: 90%;" alt="menu">
-                                                </button>
+                                <img src="assets/button-desktop-menu.png" style="width: 90%;" alt="menu">
+                            </button>
                         </div>
 
                         <!--End menu button-->
@@ -802,11 +898,11 @@
                             </div>
                             <div class="col-sm-5 col-md-5 col-lg-5 col-5 " id="myDIV4" style="margin-bottom: -7%; z-index: 101; ">
                                 <div class="row thisrow" style=" margin-top: 43%; ">
-                                    <div id="myTitleDiv4" class="col-md-8 col-sm-8 col-8 sl3 titlediv" style="margin-top: -20%;">
+                                    <div id="myTitleDiv4" class="col-md-8 col-sm-8 col-8 sl3 titlediv" style="margin-top: -30%;">
                                         <h1 class="normalbgtext" id="maintxt4">RE/MEDIA.LAB <br> APRESENTA ME- <br> DIDAS PARA O <br> SECTOR DOS MEDIA</h1>
                                     </div>
-                                    <div id="myNrDiv4" class="col-md-4 col-sm-4 col-4 nrdiv" style="margin-left: -5%; margin-top: -1%;  z-index:100; ">
-                                        <div class="row rownumb" style="margin-top: -63%;">
+                                    <div id="myNrDiv4" class="col-md-4 col-sm-4 col-4 nrdiv" style="margin-left: -5%; margin-top: -12%;  z-index:100; ">
+                                        <div class="row rownumb" style="margin-top: -56%;">
                                             <h3 class="normalbgtext2" style="font-weight: lighter;"> 3 </h3>
                                             <h3 class="normalbgtext2" style="font-weight: normal;">/</h3>
                                             <h3 class="normalbgtext2" style="font-weight: bold;">5</h3>
@@ -931,7 +1027,11 @@
                     <div class="collapse" id="collapseExample" data-toggle="collapse" style="width: 91.67%; ">
                         <div class="card card-body p-0 noborder" id="ola2" style="z-index: 104;">
 
+<<<<<<< HEAD
                             <div class="row rowcoll" style="margin-top: 5%;">
+=======
+                            <div class="row" style="margin-top: 6%;">
+>>>>>>> 85e7e14aff52519a8b20c1c779222728f20d8264
                                 <div class="col-5" style="margin-left: 0.6%; width: 90.6%;">
                                     <p style="color: #ffffff;"></p>
                                     <br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -1166,8 +1266,8 @@
                     <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
 
                         <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                                PT
-                                            </a>
+                            PT
+                        </a>
 
                         <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
                             <a class="abtn btn" href="index-en.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">EN</a>
@@ -1188,8 +1288,8 @@
                             <!--Begin menu button-->
 
                             <button id="modalActivate4" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview4" style="z-index: 51;margin:auto; ">
-                                                    <img src="assets/button-desktop-menu.png" style="width: 90%;" alt="menu">
-                                                </button>
+                                <img src="assets/button-desktop-menu.png" style="width: 90%;" alt="menu">
+                            </button>
                         </div>
 
                         <!--End menu button-->
@@ -1205,7 +1305,7 @@
 
                             </div>
                             <div class="col-sm-5 col-md-5 col-lg-5 col-5 " id="myDIV3" style="margin-bottom: -7%; z-index: 101; ">
-                                <div class="row thisrow" style=" margin-top: 43%;">
+                                <div class="row thisrow" style=" margin-top: 35%;">
                                     <div class="col-md-8 col-sm-8 col-8 marginslide3" id="margem1" style="margin-top: -20%;margin-left: -100%;">
                                         <h1 class="normalbgtext3" id="maintxt3">ESCOLA<br>DE OUTONO<br>DÁ ORIGEM <br>A LIVRO
                                         </h1>
@@ -1335,7 +1435,11 @@
                     <div class="collapse" id="collapseExample" data-toggle="collapse" style="width: 91.67%; ">
                         <div class="card card-body p-0 noborder" id="ola" style="z-index: 104;">
 
+<<<<<<< HEAD
                             <div class="row rowcoll" style="margin-top: 5%;">
+=======
+                            <div class="row" style="margin-top: 6%;">
+>>>>>>> 85e7e14aff52519a8b20c1c779222728f20d8264
                                 <div class="col-5" style="margin-left: 0.6%; width: 90.6%;">
                                     <p style="color: #ffffff;"></p>
                                     <br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -1498,8 +1602,8 @@
                     <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
 
                         <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                                PT
-                                            </a>
+                            PT
+                        </a>
 
                         <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
                             <a class="abtn btn" href="index-en.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">EN</a>
@@ -1520,8 +1624,8 @@
                             <!--Begin menu button-->
 
                             <button id="modalActivate5" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview5" style="z-index: 51;margin:auto; ">
-                                                    <img src="assets/button-desktop-menu.png" style="width: 90%;" alt="menu">
-                                                </button>
+                                <img src="assets/button-desktop-menu.png" style="width: 90%;" alt="menu">
+                            </button>
                         </div>
 
                         <!--End menu button-->
@@ -1537,7 +1641,7 @@
 
                             </div>
                             <div class="col-sm-5 col-md-5 col-lg-5 col-5 " id="myDIV5" style="margin-bottom: -7%; z-index: 101; ">
-                                <div class="row thisrow" style=" margin-top: 43%; ">
+                                <div class="row thisrow" style=" margin-top: 36%; ">
                                     <div id="myTitleDiv5" class="col-md-8 col-sm-8 col-8 sl3 titlediv" style="margin-top: -20%;">
                                         <h1 class="normalbgtext" id="maintxt5">FINANCIAMENTO <br> DOS MEDIA EM <br> DEBATE NA UBI</h1>
                                     </div>
@@ -1667,7 +1771,11 @@
                     <div class="collapse" id="collapseExample" data-toggle="collapse" style="width: 91.67%; ">
                         <div class="card card-body p-0 noborder" id="ola2" style="z-index: 104;">
 
+<<<<<<< HEAD
                             <div class="row rowcoll" style="margin-top: 5%;">
+=======
+                            <div class="row" style="margin-top: 6%;">
+>>>>>>> 85e7e14aff52519a8b20c1c779222728f20d8264
                                 <div class="col-5" style="margin-left: 0.6%; width: 90.6%;">
                                     <p style="color: #ffffff;"></p>
                                     <br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -1905,8 +2013,10 @@
 
             }
 
+
             var x = 0; //modal | 0-> modal fechado | 1 -> modal aberto
             var y = 0; //collapse | 0-> collapse fechado | 1 -> collapse aberto
+
 
             if (x == 0) {
                 $('.modal').on('shown.bs.modal', function(e) {
@@ -1914,7 +2024,6 @@
                 })
                 x = 1;
             }
-
             if (x == 1) {
                 $('.modal').on('hide.bs.modal', function(e) {
                     $('.carousel').carousel('cycle');
@@ -1935,16 +2044,23 @@
                 })
                 y = 0;
             }
-
-
             if (x == 0 && y == 0) {
                 $(function() {
                     $('#carouselExampleIndicators').carousel({
                         pause: "false",
                     });
-
                 });
             }
+
+
+
+            $(function() {
+                $('#carouselExampleIndicators').carousel({
+                    pause: "false",
+                });
+
+            });
+
 
             $('.owl-carousel').owlCarousel({
                 autoplay: true,
@@ -1977,6 +2093,43 @@
                 $('#carouselExampleIndicators').carousel(getSlideParameter('slide'));
 
             })();
+
+            function modalPrivacy() {
+
+                // Get the modal
+                var modal = document.getElementById("myModal");
+
+                // Get the button that opens the modal
+                var btn = document.getElementById("myBtn");
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close")[0];
+
+                // When the user clicks the button, open the modal 
+                btn.onclick = function() {
+                    modal.style.display = "block";
+                    $('.carousel').carousel('pause');
+
+                }
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() {
+                    modal.style.display = "none";
+                    $('.carousel').carousel('cycle');
+
+                }
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                        $('.carousel').carousel('cycle');
+
+                    }
+                }
+            }
+
+            $('.m1').css('overflow-y', 'auto');
         </script>
 
 </body>
