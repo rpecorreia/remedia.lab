@@ -188,27 +188,10 @@
         @media not all and (min-resolution:.001dpcm) {
             @supports (-webkit-appearance: none) and (stroke-color: transparent) {
                 .card {
-                    margin-top: 40% !important;
+                    margin-top: 30% !important;
                 }
-                .zoomLogo {
-                    width: 75% !important;
-                    margin-top: 0% !important;
-                }
-                .zoomLogo2 {
-                    width: 75% !important;
-                    margin-top: 0% !important;
-                }
-                .zoomLogo3 {
-                    width: 75% !important;
-                    margin-top: 0% !important;
-                }
-                .zoomLogo4 {
-                    width: 75% !important;
-                    margin-top: 0% !important;
-                }
-                .zoomLogo5 {
-                    width: 75% !important;
-                    margin-top: 0% !important;
+                .rowcoll {
+                    margin-top: 25% !important;
                 }
                 .myDiv {
                     padding: 1em;
@@ -217,24 +200,27 @@
                 }
                 .myClass {
                     background: white !important;
-                    margin-top: 20% !important;
-                    margin-bottom: -40% !important;
+                    margin-top: 40% !important;
+                    margin-left: 98% !important;
                 }
                 .myClass h2 {
-                    color: black;
+                    color: black !important;
                     margin-left: 9%;
+                    font-size: 1.5rem !important;
                 }
                 .myClass h1 {
-                    color: black;
+                    color: black !important;
                     margin-left: 10%;
                     margin-top: -8%;
+                    font-size: 1.5rem !important;
                 }
                 .myClass h3 {
-                    color: black;
-                    margin-top: -12%;
+                    color: black !important;
+                    margin-top: -20% !important;
+                    font-size: 5em !important;
                 }
                 .myClass i {
-                    color: black;
+                    color: black !important;
                 }
                 .myDiv2 {
                     padding: 1em;
@@ -243,24 +229,24 @@
                 }
                 .myClass2 {
                     background: white !important;
-                    margin-top: 23% !important;
-                    margin-bottom: -40% !important;
+                    margin-top: 45% !important;
+                    margin-left: 106.7% !important;
                 }
                 .myClass2 h2 {
-                    color: black;
-                    margin-left: 9%;
+                    color: black !important;
+                    margin-left: -10% !important;
+                    font-size: 1.5rem !important;
                 }
                 .myClass2 h1 {
-                    color: black;
-                    margin-left: 10%;
+                    color: black !important;
+                    margin-left: -30% !important;
                     margin-top: -5% !important;
+                    font-size: 1.5rem !important;
                 }
                 .myClass2 h3 {
-                    color: black;
-                    margin-top: -12%;
-                }
-                .myClass2 i {
-                    color: black;
+                    color: black !important;
+                    margin-top: -20% !important;
+                    font-size: 4.5em !important;
                 }
                 .myDiv3 {
                     padding: 1em;
@@ -269,79 +255,69 @@
                 }
                 .myClass3 {
                     background: white !important;
-                    margin-top: 23% !important;
-                    margin-bottom: -40% !important;
+                    margin-top: 48% !important;
+                    margin-left: 105% !important;
                 }
                 .myClass3 h2 {
-                    color: black;
+                    color: black !important;
                     margin-left: 9%;
+                    font-size: 1.5rem !important;
                 }
                 .myClass3 h1 {
-                    color: black;
+                    color: black !important;
                     margin-left: 10%;
                     margin-top: -8%;
+                    font-size: 1.5rem !important;
                 }
                 .myClass3 h3 {
-                    color: black;
-                    margin-top: -12%;
-                }
-                .myClass3 i {
-                    color: black;
-                }
-                .sl2 {
-                    margin-top: 10% !important;
-                }
-                .myDiv4 {
-                    padding: 1em;
-                    line-height: 1.5em;
-                    background: none;
+                    color: black !important;
+                    margin-top: -20% !important;
+                    font-size: 4.5em !important;
                 }
                 .myClass4 {
                     background: white !important;
-                    margin-top: 23% !important;
-                    margin-bottom: -40% !important;
+                    margin-top: 48% !important;
+                    margin-left: 98% !important;
                 }
                 .myClass4 h2 {
-                    color: black;
+                    color: black !important;
                     margin-left: 9%;
+                    font-size: 1.5rem !important;
                 }
                 .myClass4 h1 {
-                    color: black;
+                    color: black !important;
                     margin-left: 10%;
-                    margin-top: -5% !important;
+                    margin-top: -8%;
+                    font-size: 1.5rem !important;
                 }
                 .myClass4 h3 {
-                    color: black;
-                    margin-top: -12%;
-                }
-                .myClass4 i {
-                    color: black;
-                }
-                .myDiv5 {
-                    padding: 1em;
-                    line-height: 1.5em;
-                    background: none;
+                    color: black !important;
+                    margin-top: -20% !important;
+                    font-size: 5em !important;
                 }
                 .myClass5 {
                     background: white !important;
-                    margin-top: 23% !important;
-                    margin-bottom: -40% !important;
+                    margin-top: 48% !important;
+                    margin-left: 105% !important;
                 }
                 .myClass5 h2 {
-                    color: black;
+                    color: black !important;
                     margin-left: 9%;
+                    font-size: 5rem !important;
                 }
                 .myClass5 h1 {
-                    color: black;
-                    margin-left: 10%;
-                    margin-top: -5% !important;
+                    color: black !important;
+                    margin-left: -20% !important;
+                    margin-top: -8%;
+                    font-size: 1.5rem !important;
                 }
                 .myClass5 h3 {
-                    color: black;
-                    margin-top: -12%;
+                    color: black !important;
+                    margin-top: -20% !important;
+                    font-size: 4.5em !important;
                 }
-                .myClass5 i {
-                    color: black;
+                .sl2 {
+                    margin-top: 10% !important;
                 }
                 @media screen and (min-width: 1440px) {
                     .normalbgtext2-3 {
@@ -350,12 +326,6 @@
                     .modal-body li a {
                         left: 0% !important;
                     }
-                }
-                .icon {
-                    margin-top: 5% !important;
-                }
-                .icon2 {
-                    margin-top: 5% !important;
                 }
             }
         }
@@ -1327,8 +1297,8 @@
             }
             .myClass2 h1 {
                 color: black;
-                margin-left: 10%;
-                margin-top: -8%;
+                margin-left: 170% !important;
+                margin-top: -23% !important;
                 font-size: 1.3rem !important;
             }
             .myClass2 h3 {
@@ -1457,9 +1427,9 @@
             }
             .myClass2 h1 {
                 color: black;
-                margin-left: 10%;
-                margin-top: -8%;
-                font-size: 1.1rem !important;
+                margin-left: 170% !important;
+                margin-top: -23% !important;
+                font-size: 1.3rem !important;
             }
             .myClass2 h3 {
                 color: black;
@@ -1573,7 +1543,7 @@
                 color: black;
                 margin-left: 10%;
                 margin-top: -8%;
-                font-size: 1rem !important;
+                font-size: 0.8rem !important;
             }
             .myClass h3 {
                 color: black;
@@ -1587,9 +1557,9 @@
             }
             .myClass2 h1 {
                 color: black;
-                margin-left: 10%;
-                margin-top: -8%;
-                font-size: 0.8rem !important;
+                margin-left: 180% !important;
+                margin-top: -23% !important;
+                font-size: 1.3rem !important;
             }
             .myClass2 h3 {
                 color: black;
@@ -1665,7 +1635,7 @@
                 margin-left: 1rem;
             }
             .icon {
-                width: 3.5rem;
+                width: 3rem;
                 margin-left: -80% !important;
             }
             .icon2 {
@@ -1693,7 +1663,7 @@
                 margin-left: -110% !important;
             }
             .nrdiv {
-                margin-left: 85% !important;
+                margin-left: 108% !important;
             }
         }
         
@@ -3827,9 +3797,9 @@
             }
             .myClass2 h1 {
                 color: black;
-                margin-left: 10%;
-                margin-top: -8%;
-                font-size: 0.8rem !important;
+                margin-left: 225% !important;
+                margin-top: -5% !important;
+                font-size: 1rem !important;
             }
             .myClass2 h3 {
                 color: black;
@@ -3971,9 +3941,9 @@
             }
             .myClass2 h1 {
                 color: black;
-                margin-left: 10%;
-                margin-top: -8%;
-                font-size: 0.5rem !important;
+                margin-left: 225% !important;
+                margin-top: -5% !important;
+                font-size: 0.7rem !important;
             }
             .myClass2 h3 {
                 color: black;
@@ -4059,7 +4029,7 @@
                 margin-left: 2rem;
             }
             .icon {
-                width: 2.5rem;
+                width: 2rem;
                 margin-left: -100% !important;
             }
             .icon2 {
@@ -4115,14 +4085,14 @@
             }
             .myClass2 h1 {
                 color: black;
-                margin-left: 10%;
-                margin-top: -8%;
-                font-size: 0.8rem !important;
+                margin-left: 225% !important;
+                margin-top: -5% !important;
+                font-size: 0.5rem !important;
             }
             .myClass2 h3 {
                 color: black;
                 margin-top: -12%;
-                font-size: 2rem !important;
+                font-size: 1.5rem !important;
             }
             .myClass3 h3 {
                 color: black;
@@ -4203,7 +4173,7 @@
                 margin-left: 2rem;
             }
             .icon {
-                width: 2rem;
+                width: 1.5rem;
                 margin-left: -150% !important;
             }
             .icon2 {
@@ -4654,7 +4624,7 @@
         }
         
         .myClass3 h3 {
-            color: black;
+            color: black !important;
             margin-top: -12%;
         }
         
@@ -6791,5 +6761,31 @@
         @media screen and (max-width:335px) {
             .p1 {
                 margin-left: -30% !important;
+            }
+        }
+        /* CARD RESIZE */
+        
+        @media screen and (max-width:767px) and (min-width:650px) {
+            .myClass {
+                margin-left: -8.3% !important;
+            }
+        }
+        
+        @media screen and (max-width:649px) and (min-width:576px) {
+            .myClass {
+                margin-left: -8.3% !important;
+                margin-bottom: 10% !important;
+            }
+        }
+        
+        @media screen and (max-width:649px) and (min-width:576px) {
+            .myClass2 {
+                margin-bottom: 23% !important;
+            }
+        }
+        
+        @media screen and (max-width:575px) and (min-width:549px) {
+            .myClass2 {
+                margin-bottom: 20% !important;
             }
         }
