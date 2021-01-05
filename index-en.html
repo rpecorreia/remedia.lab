@@ -36,9 +36,9 @@
 <body>
 
     <!--- SlideShow -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-interval="5000" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-interval="4000" data-ride="carousel">
 
-        <ol class="carousel-indicators">
+        <ol class="carousel-indicators" style="z-index: 103;">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
@@ -53,6 +53,19 @@
                 </div>
 
                 <div class="container h-100 d-flex flex-column">
+
+                    <div class="row" style="">
+                        <div class="col-11 social" style="margin-top: 10%; position: absolute; text-align: end;"><a href="https://www.facebook.com/labcom.ubi.pt/" target="__blank">Facebook</a></div>
+                    </div>
+
+                    <div class="row" style="">
+                        <div class="col-11 social" style="margin-top: 21%; position: absolute; text-align: end;"><a href="https://twitter.com/labcomifp" target="__blank">Twitter</a></div>
+                    </div>
+
+                    <div class="row" style="">
+                        <div class="col-11 social" style="margin-top: 30%; position: absolute; text-align: end;"><a href="https://ubi.academia.edu/LabComIFPUBI" target="__blank">Academia</a></div>
+                    </div>
+
 
                     <!--Begin Language-->
 
@@ -93,11 +106,11 @@
 
                     <div class="row m-0 d-flex justify-content-end flex-column h-100">
 
-                        <div class="row">
+                        <div class="row ">
                             <div class="col-sm-6 col-md-6 col-lg-6 col-6">
 
                             </div>
-                            <div class="col-sm-6 col-md-5 col-lg-5 col-5 " id="myDIV" style="margin-bottom: -2%; ">
+                            <div class="col-sm-6 col-md-5 col-lg-5 col-5 " id="myDIV" style="margin-bottom: -7%; z-index: 101;">
                                 <div class="row thisrow" style=" margin-top: 43%; ">
                                     <div id="myTitleDiv" class="col-md-8 col-sm-8 col-8 titlediv no" style="margin-top: -29%;">
                                         <h1 class="normalbgtext" id="maintxt">
@@ -105,7 +118,7 @@
                                         <h2 class="secondarybgtext"> with Walter Dean </h2>
                                     </div>
 
-                                    <div id="myNrDiv" class="col-md-4 col-sm-4 col-4 nrdiv" style="margin-left: -5%; margin-top: -8%;  z-index:100;">
+                                    <div id="myNrDiv" class="col-md-4 col-sm-4 col-4 nrdiv" style="margin-left: -5%; margin-top: -10%;  z-index:100;">
                                         <div class="row rownumb" style="margin-top: -63%;">
                                             <h3 class="normalbgtext2" style="font-weight: lighter;"> 1 </h3>
                                             <h3 class="normalbgtext2" style="font-weight: normal;">/</h3>
@@ -124,6 +137,71 @@
                             </div>
 
                         </div>
+
+                        <div class="row" style="margin-bottom: 2%;">
+                            <div class="col-8 policy" style=" z-index: 102; position: fixed; text-align: end; margin-left: 4%; "><a href="mailto:remedialab@labcom.ubi.pt">remedialab@labcom.ubi.pt</a></div>
+                            <div class="col-6 policy p1" style="z-index: 102; position: fixed; text-align: end; margin-left: 4%;"><a href="#" onclick="modalPrivacy()" id="myBtn">Privacy Policy</a>
+
+                            </div>
+                        </div>
+
+
+
+                        <!-- The Modal -->
+
+                        <div id="myModal" class="modal m1" style="display: none; position: fixed; z-index: 150; padding-top: 100px;left: 0; top: 0; width: 100%; height: 99vh; overflow: auto; background-color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0.4);">
+
+                            <!-- Modal content -->
+                            <div class="modal-header" style="background-color: #fefefe; margin: auto; padding: 20px; border: 1px solid #888; width: 80%;">
+                                <h5 class="modal-title" id="">Privacy Policy </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true"
+                                    style="color: #aaaaaa; float: right; font-size: 28px; font-weight: bold;">&times;</span>
+                            </button>
+
+                            </div>
+
+                            <div class="modal-content m1content" style="background-color: #fefefe; margin: auto; padding: 20px; border: 1px solid #888; width: 80%; overflow: auto;">
+
+                                <p>
+                                    Your privacy is important to us. It is the policy of Re/media.Lab to respect your privacy in relation to any information about you that we may collect on the Re/media.Lab website, and other websites that we own and operate. </p>
+                                <p>
+                                    We request personal information only when we really need it to provide you with a service. We do this by fair and legal means, with your knowledge and consent. We also tell you why we are collecting it and how it will be used. <br>
+                                </p>
+                                <p>
+                                    We only retain the information collected for as long as necessary to provide the requested service. When we store data, we protect it within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying,
+                                    use or modification. <br>
+                                </p>
+                                <p>
+                                    We do not share personally identifiable information publicly or with third parties, except as required by law. <br>
+                                </p>
+                                <p>
+                                    Our website may have links to external websites that are not operated by us. Please be aware that we have no control over the content and practices of these sites and we cannot accept responsibility for their respective privacy policies. <br>
+                                </p>
+                                <p>
+                                    You are free to refuse our request for personal information, understanding that we may not be able to provide some of the desired services. <br>
+                                </p>
+                                <p>
+                                    Your continued use of our website will be considered acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, please contact us. <br>
+                                </p>
+                                <p>
+                                    <b>User Commitment:</b>
+                                    <br> The user undertakes to make appropriate use of the contents and information that Re/media.Lab offers on the website and with an enunciative but not limiting character:
+                                    <br> A) Do not engage in activities that are illegal or contrary to good faith and public order;
+                                    <br> B) Do not broadcast advertising or content of a racist, xenophobic nature, or about casinos, sports betting (e.g. Betway), games of chance, any type of illegal pornography, in support of terrorism or against human
+                                    rights;
+                                    <br> C) Do not cause damage to the physical (hardware) and logical (software) systems of Re/media.Lab, its suppliers or third parties, to introduce or disseminate computer viruses or any other hardware or software systems
+                                    that are capable of causing damage previously mentioned. <br>
+                                </p>
+                                <p> <b>More informations:</b>
+                                    <br> Hopefully it is clear and, as mentioned earlier, if there is something you are not sure whether you need or not, it is generally safer to leave cookies enabled if you interact with one of the features you use on
+                                    our website. <br>
+                                </p>
+                                <p>This policy is effective from January 2021. <br></p>
+
+                            </div>
+
+                        </div>
                     </div>
 
                     <!--End main content title-->
@@ -137,7 +215,7 @@
                                     <!--Logo-->
                                     <img style="z-index:52; position: absolute; width: 18%; top:0%; margin:1.5%;" src="assets/logo-desktop-remedia-ext-white.png" alt="logo">
                                     <!--Menu close-->
-                                    <button id="modalDesactivate" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview" style="z-index: 52; position: absolute; top: 0%; left: 46.5%; margin:0.5%; ">
+                                    <button onclick="startCarousel()" id="modalDesactivate" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview" style="z-index: 52; position: absolute; top: 0%; left: 46.5%; margin:0.5%; ">
                                         <img style="z-index:52; width: 100%;" src="assets/button-mobile-exit.png"
                                             alt="menuclose">
                                     </button>
@@ -162,6 +240,9 @@
                                         <li><a href="about/en.html" class="strikeout menulist">ABOUT</a></li>
                                         <li><a href="team/en.html" class="strikeout menulist">TEAM</a></li>
                                         <li><a href="partners/en.html" class="strikeout menulist">PARTNERS</a></li>
+                                        <li class="menu_social" style="display: none;"><a href="https://www.facebook.com/labcom.ubi.pt/" target="__blank" class="strikeout menulist">FACEBOOK</a></li>
+                                        <li class="menu_social" style="display: none;"><a href="https://twitter.com/labcomifp" target="__blank" class="strikeout menulist">TWITTER</a></li>
+                                        <li class="menu_social" style="display: none;"><a href="https://ubi.academia.edu/LabComIFPUBI" target="__blank" class="strikeout menulist">ACADEMIA</a></li>
                                     </ul>
                                 </div>
 
@@ -222,9 +303,9 @@
                     <!-- End Modal menu content -->
                     <!--Begin Collapse new content-->
                     <div class="collapse" id="collapseExample" data-toggle="collapse" style="width: 91.67%; ">
-                        <div class="card card-body p-0 noborder" id="ola" style="z-index: 50;">
+                        <div class="card card-body p-0 noborder" id="ola" style="z-index: 104;">
 
-                            <div class="row" style="margin-top: 5%; ">
+                            <div class="row rowcoll" style="margin-top: 6%; ">
                                 <div class="col-5" style="margin-left: 0.6%; width: 90.6%;">
                                     <p style="color: #ffffff;"></p>
                                     <br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -285,22 +366,22 @@
                                                 <div class="owl-stage">
 
                                                     <div class="owl-item">
-                                                        <a href='index-en.html?slide=0'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-01.jpg"> </a>
+                                                        <a href='index.html?slide=0'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-01.jpg"> </a>
                                                     </div>
 
                                                     <div class="owl-item">
-                                                        <a href='index-en.html?slide=1'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-02.jpg"> </a>
+                                                        <a href='index.html?slide=1'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-02.jpg"> </a>
                                                     </div>
                                                     <div class="owl-item">
-                                                        <a href='index-en.html?slide=2'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-03.jpg"> </a>
-                                                    </div>
-
-                                                    <div class="owl-item">
-                                                        <a href='index-en.html?slide=3'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-04.jpg"> </a>
+                                                        <a href='index.html?slide=2'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-03.jpg"> </a>
                                                     </div>
 
                                                     <div class="owl-item">
-                                                        <a href='index-en.html?slide=4'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-05.jpg"> </a>
+                                                        <a href='index.html?slide=3'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-04.jpg"> </a>
+                                                    </div>
+
+                                                    <div class="owl-item">
+                                                        <a href='index.html?slide=4'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-05.jpg"> </a>
                                                     </div>
 
                                                 </div>
@@ -367,7 +448,7 @@
 
                                         <div class="col-4">
                                             <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; font-size: 0.8rem; text-align: center;">
-                                                <span class="text-muted">&copy; Re/media.lab 2020</span>
+                                                <span class="text-muted">&copy; Re/media.lab 2021</span>
                                             </p>
                                         </div>
 
@@ -387,6 +468,18 @@
 
             <div id="secondslide" class="carousel-item bg2" style="background-repeat: no-repeat; background-size: cover; height: 100vh; " alt="Second slide">
                 <div class="container h-100 d-flex flex-column">
+
+                    <div class="row" style="">
+                        <div class="col-11 social" style="margin-top: 10%; position: absolute; text-align: end; "><a href="https://www.facebook.com/labcom.ubi.pt/" target="__blank">Facebook</a></div>
+                    </div>
+
+                    <div class="row" style="">
+                        <div class="col-11 social" style="margin-top: 21%; position: absolute; text-align: end; "><a href="https://twitter.com/labcomifp" target="__blank">Twitter</a></div>
+                    </div>
+
+                    <div class="row" style="">
+                        <div class="col-11 social" style="margin-top: 30%; position: absolute; text-align: end; "><a href="https://ubi.academia.edu/LabComIFPUBI" target="__blank">Academia</a></div>
+                    </div>
 
                     <!--Begin Language-->
 
@@ -415,8 +508,8 @@
                             <!--Begin menu button-->
 
                             <button id="modalActivate2" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview2" style="z-index: 51;margin:auto; ">
-                                                    <img src="assets/button-desktop-menu.png" style="width: 90%;" alt="menu">
-                                                </button>
+                                <img src="assets/button-desktop-menu.png" style="width: 90%;" alt="menu">
+                            </button>
                         </div>
 
                         <!--End menu button-->
@@ -431,12 +524,12 @@
                             <div class="col-sm-6 col-md-6 col-lg-6 col-6">
 
                             </div>
-                            <div class="col-sm-5 col-md-5 col-lg-5 col-5 " id="myDIV2" style="margin-bottom: -2%; ">
-                                <div class="row thisrow" style=" margin-top: 43%; ">
+                            <div class="col-sm-5 col-md-5 col-lg-5 col-5 " id="myDIV2" style="margin-bottom: -7%; z-index: 101; ">
+                                <div class="row thisrow" style=" margin-top: 41%; ">
                                     <div id="myTitleDiv2" class="col-md-8 col-sm-8 col-8 sl3 titlediv" style="margin-top: -29%;">
                                         <h1 class="normalbgtext sl2" id="maintxt2">LOCAL MEDIA <br> FAL{L} SCHOOL <br> OPENS SCHOOL <br>YEAR</h1>
                                     </div>
-                                    <div id="myNrDiv2" class="col-md-4 col-sm-4 col-4 nrdiv" style="margin-left: -5%; margin-top: -8%;  z-index:100;">
+                                    <div id="myNrDiv2" class="col-md-4 col-sm-4 col-4 nrdiv" style="margin-left: -5%; margin-top: -7%;  z-index:100; ">
                                         <div class="row rownumb" style="margin-top: -63%;">
                                             <h3 class="normalbgtext2" style="font-weight: lighter;"> 2 </h3>
                                             <h3 class="normalbgtext2" style="font-weight: normal;">/</h3>
@@ -455,6 +548,74 @@
                             </div>
 
                         </div>
+
+                        <div class="row" style="margin-bottom: 2%;">
+                            <div class="col-8 policy" style=" z-index: 102; position: fixed; text-align: end; margin-left: 4%; "><a href="mailto:remedialab@labcom.ubi.pt">remedialab@labcom.ubi.pt</a></div>
+                            <div class="col-6 policy p1" style="z-index: 102; position: fixed; text-align: end; margin-left: 4%;"><a href="#" onclick="modalPrivacy2()" id="myBtn2">Privacy Policy</a>
+
+                            </div>
+                        </div>
+
+
+
+                        <!-- The Modal -->
+
+                        <div id="myModal2" class="modal m2" style="display: none; position: fixed; z-index: 150; padding-top: 100px;left: 0; top: 0; width: 100%; height: 99vh; overflow: auto; background-color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0.4);">
+
+                            <!-- Modal content -->
+                            <div class="modal-header" style="background-color: #fefefe; margin: auto; padding: 20px; border: 1px solid #888; width: 80%;">
+                                <h5 class="modal-title" id="">Privacy Policy </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true"
+                                    style="color: #aaaaaa; float: right; font-size: 28px; font-weight: bold;">&times;</span>
+                            </button>
+
+                            </div>
+
+                            <div class="modal-content m2content" style="background-color: #fefefe; margin: auto; padding: 20px; border: 1px solid #888; width: 80%; overflow: auto;">
+
+
+                                <p>
+                                    Your privacy is important to us. It is the policy of Re/media.Lab to respect your privacy in relation to any information about you that we may collect on the Re/media.Lab website, and other websites that we own and operate. </p>
+                                <p>
+                                    We request personal information only when we really need it to provide you with a service. We do this by fair and legal means, with your knowledge and consent. We also tell you why we are collecting it and how it will be used. <br>
+                                </p>
+                                <p>
+                                    We only retain the information collected for as long as necessary to provide the requested service. When we store data, we protect it within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying,
+                                    use or modification. <br>
+                                </p>
+                                <p>
+                                    We do not share personally identifiable information publicly or with third parties, except as required by law. <br>
+                                </p>
+                                <p>
+                                    Our website may have links to external websites that are not operated by us. Please be aware that we have no control over the content and practices of these sites and we cannot accept responsibility for their respective privacy policies. <br>
+                                </p>
+                                <p>
+                                    You are free to refuse our request for personal information, understanding that we may not be able to provide some of the desired services. <br>
+                                </p>
+                                <p>
+                                    Your continued use of our website will be considered acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, please contact us. <br>
+                                </p>
+                                <p>
+                                    <b>User Commitment:</b>
+                                    <br> The user undertakes to make appropriate use of the contents and information that Re/media.Lab offers on the website and with an enunciative but not limiting character:
+                                    <br> A) Do not engage in activities that are illegal or contrary to good faith and public order;
+                                    <br> B) Do not broadcast advertising or content of a racist, xenophobic nature, or about casinos, sports betting (e.g. Betway), games of chance, any type of illegal pornography, in support of terrorism or against human
+                                    rights;
+                                    <br> C) Do not cause damage to the physical (hardware) and logical (software) systems of Re/media.Lab, its suppliers or third parties, to introduce or disseminate computer viruses or any other hardware or software systems
+                                    that are capable of causing damage previously mentioned. <br>
+                                </p>
+                                <p> <b>More informations:</b>
+                                    <br> Hopefully it is clear and, as mentioned earlier, if there is something you are not sure whether you need or not, it is generally safer to leave cookies enabled if you interact with one of the features you use on
+                                    our website. <br>
+                                </p>
+                                <p>This policy is effective from January 2021. <br></p>
+
+
+                            </div>
+
+                        </div>
+
                     </div>
                     <!--End main content title-->
 
@@ -492,6 +653,9 @@
                                         <li><a href="about/en.html" class="strikeout menulist">ABOUT</a></li>
                                         <li><a href="team/en.html" class="strikeout menulist">TEAM</a></li>
                                         <li><a href="partners/en.html" class="strikeout menulist">PARTNERS</a></li>
+                                        <li class="menu_social" style="display: none;"><a href="https://www.facebook.com/labcom.ubi.pt/" target="__blank" class="strikeout menulist">FACEBOOK</a></li>
+                                        <li class="menu_social" style="display: none;"><a href="https://twitter.com/labcomifp" target="__blank" class="strikeout menulist">TWITTER</a></li>
+                                        <li class="menu_social" style="display: none;"><a href="https://ubi.academia.edu/LabComIFPUBI" target="__blank" class="strikeout menulist">ACADEMIA</a></li>
                                     </ul>
                                 </div>
 
@@ -552,9 +716,9 @@
                     <!-- End Modal menu content -->
                     <!--Begin Collapse new content-->
                     <div class="collapse" id="collapseExample" data-toggle="collapse" style="width: 91.67%; ">
-                        <div class="card card-body p-0 noborder" id="ola2" style="z-index: 50;">
+                        <div class="card card-body p-0 noborder" id="ola2" style="z-index: 104;">
 
-                            <div class="row" style="margin-top: 5%;">
+                            <div class="row rowcoll" style="margin-top: 6%;">
                                 <div class="col-5" style="margin-left: 0.6%; width: 90.6%;">
                                     <p style="color: #ffffff;"></p>
                                     <br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -576,6 +740,7 @@
                                     <br><br>
                                     <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; line-height: 0.9cm; text-align: justify;">
                                         This was an especially practical initiative, which revolved around wokshops on journalism on mobile devices and which had place at the Cherovia Festival - which was taking place simultaneously in Covilhã - a privileged event for experimentation.
+
                                     </h2>
                                     <br><br>
 
@@ -600,22 +765,22 @@
                                                 <div class="owl-stage">
 
                                                     <div class="owl-item">
-                                                        <a href='index-en.html?slide=0'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-01.jpg"> </a>
+                                                        <a href='index.html?slide=0'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-01.jpg"> </a>
                                                     </div>
 
                                                     <div class="owl-item">
-                                                        <a href='index-en.html?slide=1'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-02.jpg"> </a>
+                                                        <a href='index.html?slide=1'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-02.jpg"> </a>
                                                     </div>
                                                     <div class="owl-item">
-                                                        <a href='index-en.html?slide=2'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-03.jpg"> </a>
-                                                    </div>
-
-                                                    <div class="owl-item">
-                                                        <a href='index-en.html?slide=3'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-04.jpg"> </a>
+                                                        <a href='index.html?slide=2'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-03.jpg"> </a>
                                                     </div>
 
                                                     <div class="owl-item">
-                                                        <a href='index-en.html?slide=4'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-05.jpg"> </a>
+                                                        <a href='index.html?slide=3'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-04.jpg"> </a>
+                                                    </div>
+
+                                                    <div class="owl-item">
+                                                        <a href='index.html?slide=4'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-05.jpg"> </a>
                                                     </div>
 
                                                 </div>
@@ -636,8 +801,6 @@
                                         </div>
                                     </div>
                                 </div>
-
-
 
                                 <div class="container-fluid" style="margin-top: 10rem;">
                                     <div class="row top-buffer" style="position: relative; ">
@@ -684,7 +847,7 @@
 
                                         <div class="col-4">
                                             <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; font-size: 0.8rem; text-align: center;">
-                                                <span class="text-muted">&copy; Re/media.lab 2020</span>
+                                                <span class="text-muted">&copy; Re/media.lab 2021</span>
                                             </p>
                                         </div>
 
@@ -705,13 +868,25 @@
             <div class="carousel-item bg3" style="background-repeat: no-repeat; background-size: cover; height: 100vh; " alt="Third slide">
                 <div class="container h-100 d-flex flex-column">
 
+                    <div class="row" style="">
+                        <div class="col-11 social" style="margin-top: 10%; position: absolute; text-align: end;"><a href="https://www.facebook.com/labcom.ubi.pt/" target="__blank">Facebook</a></div>
+                    </div>
+
+                    <div class="row" style="">
+                        <div class="col-11 social" style="margin-top: 21%; position: absolute; text-align: end;"><a href="https://twitter.com/labcomifp" target="__blank">Twitter</a></div>
+                    </div>
+
+                    <div class="row" style="">
+                        <div class="col-11 social" style="margin-top: 30%; position: absolute; text-align: end;"><a href="https://ubi.academia.edu/LabComIFPUBI" target="__blank">Academia</a></div>
+                    </div>
+
                     <!--Begin Language-->
 
                     <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
 
                         <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                                EN
-                                            </a>
+                            EN
+                        </a>
 
                         <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
                             <a class="abtn btn" href="index.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">PT</a>
@@ -732,8 +907,8 @@
                             <!--Begin menu button-->
 
                             <button id="modalActivate3" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview3" style="z-index: 51;margin:auto; ">
-                                                    <img src="assets/button-desktop-menu.png" style="width: 90%;" alt="menu">
-                                                </button>
+                                <img src="assets/button-desktop-menu.png" style="width: 90%;" alt="menu">
+                            </button>
                         </div>
 
                         <!--End menu button-->
@@ -748,13 +923,13 @@
                             <div class="col-sm-6 col-md-6 col-lg-6 col-6">
 
                             </div>
-                            <div class="col-sm-5 col-md-5 col-lg-5 col-5 " id="myDIV4" style="margin-bottom: -2%; ">
+                            <div class="col-sm-5 col-md-5 col-lg-5 col-5 " id="myDIV4" style="margin-bottom: -7%; z-index: 101; ">
                                 <div class="row thisrow" style=" margin-top: 43%; ">
                                     <div id="myTitleDiv4" class="col-md-8 col-sm-8 col-8 sl3 titlediv" style="margin-top: -29%;">
                                         <h1 class="normalbgtext" id="maintxt4">RE/MEDIA.LAB <br> PRESENTS ME- <br> ASURES FOR THE <br> MEDIA SECTOR</h1>
                                     </div>
-                                    <div id="myNrDiv4" class="col-md-4 col-sm-4 col-4 nrdiv" style="margin-left: -5%; margin-top: -8%;  z-index:100;">
-                                        <div class="row rownumb" style="margin-top: -63%;">
+                                    <div id="myNrDiv4" class="col-md-4 col-sm-4 col-4 nrdiv" style="margin-left: -5%; margin-top: -12%;  z-index:100; ">
+                                        <div class="row rownumb" style="margin-top: -56%;">
                                             <h3 class="normalbgtext2" style="font-weight: lighter;"> 3 </h3>
                                             <h3 class="normalbgtext2" style="font-weight: normal;">/</h3>
                                             <h3 class="normalbgtext2" style="font-weight: bold;">5</h3>
@@ -772,6 +947,73 @@
                             </div>
 
                         </div>
+
+                        <div class="row" style="margin-bottom: 2%;">
+                            <div class="col-8 policy" style=" z-index: 102; position: fixed; text-align: end; margin-left: 4%; "><a href="mailto:remedialab@labcom.ubi.pt">remedialab@labcom.ubi.pt</a></div>
+                            <div class="col-6 policy p1" style="z-index: 102; position: fixed; text-align: end; margin-left: 4%;"><a href="#" onclick="modalPrivacy3()" id="myBtn3">Privacy Policy</a>
+
+                            </div>
+                        </div>
+
+
+
+                        <!-- The Modal -->
+
+                        <div id="myModal3" class="modal m3" style="display: none; position: fixed; z-index: 150; padding-top: 100px;left: 0; top: 0; width: 100%; height: 99vh; overflow: auto; background-color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0.4);">
+
+                            <!-- Modal content -->
+                            <div class="modal-header" style="background-color: #fefefe; margin: auto; padding: 20px; border: 1px solid #888; width: 80%;">
+                                <h5 class="modal-title" id="">Privacy Policy </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true"
+                                    style="color: #aaaaaa; float: right; font-size: 28px; font-weight: bold;">&times;</span>
+                            </button>
+
+                            </div>
+
+                            <div class="modal-content m3content" style="background-color: #fefefe; margin: auto; padding: 20px; border: 1px solid #888; width: 80%; overflow: auto;">
+
+
+                                <p>
+                                    Your privacy is important to us. It is the policy of Re/media.Lab to respect your privacy in relation to any information about you that we may collect on the Re/media.Lab website, and other websites that we own and operate. </p>
+                                <p>
+                                    We request personal information only when we really need it to provide you with a service. We do this by fair and legal means, with your knowledge and consent. We also tell you why we are collecting it and how it will be used. <br>
+                                </p>
+                                <p>
+                                    We only retain the information collected for as long as necessary to provide the requested service. When we store data, we protect it within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying,
+                                    use or modification. <br>
+                                </p>
+                                <p>
+                                    We do not share personally identifiable information publicly or with third parties, except as required by law. <br>
+                                </p>
+                                <p>
+                                    Our website may have links to external websites that are not operated by us. Please be aware that we have no control over the content and practices of these sites and we cannot accept responsibility for their respective privacy policies. <br>
+                                </p>
+                                <p>
+                                    You are free to refuse our request for personal information, understanding that we may not be able to provide some of the desired services. <br>
+                                </p>
+                                <p>
+                                    Your continued use of our website will be considered acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, please contact us. <br>
+                                </p>
+                                <p>
+                                    <b>User Commitment:</b>
+                                    <br> The user undertakes to make appropriate use of the contents and information that Re/media.Lab offers on the website and with an enunciative but not limiting character:
+                                    <br> A) Do not engage in activities that are illegal or contrary to good faith and public order;
+                                    <br> B) Do not broadcast advertising or content of a racist, xenophobic nature, or about casinos, sports betting (e.g. Betway), games of chance, any type of illegal pornography, in support of terrorism or against human
+                                    rights;
+                                    <br> C) Do not cause damage to the physical (hardware) and logical (software) systems of Re/media.Lab, its suppliers or third parties, to introduce or disseminate computer viruses or any other hardware or software systems
+                                    that are capable of causing damage previously mentioned. <br>
+                                </p>
+                                <p> <b>More informations:</b>
+                                    <br> Hopefully it is clear and, as mentioned earlier, if there is something you are not sure whether you need or not, it is generally safer to leave cookies enabled if you interact with one of the features you use on
+                                    our website. <br>
+                                </p>
+                                <p>This policy is effective from January 2021. <br></p>
+
+                            </div>
+
+                        </div>
+
                     </div>
                     <!--End main content title-->
 
@@ -805,10 +1047,13 @@
                                 <div class="modal-body" style="z-index: 52; margin-top: 5%; margin-bottom: 20%;">
                                     <ul class="categories-list">
                                         <li><a href="index-en.html" class=" strikeout menulist"> HOME</a></li>
-                                        <li><a href="news/en.html" class="strikeout menulist">  NEWS</a></li>
+                                        <li><a href="news/en.html" class="strikeout menulist"> NEWS</a></li>
                                         <li><a href="about/en.html" class="strikeout menulist">ABOUT</a></li>
                                         <li><a href="team/en.html" class="strikeout menulist">TEAM</a></li>
                                         <li><a href="partners/en.html" class="strikeout menulist">PARTNERS</a></li>
+                                        <li class="menu_social" style="display: none;"><a href="https://www.facebook.com/labcom.ubi.pt/" target="__blank" class="strikeout menulist">FACEBOOK</a></li>
+                                        <li class="menu_social" style="display: none;"><a href="https://twitter.com/labcomifp" target="__blank" class="strikeout menulist">TWITTER</a></li>
+                                        <li class="menu_social" style="display: none;"><a href="https://ubi.academia.edu/LabComIFPUBI" target="__blank" class="strikeout menulist">ACADEMIA</a></li>
                                     </ul>
                                 </div>
 
@@ -870,9 +1115,9 @@
 
                     <!--Begin Collapse new content-->
                     <div class="collapse" id="collapseExample" data-toggle="collapse" style="width: 91.67%; ">
-                        <div class="card card-body p-0 noborder" id="ola2" style="z-index: 50;">
+                        <div class="card card-body p-0 noborder" id="ola2" style="z-index: 104;">
 
-                            <div class="row" style="margin-top: 5%;">
+                            <div class="row rowcoll" style="margin-top: 6%;">
                                 <div class="col-5" style="margin-left: 0.6%; width: 90.6%;">
                                     <p style="color: #ffffff;"></p>
                                     <br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -890,6 +1135,7 @@
                                     <br><br>
                                     <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; line-height: 0.9cm; text-align: justify;">
                                         "How am I going to think about my future, if I don't know what's going on in my country, in the community where I live?" The question was raised by João Carlos Correia, researcher in charge of Re/media.Lab and professor at UBI, during the press conference.
+
                                     </h2>
                                     <br><br>
                                     <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; line-height: 0.9cm; text-align: justify;">
@@ -900,9 +1146,9 @@
                                     </h2>
                                     <br><br>
                                     <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; line-height: 0.9cm; text-align: justify;">
-                                        Business models and media financing, as well as the role of the Regional Development and Coordination Commissions (CCDR’s), were topics covered. “At a recent meeting requested by the Portuguese Press Association, which wanted to hear from us about regional
+                                        Business models and media financing, as well as the role of the Regional Development and Coordination Commissions (CCDR’s), were topics covered. "At a recent meeting requested by the Portuguese Press Association, which wanted to hear from us about regional
                                         newspapers, we learned that the role of CCDR’s is extremely relevant. The more active they are in informing and supporting the regional media in formalizing applications, perhaps more means and more support may
-                                        be considered, ”he stressed.
+                                        be considered", he underlined.
                                     </h2>
                                     <br><br>
 
@@ -913,22 +1159,26 @@
 
                                     <h2 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; line-height: 0.9cm; text-align: justify;">
                                         <ol>
-                                            <li>
-                                                Offer all young people who reach the age of 18 or students, as well as the senior population, an annual subscription to a generalist newspaper (national or local) of their choice (paper or online). It can be associated with student and senior cards;
+                                            <li> Offer all young people who reach the age of 18 or students, as well as the senior population, an annual subscription to a generalist newspaper (national or local) of their choice (paper or online). It can be
+                                                associated with student and senior cards;
+
                                             </li>
                                             <li>
                                                 To oblige all public bodies (from national to local) serving the citizen to make two generalist newspapers (national and local) available in waiting spaces (paper and online);
 
                                             </li>
-                                            <li>Include in the public transport concession contracts the obligation of the concessionaire to make general paper newspapers available on buses/coaches and/or wi-fi with free access to newspaper sites;
+                                            <li> Include in the public transport concession contracts the obligation of the concessionaire to make general paper newspapers available on buses/coaches and/or wi-fi with free access to newspaper sites;
+
+                                            </li>
+                                            <li> Distribute 10% of the tourist tax for each city to local newspapers;
+
+                                            </li>
+                                            <li> Create an annual “Journalism Contribution” fee (identical to the Audiovisual Contribution on the EDP invoice), to be paid by all Internet Package subscribers. One can also think of its channeling for postal
+                                                distribution;
+
                                             </li>
                                             <li>
-                                                Distribute 10% of the tourist tax for each city to local newspapers;
-                                            </li>
-                                            <li>
-                                                Create an annual “Journalism Contribution” fee (identical to the Audiovisual Contribution on the EDP invoice), to be paid by all Internet Package subscribers. One can also think of its channeling for postal distribution;
-                                            </li>
-                                            <li>Amend the Law on Private Copying, increasing and sharing the rate applied to smartphones and tablets with the communication companies;
+                                                Amend the Law on Private Copying, increasing and sharing the rate applied to smartphones and tablets with the communication companies;
                                             </li>
                                             <li>
                                                 Increase the postage paid, with an increase for the Interior and peripheral regions, according to objective criteria to be established (capitation, capitation of reading, etc.);
@@ -1074,7 +1324,7 @@
 
                                         <div class="col-4">
                                             <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; font-size: 0.8rem; text-align: center;">
-                                                <span class="text-muted">&copy; Re/media.lab 2020</span>
+                                                <span class="text-muted">&copy; Re/media.lab 2021</span>
                                             </p>
                                         </div>
 
@@ -1098,13 +1348,25 @@
 
                 <div class="container h-100 d-flex flex-column">
 
+                    <div class="row" style="">
+                        <div class="col-11 social" style="margin-top: 10%; position: absolute; text-align: end; margin-left: 5%;"><a href="https://www.facebook.com/labcom.ubi.pt/" target="__blank">Facebook</a></div>
+                    </div>
+
+                    <div class="row" style="">
+                        <div class="col-11 social" style="margin-top: 21%; position: absolute; text-align: end; margin-left: 5%;"><a href="https://twitter.com/labcomifp" target="__blank">Twitter</a></div>
+                    </div>
+
+                    <div class="row" style="">
+                        <div class="col-11 social" style="margin-top: 30%; position: absolute; text-align: end; margin-left: 5%;"><a href="https://ubi.academia.edu/LabComIFPUBI" target="__blank">Academia</a></div>
+                    </div>
+
                     <!--Begin Language-->
 
                     <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
 
                         <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                                EN
-                                            </a>
+                            EN
+                        </a>
 
                         <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
                             <a class="abtn btn" href="index.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">PT</a>
@@ -1125,8 +1387,8 @@
                             <!--Begin menu button-->
 
                             <button id="modalActivate4" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview4" style="z-index: 51;margin:auto; ">
-                                                    <img src="assets/button-desktop-menu.png" style="width: 90%;" alt="menu">
-                                                </button>
+                                <img src="assets/button-desktop-menu.png" style="width: 90%;" alt="menu">
+                            </button>
                         </div>
 
                         <!--End menu button-->
@@ -1141,14 +1403,14 @@
                             <div class="col-sm-6 col-md-6 col-lg-6 col-6">
 
                             </div>
-                            <div class="col-sm-5 col-md-5 col-lg-5 col-5 " id="myDIV3" style="margin-bottom: -2%; ">
-                                <div class="row thisrow" style=" margin-top: 43%;">
-                                    <div class="col-md-8 col-sm-8 col-8 marginslide3" id="margem1" style="margin-top: -29%;margin-left: -100%;">
-                                        <h1 class="normalbgtext3" id="maintxt3">
-                                            AUTUMN<br>SCHOOL<br>GIVES BOOK
+                            <div class="col-sm-5 col-md-5 col-lg-5 col-5 " id="myDIV3" style="margin-bottom: -7%; z-index: 101; ">
+                                <div class="row thisrow" style=" margin-top: 35%;">
+                                    <div class="col-md-8 col-sm-8 col-8 marginslide3" id="margem1" style="margin-top: -20%;margin-left: -100%;">
+                                        <h1 class="normalbgtext3" id="maintxt3"> AUTUMN<br>SCHOOL<br>GIVES BOOK
+
                                         </h1>
                                     </div>
-                                    <div class="col-md-4 col-sm-4 col-4" id="margem2" style="margin-left: 100%; margin-top: -8%;  z-index:100;">
+                                    <div class="col-md-4 col-sm-4 col-4" id="margem2" style="margin-left: 100%; margin-top: -1%;  z-index:100; ">
                                         <div class="row rownumb" style="margin-top: -63%; ">
                                             <h3 class="normalbgtext2-3" style="font-weight: lighter;"> 4 </h3>
                                             <h3 class="normalbgtext2-3" style="font-weight: normal;  ">/</h3>
@@ -1167,6 +1429,72 @@
                             </div>
 
                         </div>
+
+                        <div class="row" style="margin-bottom: 2%;">
+                            <div class="col-8 policy" style=" z-index: 102; position: fixed; text-align: end; margin-left: 4%; "><a href="mailto:remedialab@labcom.ubi.pt">remedialab@labcom.ubi.pt</a></div>
+                            <div class="col-6 policy p1" style="z-index: 102; position: fixed; text-align: end; margin-left: 4%;"><a href="#" onclick="modalPrivacy4()" id="myBtn4">Privacy Policy</a>
+
+                            </div>
+                        </div>
+
+
+
+                        <!-- The Modal -->
+
+                        <div id="myModal4" class="modal m4" style="display: none; position: fixed; z-index: 150; padding-top: 100px;left: 0; top: 0; width: 100%; height: 99vh; overflow: auto; background-color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0.4);">
+
+                            <!-- Modal content -->
+                            <div class="modal-header" style="background-color: #fefefe; margin: auto; padding: 20px; border: 1px solid #888; width: 80%;">
+                                <h5 class="modal-title" id="">Privacy Policy </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true"
+                                    style="color: #aaaaaa; float: right; font-size: 28px; font-weight: bold;">&times;</span>
+                            </button>
+
+                            </div>
+
+                            <div class="modal-content m4content" style="background-color: #fefefe; margin: auto; padding: 20px; border: 1px solid #888; width: 80%; overflow: auto;">
+
+
+                                <p>
+                                    Your privacy is important to us. It is the policy of Re/media.Lab to respect your privacy in relation to any information about you that we may collect on the Re/media.Lab website, and other websites that we own and operate. </p>
+                                <p>
+                                    We request personal information only when we really need it to provide you with a service. We do this by fair and legal means, with your knowledge and consent. We also tell you why we are collecting it and how it will be used. <br>
+                                </p>
+                                <p>
+                                    We only retain the information collected for as long as necessary to provide the requested service. When we store data, we protect it within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying,
+                                    use or modification. <br>
+                                </p>
+                                <p>
+                                    We do not share personally identifiable information publicly or with third parties, except as required by law. <br>
+                                </p>
+                                <p>
+                                    Our website may have links to external websites that are not operated by us. Please be aware that we have no control over the content and practices of these sites and we cannot accept responsibility for their respective privacy policies. <br>
+                                </p>
+                                <p>
+                                    You are free to refuse our request for personal information, understanding that we may not be able to provide some of the desired services. <br>
+                                </p>
+                                <p>
+                                    Your continued use of our website will be considered acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, please contact us. <br>
+                                </p>
+                                <p>
+                                    <b>User Commitment:</b>
+                                    <br> The user undertakes to make appropriate use of the contents and information that Re/media.Lab offers on the website and with an enunciative but not limiting character:
+                                    <br> A) Do not engage in activities that are illegal or contrary to good faith and public order;
+                                    <br> B) Do not broadcast advertising or content of a racist, xenophobic nature, or about casinos, sports betting (e.g. Betway), games of chance, any type of illegal pornography, in support of terrorism or against human
+                                    rights;
+                                    <br> C) Do not cause damage to the physical (hardware) and logical (software) systems of Re/media.Lab, its suppliers or third parties, to introduce or disseminate computer viruses or any other hardware or software systems
+                                    that are capable of causing damage previously mentioned. <br>
+                                </p>
+                                <p> <b>More informations:</b>
+                                    <br> Hopefully it is clear and, as mentioned earlier, if there is something you are not sure whether you need or not, it is generally safer to leave cookies enabled if you interact with one of the features you use on
+                                    our website. <br>
+                                </p>
+                                <p>This policy is effective from January 2021. <br></p>
+                            </div>
+
+                        </div>
+
                     </div>
                     <!--End main content title-->
 
@@ -1204,6 +1532,9 @@
                                         <li><a href="about/en.html" class="strikeout menulist">ABOUT</a></li>
                                         <li><a href="team/en.html" class="strikeout menulist">TEAM</a></li>
                                         <li><a href="partners/en.html" class="strikeout menulist">PARTNERS</a></li>
+                                        <li class="menu_social" style="display: none;"><a href="https://www.facebook.com/labcom.ubi.pt/" target="__blank" class="strikeout menulist">FACEBOOK</a></li>
+                                        <li class="menu_social" style="display: none;"><a href="https://twitter.com/labcomifp" target="__blank" class="strikeout menulist">TWITTER</a></li>
+                                        <li class="menu_social" style="display: none;"><a href="https://ubi.academia.edu/LabComIFPUBI" target="__blank" class="strikeout menulist">ACADEMIA</a></li>
                                     </ul>
                                 </div>
 
@@ -1264,9 +1595,9 @@
                     <!-- End Modal menu content -->
                     <!--Begin Collapse new content-->
                     <div class="collapse" id="collapseExample" data-toggle="collapse" style="width: 91.67%; ">
-                        <div class="card card-body p-0 noborder" id="ola" style="z-index: 50;">
+                        <div class="card card-body p-0 noborder" id="ola" style="z-index: 104;">
 
-                            <div class="row" style="margin-top: 5%;">
+                            <div class="row rowcoll" style="margin-top: 6%;">
                                 <div class="col-5" style="margin-left: 0.6%; width: 90.6%;">
                                     <p style="color: #ffffff;"></p>
                                     <br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -1288,6 +1619,7 @@
                                     </h2>
                                     <br><br>
 
+
                                 </div>
                                 <div class="col-2 ">
                                 </div>
@@ -1307,22 +1639,22 @@
                                                 <div class="owl-stage">
 
                                                     <div class="owl-item">
-                                                        <a href='index-en.html?slide=0'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-01.jpg"> </a>
+                                                        <a href='index.html?slide=0'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-01.jpg"> </a>
                                                     </div>
 
                                                     <div class="owl-item">
-                                                        <a href='index-en.html?slide=1'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-02.jpg"> </a>
+                                                        <a href='index.html?slide=1'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-02.jpg"> </a>
                                                     </div>
                                                     <div class="owl-item">
-                                                        <a href='index-en.html?slide=2'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-03.jpg"> </a>
-                                                    </div>
-
-                                                    <div class="owl-item">
-                                                        <a href='index-en.html?slide=3'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-04.jpg"> </a>
+                                                        <a href='index.html?slide=2'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-03.jpg"> </a>
                                                     </div>
 
                                                     <div class="owl-item">
-                                                        <a href='index-en.html?slide=4'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-05.jpg"> </a>
+                                                        <a href='index.html?slide=3'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-04.jpg"> </a>
+                                                    </div>
+
+                                                    <div class="owl-item">
+                                                        <a href='index.html?slide=4'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-05.jpg"> </a>
                                                     </div>
 
                                                 </div>
@@ -1389,7 +1721,7 @@
 
                                         <div class="col-4">
                                             <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; font-size: 0.8rem; text-align: center;">
-                                                <span class="text-muted">&copy; Re/media.lab 2020</span>
+                                                <span class="text-muted">&copy; Re/media.lab 2021</span>
                                             </p>
                                         </div>
 
@@ -1411,13 +1743,25 @@
             <div class="carousel-item bg5" style="background-repeat: no-repeat; background-size: cover; height: 100vh; " alt="Fifth slide">
                 <div class="container h-100 d-flex flex-column">
 
+                    <div class="row" style="">
+                        <div class="col-11 social" style="margin-top: 10%; position: absolute; text-align: end; margin-left: 5%;"><a href="https://www.facebook.com/labcom.ubi.pt/" target="__blank">Facebook</a></div>
+                    </div>
+
+                    <div class="row" style="">
+                        <div class="col-11 social" style="margin-top: 21%; position: absolute; text-align: end; margin-left: 5%;"><a href="https://twitter.com/labcomifp" target="__blank">Twitter</a></div>
+                    </div>
+
+                    <div class="row" style="">
+                        <div class="col-11 social" style="margin-top: 30%; position: absolute; text-align: end; margin-left: 5%;"><a href="https://ubi.academia.edu/LabComIFPUBI" target="__blank">Academia</a></div>
+                    </div>
+
                     <!--Begin Language-->
 
                     <div class="dropdown show" style="z-index: 52; position: absolute; top: 0%; left:75%; ">
 
                         <a class="abtn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; background-color: #231f20; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                                EN
-                                            </a>
+                            EN
+                        </a>
 
                         <div class="dropdown-menu" style="min-height: 51px; min-width: 51px;" aria-labelledby="dropdownMenuLink">
                             <a class="abtn btn" href="index.html" role="button" id="dropdownMenuLink2" style="border-top: -50rem; background-color: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 25.5%;">PT</a>
@@ -1429,7 +1773,7 @@
                     <div class="row d-flex">
                         <!--Begin logo-->
                         <div class="col-4 " style="text-align: left;">
-                            <img id="myLogo" style="z-index:50; width:60%; margin: auto;" src="assets/logo-desktop-remedia-ext-black.png" alt="logo">
+                            <img id="myLogo" style="z-index:50; width:60%; margin: auto;" src="assets/logo-desktop-remedia-ext-white.png" alt="logo">
                         </div>
                         <!--End logo-->
 
@@ -1438,8 +1782,8 @@
                             <!--Begin menu button-->
 
                             <button id="modalActivate5" type="button" class="btn" data-toggle="modal" data-target="#exampleModalPreview5" style="z-index: 51;margin:auto; ">
-                                                    <img src="assets/button-desktop-menu.png" style="width: 90%;" alt="menu">
-                                                </button>
+                                <img src="assets/button-desktop-menu.png" style="width: 90%;" alt="menu">
+                            </button>
                         </div>
 
                         <!--End menu button-->
@@ -1454,12 +1798,12 @@
                             <div class="col-sm-6 col-md-6 col-lg-6 col-6">
 
                             </div>
-                            <div class="col-sm-5 col-md-5 col-lg-5 col-5 " id="myDIV5" style="margin-bottom: -2%; ">
-                                <div class="row thisrow" style=" margin-top: 43%; ">
-                                    <div id="myTitleDiv5" class="col-md-8 col-sm-8 col-8 sl3 titlediv" style="margin-top: -29%;">
+                            <div class="col-sm-5 col-md-5 col-lg-5 col-5 " id="myDIV5" style="margin-bottom: -7%; z-index: 101; ">
+                                <div class="row thisrow" style=" margin-top: 36%; ">
+                                    <div id="myTitleDiv5" class="col-md-8 col-sm-8 col-8 sl3 titlediv" style="margin-top: -20%;">
                                         <h1 class="normalbgtext" id="maintxt5">MEDIA FINANCING <br> UNDER DEBATE<br> AT UBI</h1>
                                     </div>
-                                    <div id="myNrDiv5" class="col-md-4 col-sm-4 col-4 nrdiv" style="margin-left: -5%; margin-top: -8%;  z-index:100;">
+                                    <div id="myNrDiv5" class="col-md-4 col-sm-4 col-4 nrdiv" style="margin-left: -5%; margin-top: -1%;  z-index:100; ">
                                         <div class="row rownumb" style="margin-top: -63%;">
                                             <h3 class="normalbgtext2" style="font-weight: lighter;"> 5 </h3>
                                             <h3 class="normalbgtext2" style="font-weight: normal;">/</h3>
@@ -1478,6 +1822,74 @@
                             </div>
 
                         </div>
+
+                        <div class="row" style="margin-bottom: 2%;">
+                            <div class="col-8 policy" style=" z-index: 102; position: fixed; text-align: end; margin-left: 4%; "><a href="mailto:remedialab@labcom.ubi.pt">remedialab@labcom.ubi.pt</a></div>
+                            <div class="col-6 policy p1" style="z-index: 102; position: fixed; text-align: end; margin-left: 4%;"><a href="#" onclick="modalPrivacy5()" id="myBtn5">Privacy Policy</a>
+
+                            </div>
+                        </div>
+
+
+
+                        <!-- The Modal -->
+
+                        <div id="myModal5" class="modal m5" style="display: none; position: fixed; z-index: 150; padding-top: 100px;left: 0; top: 0; width: 100%; height: 99vh; overflow: auto; background-color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0.4);">
+
+                            <!-- Modal content -->
+                            <div class="modal-header" style="background-color: #fefefe; margin: auto; padding: 20px; border: 1px solid #888; width: 80%;">
+                                <h5 class="modal-title" id="">Privacy Policy </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true"
+                                    style="color: #aaaaaa; float: right; font-size: 28px; font-weight: bold;">&times;</span>
+                            </button>
+
+                            </div>
+
+                            <div class="modal-content m5content" style="background-color: #fefefe; margin: auto; padding: 20px; border: 1px solid #888; width: 80%; overflow: auto;">
+
+
+                                <p>
+                                    Your privacy is important to us. It is the policy of Re/media.Lab to respect your privacy in relation to any information about you that we may collect on the Re/media.Lab website, and other websites that we own and operate. </p>
+                                <p>
+                                    We request personal information only when we really need it to provide you with a service. We do this by fair and legal means, with your knowledge and consent. We also tell you why we are collecting it and how it will be used. <br>
+                                </p>
+                                <p>
+                                    We only retain the information collected for as long as necessary to provide the requested service. When we store data, we protect it within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying,
+                                    use or modification. <br>
+                                </p>
+                                <p>
+                                    We do not share personally identifiable information publicly or with third parties, except as required by law. <br>
+                                </p>
+                                <p>
+                                    Our website may have links to external websites that are not operated by us. Please be aware that we have no control over the content and practices of these sites and we cannot accept responsibility for their respective privacy policies. <br>
+                                </p>
+                                <p>
+                                    You are free to refuse our request for personal information, understanding that we may not be able to provide some of the desired services. <br>
+                                </p>
+                                <p>
+                                    Your continued use of our website will be considered acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, please contact us. <br>
+                                </p>
+                                <p>
+                                    <b>User Commitment:</b>
+                                    <br> The user undertakes to make appropriate use of the contents and information that Re/media.Lab offers on the website and with an enunciative but not limiting character:
+                                    <br> A) Do not engage in activities that are illegal or contrary to good faith and public order;
+                                    <br> B) Do not broadcast advertising or content of a racist, xenophobic nature, or about casinos, sports betting (e.g. Betway), games of chance, any type of illegal pornography, in support of terrorism or against human
+                                    rights;
+                                    <br> C) Do not cause damage to the physical (hardware) and logical (software) systems of Re/media.Lab, its suppliers or third parties, to introduce or disseminate computer viruses or any other hardware or software systems
+                                    that are capable of causing damage previously mentioned. <br>
+                                </p>
+                                <p> <b>More informations:</b>
+                                    <br> Hopefully it is clear and, as mentioned earlier, if there is something you are not sure whether you need or not, it is generally safer to leave cookies enabled if you interact with one of the features you use on
+                                    our website. <br>
+                                </p>
+                                <p>This policy is effective from January 2021. <br></p>
+
+
+                            </div>
+
+                        </div>
+
                     </div>
                     <!--End main content title-->
 
@@ -1515,6 +1927,9 @@
                                         <li><a href="about/en.html" class="strikeout menulist">ABOUT</a></li>
                                         <li><a href="team/en.html" class="strikeout menulist">TEAM</a></li>
                                         <li><a href="partners/en.html" class="strikeout menulist">PARTNERS</a></li>
+                                        <li class="menu_social" style="display: none;"><a href="https://www.facebook.com/labcom.ubi.pt/" target="__blank" class="strikeout menulist">FACEBOOK</a></li>
+                                        <li class="menu_social" style="display: none;"><a href="https://twitter.com/labcomifp" target="__blank" class="strikeout menulist">TWITTER</a></li>
+                                        <li class="menu_social" style="display: none;"><a href="https://ubi.academia.edu/LabComIFPUBI" target="__blank" class="strikeout menulist">ACADEMIA</a></li>
                                     </ul>
                                 </div>
 
@@ -1576,9 +1991,9 @@
 
                     <!--Begin Collapse new content-->
                     <div class="collapse" id="collapseExample" data-toggle="collapse" style="width: 91.67%; ">
-                        <div class="card card-body p-0 noborder" id="ola2" style="z-index: 50;">
+                        <div class="card card-body p-0 noborder" id="ola2" style="z-index: 104;">
 
-                            <div class="row" style="margin-top: 5%;">
+                            <div class="row rowcoll" style="margin-top: 6%;">
                                 <div class="col-5" style="margin-left: 0.6%; width: 90.6%;">
                                     <p style="color: #ffffff;"></p>
                                     <br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -1619,22 +2034,22 @@
                                                 <div class="owl-stage">
 
                                                     <div class="owl-item">
-                                                        <a href='index-en.html?slide=0'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-01.jpg"> </a>
+                                                        <a href='index.html?slide=0'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-01.jpg"> </a>
                                                     </div>
 
                                                     <div class="owl-item">
-                                                        <a href='index-en.html?slide=1'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-02.jpg"> </a>
+                                                        <a href='index.html?slide=1'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-02.jpg"> </a>
                                                     </div>
                                                     <div class="owl-item">
-                                                        <a href='index-en.html?slide=2'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-03.jpg"> </a>
-                                                    </div>
-
-                                                    <div class="owl-item">
-                                                        <a href='index-en.html?slide=3'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-04.jpg"> </a>
+                                                        <a href='index.html?slide=2'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-03.jpg"> </a>
                                                     </div>
 
                                                     <div class="owl-item">
-                                                        <a href='index-en.html?slide=4'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-05.jpg"> </a>
+                                                        <a href='index.html?slide=3'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-04.jpg"> </a>
+                                                    </div>
+
+                                                    <div class="owl-item">
+                                                        <a href='index.html?slide=4'> <img style="width: 100%;" src="assets/remedia.lab-thumbnail-05.jpg"> </a>
                                                     </div>
 
                                                 </div>
@@ -1702,7 +2117,7 @@
 
                                         <div class="col-4">
                                             <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: normal; font-size: 0.8rem; text-align: center;">
-                                                <span class="text-muted">&copy; Re/media.lab 2020</span>
+                                                <span class="text-muted">&copy; Re/media.lab 2021</span>
                                             </p>
                                         </div>
 
@@ -1745,10 +2160,10 @@
                 element_icon.classList.toggle("myNrDivCSS");
 
                 var x = document.getElementById("maintxt");
-                if (x.innerHTML === "JORNALISTS DEBATE <br> \"THE ELEMENTS <br> OF JOURNALISM\"") {
-                    x.innerHTML = "ELEMENTS <br> OF JOURNALISM <br> IN THE NEW <br> DIGITAL ECOSYSTEM";
+                if (x.innerHTML === "JORNALISTAS DEBA- <br> TEM \"OS ELEMENTOS <br> DO JORNALISMO\" ") {
+                    x.innerHTML = "ELEMENTOS <br> DO JORNALISMO <br> NO NOVO <br> ECOSSISTEMA DIGITAL ";
                 } else {
-                    x.innerHTML = "JORNALISTS DEBATE <br> \"THE ELEMENTS <br> OF JOURNALISM\"";
+                    x.innerHTML = "JORNALISTAS DEBA- <br> TEM \"OS ELEMENTOS <br> DO JORNALISMO\" ";
 
                 }
             }
@@ -1765,6 +2180,13 @@
                 var element_icon = document.getElementById("myNrDiv2");
                 element_icon.classList.toggle("myNrDivCSS2");
 
+                var x = document.getElementById("maintxt2");
+                if (x.innerHTML === "LOCAL MEDIA <br> FAL{L} SCHOOL <br> ABRE ANO <br> LETIVO") {
+                    x.innerHTML = "LOCAL MEDIA <br> FAL{L} SCHOOL <br> ABRE ANO LETIVO";
+                } else {
+                    x.innerHTML = "LOCAL MEDIA <br> FAL{L} SCHOOL <br> ABRE ANO <br> LETIVO";
+
+                }
             }
 
             function myFunction3() {
@@ -1808,8 +2230,10 @@
 
             }
 
+
             var x = 0; //modal | 0-> modal fechado | 1 -> modal aberto
             var y = 0; //collapse | 0-> collapse fechado | 1 -> collapse aberto
+
 
             if (x == 0) {
                 $('.modal').on('shown.bs.modal', function(e) {
@@ -1817,7 +2241,6 @@
                 })
                 x = 1;
             }
-
             if (x == 1) {
                 $('.modal').on('hide.bs.modal', function(e) {
                     $('.carousel').carousel('cycle');
@@ -1838,16 +2261,23 @@
                 })
                 y = 0;
             }
-
-
             if (x == 0 && y == 0) {
                 $(function() {
                     $('#carouselExampleIndicators').carousel({
                         pause: "false",
                     });
-
                 });
             }
+
+
+
+            $(function() {
+                $('#carouselExampleIndicators').carousel({
+                    pause: "false",
+                });
+
+            });
+
 
             $('.owl-carousel').owlCarousel({
                 autoplay: true,
@@ -1880,8 +2310,191 @@
                 $('#carouselExampleIndicators').carousel(getSlideParameter('slide'));
 
             })();
+
+            function modalPrivacy() {
+
+                // Get the modal
+                var modal = document.getElementById("myModal");
+
+                // Get the button that opens the modal
+                var btn = document.getElementById("myBtn");
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close")[0];
+
+                // When the user clicks the button, open the modal 
+                btn.onclick = function() {
+                    modal.style.display = "block";
+                    $('.carousel').carousel('pause');
+
+                }
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() {
+                    modal.style.display = "none";
+                    $('.carousel').carousel('cycle');
+
+                }
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                        $('.carousel').carousel('cycle');
+
+                    }
+                }
+            }
+
+            function modalPrivacy2() {
+
+                // Get the modal
+                var modal = document.getElementById("myModal2");
+
+                // Get the button that opens the modal
+                var btn = document.getElementById("myBtn2");
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close")[0];
+
+                // When the user clicks the button, open the modal 
+                btn.onclick = function() {
+                    modal.style.display = "block";
+                    $('.carousel').carousel('pause');
+
+                }
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() {
+                    modal.style.display = "none";
+                    $('.carousel').carousel('cycle');
+
+                }
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                        $('.carousel').carousel('cycle');
+
+                    }
+                }
+            }
+
+            function modalPrivacy3() {
+
+                // Get the modal
+                var modal = document.getElementById("myModal3");
+
+                // Get the button that opens the modal
+                var btn = document.getElementById("myBtn3");
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close")[0];
+
+                // When the user clicks the button, open the modal 
+                btn.onclick = function() {
+                    modal.style.display = "block";
+                    $('.carousel').carousel('pause');
+
+                }
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() {
+                    modal.style.display = "none";
+                    $('.carousel').carousel('cycle');
+
+                }
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                        $('.carousel').carousel('cycle');
+
+                    }
+                }
+            }
+
+            function modalPrivacy4() {
+
+                // Get the modal
+                var modal = document.getElementById("myModal4");
+
+                // Get the button that opens the modal
+                var btn = document.getElementById("myBtn4");
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close")[0];
+
+                // When the user clicks the button, open the modal 
+                btn.onclick = function() {
+                    modal.style.display = "block";
+                    $('.carousel').carousel('pause');
+
+                }
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() {
+                    modal.style.display = "none";
+                    $('.carousel').carousel('cycle');
+
+                }
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                        $('.carousel').carousel('cycle');
+
+                    }
+                }
+            }
+
+            function modalPrivacy5() {
+
+                // Get the modal
+                var modal = document.getElementById("myModal5");
+
+                // Get the button that opens the modal
+                var btn = document.getElementById("myBtn5");
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close")[0];
+
+                // When the user clicks the button, open the modal 
+                btn.onclick = function() {
+                    modal.style.display = "block";
+                    $('.carousel').carousel('pause');
+
+                }
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() {
+                    modal.style.display = "none";
+                    $('.carousel').carousel('cycle');
+
+                }
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                        $('.carousel').carousel('cycle');
+
+                    }
+                }
+            }
+
+            $('.m1').css('overflow-y', 'auto');
+            $('.m2').css('overflow-y', 'auto');
+            $('.m3').css('overflow-y', 'auto');
+            $('.m4').css('overflow-y', 'auto');
+            $('.m5').css('overflow-y', 'auto');
         </script>
 
 </body>
+
+</html>
 
 </html>
