@@ -363,6 +363,9 @@
                     .myClass2 h1 {
                         font-size: 3rem !important;
                     }
+                    .myClass2 {
+                        margin-left: 90% !important;
+                    }
                     .myClass2 h3 {
                         font-size: 7.5rem !important;
                     }
@@ -382,6 +385,9 @@
                     .myClass4 h3 {
                         font-size: 5.5rem !important;
                     }
+                    .myClass2 h1 {
+                        margin-left: -65% !important;
+                    }
                 }
                 @media screen and (max-width: 1565px) and (min-width: 1367px) {
                     .myClass4 {
@@ -392,6 +398,16 @@
                         margin-left: -30% !important;
                     }
                     .myClass4 h3 {
+                        font-size: 5rem !important;
+                    }
+                    .myClass2 {
+                        margin-left: 80% !important;
+                    }
+                    .myClass2 h1 {
+                        margin-left: -40% !important;
+                        font-size: 2rem !important;
+                    }
+                    .myClass2 h3 {
                         font-size: 5rem !important;
                     }
                 }
@@ -443,11 +459,11 @@
                 @media screen and (max-width: 1024px) {
                     .myClass h1 {
                         font-size: 1.1rem !important;
-                        margin-left: -30% !important;
+                        margin-left: -96% !important;
                     }
                     .myClass h2 {
-                        font-size: 1rem !important;
-                        margin-left: -30% !important;
+                        font-size: 0.5rem !important;
+                        margin-left: -95% !important;
                     }
                     .myClass h3 {
                         font-size: 3.5rem !important;
@@ -531,8 +547,11 @@
                     .myNrDivCSS {
                         margin-left: -20% !important;
                     }
-                    .myClass2 h1 h2 {
-                        margin-left: -200% !important;
+                    .myClass2 {
+                        margin-left: 80% !important;
+                    }
+                    .myClass2 h1 {
+                        margin-left: 124% !important;
                     }
                     .myClass2 h3 {
                         font-size: 2.5rem !important;
@@ -667,18 +686,18 @@
                         margin-top: 45% !important;
                     }
                     .rowcoll {
-                        margin-top: 70% !important;
+                        margin-top: 87% !important;
                     }
                     .icon {
                         width: 2.1rem !important;
                         margin-left: 0% !important;
-                        margin-top: -20% !important;
+                        margin-top: -10% !important;
                     }
                     .myClass h3 {
-                        font-size: 1.7rem !important;
+                        font-size: 1.5rem !important;
                     }
                     .myClass2 h3 {
-                        font-size: 1.7rem !important;
+                        font-size: 1.5rem !important;
                     }
                     .myClass4 h3 {
                         font-size: 1.7rem !important;
@@ -693,10 +712,10 @@
                     }
                     .myClass4 h1 {
                         font-size: 0.9rem !important;
-                        margin-left: -100% !important;
+                        margin-left: 100% !important;
                     }
                     .rownumb {
-                        margin-left: 50% !important;
+                        margin-left: 3% !important;
                     }
                 }
                 @media screen and (max-width: 465px) {
@@ -719,16 +738,16 @@
                     }
                     .myClass4 h1 {
                         font-size: 0.7rem !important;
-                        margin-left: -100% !important;
+                        margin-left: 100% !important;
                     }
                     .rowcoll {
-                        margin-top: 103% !important;
+                        margin-top: 108% !important;
                     }
                     .icon {
-                        width: 1.5rem !important;
+                        width: 2.5rem !important;
                     }
                     .rownumb {
-                        margin-left: 20% !important;
+                        margin-left: 0% !important;
                     }
                 }
                 @media screen and (max-width: 375px) {
@@ -744,11 +763,11 @@
                         margin-left: -100% !important;
                     }
                     .rowcoll {
-                        margin-top: 103% !important;
+                        margin-top: 80% !important;
                     }
                     .icon {
-                        width: 1.5rem !important;
-                        margin-left: -100% !important;
+                        width: 2.5rem !important;
+                        margin-left: -57% !important;
                     }
                     .myClass2 {
                         margin-left: 50% !important;
@@ -766,7 +785,7 @@
                     }
                     .myClass4 h1 {
                         font-size: 0.7rem !important;
-                        margin-left: -100% !important;
+                        margin-left: 100% !important;
                     }
                     .myClass4 h2 {
                         font-size: 0.7rem !important;
@@ -2056,26 +2075,28 @@
                 margin-top: -10% !important;
                 font-size: 1.1rem;
             }
-            .myClass2 h3 {
-                color: black;
-                margin-top: -12%;
-                font-size: 2rem !important;
-            }
-            .myClass4 h2 {
-                color: black;
-                margin-left: 9%;
-                font-size: 1rem !important;
-            }
-            .myClass4 h1 {
-                color: black;
-                margin-left: 170% !important;
-                margin-top: -10% !important;
-                font-size: 0.7rem !important;
-            }
-            .myClass4 h3 {
-                color: black;
-                margin-top: -12%;
-                font-size: 2rem;
+            @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+                .myClass2 h3 {
+                    color: black;
+                    margin-top: -12%;
+                    font-size: 2rem !important;
+                }
+                .myClass4 h2 {
+                    color: black;
+                    margin-left: 9%;
+                    font-size: 1rem !important;
+                }
+                .myClass4 h1 {
+                    color: black;
+                    margin-left: 170% !important;
+                    margin-top: -10% !important;
+                    font-size: 0.5rem !important;
+                }
+                .myClass4 h3 {
+                    color: black;
+                    margin-top: -12%;
+                    font-size: 2rem;
+                }
             }
             .rowcoll {
                 margin-top: 14%;
@@ -2096,8 +2117,10 @@
                 margin-top: -12%;
                 font-size: 2rem !important;
             }
-            .rownumb {
-                margin-left: 0% !important;
+            @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+                .rownumb {
+                    margin-left: 0% !important;
+                }
             }
             .normalbgtext {
                 font-size: 1.8rem;
@@ -2186,16 +2209,18 @@
                 margin-left: 9%;
                 font-size: 0.5rem !important;
             }
-            .myClass2 h1 {
-                color: black;
-                margin-left: 10%;
-                margin-top: -8%;
-                font-size: 0.8rem !important;
-            }
-            .myClass2 h3 {
-                color: black;
-                margin-top: -12%;
-                font-size: 2rem !important;
+            @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+                .myClass2 h1 {
+                    color: black;
+                    margin-left: 227% !important;
+                    margin-top: -8%;
+                    font-size: 0.8rem !important;
+                }
+                .myClass2 h3 {
+                    color: black;
+                    margin-top: -12%;
+                    font-size: 2rem !important;
+                }
             }
             .myClass3 h3 {
                 color: black;
@@ -4299,16 +4324,18 @@
                 margin-left: 9%;
                 font-size: 0.5rem;
             }
-            .myClass2 h1 {
-                color: black;
-                margin-left: 225% !important;
-                margin-top: -5% !important;
-                font-size: 1rem !important;
-            }
-            .myClass2 h3 {
-                color: black;
-                margin-top: -12%;
-                font-size: 2rem !important;
+            @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+                .myClass2 h1 {
+                    color: black;
+                    margin-left: 225% !important;
+                    margin-top: -5% !important;
+                    font-size: 1rem !important;
+                }
+                .myClass2 h3 {
+                    color: black;
+                    margin-top: -12%;
+                    font-size: 2rem !important;
+                }
             }
             .myClass3 h3 {
                 color: black;
@@ -4423,8 +4450,10 @@
             .nrdiv {
                 margin-left: 135% !important;
             }
-            .rownumb {
-                margin-left: 10% !important;
+            @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+                .rownumb {
+                    margin-left: 9% !important;
+                }
             }
         }
         /* responsividade intermedia entre tablet e mobile M- main new */
@@ -4446,11 +4475,13 @@
                 margin-left: 9%;
                 font-size: 0.5rem !important;
             }
-            .myClass2 h1 {
-                color: black;
-                margin-left: 184% !important;
-                margin-top: -5% !important;
-                font-size: 0.7rem !important;
+            @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+                .myClass2 h1 {
+                    color: black;
+                    margin-left: 232% !important;
+                    margin-top: -5% !important;
+                    font-size: 0.7rem !important;
+                }
             }
             .myClass2 h3 {
                 color: black;
@@ -4503,7 +4534,7 @@
                 font-size: 1.5rem !important;
             }
             .rownumb {
-                margin-left: 45% !important;
+                margin-left: 6% !important;
             }
             .normalbgtext {
                 font-size: 1.2rem;
@@ -4538,14 +4569,17 @@
                 font-style: italic;
                 margin-left: 2rem;
             }
-            .icon {
-                width: 2rem;
-                margin-left: -26% !important;
+            @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+                .icon {
+                    width: 2rem;
+                    margin-left: -74% !important;
+                }
             }
             .icon2 {
                 width: 2rem;
                 content: url(assets/button-desktop-plus.png) !important;
-                margin-left: -15% !important;
+                margin-left: -57% !important;
+                margin-top: 5% !important;
             }
             .abtn {
                 flex-direction: column !important;
@@ -4596,11 +4630,13 @@
                 margin-left: 9%;
                 font-size: 0.5rem !important;
             }
-            .myClass2 h1 {
-                color: black;
-                margin-left: 225% !important;
-                margin-top: -5% !important;
-                font-size: 0.5rem !important;
+            @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+                .myClass2 h1 {
+                    color: black;
+                    margin-left: 225% !important;
+                    margin-top: -5% !important;
+                    font-size: 0.5rem !important;
+                }
             }
             .myClass2 h3 {
                 color: black;
@@ -4622,16 +4658,18 @@
                 margin-left: 9%;
                 font-size: 0.5rem !important;
             }
-            .myClass4 h1 {
-                color: black;
-                margin-left: 225% !important;
-                margin-top: -5% !important;
-                font-size: 0.4rem !important;
-            }
-            .myClass4 h3 {
-                color: black;
-                margin-top: -12%;
-                font-size: 1.2rem !important;
+            @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+                .myClass4 h1 {
+                    color: black;
+                    margin-left: 225% !important;
+                    margin-top: -5% !important;
+                    font-size: 0.4rem !important;
+                }
+                .myClass4 h3 {
+                    color: black;
+                    margin-top: -12%;
+                    font-size: 1.2rem !important;
+                }
             }
             .myClass5 h2 {
                 color: black;
@@ -4690,7 +4728,7 @@
                 margin-left: -150%;
             }
             .icon2 {
-                width: 1rem;
+                width: 2.5rem;
                 content: url(assets/button-desktop-plus.png) !important;
                 margin-left: -90% !important;
             }
@@ -7315,5 +7353,48 @@
         @media screen and (max-width:424px) and (min-width:374px) {
             .myClass3 {
                 margin-bottom: 15% !important;
+            }
+        }
+        /* Ajustes */
+        
+        @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+            @media screen and (min-width: 767px) and (max-width: 955px) {
+                .myClass2 h1 {
+                    margin-left: 170% !important;
+                }
+            }
+            @media screen and (min-width: 650px) and (max-width: 955px) {
+                .myClass4 h1 {
+                    margin-left: 170% !important;
+                }
+            }
+            @media screen and (min-width: 768px) and (max-width: 955px) {
+                .myClass5 h1 {
+                    margin-left: 158% !important;
+                }
+            }
+            @media screen and (min-width: 375px) and (max-width: 550px) {
+                .myClass4 h1 {
+                    margin-left: 217% !important;
+                }
+            }
+            @media screen and (max-width: 320px) {
+                .myClass4 h1 {
+                    margin-left: 217% !important;
+                }
+            }
+        }
+        /* Chrome 29+ */
+        
+        @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+            @media screen and (min-width: 337px) and (max-width: 424px) {
+                .rowcoll {
+                    margin-top: 26% !important;
+                }
+            }
+            @media screen and (min-width: 425px) and (max-width: 470px) {
+                .rowcoll {
+                    margin-top: 10% !important;
+                }
             }
         }

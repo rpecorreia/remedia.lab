@@ -36,7 +36,7 @@
 <body>
 
     <!--- SlideShow -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-interval="7000" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-interval="3000" data-ride="carousel">
 
         <ol class="carousel-indicators" style="z-index: 103;">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -2273,22 +2273,16 @@
             function myFunction2() {
                 var element = document.getElementById("myDIV2");
                 element.classList.toggle("myClass2");
-                var element_icon = document.getElementById("myIcon2");
-                element_icon.classList.toggle("changeIconPlus");
-                var element_icon = document.getElementById("myLogo2");
-                element_icon.classList.toggle("zoomLogo2");
-                var element_icon = document.getElementById("myTitleDiv2");
-                element_icon.classList.toggle("myTitleDivCSS2");
-                var element_icon = document.getElementById("myNrDiv2");
-                element_icon.classList.toggle("myNrDivCSS2");
+                var element2 = document.getElementById("myIcon2");
+                element2.classList.toggle("changeIconPlus");
+                var element3 = document.getElementById("myLogo2");
+                element3.classList.toggle("zoomLogo2");
+                var element4 = document.getElementById("myTitleDiv2");
+                element4.classList.toggle("myTitleDivCSS2");
+                var element5 = document.getElementById("myNrDiv2");
+                element5.classList.toggle("myNrDivCSS2");
 
-                var x = document.getElementById("maintxt2");
-                if (x.innerHTML === "LOCAL MEDIA <br> FAL{L} SCHOOL <br> ABRE ANO <br> LETIVO") {
-                    x.innerHTML = "LOCAL MEDIA <br> FAL{L} SCHOOL <br> ABRE ANO LETIVO";
-                } else {
-                    x.innerHTML = "LOCAL MEDIA <br> FAL{L} SCHOOL <br> ABRE ANO <br> LETIVO";
 
-                }
             }
 
             function myFunction3() {
